@@ -1,4 +1,4 @@
-name: Check links
+name: Check links and freshness
 
 on:
   push:
@@ -23,3 +23,33 @@ jobs:
             '**/*.md'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  stale-entries:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Flag entries not verified in 90+ days
+        shell: python
+        run: |
+          import csv
+          import datetime as dt
+          import os
+          from pathlib import Path
+
+          today = dt.date.today()
+          stale = []
+          with Path('programs.csv').open(newline='', encoding='utf-8') as f:
+              for row in csv.DictReader(f):
+                  verified = dt.date.fromisoformat(row['last_verified'])
+                  age = (today - verified).days
+                  if age >= 90:
+                      stale.append(f"- {row['name']} — {age} days since verification")
+
+          summary = Path(os.environ['GITHUB_STEP_SUMMARY'])
+          if stale:
+              summary.write_text('## Stale program entries\n\n' + '\n'.join(stale) + '\n', encoding='utf-8')
+              print('\n'.join(stale))
+          else:
+              summary.write_text('## Freshness check\n\nNo active program is 90+ days old.\n', encoding='utf-8')
+              print('No active program is 90+ days old.')

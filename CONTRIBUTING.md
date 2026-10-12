@@ -2,31 +2,62 @@
 
 Thanks for helping keep this directory current.
 
-## Source rules
+## Source and quality rules
 
-1. Use a **primary source only**: the provider, official fund, or official government site.
-2. Open the source and confirm it is reachable before submitting a change.
-3. Do not infer a deadline from a prior cohort, blog post, or third-party directory. Write **Not published** instead.
-4. If a program page is unclear, mark the row **Unconfirmed** and explain why.
-5. Keep entries concise and factual. Preserve the currency and wording used by the source.
-6. Update **Last verified** whenever you change a row.
+1. Use a **primary official source** only: the provider, official fund, or official government site.
+2. Open the application/source link and confirm it is reachable before submitting a change.
+3. Do not infer deadlines, funding amounts, documents, or eligibility. Write **Not published** or **Unverified** instead.
+4. Active entries must have a current application route. Move expired, closed, or insufficiently documented entries to `archive/`.
+5. Keep the README master table, the category detail page, and `programs.csv` synchronized.
+6. Update **Last verified** whenever a row changes.
+
+## Required entry fields
+
+Each entry needs: program, provider, region, type, short benefits, company stage, location restrictions, required documents, funding/revenue limits, prerequisites, deadline/status, official apply link, last verified date, benefits list, numbered application roadmap, and estimated timeline.
+
+## Status badges
+
+Use exactly one: ✅ Open · 🔄 Rolling · ⏳ Opens soon · ❌ Closed. Closed and unverified items belong in `archive/`, not the active master table.
 
 ## Entry template
 
-Copy this row into the appropriate category file. Replace every placeholder with verified information before opening a pull request:
-
 ```markdown
-| Program name | Provider | Official link | Type | Funding amount or benefits | Eligibility criteria | 2026 deadline | 2027 deadline | Status | Last verified |
-|---|---|---|---|---|---|---|---|---|---|
-| Program name | Provider | [Official page](OFFICIAL_URL) | Credits / grant / equity / accelerator / discount | State the amount or concrete benefits; write “Not published” when absent. | Summarize the official eligibility rules. | Exact date, rolling, no deadline, not published, or expired | Exact date, rolling, no deadline, not published, or expired | Active / expired / unconfirmed | YYYY-MM-DD |
+<a id="program-slug"></a>
+
+<details>
+<summary><strong>🔄 Rolling Program Name</strong> — Provider</summary>
+
+**Apply:** [Official application page](OFFICIAL_URL)  
+**Last verified:** YYYY-MM-DD
+
+### Eligibility at a glance
+
+| Requirement | Officially stated detail |
+|---|---|
+| Company stage | Not published |
+| Location / restrictions | Not published |
+| Documents | Not published |
+| Funding / revenue limits | Not published |
+| Prerequisites | Not published |
+
+### Benefits
+
+- Benefit supported by the official source.
+
+### How to apply
+
+1. Check eligibility.
+2. Prepare the documents stated by the official source.
+3. Submit the application.
+4. Complete review or interview if stated.
+5. Receive benefits if selected.
+
+```mermaid
+flowchart LR
+  S1[Check eligibility] --> S2[Prepare documents] --> S3[Submit application] --> S4[Review] --> S5[Receive benefits]
 ```
 
-## Pull request checklist
+**Estimated timeline:** Not published.
 
-- [ ] The link is a primary official source and opens successfully.
-- [ ] The program name and provider match the official page.
-- [ ] The type is one of: credits, grant, equity, accelerator, discount, or a concise combination.
-- [ ] Benefits and eligibility are supported by the source.
-- [ ] 2026 and 2027 deadline fields are explicit and not guessed.
-- [ ] Status and Last verified are updated.
-- [ ] The row is in the correct regional/category file.
+</details>
+```
