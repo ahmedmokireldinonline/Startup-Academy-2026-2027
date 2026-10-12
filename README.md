@@ -2,7 +2,7 @@
 
 A source-first, apply-ready directory of startup credits, grants, accelerators, discounts, and ecosystem support.
 
-> **Active program count: 15.** Research snapshot: **2026-10-12**. The archive contains entries that are not counted because their official source is not sufficient to verify an open application.
+> **Active program count: 21.** Research snapshot: **2026-10-12**. The archive contains entries that are not counted because their official source is not sufficient to verify an open application.
 
 ## Quick navigation
 
@@ -38,6 +38,13 @@ The table below contains the application/source link for **every active entry**.
 | [Ukrainian Startup Fund — ecosystem programs](ukraine/grants-and-ecosystem.md#usf-ecosystem) | Ukrainian Startup Fund | Ukraine | Grant / accelerator / ecosystem support | Startup EDGE, AI & Blockchain Sandbox, schools, missions, and other programs | Varies by program; each linked program page has its own rules, sectors, and call status. | 🔄 Rolling — program-specific dates | [Apply](https://usf.com.ua/en/) | 2026-10-12 |
 | [Diia City residency](ukraine/grants-and-ecosystem.md#diia-city) | Ministry of Digital Transformation of Ukraine / Diia City | Ukraine | Discount / legal and tax framework | Preferential tax, GIG contracts, IP protections, and investment tools | Company registered under Ukrainian law; qualified IT/innovation activities; residency conditions and required documents must be met. | 🔄 Rolling — no annual deadline; online applications | [Apply](https://city.diia.gov.ua/en/) | 2026-10-12 |
 
+| [DigitalOcean Startups / Hatch](global/additional-programs.md#digitalocean-startups) | DigitalOcean | Global | Credits / perks | 12 months of credits; award level set through the program | New startup; raised $10M or less; active company website; matching company email; registered DigitalOcean team account. | 🔄 Rolling — no 2026/2027 deadline published | [Apply](https://sammydigitalocean.typeform.com/hatch) | 2026-10-12 |
+| [Cloudflare for Startups](global/additional-programs.md#cloudflare-startups) | Cloudflare | Global | Credits / discount | $10,000–$350,000 credits for one year | Founded within 10 years; funded up to Series B; funded within the last 12 months for funded tiers; technology product; public website; public social presence; first-time applicant. | 🔄 Rolling — no 2026/2027 deadline published | [Apply](https://www.cloudflare.com/startups/) | 2026-10-12 |
+| [MongoDB for Startups](global/additional-programs.md#mongodb-startups) | MongoDB | Global | Credits / technical support | Atlas credits, Voyage AI tokens, technical expertise, and support | Base tier: less than 7 years old; Series A or earlier; scalable software product; active website and LinkedIn; new to the program. VC/accelerator referral is encouraged but non-VC applicants can apply on the page. | 🔄 Rolling — no 2026/2027 deadline published | [Apply](https://www.mongodb.com/solutions/startups) | 2026-10-12 |
+| [HubSpot for Startups](global/additional-programs.md#hubspot-startups) | HubSpot | Global | Discount | Up to 90% off in year one for eligible funded startups | Pre-seed, Seed, or Series A startups can qualify for 90% off year one when affiliated with an approved partner or with verified venture funding. Approved entrepreneurial organizations can qualify for 30% off year one. | 🔄 Rolling — application route currently available | [Apply](https://app.hubspot.com/signup-hubspot/hubspot-for-startups) | 2026-10-12 |
+| [Startup SG Founder](global/additional-programs.md#startup-sg-founder) | Enterprise Singapore | Singapore | Grant / mentorship | S$20,000–S$50,000 grant with 1:1 co-matching and mentorship | First-time entrepreneurs with innovative businesses; must work with an Accredited Mentor Partner and obtain a Letter of Recommendation before applying to EnterpriseSG. | 🔄 Rolling — no 2026/2027 deadline published on the official page | [Apply](https://www.startupsg.gov.sg/programmes/4894/startup-sg-founder/apply) | 2026-10-12 |
+| [Start-Up Chile — Build / Ignite / Growth](global/additional-programs.md#startup-chile) | CORFO / Start-Up Chile | Chile / Global founders | Accelerator / grant | Equity-free funding, coworking, mentorship, discounts, and network | Technology-based, innovative, scalable, high-impact businesses; program-specific stage criteria apply. The official application page currently says applications open soon. | ⏳ Opens soon — official page says applications open soon; no 2026/2027 deadline published | [Apply](https://startupchile.org/en/apply/) | 2026-10-12 |
+
 ## Quick wins
 
 These are **not acceptance guarantees**. They are the lowest-friction starting points based on the published rules in this snapshot.
@@ -64,6 +71,7 @@ These are **not acceptance guarantees**. They are the lowest-friction starting p
 
 - [Credits and platform benefits](global/credits.md)
 - [Accelerators, discounts, and ecosystem programs](global/accelerators.md)
+- [New global and country additions](global/additional-programs.md)
 
 ## China
 
