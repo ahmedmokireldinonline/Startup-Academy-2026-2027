@@ -12,6 +12,7 @@ A source-first, apply-ready directory of startup credits, grants, accelerators, 
 - [Global](#global)
 - [China](#china)
 - [Ukraine](#ukraine)
+- [Open Source Alternatives](#open-source-alternatives)
 - [Machine-readable data](programs.csv)
 - [Archive](archive/unverified.md)
 - [Contributing](CONTRIBUTING.md)
@@ -86,6 +87,15 @@ These are **not acceptance guarantees**. They are the lowest-friction starting p
 <a id="ukraine"></a>
 
 - [Grants and startup ecosystem programs](ukraine/grants-and-ecosystem.md)
+
+## Open Source Alternatives
+
+<a id="open-source-alternatives"></a>
+
+- [Open Source Alternatives for Startup SaaS](open-source/README.md)
+- [Machine-readable alternatives dataset](open-source/alternatives.csv)
+
+This section catalogs self-hostable open-source or source-available alternatives to startup operating tools such as Airtable, SendPulse, Zapier, CRM, helpdesk, project-management, survey, and analytics platforms. License boundaries are called out explicitly; source-available and fair-code projects are not presented as strict OSI open source.
 
 ## Status legend
 
