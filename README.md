@@ -2,6 +2,8 @@
 
 A source-first, apply-ready directory of startup credits, grants, accelerators, discounts, and ecosystem support.
 
+> **Paid consultation and resources:** Subscribe to the [WhatsApp channel](https://whatsapp.com/channel/0029VbDooCVB4hdLbJFCgW0L) for consultation access and selected paid resources based on this directory.
+
 > **Active program count: 21.** Research snapshot: **2026-10-12**. The archive contains entries that are not counted because their official source is not sufficient to verify an open application.
 
 ## Quick navigation

@@ -2,6 +2,8 @@
 
 This section catalogs open-source, open-core, and source-available alternatives to tools startups use for data management, marketing, email, automation, CRM, support, project management, forms, surveys, and analytics.
 
+> **Paid consultation and resources:** Subscribe to the [WhatsApp channel](https://whatsapp.com/channel/0029VbDooCVB4hdLbJFCgW0L) for consultation access and selected paid resources based on this directory.
+
 > **Scope note:** “Funding platforms” is interpreted here as the operating and growth platforms startups pay for, such as Airtable, SendPulse, and Zapier—not investment-raising or crowdfunding platforms. A separate crowdfunding section can be added later.
 
 ## How to read the table
