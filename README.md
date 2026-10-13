@@ -73,6 +73,7 @@ These are **not acceptance guarantees**. They are the lowest-friction starting p
 - [Accelerators, discounts, and ecosystem programs](global/accelerators.md)
 - [New global and country additions](global/additional-programs.md)
 - [Imported verified reference batches](imports/verified-reference/README.md)
+- [Batch 06 — China](china/batch-06/china-programs.md)
 
 ## China
 
