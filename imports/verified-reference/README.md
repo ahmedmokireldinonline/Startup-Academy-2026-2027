@@ -6,6 +6,7 @@ This directory imports files created in the referenced worldwide startup-program
 
 - [Unified imported dataset](programs-imported.csv) — 251 source rows; 246 not duplicated in the current curated list and 5 marked as existing-list duplicates.
 - [Raw batch files](raw/) — original CSV files preserved unchanged.
+- [Country inventory](raw/countries.csv) — 250-country reference list; not a program dataset and not counted in the unified rows.
 
 ## Scope of this import
 

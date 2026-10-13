@@ -1,0 +1,250 @@
+﻿Country,ISO code,Continent,Covered in programs files
+Algeria,DZ,Africa,No
+Angola,AO,Africa,No
+Benin,BJ,Africa,No
+Botswana,BW,Africa,No
+Burkina Faso,BF,Africa,No
+Burundi,BI,Africa,No
+Cabo Verde,CV,Africa,No
+Cameroon,CM,Africa,No
+Central African Republic,CF,Africa,No
+Chad,TD,Africa,No
+Comoros,KM,Africa,No
+Congo,CG,Africa,No
+"Congo, The Democratic Republic of the",CD,Africa,No
+Côte d'Ivoire,CI,Africa,No
+Djibouti,DJ,Africa,No
+Egypt,EG,Africa,No
+Equatorial Guinea,GQ,Africa,No
+Eritrea,ER,Africa,No
+Eswatini,SZ,Africa,No
+Ethiopia,ET,Africa,No
+Gabon,GA,Africa,No
+Gambia,GM,Africa,No
+Ghana,GH,Africa,No
+Guinea,GN,Africa,No
+Guinea-Bissau,GW,Africa,No
+Kenya,KE,Africa,No
+Lesotho,LS,Africa,No
+Liberia,LR,Africa,No
+Libya,LY,Africa,No
+Madagascar,MG,Africa,No
+Malawi,MW,Africa,No
+Mali,ML,Africa,No
+Mauritania,MR,Africa,No
+Mauritius,MU,Africa,No
+Mayotte,YT,Africa,No
+Morocco,MA,Africa,No
+Mozambique,MZ,Africa,No
+Namibia,NA,Africa,No
+Niger,NE,Africa,No
+Nigeria,NG,Africa,No
+Rwanda,RW,Africa,No
+Réunion,RE,Africa,No
+"Saint Helena, Ascension and Tristan da Cunha",SH,Africa,No
+Sao Tome and Principe,ST,Africa,No
+Senegal,SN,Africa,No
+Seychelles,SC,Africa,No
+Sierra Leone,SL,Africa,No
+Somalia,SO,Africa,No
+South Africa,ZA,Africa,No
+South Sudan,SS,Africa,No
+Sudan,SD,Africa,No
+"Tanzania, United Republic of",TZ,Africa,No
+Togo,TG,Africa,No
+Tunisia,TN,Africa,No
+Uganda,UG,Africa,No
+Zambia,ZM,Africa,No
+Zimbabwe,ZW,Africa,No
+Bouvet Island,BV,Antarctica,No
+Heard Island and McDonald Islands,HM,Antarctica,No
+Afghanistan,AF,Asia,No
+Armenia,AM,Asia,No
+Azerbaijan,AZ,Asia,No
+Bahrain,BH,Asia,No
+Bangladesh,BD,Asia,No
+Bhutan,BT,Asia,No
+British Indian Ocean Territory,IO,Asia,No
+Brunei Darussalam,BN,Asia,No
+Cambodia,KH,Asia,No
+China,CN,Asia,Yes
+Christmas Island,CX,Asia,No
+Cocos (Keeling) Islands,CC,Asia,No
+Cyprus,CY,Asia,No
+Georgia,GE,Asia,No
+Hong Kong,HK,Asia,No
+India,IN,Asia,Yes
+Indonesia,ID,Asia,No
+"Iran, Islamic Republic of",IR,Asia,No
+Iraq,IQ,Asia,No
+Israel,IL,Asia,Yes
+Japan,JP,Asia,No
+Jordan,JO,Asia,No
+Kazakhstan,KZ,Asia,No
+"Korea, Democratic People's Republic of",KP,Asia,No
+"Korea, Republic of",KR,Asia,No
+Kuwait,KW,Asia,No
+Kyrgyzstan,KG,Asia,No
+Lao People's Democratic Republic,LA,Asia,No
+Lebanon,LB,Asia,No
+Macao,MO,Asia,No
+Malaysia,MY,Asia,No
+Maldives,MV,Asia,No
+Mongolia,MN,Asia,No
+Myanmar,MM,Asia,No
+Nepal,NP,Asia,No
+Oman,OM,Asia,No
+Pakistan,PK,Asia,No
+"Palestine, State of",PS,Asia,No
+Philippines,PH,Asia,No
+Qatar,QA,Asia,No
+Saudi Arabia,SA,Asia,No
+Singapore,SG,Asia,No
+Sri Lanka,LK,Asia,No
+Syrian Arab Republic,SY,Asia,No
+"Taiwan, Province of China",TW,Asia,No
+Tajikistan,TJ,Asia,No
+Thailand,TH,Asia,No
+Turkmenistan,TM,Asia,No
+Türkiye,TR,Asia,No
+United Arab Emirates,AE,Asia,No
+Uzbekistan,UZ,Asia,No
+Viet Nam,VN,Asia,No
+Yemen,YE,Asia,No
+Albania,AL,Europe,No
+Andorra,AD,Europe,No
+Austria,AT,Europe,No
+Belarus,BY,Europe,No
+Belgium,BE,Europe,No
+Bosnia and Herzegovina,BA,Europe,No
+Bulgaria,BG,Europe,No
+Croatia,HR,Europe,No
+Czechia,CZ,Europe,No
+Denmark,DK,Europe,No
+Estonia,EE,Europe,No
+Faroe Islands,FO,Europe,No
+Finland,FI,Europe,No
+France,FR,Europe,No
+Germany,DE,Europe,No
+Gibraltar,GI,Europe,No
+Greece,GR,Europe,No
+Guernsey,GG,Europe,No
+Hungary,HU,Europe,No
+Iceland,IS,Europe,No
+Ireland,IE,Europe,No
+Isle of Man,IM,Europe,No
+Italy,IT,Europe,No
+Jersey,JE,Europe,No
+Latvia,LV,Europe,No
+Liechtenstein,LI,Europe,No
+Lithuania,LT,Europe,No
+Luxembourg,LU,Europe,No
+Malta,MT,Europe,No
+"Moldova, Republic of",MD,Europe,No
+Monaco,MC,Europe,No
+Montenegro,ME,Europe,No
+Netherlands,NL,Europe,No
+North Macedonia,MK,Europe,No
+Norway,NO,Europe,No
+Poland,PL,Europe,No
+Portugal,PT,Europe,Yes
+Romania,RO,Europe,No
+Russian Federation,RU,Europe,Yes
+San Marino,SM,Europe,No
+Serbia,RS,Europe,No
+Slovakia,SK,Europe,No
+Slovenia,SI,Europe,No
+Spain,ES,Europe,No
+Svalbard and Jan Mayen,SJ,Europe,No
+Sweden,SE,Europe,No
+Switzerland,CH,Europe,No
+Ukraine,UA,Europe,Yes
+United Kingdom,GB,Europe,No
+Åland Islands,AX,Europe,No
+Anguilla,AI,North America,No
+Antigua and Barbuda,AG,North America,No
+Aruba,AW,North America,No
+Bahamas,BS,North America,No
+Barbados,BB,North America,No
+Belize,BZ,North America,No
+Bermuda,BM,North America,No
+"Bonaire, Sint Eustatius and Saba",BQ,North America,No
+Canada,CA,North America,Yes
+Cayman Islands,KY,North America,No
+Costa Rica,CR,North America,No
+Cuba,CU,North America,No
+Curaçao,CW,North America,No
+Dominica,DM,North America,No
+Dominican Republic,DO,North America,No
+El Salvador,SV,North America,No
+Greenland,GL,North America,No
+Grenada,GD,North America,No
+Guadeloupe,GP,North America,No
+Guatemala,GT,North America,No
+Haiti,HT,North America,No
+Honduras,HN,North America,No
+Jamaica,JM,North America,No
+Martinique,MQ,North America,No
+Mexico,MX,North America,No
+Montserrat,MS,North America,No
+Nicaragua,NI,North America,No
+Panama,PA,North America,No
+Puerto Rico,PR,North America,No
+Saint Barthélemy,BL,North America,No
+Saint Kitts and Nevis,KN,North America,No
+Saint Lucia,LC,North America,No
+Saint Martin (French part),MF,North America,No
+Saint Pierre and Miquelon,PM,North America,No
+Saint Vincent and the Grenadines,VC,North America,No
+Trinidad and Tobago,TT,North America,No
+Turks and Caicos Islands,TC,North America,No
+United States,US,North America,No
+"Virgin Islands, British",VG,North America,No
+"Virgin Islands, U.S.",VI,North America,No
+American Samoa,AS,Oceania,No
+Australia,AU,Oceania,Yes
+Cook Islands,CK,Oceania,No
+Fiji,FJ,Oceania,No
+French Polynesia,PF,Oceania,No
+Guam,GU,Oceania,No
+Kiribati,KI,Oceania,No
+Marshall Islands,MH,Oceania,No
+"Micronesia, Federated States of",FM,Oceania,No
+Nauru,NR,Oceania,No
+New Caledonia,NC,Oceania,No
+New Zealand,NZ,Oceania,No
+Niue,NU,Oceania,No
+Norfolk Island,NF,Oceania,No
+Northern Mariana Islands,MP,Oceania,No
+Palau,PW,Oceania,No
+Papua New Guinea,PG,Oceania,No
+Samoa,WS,Oceania,No
+Solomon Islands,SB,Oceania,No
+Tokelau,TK,Oceania,No
+Tonga,TO,Oceania,No
+Tuvalu,TV,Oceania,No
+Vanuatu,VU,Oceania,No
+Wallis and Futuna,WF,Oceania,No
+Antarctica,AQ,Other,No
+French Southern Territories,TF,Other,No
+Holy See (Vatican City State),VA,Other,No
+Pitcairn,PN,Other,No
+Sint Maarten (Dutch part),SX,Other,No
+Timor-Leste,TL,Other,No
+United States Minor Outlying Islands,UM,Other,No
+Western Sahara,EH,Other,No
+Argentina,AR,South America,No
+"Bolivia, Plurinational State of",BO,South America,No
+Brazil,BR,South America,No
+Chile,CL,South America,No
+Colombia,CO,South America,No
+Ecuador,EC,South America,No
+Falkland Islands (Malvinas),FK,South America,No
+French Guiana,GF,South America,No
+Guyana,GY,South America,No
+Paraguay,PY,South America,No
+Peru,PE,South America,No
+South Georgia and the South Sandwich Islands,GS,South America,No
+Suriname,SR,South America,No
+Uruguay,UY,South America,No
+"Venezuela, Bolivarian Republic of",VE,South America,No
