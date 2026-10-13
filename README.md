@@ -96,7 +96,8 @@ These are **not acceptance guarantees**. They are the lowest-friction starting p
 
 - [Open Source Alternatives for Startup SaaS](open-source/README.md)
 - [النسخة العربية](open-source/README.ar.md)
-- [Machine-readable alternatives dataset](open-source/alternatives.csv)
+- [Machine-readable alternatives dataset — English](open-source/alternatives.csv)
+- [Machine-readable alternatives dataset — Arabic](open-source/alternatives.ar.csv)
 
 This section catalogs self-hostable open-source or source-available alternatives to startup operating tools such as Airtable, SendPulse, Zapier, CRM, helpdesk, project-management, survey, and analytics platforms. License boundaries are called out explicitly; source-available and fair-code projects are not presented as strict OSI open source.
 

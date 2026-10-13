@@ -28,7 +28,7 @@ This section catalogs open-source, open-core, and source-available alternatives 
 
 ## Unified directory
 
-The searchable dataset is available in [alternatives.csv](alternatives.csv). Each row contains the original platform, alternative, category, license model, hosting, capabilities, official website, official repository, and verification date.
+The searchable datasets are available in [alternatives.csv](alternatives.csv) and [alternatives.ar.csv](alternatives.ar.csv). Each row contains the original platform, alternative, category, license model, hosting, capabilities, official website, official repository, and verification date.
 
 | Alternative | Alternative to | Category | Source model / license | Self-hosted | Key capabilities | Official site | Official repository | Last verified |
 |---|---|---|---|---|---|---|---|---|
