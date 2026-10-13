@@ -4,7 +4,7 @@ A source-first, apply-ready directory of startup credits, grants, accelerators, 
 
 > **Paid consultation and resources:** Subscribe to the [WhatsApp channel](https://whatsapp.com/channel/0029VbDooCVB4hdLbJFCgW0L) for consultation access and selected paid resources based on this directory.
 
-> **Active program count: 31.** Research snapshot: **2026-10-14**. The archive contains entries that are not counted because their official source is not sufficient to verify an open application.
+> **Active program count: 37.** Research snapshot: **2026-10-14**. The archive contains entries that are not counted because their official source is not sufficient to verify an open application.
 
 ## Quick navigation
 
@@ -63,6 +63,14 @@ The table below contains the application/source link for **every active entry**.
 | [French Tech Emergence](global/verified-credits.md#france-tech-emergence) | Bpifrance | France | Deep-tech grant | Up to 70%, capped at €90,000 | Breakthrough high-technology deep-tech company-creation project | 🔄 Calls vary; no universal 2026/2027 deadline | [Bpifrance](https://www.bpifrance.fr/catalogue-offres/bourse-french-tech-emergence) | 2026-10-14 |
 | [NEDO Deep-Tech Startups Support](global/verified-credits.md#nedo-deep-tech) | NEDO | Japan + partner countries | Subsidy | Up to ¥100m; maximum two-thirds of total cost | Unlisted Japanese SME with Japan R&D base and international partner | 🔄 FY2023–FY2031; call-specific deadlines | [NEDO](https://www.nedo.go.jp/english/activities/activities_ZZJP_100262.html) | 2026-10-14 |
 
+
+| [Vercel for Startups](global/resourify-verified.md#vercel-for-startups) | Vercel | Global | Startup credits | Up to $30,000 for one year | Approved partner; Series A or earlier; latest round within 12 months | 🔄 Rolling — 5–7 day review | [Apply](https://vercel.com/startups/credits) | 2026-10-14 |
+| [Miro Startup Program](global/resourify-verified.md#miro-startup-program) | Miro | Global | Startup credits | $1,000 partner / $500 independent | Free account; partner or independent verification; work email | 🔄 Rolling — up to 15 days independent review | [Apply](https://miro.com/startups/apply/) | 2026-10-14 |
+| [ElevenLabs Startup Grants](global/resourify-verified.md#elevenlabs-startup-grants) | ElevenLabs | Global | Grant / credits | 33M characters; 12 months; $5,500+ stated value | Product with monetization plan; company under 25 employees; business email | 🔄 Rolling — typically one-week response | [Apply](https://elevenlabs.io/grants-application) | 2026-10-14 |
+| [Airtable for Startups](global/resourify-verified.md#airtable-for-startups) | Airtable | Global | Startup credits | $500 workspace credit | Airtable account, workspace ID, work email, company details | 🔄 Rolling — 3–5 day review | [Apply](https://www.airtable.com/startups) | 2026-10-14 |
+| [Deepgram for Startups](global/resourify-verified.md#deepgram-for-startups) | Deepgram | Global | Startup credits | Up to $100,000 for 12 months | AI builder or early-stage startup; production or launch within 6 months | 🔄 Rolling — typically one-week response | [Apply](https://deepgram.com/startup-program) | 2026-10-14 |
+| [Vultr Promotional Credits](global/resourify-verified.md#vultr-promotional-credits) | Vultr | Global | Cloud promotional credits | $100 match or $200/$250/$300 codes | New customers; selected products; offers cannot be combined | 🔄 Official coupon page live | [Codes](https://www.vultr.com/coupons/) | 2026-10-14 |
+
 ## Quick wins
 
 These are **not acceptance guarantees**. They are the lowest-friction starting points based on the published rules in this snapshot.
@@ -91,6 +99,9 @@ These are **not acceptance guarantees**. They are the lowest-friction starting p
 - [Accelerators, discounts, and ecosystem programs](global/accelerators.md)
 - [New global and country additions](global/additional-programs.md)
 - [Verified credits and financial support — English](global/verified-credits.md)
+- [Resourify-sourced programs — English](global/resourify-verified.md)
+- [Resourify-sourced programs — العربية](global/resourify-verified.ar.md)
+- [Resourify discovery index (all listed credit pages)](imports/resourify/README.md)
 - [النسخة العربية](global/verified-credits.ar.md)
 - [Imported verified reference batches](imports/verified-reference/README.md)
 - [Batch 06 — China](china/batch-06/china-programs.md)
