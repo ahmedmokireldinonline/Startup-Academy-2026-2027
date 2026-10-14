@@ -61,3 +61,18 @@ flowchart LR
 
 </details>
 ```
+
+
+## Coupon fields
+
+Every program row should include a coupon assessment:
+
+| Field | Allowed meaning |
+|---|---|
+| `coupon_status` | `Official code available`, `No public code verified`, or `Unverified third-party code` |
+| `coupon_code` | Exact provider-published code, or `Not published` |
+| `coupon_source` | Official provider page that publishes or explains the code |
+| `coupon_last_verified` | Date the code or absence of a public code was checked |
+| `community_signal` | A lead only; never evidence that a code is valid |
+
+Reddit and Telegram links belong in `communities/README.md`. Public communities are discovery sources only. Never list a code as active based solely on a community post, affiliate page, or forwarded Telegram message.

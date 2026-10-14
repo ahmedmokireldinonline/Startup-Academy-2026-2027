@@ -4,11 +4,15 @@ A source-first, apply-ready directory of startup credits, grants, accelerators, 
 
 > **Paid consultation and resources:** Subscribe to the [WhatsApp channel](https://whatsapp.com/channel/0029VbDooCVB4hdLbJFCgW0L) for consultation access and selected paid resources based on this directory.
 
-> **Active program count: 37.** Research snapshot: **2026-10-14**. The archive contains entries that are not counted because their official source is not sufficient to verify an open application.
+> **Active program count: 38.** Research snapshot: **2026-10-14**. The archive contains entries that are not counted because their official source is not sufficient to verify an open application.
 
 ## Quick navigation
 
 - [Master table](#master-table)
+- [Category tables](categories/cloud-credits.md)
+- [Coupon & code registry](data/coupons.md)
+- [Public Reddit / Telegram communities](communities/README.md)
+- [Full enriched catalog](data/catalog.csv)
 - [Quick wins](#quick-wins)
 - [Benefits comparison](#benefits-comparison)
 - [Global](#global)
@@ -139,3 +143,16 @@ This section catalogs self-hostable open-source or source-available alternatives
 ## Maintenance
 
 Every active row has a primary official source and a last-verified date. Unknown details are labeled **Not published** rather than inferred. Review entries at least every 90 days and move entries to [archive](archive/unverified.md) when the official source no longer supports an active application path.
+
+
+## Category tables
+
+Use the category tables to compare benefits, eligibility, status, and coupon availability without mixing grants with credits or accelerators.
+
+- [Cloud & infrastructure credits](categories/cloud-credits.md)
+- [AI & API credits](categories/ai-api-credits.md)
+- [SaaS discounts & perks](categories/saas-discounts.md)
+- [Grants & funding](categories/grants-funding.md)
+- [Accelerators & ecosystem](categories/accelerators.md)
+
+The full machine-readable dataset now includes `coupon_status`, `coupon_code`, `coupon_source`, `coupon_last_verified`, `community_signal`, and `community_source`.
