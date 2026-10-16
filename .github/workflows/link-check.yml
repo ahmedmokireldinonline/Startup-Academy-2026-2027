@@ -20,6 +20,10 @@ jobs:
           args: >-
             --verbose
             --no-progress
+            --accept 403
+            --insecure
+            --timeout 60
+            --max-retries 3
             '**/*.md'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
