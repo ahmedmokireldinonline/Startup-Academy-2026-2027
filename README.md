@@ -2,6 +2,12 @@
 
 A source-first, apply-ready directory of startup credits, grants, accelerators, discounts, and ecosystem support.
 
+## Unified learning platform
+
+This repository now also contains the **Startup Academy 2026–2027** web app: a bilingual learning path that combines the practical founder workflow from [Startup-Funding-2025](https://github.com/ahmedmokireldinonline/Startup-Funding-2025) with the verified programs catalog below. The app lives in `client/`, uses structured content in `client/src/data/`, and is designed for students to study, track progress locally, search the directory, and open each official source.
+
+Run the interface locally with `pnpm install && pnpm dev:static`, then open `http://localhost:3000`. See [CONTENT_SOURCES.md](CONTENT_SOURCES.md) for the maintenance map and update rules.
+
 > **Paid consultation and resources:** Subscribe to the [WhatsApp channel](https://whatsapp.com/channel/0029VbDooCVB4hdLbJFCgW0L) for consultation access and selected paid resources based on this directory.
 
 > **Active program count: 38.** Research snapshot: **2026-10-14**. The archive contains entries that are not counted because their official source is not sufficient to verify an open application.
