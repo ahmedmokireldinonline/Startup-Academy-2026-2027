@@ -6,7 +6,7 @@
 |---|---|---|---|
 | دليل برامج 2026–2027 | `startup-programs-2026-2027/programs.csv` | `client/src/data/programs.ts` | حدّث الصفوف المنظمة، خصوصًا الرابط الرسمي وتاريخ التحقق والحالة. |
 | مراحل بناء الشركة | `Startup-Funding-2025/src/App.tsx` | `client/src/data/learningPath.ts` | أضف أو عدّل المرحلة والمخرج والمقياس والمواد المرجعية. |
-| ملفات Business Models وBusiness Explained وSAAS Toolkit | `Startup-Funding-2025` | روابط خارجية من بطاقات المسار | أضف الرابط الجديد إلى `learningPath.ts` عند تغيير الملف. |
+| ملفات Business Models وBusiness Explained وSAAS Toolkit | تم نسخ المجلدات إلى المستودع الموحد | روابط GitHub داخلية من بطاقات المسار | أضف الملف الجديد إلى `learningPath.ts` عند تغيير المكتبة. |
 | حالة التحقق والتوثيق | `startup-programs-2026-2027/README.md` وملفات الفئات | شارة المصدر الرسمي وتاريخ آخر تحقق | لا ترفع برنامجًا غير مؤكد إلى الدليل النشط؛ انقله أو وسمه بوضوح. |
 
 ## قواعد صيانة مختصرة

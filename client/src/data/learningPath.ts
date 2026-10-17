@@ -31,7 +31,7 @@ export type LearningItem = {
   references: LearningReference[];
 };
 
-const repo = "https://github.com/ahmedmokireldinonline/Startup-Funding-2025/blob/main/";
+const repo = "https://github.com/ahmedmokireldinonline/startup-programs-2026-2027/blob/main/";
 export const referenceUrl = (path: string) => `${repo}${path.split(" ").map(encodeURIComponent).join("%20")}`;
 
 export const learningPhases: LearningPhase[] = [
