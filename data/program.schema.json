@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://startup-academy.example/schemas/program.schema.json",
+  "title": "Startup Academy program",
+  "type": "object",
+  "required": ["id", "name", "provider", "region", "type", "short", "eligibility", "link", "status", "last_verified", "primary_category"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 2 },
+    "provider": { "type": "string", "minLength": 2 },
+    "region": { "type": "string", "minLength": 2 },
+    "type": { "type": "string", "minLength": 2 },
+    "short": { "type": "string", "minLength": 2 },
+    "eligibility": { "type": "string", "minLength": 2 },
+    "link": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "status": { "type": "string", "minLength": 2 },
+    "last_verified": { "type": "string", "format": "date" },
+    "primary_category": { "type": "string", "minLength": 2 }
+  },
+  "additionalProperties": true
+}

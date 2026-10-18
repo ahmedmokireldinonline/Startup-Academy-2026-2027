@@ -4,7 +4,7 @@
 
 | الجزء | المصدر الأصلي | مكانه في المنصة | طريقة التحديث |
 |---|---|---|---|
-| دليل برامج 2026–2027 | `startup-programs-2026-2027/programs.csv` | `client/src/data/programs.ts` | حدّث الصفوف المنظمة، خصوصًا الرابط الرسمي وتاريخ التحقق والحالة. |
+| دليل برامج 2026–2027 | `programs.csv` (المصدر الخام المعياري) | `data/generated/programs.json` ثم `client/src/data/programs.ts` | حدّث الصفوف المنظمة، ثم شغّل `pnpm data:check`؛ لا تعدّل الملف المولّد يدويًا. |
 | مراحل بناء الشركة | `Startup-Funding-2025/src/App.tsx` | `client/src/data/learningPath.ts` | أضف أو عدّل المرحلة والمخرج والمقياس والمواد المرجعية. |
 | ملفات Business Models وBusiness Explained وSAAS Toolkit | تم نسخ المجلدات إلى المستودع الموحد | روابط GitHub داخلية من بطاقات المسار | أضف الملف الجديد إلى `learningPath.ts` عند تغيير المكتبة. |
 | حالة التحقق والتوثيق | `startup-programs-2026-2027/README.md` وملفات الفئات | شارة المصدر الرسمي وتاريخ آخر تحقق | لا ترفع برنامجًا غير مؤكد إلى الدليل النشط؛ انقله أو وسمه بوضوح. |
@@ -16,3 +16,11 @@
 3. عند إضافة فئة أو منطقة، ستظهر تلقائيًا في قوائم التصفية لأنها مشتقة من البيانات.
 4. اختبر `pnpm check` و`pnpm build:static` بعد كل تحديث بيانات.
 5. حافظ على روابط GitHub الأصلية حتى يستطيع الطالب الرجوع إلى التفاصيل الكاملة.
+
+## فحوص البيانات والتوليد
+
+- `pnpm data:validate` يتحقق من الأعمدة المطلوبة، المعرّفات، الروابط الرسمية، التواريخ، والتكرار.
+- `pnpm data:generate` ينشئ `data/generated/programs.json` من `programs.csv`.
+- `pnpm data:report` ينشئ `data/generated/catalog-report.json` بإحصاءات الكتالوج.
+- `pnpm data:check` يشغّل الأوامر الثلاثة بالتسلسل، وهو جزء من GitHub Actions مع فحص TypeScript والاختبارات والبناء.
+- المخطط المرجعي موجود في `data/program.schema.json`، وأي حقل إضافي في CSV يُحفظ لضمان التوافق المستقبلي.

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-18T02:44:31.236Z",
+  "total_programs": 38,
+  "official_source_programs": 38,
+  "last_verified": "2026-10-14",
+  "counts": {
+    "provider": {
+      "Alibaba Cloud": 2,
+      "Ukrainian Startup Fund": 2,
+      "Bpifrance": 2,
+      "Amazon Web Services": 1,
+      "ClickUp": 1,
+      "Anthropic": 1,
+      "SendPulse": 1,
+      "Microsoft": 1,
+      "Google Cloud": 1,
+      "GitHub": 1,
+      "NVIDIA": 1,
+      "Tencent Cloud": 1,
+      "Huawei Cloud": 1,
+      "Ministry of Digital Transformation of Ukraine / Diia City": 1,
+      "DigitalOcean": 1,
+      "Cloudflare": 1,
+      "MongoDB": 1,
+      "HubSpot": 1,
+      "Enterprise Singapore": 1,
+      "CORFO / Start-Up Chile": 1,
+      "OVHcloud": 1,
+      "Akamai": 1,
+      "DPIIT / Startup India": 1,
+      "Government of India / DPIIT / NCGTC": 1,
+      "Government of Ontario / MaRS": 1,
+      "Trade Commissioner Service, Government of Canada": 1,
+      "Australian Government / DISR / ATO": 1,
+      "BIC Innovation / UK Government business finance directory": 1,
+      "NEDO": 1,
+      "Vercel": 1,
+      "Miro": 1,
+      "ElevenLabs": 1,
+      "Airtable": 1,
+      "Deepgram": 1,
+      "Vultr": 1
+    },
+    "region": {
+      "Global": 20,
+      "China": 4,
+      "Ukraine": 3,
+      "India": 2,
+      "France": 2,
+      "Singapore": 1,
+      "Chile / Global founders": 1,
+      "Ontario, Canada": 1,
+      "Canada": 1,
+      "Australia": 1,
+      "Sunderland, United Kingdom": 1,
+      "Japan + partner countries": 1
+    },
+    "primary_category": {
+      "Cloud & infrastructure credits": 17,
+      "Grants & funding": 13,
+      "Accelerators & ecosystem": 6,
+      "SaaS discounts & perks": 2
+    },
+    "status": {
+      "🔄 Rolling": 35,
+      "⏳ Opens soon": 2,
+      "❌ Closed": 1
+    }
+  },
+  "duplicate_names": []
+}
