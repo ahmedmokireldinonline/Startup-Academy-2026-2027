@@ -335,6 +335,8 @@ export default function Home() {
           <nav className={`main-nav ${mobileOpen ? "is-open" : ""}`}>
             <button onClick={() => scrollTo("learning-path")}>{copy.navPath}</button>
             <button onClick={() => scrollTo("programs")}>{copy.navPrograms}</button>
+            <a className="main-nav-link" href="/register">{isArabic ? "التسجيل" : "Register"}</a>
+            <a className="main-nav-link" href="/programs">{isArabic ? "دليل البيانات" : "Data directory"}</a>
             <button onClick={() => scrollTo("sources")}>{copy.navSources}</button>
             <button className="language-switch" onClick={() => setLanguageAndRemember(isArabic ? "en" : "ar")}>{copy.switch}</button>
           </nav>
@@ -350,6 +352,7 @@ export default function Home() {
             <div className="hero-actions">
               <button className="button button-primary" onClick={() => scrollTo("learning-path")}>{copy.startLearning} <ArrowDown size={16} /></button>
               <button className="button button-secondary" onClick={() => scrollTo("programs")}>{copy.browsePrograms} <ArrowUpRight size={16} /></button>
+              <a className="button button-secondary" href="/register">{isArabic ? "سجّل الآن" : "Register now"} <ArrowUpRight size={16} /></a>
             </div>
             <div className="hero-stats">
               <div><strong>{programs.length}</strong><span>{copy.activePrograms}</span></div>
