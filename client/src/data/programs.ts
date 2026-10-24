@@ -729,6 +729,25 @@ export const programs: Program[] = [
     "primaryCategory": "Cloud & infrastructure credits",
     "categorySource": "global/resourify-verified.md",
     "officialSource": true
+  },
+  {
+    "id": "perplexity-startups",
+    "name": "Perplexity Startups",
+    "provider": "Perplexity",
+    "region": "Global",
+    "type": "AI tools / startup support",
+    "short": "AI research, multi-model workflows, and API access for startup teams",
+    "eligibility": "Startup access and any current offer terms are confirmed through the official Perplexity Startups page.",
+    "benefits": "Research and answers backed by citations. | Multi-model orchestration and web-first workflows. | Access to Perplexity capabilities and API information for building and shipping.",
+    "steps": "Open the official Perplexity Startups page. | Review the current startup offer and eligibility. | Submit through the official route when available. | Complete any startup verification requested. | Activate the approved workspace or benefits.",
+    "deadline": "🔄 Rolling — official startup page is live; offer terms may change",
+    "status": "🔄 Rolling",
+    "statusKey": "rolling",
+    "link": "https://www.perplexity.ai/startups",
+    "lastVerified": "2026-10-24",
+    "primaryCategory": "SaaS discounts & perks",
+    "categorySource": "Official Perplexity Startups page",
+    "officialSource": true
   }
 ];
 
