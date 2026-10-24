@@ -24,8 +24,8 @@ import {
 import { programs, type Program } from "@/data/programs";
 import { learningItems, learningPhases } from "@/data/learningPath";
 
-const sourcePrograms = "https://github.com/ahmedmokireldinonline/startup-programs-2026-2027";
-const sourceFunding = "https://github.com/ahmedmokireldinonline/Startup-Funding-2025";
+const sourcePrograms = "https://github.com/ahmedmokireldinonline/Startup-Academy-2026-2027/tree/main/data";
+const sourceFunding = "https://github.com/ahmedmokireldinonline/Startup-Academy-2026-2027/tree/main/Business%20Models%20-%20Super%20Guides%20Bundle";
 
 const categoryArabic: Record<string, string> = {
   "Cloud & infrastructure credits": "أرصدة السحابة والبنية التحتية",
@@ -207,7 +207,7 @@ export default function Home() {
           <div className="spotlight-grid">{programs.slice(0, 6).map((program) => <a className="spotlight-program" href={program.link} target="_blank" rel="noreferrer" key={program.id}><div className="spotlight-top"><ProviderIcon program={program} /><span><strong>{program.name}</strong><small>{program.provider} · {program.region}</small></span><ExternalLink size={15} /></div><p>{program.short}</p><span className="spotlight-status">{program.status.replace("🔄 ", "").replace("⏳ ", "").replace("❌ ", "")}</span></a>)}</div>
         </section>
 
-        <section className="sources-section compact-sources section-container"><div className="sources-copy"><span className="eyebrow"><Layers3 size={14} /> {copy.sources}</span><h2>{isArabic ? "كل توصية تبدأ من مصدر يمكن مراجعته." : "Every recommendation starts with a reviewable source."}</h2><p>{copy.sourceBody}</p></div><div className="source-links"><a href={sourceFunding} target="_blank" rel="noreferrer"><span className="source-icon"><BookOpen size={17} /></span><span><strong>{isArabic ? "مكتبة التمويل والأدوات" : "Funding & tools library"}</strong><small>Startup-Funding-2025</small></span><ArrowUpRight size={16} /></a><a href={sourcePrograms} target="_blank" rel="noreferrer"><span className="source-icon coral"><Award size={17} /></span><span><strong>{isArabic ? "دليل البرامج والبيانات" : "Programs & data directory"}</strong><small>startup-programs-2026-2027</small></span><ArrowUpRight size={16} /></a></div></section>
+        <section className="sources-section compact-sources section-container"><div className="sources-copy"><span className="eyebrow"><Layers3 size={14} /> {copy.sources}</span><h2>{isArabic ? "كل توصية تبدأ من مصدر يمكن مراجعته." : "Every recommendation starts with a reviewable source."}</h2><p>{copy.sourceBody}</p></div><div className="source-links"><a href={sourceFunding} target="_blank" rel="noreferrer"><span className="source-icon"><BookOpen size={17} /></span><span><strong>{isArabic ? "مكتبة التمويل والأدوات" : "Funding & tools library"}</strong><small>Startup Academy / Founder resources</small></span><ArrowUpRight size={16} /></a><a href={sourcePrograms} target="_blank" rel="noreferrer"><span className="source-icon coral"><Award size={17} /></span><span><strong>{isArabic ? "دليل البرامج والبيانات" : "Programs & data directory"}</strong><small>Startup Academy / Programs & data</small></span><ArrowUpRight size={16} /></a></div></section>
       </main>
       <footer className="site-footer"><div className="footer-brand"><span className="brand-mark small"><Sparkles size={14} /></span><span><strong>Startup Academy</strong><small>{copy.footer}</small></span></div><div className="footer-meta"><span><CheckCircle2 size={14} /> {isArabic ? "مصادر رسمية" : "Official sources"}</span><span><Globe2 size={14} /> {isArabic ? "عربي / English" : "Arabic / English"}</span></div></footer>
     </div>

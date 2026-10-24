@@ -1,10 +1,10 @@
-# Startup Programs Directory — 2026–2027
+# Startup Academy 2026–2027 — Unified Founder Platform
 
-A source-first, apply-ready directory of startup credits, grants, accelerators, discounts, and ecosystem support.
+A unified, source-first founder platform for startup programs, credits, grants, accelerators, discounts, learning paths, and ecosystem support.
 
 ## Unified learning platform
 
-This repository now also contains the **Startup Academy 2026–2027** web app: a bilingual learning path that combines the practical founder workflow from [Startup-Funding-2025](https://github.com/ahmedmokireldinonline/Startup-Funding-2025) with the verified programs catalog below. The app lives in `client/`, uses structured content in `client/src/data/`, and is designed for students to study, track progress locally, search the directory, and open each official source.
+This is the canonical **Startup Academy 2026–2027** repository. It contains the bilingual web app, the practical founder learning path, the verified startup-program catalog, research files, and the reference libraries used by the platform. The app lives in `client/`, structured data lives in `data/` and `client/src/data/`, and the learning resources live in the repository folders below. The former source repositories are not required for the application to build or run.
 
 Run the interface locally with `pnpm install && pnpm dev:static`, then open `http://localhost:3000`. See [CONTENT_SOURCES.md](CONTENT_SOURCES.md) for the maintenance map and update rules.
 
