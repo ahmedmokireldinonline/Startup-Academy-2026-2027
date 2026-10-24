@@ -4,5 +4,9 @@
   "buildCommand": "pnpm build:static",
   "outputDirectory": "dist/public",
   "cleanUrls": true,
-  "rewrites": [{ "source": "/((?!assets/|api/|manus-routes\\.json).*)", "destination": "/index.html" }]
+  "rewrites": [
+    { "source": "/register", "destination": "/index.html" },
+    { "source": "/programs", "destination": "/index.html" },
+    { "source": "/404", "destination": "/index.html" }
+  ]
 }
