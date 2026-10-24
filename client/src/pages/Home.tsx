@@ -1,38 +1,26 @@
-import { useMemo, useState, type CSSProperties, type ReactNode } from "react";
+import { useMemo, useState } from "react";
 import {
-  ArrowDown,
+  ArrowLeft,
   ArrowUpRight,
   Award,
   BookOpen,
-  Check,
-  ChevronDown,
-  CircleCheck,
-  Clock3,
+  CheckCircle2,
+  ChevronLeft,
   Cloud,
   ExternalLink,
-  Filter,
-  Github,
   Globe2,
   GraduationCap,
-  Landmark,
+  Handshake,
   Layers3,
-  ListChecks,
   Menu,
+  Network,
   Rocket,
-  Search,
-  ShieldCheck,
   Sparkles,
   Target,
-  X,
+  Trophy,
 } from "lucide-react";
-import { programs, type Program, type ProgramStatus } from "@/data/programs";
-import {
-  learningItems,
-  learningPhases,
-  referenceUrl,
-  type LearningItem,
-  type LearningPhase,
-} from "@/data/learningPath";
+import { programs, type Program } from "@/data/programs";
+import { learningItems, learningPhases } from "@/data/learningPath";
 
 const sourcePrograms = "https://github.com/ahmedmokireldinonline/startup-programs-2026-2027";
 const sourceFunding = "https://github.com/ahmedmokireldinonline/Startup-Funding-2025";
@@ -44,13 +32,6 @@ const categoryArabic: Record<string, string> = {
   "SaaS discounts & perks": "خصومات ومزايا SaaS",
 };
 
-const statusArabic: Record<ProgramStatus, string> = {
-  open: "مفتوح",
-  rolling: "تقديم مستمر",
-  opening: "يفتح قريبًا",
-  closed: "مغلق",
-};
-
 function providerIconUrl(link: string) {
   try {
     return `https://www.google.com/s2/favicons?domain=${new URL(link).hostname}&sz=64`;
@@ -60,372 +41,157 @@ function providerIconUrl(link: string) {
 }
 
 function initials(value: string) {
-  return value
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0])
-    .join("")
-    .toUpperCase();
+  return value.split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]).join("").toUpperCase();
 }
 
-function ProviderIcon({ program, large = false }: { program: Program; large?: boolean }) {
+function ProviderIcon({ program }: { program: Program }) {
   const [failed, setFailed] = useState(false);
   const fallback = initials(program.provider);
   return (
-    <span className={`provider-icon ${large ? "provider-icon-large" : ""}`} aria-hidden={failed}>
-      {!failed && providerIconUrl(program.link) ? (
-        <img
-          src={providerIconUrl(program.link)}
-          alt={`${program.provider} icon`}
-          onError={() => setFailed(true)}
-        />
-      ) : null}
+    <span className="provider-icon" aria-hidden="true">
+      {!failed && providerIconUrl(program.link) ? <img src={providerIconUrl(program.link)} alt="" onError={() => setFailed(true)} /> : null}
       {failed || !providerIconUrl(program.link) ? <span>{fallback}</span> : null}
     </span>
   );
 }
 
-function SplitList({ value }: { value: string }) {
-  return (
-    <ul className="micro-list">
-      {value
-        .split("|")
-        .map((item) => item.trim())
-        .filter(Boolean)
-        .slice(0, 4)
-        .map((item) => <li key={item}>{item}</li>)}
-    </ul>
-  );
-}
-
-function SectionHeading({ eyebrow, title, body, action }: { eyebrow: string; title: string; body?: string; action?: ReactNode }) {
-  return (
-    <div className="section-heading">
-      <div>
-        <span className="eyebrow">{eyebrow}</span>
-        <h2>{title}</h2>
-        {body ? <p>{body}</p> : null}
-      </div>
-      {action}
-    </div>
-  );
-}
-
 export default function Home() {
   const [language, setLanguage] = useState<"ar" | "en">(() => {
-    try {
-      return (localStorage.getItem("startup-academy-language") as "ar" | "en") || "ar";
-    } catch {
-      return "ar";
-    }
+    try { return (localStorage.getItem("startup-academy-language") as "ar" | "en") || "ar"; } catch { return "ar"; }
   });
-  const isArabic = language === "ar";
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [selectedPhase, setSelectedPhase] = useState("all");
-  const [learningQuery, setLearningQuery] = useState("");
-  const [learningStatus, setLearningStatus] = useState<"all" | "open" | "done">("all");
-  const [programQuery, setProgramQuery] = useState("");
-  const [programCategory, setProgramCategory] = useState("All");
-  const [programRegion, setProgramRegion] = useState("All");
-  const [programStatus, setProgramStatus] = useState<"all" | ProgramStatus>("all");
-  const [selectedProgram, setSelectedProgram] = useState<Program | null>(null);
-  const [completed, setCompleted] = useState<string[]>(() => {
+  const isArabic = language === "ar";
+  const progress = (() => {
     try {
-      return JSON.parse(localStorage.getItem("startup-academy-progress") || "[]");
-    } catch {
-      return [];
-    }
-  });
-
-  const copy = isArabic
-    ? {
-        navPath: "مسار التعلم",
-        navPrograms: "دليل البرامج",
-        navSources: "المصادر",
-        switch: "English",
-        eyebrow: "أكاديمية عملية للطلبة ورواد الأعمال",
-        title: "من الفكرة إلى أول تمويل،",
-        titleAccent: "بخطوات يمكن تنفيذها.",
-        heroBody: "مساحة تعليمية واحدة تجمع مسار بناء الشركة مع دليل برامج الدعم والمنح والاعتمادات. ادرس، طبّق، واحفظ الدليل الذي يجهّزك للخطوة التالية.",
-        startLearning: "ابدأ مسار التعلم",
-        browsePrograms: "تصفح البرامج",
-        activePrograms: "برنامج موثق",
-        learningStages: "مراحل عملية",
-        referenceLibrary: "مورد مرجعي",
-        verifiedOn: "آخر تحقق",
-        sourceNote: "البرامج النشطة أدناه مأخوذة من المصدر الرسمي للمشروع الأول، وتُراجع قبل إضافتها إلى الدليل.",
-        learningEyebrow: "المسار التنفيذي",
-        learningTitle: "ابنِ مشروعك على مراحل واضحة",
-        learningBody: "كل بطاقة تحول فكرة نظرية إلى مخرج عملي ومقياس تستطيع مشاركته مع فريقك أو مرشدك.",
-        allStages: "كل المراحل",
-        openWork: "المفتوح",
-        doneWork: "المكتمل",
-        searchLearning: "ابحث في المخرجات أو المراجع...",
-        nextAction: "الخطوة التالية",
-        deliverable: "المخرج",
-        measure: "مقياس الإنجاز",
-        references: "مراجع المرحلة",
-        markDone: "وضع كمكتمل",
-        markOpen: "إعادة فتح المهمة",
-        noLearning: "لا توجد مهام بهذا البحث أو الفلتر.",
-        programsEyebrow: "دليل الفرص",
-        programsTitle: "برامج الدعم والمنح والاعتمادات",
-        programsBody: "جدول قابل للبحث والتصفية يضع البرنامج المناسب أمامك مع الأهلية والمزايا والرابط الرسمي وتاريخ التحقق.",
-        searchPrograms: "ابحث باسم البرنامج أو المزوّد أو الميزة...",
-        allCategories: "كل الفئات",
-        allRegions: "كل المناطق",
-        allStatuses: "كل الحالات",
-        showing: "عرض",
-        of: "من",
-        program: "البرنامج",
-        provider: "المزوّد",
-        category: "الفئة",
-        region: "المنطقة",
-        benefit: "المزايا الرئيسية",
-        eligibility: "الأهلية",
-        status: "الحالة",
-        official: "مصدر رسمي",
-        details: "عرض التفاصيل",
-        apply: "فتح صفحة التقديم",
-        lastVerified: "تم التحقق في",
-        programDetails: "تفاصيل البرنامج",
-        applicationSteps: "خطوات التقديم المنشورة",
-        sourceFile: "ملف الفهرس",
-        close: "إغلاق",
-        updateNote: "ملاحظة التحديث",
-        updateBody: "عند تحديث الدليل، عدّل ملف البيانات المنظم بدل إعادة بناء البطاقات يدويًا. احتفظ بتاريخ التحقق والرابط الرسمي لكل صف.",
-        readme: "دليل التحديث على GitHub",
-        sourcesEyebrow: "مصادر موحدة",
-        sourcesTitle: "مشروعان، تجربة تعلم واحدة",
-        sourcesBody: "تم جمع مكتبة الأدلة ومسار التمويل في تجربة واحدة. تبقى المستودعات الأصلية هي المرجع القابل للمراجعة والتطوير.",
-        openFunding: "مكتبة التمويل والأدوات",
-        openPrograms: "دليل البرامج والبيانات",
-        footer: "Startup Academy 2026–2027 · دليل تعلم قابل للتحديث",
-        noResults: "لم نجد نتائج مطابقة.",
-        reset: "إعادة ضبط التقدم",
-      }
-    : {
-        navPath: "Learning path",
-        navPrograms: "Programs directory",
-        navSources: "Sources",
-        switch: "العربية",
-        eyebrow: "A practical academy for students and founders",
-        title: "From first idea to first funding,",
-        titleAccent: "one executable step at a time.",
-        heroBody: "One learning workspace that combines a founder-building path with a source-first directory of startup grants, credits, and support programs. Study, apply, and keep the evidence.",
-        startLearning: "Start learning path",
-        browsePrograms: "Browse programs",
-        activePrograms: "verified programs",
-        learningStages: "practical stages",
-        referenceLibrary: "reference assets",
-        verifiedOn: "last verified",
-        sourceNote: "Active programs below come from the first repository’s official-source catalog and are reviewed before being promoted into the directory.",
-        learningEyebrow: "Execution path",
-        learningTitle: "Build the company in clear stages",
-        learningBody: "Each card turns a concept into a practical deliverable and a measure you can share with a team or mentor.",
-        allStages: "All stages",
-        openWork: "Open",
-        doneWork: "Completed",
-        searchLearning: "Search outcomes or references...",
-        nextAction: "Next action",
-        deliverable: "Deliverable",
-        measure: "Success measure",
-        references: "Stage references",
-        markDone: "Mark as complete",
-        markOpen: "Re-open task",
-        noLearning: "No tasks match this search or filter.",
-        programsEyebrow: "Opportunity directory",
-        programsTitle: "Startup grants, credits & support",
-        programsBody: "A searchable directory that brings the right program forward with eligibility, benefits, official source, and verification date.",
-        searchPrograms: "Search program, provider, or benefit...",
-        allCategories: "All categories",
-        allRegions: "All regions",
-        allStatuses: "All statuses",
-        showing: "Showing",
-        of: "of",
-        program: "Program",
-        provider: "Provider",
-        category: "Category",
-        region: "Region",
-        benefit: "Key benefit",
-        eligibility: "Eligibility",
-        status: "Status",
-        official: "Official source",
-        details: "View details",
-        apply: "Open application page",
-        lastVerified: "Verified",
-        programDetails: "Program details",
-        applicationSteps: "Published application steps",
-        sourceFile: "Catalog file",
-        close: "Close",
-        updateNote: "Maintenance note",
-        updateBody: "When the directory changes, update the structured data file instead of rebuilding cards by hand. Keep the verification date and official link for every row.",
-        readme: "Open update guide on GitHub",
-        sourcesEyebrow: "Unified sources",
-        sourcesTitle: "Two projects, one learning experience",
-        sourcesBody: "The evidence library and the funding path now live in one experience. The original repositories remain the reviewable sources for future updates.",
-        openFunding: "Funding & tools library",
-        openPrograms: "Programs directory & data",
-        footer: "Startup Academy 2026–2027 · A maintainable learning directory",
-        noResults: "No matching results found.",
-        reset: "Reset progress",
-      };
-
-  const activePhase: LearningPhase = learningPhases.find((phase) => phase.id === selectedPhase) || learningPhases[0];
-  const phaseItems = useMemo(() => {
-    const query = learningQuery.trim().toLowerCase();
-    return learningItems.filter((item) => {
-      const phaseMatch = selectedPhase === "all" || item.phase === selectedPhase;
-      const statusMatch = learningStatus === "all" || (learningStatus === "done" ? completed.includes(item.id) : !completed.includes(item.id));
-      const text = `${item.outcome} ${item.outcomeAr} ${item.action} ${item.actionAr} ${item.deliverable} ${item.references.map((reference) => reference.label).join(" ")}`.toLowerCase();
-      return phaseMatch && statusMatch && (!query || text.includes(query));
-    });
-  }, [completed, learningQuery, learningStatus, selectedPhase]);
-
-  const programCategories = useMemo(() => Array.from(new Set(programs.map((program) => program.primaryCategory))), []);
-  const programRegions = useMemo(() => Array.from(new Set(programs.map((program) => program.region))), []);
-  const filteredPrograms = useMemo(() => {
-    const query = programQuery.trim().toLowerCase();
-    return programs.filter((program) => {
-      const text = `${program.name} ${program.provider} ${program.region} ${program.type} ${program.short} ${program.benefits} ${program.eligibility}`.toLowerCase();
-      return (
-        (!query || text.includes(query)) &&
-        (programCategory === "All" || program.primaryCategory === programCategory) &&
-        (programRegion === "All" || program.region === programRegion) &&
-        (programStatus === "all" || program.statusKey === programStatus)
-      );
-    });
-  }, [programCategory, programQuery, programRegion, programStatus]);
-
-  const setLanguageAndRemember = (next: "ar" | "en") => {
-    setLanguage(next);
-    localStorage.setItem("startup-academy-language", next);
-  };
-
-  const toggleComplete = (id: string) => {
-    const next = completed.includes(id) ? completed.filter((item) => item !== id) : [...completed, id];
-    setCompleted(next);
-    localStorage.setItem("startup-academy-progress", JSON.stringify(next));
-  };
-
-  const resetProgress = () => {
-    setCompleted([]);
-    localStorage.removeItem("startup-academy-progress");
-  };
+      const completed = JSON.parse(localStorage.getItem("startup-academy-progress") || "[]") as string[];
+      return Math.round((completed.length / learningItems.length) * 100);
+    } catch { return 0; }
+  })();
+  const categoryCounts = useMemo(() => Object.entries(programs.reduce<Record<string, number>>((acc, program) => {
+    acc[program.primaryCategory] = (acc[program.primaryCategory] || 0) + 1;
+    return acc;
+  }, {})), []);
 
   const scrollTo = (id: string) => {
     setMobileOpen(false);
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
+  const setLanguageAndRemember = (next: "ar" | "en") => {
+    setLanguage(next);
+    localStorage.setItem("startup-academy-language", next);
+  };
 
-  const progress = Math.round((completed.length / learningItems.length) * 100);
-  const categoryOptions = ["All", ...programCategories];
-  const regionOptions = ["All", ...programRegions];
+  const copy = isArabic ? {
+    eyebrow: "منصة وصول للشركات الناشئة",
+    title: "نوصلك إلى الفرصة التالية.",
+    accent: "تعلّم، جهّز، قدّم.",
+    body: "أكاديمية عملية تساعد شركتك على الوصول إلى المسرّعات، شبكات العلاقات، برامج التقديم، أرصدة الـ credits، والمنح — بخطوات واضحة وأدلة قابلة للمراجعة.",
+    start: "ابدأ رحلة شركتك",
+    opportunities: "استكشف كل الفرص",
+    partners: "شركاء وفرص في الدليل",
+    routesEyebrow: "مسارات الوصول",
+    routesTitle: "من نساعدك على الوصول إليهم؟",
+    routesBody: "لا نكتفي بعرض الروابط؛ نجهزك للمسار المناسب ونوضح الأهلية والخطوة التالية.",
+    learningEyebrow: "المسار العملي",
+    learningTitle: "سبع مراحل من الفكرة إلى التقديم",
+    learningBody: "كل مرحلة تنتج دليلًا عمليًا يساعدك على التقدم إلى البرنامج الأنسب.",
+    directoryEyebrow: "دليل الفرص",
+    directoryTitle: "كل البرامج المتاحة، في مكان واحد",
+    directoryBody: "برامج موثقة من مصادر رسمية: credits، grants، مسرّعات، خصومات وشبكات دعم.",
+    viewAll: "عرض الدليل الكامل",
+    register: "سجّل بياناتك",
+    sources: "المصادر والمنهجية",
+    sourceBody: "نحدّث البرامج من مصادرها الرسمية ونحتفظ بتاريخ التحقق والرابط الأصلي.",
+    footer: "Startup Academy 2026–2027 · من المعرفة إلى الوصول",
+    language: "English",
+  } : {
+    eyebrow: "A founder access platform",
+    title: "We connect you to the next opportunity.",
+    accent: "Learn. Prepare. Apply.",
+    body: "A practical academy helping startups reach accelerators, founder networks, application programs, cloud credits, and grants — with clear steps and reviewable evidence.",
+    start: "Start your journey",
+    opportunities: "Explore all opportunities",
+    partners: "Partners & opportunities",
+    routesEyebrow: "Access routes",
+    routesTitle: "Who can we help you reach?",
+    routesBody: "We do more than list links: we prepare the right path and clarify eligibility and next action.",
+    learningEyebrow: "Practical path",
+    learningTitle: "Seven stages from idea to application",
+    learningBody: "Every stage creates evidence that helps you move toward the right program.",
+    directoryEyebrow: "Opportunity directory",
+    directoryTitle: "Every available program, in one place",
+    directoryBody: "Verified programs from official sources: credits, grants, accelerators, discounts, and support networks.",
+    viewAll: "Open full directory",
+    register: "Register your details",
+    sources: "Sources & methodology",
+    sourceBody: "We update programs from official sources and keep the verification date and original link.",
+    footer: "Startup Academy 2026–2027 · From knowledge to access",
+    language: "العربية",
+  };
+
+  const routes = isArabic ? [
+    { icon: Rocket, title: "المسرّعات", body: "جهّز ملفك وPitch Deck وتقدم إلى المسرّعات المناسبة لمرحلتك." },
+    { icon: Network, title: "شبكات العلاقات", body: "اكتشف الشركاء والمجتمعات والمستثمرين ومسارات التعارف الدافئ." },
+    { icon: Target, title: "التقديم الذكي", body: "طابق أهليتك مع المتطلبات ورتّب أولويات التقديم بدل التقديم العشوائي." },
+    { icon: Cloud, title: "Credits & Grants", body: "الوصول إلى أرصدة السحابة، منح التمويل، والامتيازات المنشورة رسميًا." },
+  ] : [
+    { icon: Rocket, title: "Accelerators", body: "Prepare your profile and pitch deck for stage-fit accelerator applications." },
+    { icon: Network, title: "Founder networks", body: "Find communities, partners, investors, and warm-introduction paths." },
+    { icon: Target, title: "Smarter applications", body: "Match eligibility and prioritize applications instead of applying blindly." },
+    { icon: Cloud, title: "Credits & grants", body: "Reach verified cloud credits, funding grants, and published startup perks." },
+  ];
 
   return (
-    <div className={`academy-shell ${isArabic ? "rtl" : "ltr"}`} dir={isArabic ? "rtl" : "ltr"}>
+    <div className={`academy-shell compact-home ${isArabic ? "rtl" : "ltr"}`} dir={isArabic ? "rtl" : "ltr"}>
       <header className="site-header">
         <div className="header-inner">
-          <button className="brand" onClick={() => scrollTo("top")} aria-label="Startup Academy home">
-            <span className="brand-mark"><Sparkles size={16} /></span>
-            <span><strong>Startup Academy</strong><small>2026—2027</small></span>
-          </button>
+          <button className="brand" onClick={() => scrollTo("top")} aria-label="Startup Academy home"><span className="brand-mark"><Sparkles size={16} /></span><span><strong>Startup Academy</strong><small>2026—2027</small></span></button>
           <button className="mobile-menu" onClick={() => setMobileOpen((value) => !value)} aria-label="Open menu"><Menu size={21} /></button>
           <nav className={`main-nav ${mobileOpen ? "is-open" : ""}`}>
-            <button onClick={() => scrollTo("learning-path")}>{copy.navPath}</button>
-            <button onClick={() => scrollTo("programs")}>{copy.navPrograms}</button>
+            <button onClick={() => scrollTo("journey")}>{isArabic ? "المسار" : "Journey"}</button>
+            <button onClick={() => scrollTo("opportunities")}>{isArabic ? "الفرص" : "Opportunities"}</button>
+            <a className="main-nav-link" href="/programs">{isArabic ? "كل البرامج" : "All programs"}</a>
             <a className="main-nav-link" href="/register">{isArabic ? "التسجيل" : "Register"}</a>
-            <a className="main-nav-link" href="/programs">{isArabic ? "دليل البيانات" : "Data directory"}</a>
-            <button onClick={() => scrollTo("sources")}>{copy.navSources}</button>
-            <button className="language-switch" onClick={() => setLanguageAndRemember(isArabic ? "en" : "ar")}>{copy.switch}</button>
+            <button className="language-switch" onClick={() => setLanguageAndRemember(isArabic ? "en" : "ar")}>{copy.language}</button>
           </nav>
         </div>
       </header>
 
       <main id="top">
-        <section className="hero-section page-container">
-          <div className="hero-copy">
-            <div className="eyebrow hero-eyebrow"><span className="live-dot" /> {copy.eyebrow}</div>
-            <h1>{copy.title}<br /><em>{copy.titleAccent}</em></h1>
-            <p>{copy.heroBody}</p>
-            <div className="hero-actions">
-              <button className="button button-primary" onClick={() => scrollTo("learning-path")}>{copy.startLearning} <ArrowDown size={16} /></button>
-              <button className="button button-secondary" onClick={() => scrollTo("programs")}>{copy.browsePrograms} <ArrowUpRight size={16} /></button>
-              <a className="button button-secondary" href="/register">{isArabic ? "سجّل الآن" : "Register now"} <ArrowUpRight size={16} /></a>
-            </div>
-            <div className="hero-stats">
-              <div><strong>{programs.length}</strong><span>{copy.activePrograms}</span></div>
-              <div><strong>{learningPhases.length}</strong><span>{copy.learningStages}</span></div>
-              <div><strong>132+</strong><span>{copy.referenceLibrary}</span></div>
-            </div>
+        <section className="compact-hero page-container">
+          <div className="compact-hero-copy">
+            <span className="eyebrow hero-eyebrow"><span className="live-dot" /> {copy.eyebrow}</span>
+            <h1>{copy.title}<br /><em>{copy.accent}</em></h1>
+            <p>{copy.body}</p>
+            <div className="hero-actions"><button className="button button-primary" onClick={() => scrollTo("journey")}>{copy.start} <ArrowLeft size={16} /></button><a className="button button-secondary" href="/programs">{copy.opportunities} <ArrowUpRight size={16} /></a></div>
+            <div className="compact-proof"><span><strong>{programs.length}</strong> {isArabic ? "برنامج" : "programs"}</span><span><strong>{learningPhases.length}</strong> {isArabic ? "مراحل" : "stages"}</span><span><strong>132+</strong> {isArabic ? "مورد" : "resources"}</span></div>
           </div>
-          <div className="hero-panel">
-            <div className="panel-topline"><span>{isArabic ? "مؤشر التقدم" : "Learning progress"}</span><span className="panel-tag"><CircleCheck size={14} /> {isArabic ? "محفوظ محليًا" : "Saved locally"}</span></div>
-            <div className="progress-visual" style={{ "--progress": `${progress * 3.6}deg` } as CSSProperties}><div><strong>{progress}%</strong><span>{isArabic ? "مكتمل" : "complete"}</span></div></div>
-            <div className="panel-copy"><span className="panel-number">{String(completed.length).padStart(2, "0")}</span><p>{isArabic ? `من ${learningItems.length} مخرجًا عمليًا في المسار` : `of ${learningItems.length} practical outcomes in the path`}</p></div>
-            <div className="panel-rule" />
-            <p className="panel-note">{isArabic ? "لا تحتاج إلى حساب. تقدمك محفوظ على هذا الجهاز، ويمكنك الرجوع إلى أي مرحلة عندما تتغير الأدلة." : "No account needed. Your progress stays on this device, and you can revisit any stage when the evidence changes."}</p>
-            <button className="panel-link" onClick={() => scrollTo("learning-path")}>{isArabic ? "تابع من حيث توقفت" : "Continue where you left off"} <ArrowUpRight size={16} /></button>
-          </div>
+          <div className="compact-hero-visual"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="hero-visual-core"><GraduationCap size={32} /><strong>{progress}%</strong><span>{isArabic ? "جاهزية المسار" : "path readiness"}</span></div><div className="hero-visual-badge badge-top"><CheckCircle2 size={15} /> {isArabic ? "مصدر رسمي" : "Official source"}</div><div className="hero-visual-badge badge-bottom"><Trophy size={15} /> {isArabic ? "فرصة مناسبة" : "Fit opportunity"}</div></div>
         </section>
 
-        <section id="learning-path" className="learning-section section-container">
-          <SectionHeading eyebrow={copy.learningEyebrow} title={copy.learningTitle} body={copy.learningBody} action={<div className="progress-label"><span>{progress}%</span><small>{isArabic ? "منجز" : "complete"}</small></div>} />
-          <div className="phase-tabs" role="tablist" aria-label={copy.learningTitle}>
-            <button className={selectedPhase === "all" ? "phase-tab active" : "phase-tab"} onClick={() => setSelectedPhase("all")}><span>00</span><strong>{copy.allStages}</strong></button>
-            {learningPhases.map((phase) => <button key={phase.id} className={`phase-tab ${phase.color} ${selectedPhase === phase.id ? "active" : ""}`} onClick={() => setSelectedPhase(phase.id)}><span>{phase.number}</span><strong>{isArabic ? phase.labelAr : phase.label}</strong></button>)}
-          </div>
-          <div className="path-context">
-            <div><span className="eyebrow">{selectedPhase === "all" ? (isArabic ? "ابدأ هنا" : "Start here") : isArabic ? activePhase.labelAr : activePhase.label}</span><h3>{selectedPhase === "all" ? (isArabic ? "رحلة المؤسس، خطوة قابلة للتنفيذ" : "The founder journey, made executable") : isArabic ? activePhase.titleAr : activePhase.title}</h3><p>{selectedPhase === "all" ? (isArabic ? "اربط كل درس بإجراء ومخرج ومقياس. لا تنتقل إلى الخطوة التالية قبل أن تملك دليلًا من الخطوة الحالية." : "Connect every lesson to an action, deliverable, and measure. Do not rush forward without evidence from the current step.") : isArabic ? activePhase.summaryAr : activePhase.summary}</p></div>
-            <div className={`outcome-note ${activePhase.color}`}><span>{isArabic ? "نتيجة المرحلة" : "Stage outcome"}</span><strong>{selectedPhase === "all" ? (isArabic ? "نظام تشغيل جاهز للتعلم والتمويل" : "A learning and funding-ready operating system") : isArabic ? activePhase.outcomeAr : activePhase.outcome}</strong></div>
-          </div>
-          <div className="table-toolbar">
-            <label className="search-field"><Search size={17} /><input value={learningQuery} onChange={(event) => setLearningQuery(event.target.value)} placeholder={copy.searchLearning} /></label>
-            <div className="filter-pills"><button className={learningStatus === "all" ? "active" : ""} onClick={() => setLearningStatus("all")}>{copy.allStages}</button><button className={learningStatus === "open" ? "active" : ""} onClick={() => setLearningStatus("open")}>{copy.openWork}</button><button className={learningStatus === "done" ? "active" : ""} onClick={() => setLearningStatus("done")}>{copy.doneWork}</button></div>
-          </div>
-          <div className="learning-grid">
-            {phaseItems.map((item) => {
-              const phase = learningPhases.find((candidate) => candidate.id === item.phase) || learningPhases[0];
-              const done = completed.includes(item.id);
-              return <article key={item.id} className={`learning-card ${done ? "is-done" : ""}`}>
-                <div className="learning-card-top"><button className="task-check" onClick={() => toggleComplete(item.id)} aria-label={done ? copy.markOpen : copy.markDone}>{done ? <Check size={17} /> : item.id.replace("w", "")}</button><span className={`phase-chip ${phase.color}`}>{phase.number} · {isArabic ? phase.labelAr : phase.label}</span>{done ? <span className="done-chip"><Check size={12} /> {copy.doneWork}</span> : null}</div>
-                <h4>{isArabic ? item.outcomeAr : item.outcome}</h4>
-                <p className="card-action">{isArabic ? item.actionAr : item.action}</p>
-                <div className="card-details"><div><span>{copy.deliverable}</span><strong>{isArabic ? item.deliverableAr : item.deliverable}</strong></div><div><span>{copy.measure}</span><strong>{isArabic ? item.metricAr : item.metric}</strong></div></div>
-                <div className="card-references"><span>{copy.references}</span><div>{item.references.map((reference) => <a key={reference.path} href={referenceUrl(reference.path)} target="_blank" rel="noreferrer">{reference.label}<ExternalLink size={12} /></a>)}</div></div>
-              </article>;
-            })}
-          </div>
-          {phaseItems.length === 0 ? <div className="empty-state"><ListChecks size={27} /><strong>{copy.noLearning}</strong><button onClick={() => { setLearningQuery(""); setLearningStatus("all"); setSelectedPhase("all"); }}>{copy.reset}</button></div> : null}
+        <section className="program-marquee" aria-label={copy.partners}>
+          <div className="marquee-label"><Handshake size={16} /> {copy.partners}</div>
+          <div className="marquee-window"><div className="program-marquee-track">{[...programs, ...programs].map((program, index) => <span className="marquee-program" key={`${program.id}-${index}`}><ProviderIcon program={program} /><b>{program.provider}</b><small>{program.name}</small></span>)}</div></div>
         </section>
 
-        <section id="programs" className="programs-section">
-          <div className="section-container">
-            <SectionHeading eyebrow={copy.programsEyebrow} title={copy.programsTitle} body={copy.programsBody} action={<div className="verified-stamp"><ShieldCheck size={18} /><span>{copy.official}<small> · 2026–2027</small></span></div>} />
-            <div className="source-note"><ShieldCheck size={16} /><span>{copy.sourceNote}</span><span className="source-date">{copy.verifiedOn}: 12 Oct 2026</span></div>
-            <div className="program-toolbar">
-              <label className="search-field wide"><Search size={17} /><input value={programQuery} onChange={(event) => setProgramQuery(event.target.value)} placeholder={copy.searchPrograms} /></label>
-              <label className="select-field"><Filter size={15} /><select value={programCategory} onChange={(event) => setProgramCategory(event.target.value)}><option value="All">{copy.allCategories}</option>{categoryOptions.filter((value) => value !== "All").map((value) => <option key={value} value={value}>{isArabic ? categoryArabic[value] || value : value}</option>)}</select><ChevronDown size={15} /></label>
-              <label className="select-field"><Globe2 size={15} /><select value={programRegion} onChange={(event) => setProgramRegion(event.target.value)}><option value="All">{copy.allRegions}</option>{regionOptions.filter((value) => value !== "All").map((value) => <option key={value} value={value}>{value}</option>)}</select><ChevronDown size={15} /></label>
-              <label className="select-field"><Clock3 size={15} /><select value={programStatus} onChange={(event) => setProgramStatus(event.target.value as "all" | ProgramStatus)}><option value="all">{copy.allStatuses}</option><option value="rolling">{isArabic ? statusArabic.rolling : "Rolling"}</option><option value="opening">{isArabic ? statusArabic.opening : "Opening soon"}</option><option value="open">{isArabic ? statusArabic.open : "Open"}</option></select><ChevronDown size={15} /></label>
-            </div>
-            <div className="results-bar"><span>{copy.showing} <strong>{filteredPrograms.length}</strong> {copy.of} {programs.length} {isArabic ? "برنامج" : "programs"}</span><span className="results-hint"><Sparkles size={14} /> {isArabic ? "كل صف مرتبط بالمصدر الرسمي" : "Every row links to an official source"}</span></div>
-            <div className="program-table-wrap"><table className="program-table"><thead><tr><th>{copy.program}</th><th>{copy.category}</th><th>{copy.region}</th><th>{copy.benefit}</th><th>{copy.eligibility}</th><th>{copy.status}</th><th /></tr></thead><tbody>{filteredPrograms.map((program) => <tr key={program.id} onClick={() => setSelectedProgram(program)}><td><div className="program-name"><ProviderIcon program={program} /><span><strong>{program.name}</strong><small>{program.provider}</small></span></div></td><td><span className="category-pill">{isArabic ? categoryArabic[program.primaryCategory] || program.primaryCategory : program.primaryCategory}</span></td><td><span className="region-text"><Globe2 size={13} /> {program.region}</span></td><td><p className="table-short">{program.short}</p></td><td><p className="table-eligibility">{program.eligibility}</p></td><td><span className={`status-pill ${program.statusKey}`}>{program.statusKey === "rolling" ? <Clock3 size={13} /> : <CircleCheck size={13} />}{isArabic ? statusArabic[program.statusKey] : program.status.replace("🔄 ", "").replace("⏳ ", "").replace("❌ ", "")}</span></td><td><button className="row-open" aria-label={`${copy.details}: ${program.name}`}><ArrowUpRight size={16} /></button></td></tr>)}</tbody></table></div>
-            {filteredPrograms.length === 0 ? <div className="empty-state program-empty"><Search size={27} /><strong>{copy.noResults}</strong><button onClick={() => { setProgramQuery(""); setProgramCategory("All"); setProgramRegion("All"); setProgramStatus("all"); }}>{copy.reset}</button></div> : null}
-            <div className="program-mobile-list">{filteredPrograms.map((program) => <button className="program-mobile-card" key={program.id} onClick={() => setSelectedProgram(program)}><div className="program-mobile-top"><ProviderIcon program={program} /><span><strong>{program.name}</strong><small>{program.provider}</small></span><ArrowUpRight size={16} /></div><p>{program.short}</p><div><span className="category-pill">{isArabic ? categoryArabic[program.primaryCategory] || program.primaryCategory : program.primaryCategory}</span><span className="status-pill rolling">{isArabic ? statusArabic[program.statusKey] : program.status.replace("🔄 ", "")}</span></div></button>)}</div>
-          </div>
+        <section id="opportunities" className="routes-section section-container">
+          <div className="section-heading compact-heading"><div><span className="eyebrow">{copy.routesEyebrow}</span><h2>{copy.routesTitle}</h2><p>{copy.routesBody}</p></div><span className="route-count">{programs.length}<small>{isArabic ? "فرصة موثقة" : "verified opportunities"}</small></span></div>
+          <div className="routes-grid">{routes.map(({ icon: Icon, title, body }) => <article className="route-item" key={title}><span className="route-icon"><Icon size={23} /></span><div><h3>{title}</h3><p>{body}</p></div><ChevronLeft size={18} /></article>)}</div>
         </section>
 
-        <section id="sources" className="sources-section section-container">
-          <div className="sources-copy"><span className="eyebrow">{copy.sourcesEyebrow}</span><h2>{copy.sourcesTitle}</h2><p>{copy.sourcesBody}</p><div className="source-links"><a href={sourceFunding} target="_blank" rel="noreferrer"><span className="source-icon"><BookOpen size={17} /></span><span><strong>{copy.openFunding}</strong><small>Startup-Funding-2025</small></span><ArrowUpRight size={16} /></a><a href={sourcePrograms} target="_blank" rel="noreferrer"><span className="source-icon coral"><Layers3 size={17} /></span><span><strong>{copy.openPrograms}</strong><small>startup-programs-2026-2027</small></span><ArrowUpRight size={16} /></a></div></div>
-          <div className="maintenance-card"><div className="maintenance-icon"><Award size={20} /></div><span className="eyebrow">{copy.updateNote}</span><h3>{copy.updateBody}</h3><a href={`${sourcePrograms}#maintenance`} target="_blank" rel="noreferrer">{copy.readme} <ArrowUpRight size={15} /></a></div>
+        <section id="journey" className="journey-section">
+          <div className="section-container"><div className="section-heading compact-heading"><div><span className="eyebrow">{copy.learningEyebrow}</span><h2>{copy.learningTitle}</h2><p>{copy.learningBody}</p></div><a className="text-link" href="/register">{copy.register} <ArrowUpRight size={15} /></a></div><div className="journey-strip">{learningPhases.map((phase, index) => <div className={`journey-step ${phase.color}`} key={phase.id}><span>{String(index + 1).padStart(2, "0")}</span><strong>{isArabic ? phase.labelAr : phase.label}</strong><small>{isArabic ? phase.outcomeAr : phase.outcome}</small></div>)}</div></div>
         </section>
+
+        <section id="programs" className="spotlight-section section-container">
+          <div className="section-heading compact-heading"><div><span className="eyebrow">{copy.directoryEyebrow}</span><h2>{copy.directoryTitle}</h2><p>{copy.directoryBody}</p></div><a className="button button-primary" href="/programs">{copy.viewAll} <ArrowUpRight size={16} /></a></div>
+          <div className="category-summary">{categoryCounts.map(([category, count]) => <div className="category-summary-item" key={category}><span>{isArabic ? categoryArabic[category] || category : category}</span><strong>{count}</strong></div>)}</div>
+          <div className="spotlight-grid">{programs.slice(0, 6).map((program) => <a className="spotlight-program" href={program.link} target="_blank" rel="noreferrer" key={program.id}><div className="spotlight-top"><ProviderIcon program={program} /><span><strong>{program.name}</strong><small>{program.provider} · {program.region}</small></span><ExternalLink size={15} /></div><p>{program.short}</p><span className="spotlight-status">{program.status.replace("🔄 ", "").replace("⏳ ", "").replace("❌ ", "")}</span></a>)}</div>
+        </section>
+
+        <section className="sources-section compact-sources section-container"><div className="sources-copy"><span className="eyebrow"><Layers3 size={14} /> {copy.sources}</span><h2>{isArabic ? "كل توصية تبدأ من مصدر يمكن مراجعته." : "Every recommendation starts with a reviewable source."}</h2><p>{copy.sourceBody}</p></div><div className="source-links"><a href={sourceFunding} target="_blank" rel="noreferrer"><span className="source-icon"><BookOpen size={17} /></span><span><strong>{isArabic ? "مكتبة التمويل والأدوات" : "Funding & tools library"}</strong><small>Startup-Funding-2025</small></span><ArrowUpRight size={16} /></a><a href={sourcePrograms} target="_blank" rel="noreferrer"><span className="source-icon coral"><Award size={17} /></span><span><strong>{isArabic ? "دليل البرامج والبيانات" : "Programs & data directory"}</strong><small>startup-programs-2026-2027</small></span><ArrowUpRight size={16} /></a></div></section>
       </main>
-
-      <footer className="site-footer"><div className="footer-brand"><span className="brand-mark small"><Sparkles size={14} /></span><span><strong>Startup Academy</strong><small>{copy.footer}</small></span></div><div className="footer-meta"><span><ShieldCheck size={14} /> {isArabic ? "مصادر قابلة للمراجعة" : "Reviewable sources"}</span><span><Globe2 size={14} /> {isArabic ? "عربي / English" : "Arabic / English"}</span></div></footer>
-
-      {selectedProgram ? <div className="modal-backdrop" role="presentation" onClick={() => setSelectedProgram(null)}><aside className="program-modal" role="dialog" aria-modal="true" aria-label={selectedProgram.name} onClick={(event) => event.stopPropagation()}><div className="modal-header"><div className="program-name"><ProviderIcon program={selectedProgram} large /><span><strong>{selectedProgram.name}</strong><small>{selectedProgram.provider}</small></span></div><button className="modal-close" onClick={() => setSelectedProgram(null)} aria-label={copy.close}><X size={19} /></button></div><div className="modal-badges"><span className="category-pill">{isArabic ? categoryArabic[selectedProgram.primaryCategory] || selectedProgram.primaryCategory : selectedProgram.primaryCategory}</span><span className={`status-pill ${selectedProgram.statusKey}`}>{isArabic ? statusArabic[selectedProgram.statusKey] : selectedProgram.status.replace("🔄 ", "").replace("⏳ ", "")}</span><span className="verified-inline"><ShieldCheck size={13} /> {copy.official}</span></div><p className="modal-lead">{selectedProgram.short}</p><div className="modal-grid"><div><span>{copy.eligibility}</span><p>{selectedProgram.eligibility}</p></div><div><span>{copy.lastVerified}</span><p>{selectedProgram.lastVerified}</p></div></div><div className="modal-section"><span>{copy.applicationSteps}</span><SplitList value={selectedProgram.steps} /></div><div className="modal-section"><span>{copy.benefit}</span><SplitList value={selectedProgram.benefits} /></div><div className="modal-footer"><a className="button button-primary" href={selectedProgram.link} target="_blank" rel="noreferrer">{copy.apply} <ExternalLink size={15} /></a><span>{copy.sourceFile}: {selectedProgram.categorySource}</span></div></aside></div> : null}
+      <footer className="site-footer"><div className="footer-brand"><span className="brand-mark small"><Sparkles size={14} /></span><span><strong>Startup Academy</strong><small>{copy.footer}</small></span></div><div className="footer-meta"><span><CheckCircle2 size={14} /> {isArabic ? "مصادر رسمية" : "Official sources"}</span><span><Globe2 size={14} /> {isArabic ? "عربي / English" : "Arabic / English"}</span></div></footer>
     </div>
   );
 }
