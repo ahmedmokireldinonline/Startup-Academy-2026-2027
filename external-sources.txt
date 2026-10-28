@@ -1,0 +1,6 @@
+Frontend design guidance: https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md
+Avatar images: https://randomuser.me/api/portraits/men/32.jpg, https://randomuser.me/api/portraits/women/44.jpg, https://randomuser.me/api/portraits/men/46.jpg
+AWS Activate: https://aws.amazon.com/startups/credits/
+AWS Education Accelerator: https://startups.aws.com/programs/education-accelerator
+AWS Global Startup Program: https://aws.amazon.com/partners/programs/global-startup/
+AWS Cloud for EdTech: https://aws.amazon.com/education/ed-tech/

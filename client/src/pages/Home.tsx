@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   ArrowLeft,
   ArrowUpRight,
@@ -12,18 +12,25 @@ import {
   GraduationCap,
   Handshake,
   Layers3,
+  LockKeyhole,
   Menu,
   Network,
   Rocket,
   Sparkles,
   Target,
   Trophy,
+  Star,
 } from "lucide-react";
 import { programs, type Program } from "@/data/programs";
 import { learningItems, learningPhases } from "@/data/learningPath";
 
 const sourcePrograms = "https://github.com/ahmedmokireldinonline/startup-programs-2026-2027";
 const sourceFunding = "https://github.com/ahmedmokireldinonline/Startup-Funding-2025";
+const reviews = [
+  { quote: "أصبح لدينا مسار واضح بدل البحث العشوائي عن برامج الدعم والـ credits.", name: "مؤسس شركة EdTech", country: "مصر", flag: "🇪🇬", image: "https://randomuser.me/api/portraits/men/32.jpg" },
+  { quote: "ساعدتنا المطابقة على فهم أي برنامج يناسب مرحلة المنتج قبل تجهيز التقديم.", name: "Founder · AI SaaS", country: "السعودية", flag: "🇸🇦", image: "https://randomuser.me/api/portraits/women/44.jpg" },
+  { quote: "الجزء الأقوى هو تحويل الوصول إلى Cloud Credits إلى خطة بنية قابلة للتنفيذ.", name: "مدير ابتكار مؤسسي", country: "الإمارات", flag: "🇦🇪", image: "https://randomuser.me/api/portraits/men/46.jpg" },
+];
 
 const categoryArabic: Record<string, string> = {
   "Cloud & infrastructure credits": "أرصدة السحابة والبنية التحتية",
@@ -60,6 +67,7 @@ export default function Home() {
     try { return (localStorage.getItem("startup-academy-language") as "ar" | "en") || "ar"; } catch { return "ar"; }
   });
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [reviewIndex, setReviewIndex] = useState(0);
   const isArabic = language === "ar";
   const progress = (() => {
     try {
@@ -80,6 +88,10 @@ export default function Home() {
     setLanguage(next);
     localStorage.setItem("startup-academy-language", next);
   };
+  useEffect(() => {
+    const timer = window.setInterval(() => setReviewIndex((value) => (value + 1) % reviews.length), 5200);
+    return () => window.clearInterval(timer);
+  }, []);
 
   const copy = isArabic ? {
     eyebrow: "منصة وصول للشركات الناشئة",
@@ -186,11 +198,13 @@ export default function Home() {
         <section id="programs" className="spotlight-section section-container">
           <div className="section-heading compact-heading"><div><span className="eyebrow">{copy.directoryEyebrow}</span><h2>{copy.directoryTitle}</h2><p>{copy.directoryBody}</p></div><a className="button button-primary" href="/programs">{copy.viewAll} <ArrowUpRight size={16} /></a></div>
           <div className="category-summary">{categoryCounts.map(([category, count]) => <div className="category-summary-item" key={category}><span>{isArabic ? categoryArabic[category] || category : category}</span><strong>{count}</strong></div>)}</div>
-          <div className="spotlight-grid">{programs.slice(0, 6).map((program) => <a className="spotlight-program" href={program.link} target="_blank" rel="noreferrer" key={program.id}><div className="spotlight-top"><ProviderIcon program={program} /><span><strong>{program.name}</strong><small>{program.provider} · {program.region}</small></span><ExternalLink size={15} /></div><p>{program.short}</p><span className="spotlight-status">{program.status.replace("🔄 ", "").replace("⏳ ", "").replace("❌ ", "")}</span></a>)}</div>
+          <div className="spotlight-grid">{programs.slice(0, 6).map((program) => <a className="spotlight-program" href="/register" key={program.id}><div className="spotlight-top"><ProviderIcon program={program} /><span><strong>{program.name}</strong><small>{program.provider} · {program.region}</small></span><LockKeyhole size={15} /></div><p>{program.short}</p><span className="spotlight-status">{isArabic ? "سجّل لفتح المصدر" : "Register to unlock"}</span></a>)}</div>
         </section>
 
+        <section className="reviews-section section-container"><div className="reviews-heading"><span className="eyebrow"><Star size={14} /> {isArabic ? "تجارب من المسار" : "Founder voices"}</span><h2>{isArabic ? "من التخبط إلى خطوة تالية واضحة." : "From uncertainty to a clear next step."}</h2></div><div className="review-stage"><div className="review-orbit review-orbit-a" /><div className="review-orbit review-orbit-b" /><article className="review-card" key={reviews[reviewIndex].name}><div className="review-stars">{Array.from({ length: 5 }).map((_, index) => <Star key={index} size={15} fill="currentColor" />)}</div><p>“{reviews[reviewIndex].quote}”</p><div className="review-person"><img src={reviews[reviewIndex].image} alt="" /><span><strong>{reviews[reviewIndex].name}</strong><small>{reviews[reviewIndex].flag} {reviews[reviewIndex].country}</small></span></div></article><div className="review-dots">{reviews.map((review, index) => <button key={review.name} className={index === reviewIndex ? "active" : ""} onClick={() => setReviewIndex(index)} aria-label={`Review ${index + 1}`} />)}</div></div></section>
+
         <section className="infrastructure-section section-container"><div className="infrastructure-copy"><span className="eyebrow"><Cloud size={14} /> {isArabic ? "حلول البنية التحتية والنمو" : "Infrastructure & growth enablement"}</span><h2>{isArabic ? "نساعد المؤسسات على بدء البنية الصحيحة للنمو." : "We help organizations start with the right growth infrastructure."}</h2><p>{isArabic ? "نساعد الشركات الناشئة، المؤسسات التعليمية، والشركات المتوسطة على تخفيض تكلفة البداية والوصول إلى Cloud Infrastructure وAI/Automation Credits، ثم تحويلها إلى خطوات تنفيذية قابلة للقياس." : "We help startups, educational institutions, and mid-sized companies reduce the cost of getting started with cloud infrastructure and AI/automation credits, then turn access into measurable execution."}</p><a className="button button-primary" href="/register">{isArabic ? "ناقش احتياج مؤسستك" : "Discuss your organization"} <ArrowUpRight size={16} /></a></div><div className="infrastructure-grid"><article><span><Cloud size={19} /></span><h3>{isArabic ? "Cloud Foundation" : "Cloud Foundation"}</h3><p>{isArabic ? "اختيار البداية المناسبة، الحسابات، البنية الآمنة، وخطة الاستخدام." : "Choose the right starting tier, accounts, secure architecture, and usage plan."}</p></article><article><span><Sparkles size={19} /></span><h3>{isArabic ? "AI & Automation Credits" : "AI & Automation Credits"}</h3><p>{isArabic ? "الوصول إلى أرصدة نماذج الذكاء الاصطناعي وأدوات الأتمتة لتسريع التجربة." : "Reach AI model and automation credits to accelerate experimentation and delivery."}</p></article><article><span><GraduationCap size={19} /></span><h3>{isArabic ? "Education Enablement" : "Education Enablement"}</h3><p>{isArabic ? "مسار خاص للمؤسسات التعليمية وEdTech لبناء حلول قابلة للتوسع." : "A dedicated path for educational institutions and EdTech teams building scalable solutions."}</p></article></div></section>
-        <section className="sources-section compact-sources section-container"><div className="sources-copy"><span className="eyebrow"><Layers3 size={14} /> {copy.sources}</span><h2>{isArabic ? "كل توصية تبدأ من مصدر يمكن مراجعته." : "Every recommendation starts with a reviewable source."}</h2><p>{copy.sourceBody}</p></div><div className="source-links"><a href={sourceFunding} target="_blank" rel="noreferrer"><span className="source-icon"><BookOpen size={17} /></span><span><strong>{isArabic ? "مكتبة التمويل والأدوات" : "Funding & tools library"}</strong><small>Startup-Funding-2025</small></span><ArrowUpRight size={16} /></a><a href={sourcePrograms} target="_blank" rel="noreferrer"><span className="source-icon coral"><Award size={17} /></span><span><strong>{isArabic ? "دليل البرامج والبيانات" : "Programs & data directory"}</strong><small>startup-programs-2026-2027</small></span><ArrowUpRight size={16} /></a></div></section>
+        <section className="sources-section compact-sources section-container"><div className="sources-copy"><span className="eyebrow"><Layers3 size={14} /> {copy.sources}</span><h2>{isArabic ? "سجّل أولًا، ثم نفتح لك المصدر المناسب." : "Register first, then we open the right source."}</h2><p>{isArabic ? "نحافظ على روابط المصدر والتقديم داخل الدليل المحمي، حتى نتمكن من فهم احتياجك وتوجيهك إلى المسار المناسب." : "Official source and application links stay inside the protected directory so we can understand your need and guide you to the right path."}</p></div><div className="source-links"><a href="/register"><span className="source-icon"><BookOpen size={17} /></span><span><strong>{isArabic ? "سجّل لفتح المكتبة" : "Register to unlock library"}</strong><small>بعد التسجيل تظهر المصادر</small></span><LockKeyhole size={16} /></a><a href="/register"><span className="source-icon coral"><Award size={17} /></span><span><strong>{isArabic ? "افتح دليل البرامج" : "Unlock program directory"}</strong><small>روابط التقديم الرسمية</small></span><LockKeyhole size={16} /></a></div></section>
       </main>
       <footer className="site-footer"><div className="footer-brand"><span className="brand-mark small"><Sparkles size={14} /></span><span><strong>Startup Academy</strong><small>{copy.footer}</small></span></div><div className="footer-meta"><span><CheckCircle2 size={14} /> {isArabic ? "مصادر رسمية" : "Official sources"}</span><span><Globe2 size={14} /> {isArabic ? "عربي / English" : "Arabic / English"}</span></div></footer>
     </div>
