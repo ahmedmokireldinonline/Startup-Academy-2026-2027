@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { ArrowUpRight, Check, ChevronDown, Globe2, RotateCcw, Search, Sparkles, X } from "lucide-react";
 import investorData from "@/data/investors.json";
+import { investorPlatforms } from "@/data/investorPlatforms";
 
 type Investor = (typeof investorData)[number];
 
@@ -76,6 +77,10 @@ export default function Investors() {
           <div className="investor-grid">{filtered.slice(0, visibleCount).map((item) => <article className="investor-card investor-card-clean" key={item.id}><div className="investor-card-top"><img className="investor-photo" src={item.image} alt={`${item.name} profile`} loading="lazy" onError={(event) => { if (!event.currentTarget.dataset.fallbackApplied) { event.currentTarget.dataset.fallbackApplied = "true"; event.currentTarget.src = fallbackImageFor(item); } }} /><div><h3>{item.name}</h3><span>{typeLabels[item.type] || item.type}</span></div></div><div className="investor-meta-row"><span><Globe2 size={12} /> {item.country}</span><span>{item.focus || "SaaS"}</span></div><div className="investor-companies"><small>شركات استثمر فيها</small><div>{item.investments.length ? item.investments.map((company) => <span key={company}>{company}</span>) : <span>{item.focus || "SaaS portfolio"}</span>}</div></div></article>)}</div>
           {filtered.length > visibleCount ? <button className="load-more-investors" onClick={() => setVisibleCount((count) => count + 60)}>عرض 60 مستثمرًا إضافيًا <ArrowUpRight size={15} /></button> : null}
           {filtered.length === 0 ? <div className="empty-state"><Search size={27} /><strong>لا توجد نتائج مطابقة.</strong><button onClick={reset}>إعادة ضبط الفلاتر</button></div> : null}
+        </section>
+        <section className="investor-platforms-section">
+          <div className="investor-platforms-heading"><div><span className="eyebrow"><Sparkles size={14} /> مصادر التوسعة</span><h2>منصات إضافية نستخدمها لتوسيع قائمة الأسماء</h2><p>تظهر هنا أسماء المنصات ونطاق تغطيتها فقط. روابط الوصول وملفات المصدر تبقى ضمن طبقة الإدارة والاشتراك المدفوع.</p></div><span className="platform-count">{investorPlatforms.length} منصات</span></div>
+          <div className="investor-platforms-grid">{investorPlatforms.map((platform) => <article className="investor-platform-card" key={platform.id}><div className="platform-card-top"><span className="platform-index">{String(investorPlatforms.indexOf(platform) + 1).padStart(2, "0")}</span><span className="platform-category">{platform.category}</span></div><h3>{platform.name}</h3><p>{platform.coverage}</p><small>{platform.use} · تحقق {platform.verifiedOn}</small></article>)}</div>
         </section>
       </main>
     </div>

@@ -1,0 +1,17 @@
+import { ArrowUpRight, CheckCircle2, Clock3, Crown, LockKeyhole, ShieldCheck, Sparkles } from "lucide-react";
+
+const tiers = [
+  { id: "standard", name: "Standard Access", price: "$3,000", tone: "standard", summary: "وصول مدى الحياة إلى مكتبة البرامج القياسية ومسار التقديم المنظم.", items: ["دليل المنح والـ credits الأساسي", "ملف المستخدم والتسجيلات", "تحديثات البرامج الأساسية", "حفظ قائمة الفرص الشخصية"] },
+  { id: "vip", name: "VIP Full Access", price: "$7,000", tone: "vip", summary: "الوصول الكامل إلى كل البرامج والمصادر المحمية ومسار المستثمرين.", items: ["كل مزايا Standard Access", "كل المنح والـ credits الإقليمية", "المصادر الرسمية المحمية", "دليل المستثمرين الكامل", "أولوية المراجعة والتوجيه"] },
+];
+
+export default function UserDashboard() {
+  return <div className="dashboard-shell" dir="rtl">
+    <header className="dashboard-header"><a className="brand" href="/"><span className="brand-mark"><Sparkles size={16} /></span><span><strong>Startup Academy</strong><small>Member Dashboard</small></span></a><div className="dashboard-header-actions"><span className="dashboard-status"><span className="status-dot" /> الحساب قيد الإعداد</span><a className="dashboard-link" href="/">الرئيسية</a></div></header>
+    <main className="dashboard-main">
+      <section className="dashboard-welcome"><div><span className="eyebrow"><Crown size={14} /> بوابة العضو</span><h1>مساحتك للوصول إلى <em>المنح والمستثمرين.</em></h1><p>اختر الباقة المناسبة، أرسل بيانات الشركة عند الحاجة، وتابع حالة الوصول إلى المصادر المحمية من مكان واحد.</p></div><div className="dashboard-security"><ShieldCheck size={22} /><strong>Lifetime Access</strong><span>الاشتراك لا يتجدد تلقائيًا</span></div></section>
+      <section className="dashboard-section"><div className="section-heading-row"><div><span className="eyebrow">اختيار الباقة</span><h2>الباقات المتاحة</h2></div><span className="section-note">دفع لمرة واحدة</span></div><div className="tier-grid">{tiers.map((tier) => <article className={`tier-card ${tier.tone}`} key={tier.id}><div className="tier-top"><span className="tier-label">{tier.id === "vip" ? "FULL ACCESS" : "CORE ACCESS"}</span>{tier.id === "vip" ? <Crown size={18} /> : <ShieldCheck size={18} />}</div><h3>{tier.name}</h3><strong className="tier-price">{tier.price}</strong><p>{tier.summary}</p><ul>{tier.items.map((item) => <li key={item}><CheckCircle2 size={15} /> {item}</li>)}</ul><button className="dashboard-cta">طلب هذه الباقة <ArrowUpRight size={16} /></button></article>)}</div></section>
+      <section className="dashboard-section dashboard-lower-grid"><article className="dashboard-panel"><div className="panel-title"><span><Clock3 size={17} /> حالة الطلب</span><span className="soft-badge">Pending setup</span></div><h3>أكمل ملف شركتك</h3><p>بعد الدفع، سيظهر هنا رابط آمن لإرسال بيانات الشركة ومتابعة منح الوصول المناسبة.</p><div className="progress-track"><span style={{ width: "32%" }} /></div><small>1 من 3 خطوات مكتملة</small><a className="text-link" href="/register">فتح نموذج الشركة <ArrowUpRight size={14} /></a></article><article className="dashboard-panel protected-panel"><div className="panel-title"><span><LockKeyhole size={17} /> المصادر المحمية</span><span className="soft-badge locked">مقفلة</span></div><h3>المصادر الرسمية وروابط التقديم</h3><p>لن تظهر الروابط الأصلية في ملفات الموقع العامة. يتم فتحها بعد التحقق من حالة الباقة من الخادم.</p><div className="protected-placeholder"><LockKeyhole size={21} /><span>يتطلب تفعيل Lifetime Access</span></div></article></section>
+    </main>
+  </div>;
+}

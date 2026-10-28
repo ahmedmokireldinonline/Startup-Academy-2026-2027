@@ -163,6 +163,8 @@ export default function Home() {
             <button onClick={() => scrollTo("journey")}>{isArabic ? "المسار" : "Journey"}</button>
             <button onClick={() => scrollTo("opportunities")}>{isArabic ? "الفرص" : "Opportunities"}</button>
             <a className="main-nav-link" href="/programs">{isArabic ? "كل البرامج" : "All programs"}</a>
+            <a className="main-nav-link" href="/investors">{isArabic ? "المستثمرون" : "Investors"}</a>
+            <a className="main-nav-link" href="/dashboard">{isArabic ? "لوحة الحساب" : "Dashboard"}</a>
             <a className="main-nav-link" href="/register">{isArabic ? "التسجيل" : "Register"}</a>
             <button className="language-switch" onClick={() => setLanguageAndRemember(isArabic ? "en" : "ar")}>{copy.language}</button>
           </nav>
