@@ -11,8 +11,6 @@ import {
   Globe2,
   GraduationCap,
   Handshake,
-  Building2,
-  Bot,
   Layers3,
   Menu,
   Network,
@@ -22,11 +20,10 @@ import {
   Trophy,
 } from "lucide-react";
 import { programs, type Program } from "@/data/programs";
-import pitchDecks from "@/data/pitchDecks.json";
 import { learningItems, learningPhases } from "@/data/learningPath";
 
-const sourcePrograms = "https://github.com/ahmedmokireldinonline/Startup-Academy-2026-2027/tree/main/data";
-const sourceFunding = "https://github.com/ahmedmokireldinonline/Startup-Academy-2026-2027/tree/main/Business%20Models%20-%20Super%20Guides%20Bundle";
+const sourcePrograms = "https://github.com/ahmedmokireldinonline/startup-programs-2026-2027";
+const sourceFunding = "https://github.com/ahmedmokireldinonline/Startup-Funding-2025";
 
 const categoryArabic: Record<string, string> = {
   "Cloud & infrastructure credits": "أرصدة السحابة والبنية التحتية",
@@ -95,13 +92,6 @@ export default function Home() {
     routesEyebrow: "مسارات الوصول",
     routesTitle: "من نساعدك على الوصول إليهم؟",
     routesBody: "لا نكتفي بعرض الروابط؛ نجهزك للمسار المناسب ونوضح الأهلية والخطوة التالية.",
-    servicesEyebrow: "دعم النمو المؤسسي",
-    servicesTitle: "نضع أساسًا تقنيًا يسرّع النمو.",
-    servicesBody: "نساعد الشركات والمؤسسات التعليمية والشركات المتوسطة على بدء بنية Cloud مناسبة، وتأمين أرصدة الأتمتة ونماذج AI، وتحويل التجربة التقنية إلى قدرة تشغيلية قابلة للنمو.",
-    servicesCloud: "بداية Cloud Infrastructure",
-    servicesCloudBody: "تصميم الحسابات، البيئات، الأمن، المراقبة، وخطة تشغيل أولى بدون تعقيد زائد.",
-    servicesAI: "Automation & AI Credits",
-    servicesAIBody: "مطابقة البرامج وائتمانات النماذج والأتمتة مع حالات الاستخدام، خصوصًا في التعليم.",
     learningEyebrow: "المسار العملي",
     learningTitle: "سبع مراحل من الفكرة إلى التقديم",
     learningBody: "كل مرحلة تنتج دليلًا عمليًا يساعدك على التقدم إلى البرنامج الأنسب.",
@@ -125,13 +115,6 @@ export default function Home() {
     routesEyebrow: "Access routes",
     routesTitle: "Who can we help you reach?",
     routesBody: "We do more than list links: we prepare the right path and clarify eligibility and next action.",
-    servicesEyebrow: "Institutional growth support",
-    servicesTitle: "Build the technical foundation for growth.",
-    servicesBody: "We help companies, educational institutions, and mid-market teams start with the right cloud infrastructure and secure automation and AI model credits.",
-    servicesCloud: "Cloud infrastructure start",
-    servicesCloudBody: "Accounts, environments, security, observability, and an operating baseline without unnecessary complexity.",
-    servicesAI: "Automation & AI credits",
-    servicesAIBody: "Match programs and model credits to real use cases, with a special focus on education.",
     learningEyebrow: "Practical path",
     learningTitle: "Seven stages from idea to application",
     learningBody: "Every stage creates evidence that helps you move toward the right program.",
@@ -169,7 +152,6 @@ export default function Home() {
             <button onClick={() => scrollTo("opportunities")}>{isArabic ? "الفرص" : "Opportunities"}</button>
             <a className="main-nav-link" href="/programs">{isArabic ? "كل البرامج" : "All programs"}</a>
             <a className="main-nav-link" href="/register">{isArabic ? "التسجيل" : "Register"}</a>
-            <a className="main-nav-link nav-investors" href="/investors">{isArabic ? "دليل المستثمرين" : "Investor desk"}</a>
             <button className="language-switch" onClick={() => setLanguageAndRemember(isArabic ? "en" : "ar")}>{copy.language}</button>
           </nav>
         </div>
@@ -197,8 +179,6 @@ export default function Home() {
           <div className="routes-grid">{routes.map(({ icon: Icon, title, body }) => <article className="route-item" key={title}><span className="route-icon"><Icon size={23} /></span><div><h3>{title}</h3><p>{body}</p></div><ChevronLeft size={18} /></article>)}</div>
         </section>
 
-        <section className="services-section section-container"><div className="services-intro"><span className="eyebrow"><Building2 size={15} /> {copy.servicesEyebrow}</span><h2>{copy.servicesTitle}</h2><p>{copy.servicesBody}</p><a className="button button-primary" href="/register">{copy.register} <ArrowUpRight size={16} /></a></div><div className="services-grid"><article className="service-card"><span className="service-icon"><Cloud size={22} /></span><div><h3>{copy.servicesCloud}</h3><p>{copy.servicesCloudBody}</p></div><span className="service-number">01</span></article><article className="service-card"><span className="service-icon violet"><Bot size={22} /></span><div><h3>{copy.servicesAI}</h3><p>{copy.servicesAIBody}</p></div><span className="service-number">02</span></article></div></section>
-
         <section id="journey" className="journey-section">
           <div className="section-container"><div className="section-heading compact-heading"><div><span className="eyebrow">{copy.learningEyebrow}</span><h2>{copy.learningTitle}</h2><p>{copy.learningBody}</p></div><a className="text-link" href="/register">{copy.register} <ArrowUpRight size={15} /></a></div><div className="journey-strip">{learningPhases.map((phase, index) => <div className={`journey-step ${phase.color}`} key={phase.id}><span>{String(index + 1).padStart(2, "0")}</span><strong>{isArabic ? phase.labelAr : phase.label}</strong><small>{isArabic ? phase.outcomeAr : phase.outcome}</small></div>)}</div></div>
         </section>
@@ -209,15 +189,8 @@ export default function Home() {
           <div className="spotlight-grid">{programs.slice(0, 6).map((program) => <a className="spotlight-program" href={program.link} target="_blank" rel="noreferrer" key={program.id}><div className="spotlight-top"><ProviderIcon program={program} /><span><strong>{program.name}</strong><small>{program.provider} · {program.region}</small></span><ExternalLink size={15} /></div><p>{program.short}</p><span className="spotlight-status">{program.status.replace("🔄 ", "").replace("⏳ ", "").replace("❌ ", "")}</span></a>)}</div>
         </section>
 
-        <section className="program-ticker" aria-label={isArabic ? "كل البرامج" : "All programs"}>
-          <div className="ticker-track">{[...programs, ...programs].map((program, index) => <a href={program.link} target="_blank" rel="noreferrer" key={`${program.id}-${index}`}><ProviderIcon program={program} /><span>{program.provider}</span><small>{program.primaryCategory}</small></a>)}</div>
-        </section>
-        <section id="resources" className="resources-section section-container">
-          <div className="resources-intro"><span className="eyebrow">{isArabic ? "عدة التقديم" : "Fundraising toolkit"}</span><h2>{isArabic ? "Pitch Deck قوي. Template واضح. تقديم أكثر احترافية." : "A sharper pitch deck. A clearer template. A stronger application."}</h2><p>{isArabic ? "لا تبدأ التقديم من صفحة بيضاء. استخدم نماذج Pitch Deck حقيقية لشركات أصبحت مليارية، وقوالب SaaS تساعدك على ترتيب القصة، الأرقام، ونظام المتابعة قبل التواصل مع المستثمرين." : "Do not start from a blank page. Study real decks from billion-dollar companies and use SaaS templates to structure the story, metrics, and follow-up system before reaching investors."}</p><div className="resource-actions"><a className="button button-primary" href="/investors">{isArabic ? "ابحث عن المستثمرين" : "Find investors"} <ArrowUpRight size={15} /></a><a className="button button-secondary" href="https://github.com/ahmedmokireldinonline/startup-programs-2026-2027/tree/main/SAAS%20Toolkit" target="_blank" rel="noreferrer">{isArabic ? "افتح كل الـ Toolkit" : "Open full toolkit"} <ExternalLink size={15} /></a></div></div>
-          <div className="deck-rail"><div className="deck-rail-head"><span>{isArabic ? "نماذج Pitch Deck" : "Pitch Deck references"}</span><small>46 startup decks</small></div><div className="deck-grid">{pitchDecks.slice(0, 8).map((deck) => <a href={deck.url} target="_blank" rel="noreferrer" key={deck.name}><strong>{deck.name}</strong><span>{deck.valuation}</span><ArrowUpRight size={14} /></a>)}</div></div>
-        </section>
-        <section id="about" className="about-section section-container"><div className="about-mark"><Sparkles size={22} /></div><div><span className="eyebrow">{isArabic ? "عن المدرب" : "About the mentor"}</span><h2>{isArabic ? "أساعد الشركات الناشئة على تحويل الفكرة إلى نظام قابل للتمويل." : "I help startups turn a promising idea into a fundable operating system."}</h2><p>{isArabic ? "أنا أحمد، مدرب ومستشار أعمل على Flow Automation Marketing وGrowth Marketing Automation. أساعد المؤسسين على بناء الأنظمة والـ Solutions، تجهيز Pitch Deck وملفات التقديم، وفهم أهم خطوات الـ Funding والتمويلات بطريقة عملية قابلة للتنفيذ." : "I am Ahmed, a trainer and consultant focused on Flow Automation Marketing and Growth Marketing Automation. I help founders build systems and solutions, prepare pitch decks and applications, and navigate the practical steps behind funding."}</p></div><div className="about-points"><span>01 · Funding readiness</span><span>02 · Systems & solutions</span><span>03 · Growth automation</span></div></section>
-        <section className="sources-section compact-sources section-container"><div className="sources-copy"><span className="eyebrow"><Layers3 size={14} /> {copy.sources}</span><h2>{isArabic ? "كل توصية تبدأ من مصدر يمكن مراجعته." : "Every recommendation starts with a reviewable source."}</h2><p>{copy.sourceBody}</p></div><div className="source-links"><a href={sourceFunding} target="_blank" rel="noreferrer"><span className="source-icon"><BookOpen size={17} /></span><span><strong>{isArabic ? "مكتبة التمويل والأدوات" : "Funding & tools library"}</strong><small>Startup Academy / Founder resources</small></span><ArrowUpRight size={16} /></a><a href={sourcePrograms} target="_blank" rel="noreferrer"><span className="source-icon coral"><Award size={17} /></span><span><strong>{isArabic ? "دليل البرامج والبيانات" : "Programs & data directory"}</strong><small>Startup Academy / Programs & data</small></span><ArrowUpRight size={16} /></a></div></section>
+        <section className="infrastructure-section section-container"><div className="infrastructure-copy"><span className="eyebrow"><Cloud size={14} /> {isArabic ? "حلول البنية التحتية والنمو" : "Infrastructure & growth enablement"}</span><h2>{isArabic ? "نساعد المؤسسات على بدء البنية الصحيحة للنمو." : "We help organizations start with the right growth infrastructure."}</h2><p>{isArabic ? "نساعد الشركات الناشئة، المؤسسات التعليمية، والشركات المتوسطة على تخفيض تكلفة البداية والوصول إلى Cloud Infrastructure وAI/Automation Credits، ثم تحويلها إلى خطوات تنفيذية قابلة للقياس." : "We help startups, educational institutions, and mid-sized companies reduce the cost of getting started with cloud infrastructure and AI/automation credits, then turn access into measurable execution."}</p><a className="button button-primary" href="/register">{isArabic ? "ناقش احتياج مؤسستك" : "Discuss your organization"} <ArrowUpRight size={16} /></a></div><div className="infrastructure-grid"><article><span><Cloud size={19} /></span><h3>{isArabic ? "Cloud Foundation" : "Cloud Foundation"}</h3><p>{isArabic ? "اختيار البداية المناسبة، الحسابات، البنية الآمنة، وخطة الاستخدام." : "Choose the right starting tier, accounts, secure architecture, and usage plan."}</p></article><article><span><Sparkles size={19} /></span><h3>{isArabic ? "AI & Automation Credits" : "AI & Automation Credits"}</h3><p>{isArabic ? "الوصول إلى أرصدة نماذج الذكاء الاصطناعي وأدوات الأتمتة لتسريع التجربة." : "Reach AI model and automation credits to accelerate experimentation and delivery."}</p></article><article><span><GraduationCap size={19} /></span><h3>{isArabic ? "Education Enablement" : "Education Enablement"}</h3><p>{isArabic ? "مسار خاص للمؤسسات التعليمية وEdTech لبناء حلول قابلة للتوسع." : "A dedicated path for educational institutions and EdTech teams building scalable solutions."}</p></article></div></section>
+        <section className="sources-section compact-sources section-container"><div className="sources-copy"><span className="eyebrow"><Layers3 size={14} /> {copy.sources}</span><h2>{isArabic ? "كل توصية تبدأ من مصدر يمكن مراجعته." : "Every recommendation starts with a reviewable source."}</h2><p>{copy.sourceBody}</p></div><div className="source-links"><a href={sourceFunding} target="_blank" rel="noreferrer"><span className="source-icon"><BookOpen size={17} /></span><span><strong>{isArabic ? "مكتبة التمويل والأدوات" : "Funding & tools library"}</strong><small>Startup-Funding-2025</small></span><ArrowUpRight size={16} /></a><a href={sourcePrograms} target="_blank" rel="noreferrer"><span className="source-icon coral"><Award size={17} /></span><span><strong>{isArabic ? "دليل البرامج والبيانات" : "Programs & data directory"}</strong><small>startup-programs-2026-2027</small></span><ArrowUpRight size={16} /></a></div></section>
       </main>
       <footer className="site-footer"><div className="footer-brand"><span className="brand-mark small"><Sparkles size={14} /></span><span><strong>Startup Academy</strong><small>{copy.footer}</small></span></div><div className="footer-meta"><span><CheckCircle2 size={14} /> {isArabic ? "مصادر رسمية" : "Official sources"}</span><span><Globe2 size={14} /> {isArabic ? "عربي / English" : "Arabic / English"}</span></div></footer>
     </div>
