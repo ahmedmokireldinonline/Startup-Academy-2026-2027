@@ -3,7 +3,7 @@ import { z } from "zod";
 import { adminProcedure, protectedProcedure, publicProcedure, router } from "./_core/trpc";
 import { systemRouter } from "./_core/systemRouter";
 import { getSessionCookieOptions } from "./_core/cookies";
-import { COOKIE_NAME } from "@shared/const";
+import { COOKIE_NAME } from "../shared/const";
 import { createRegistration, getRegistrationStats, listRegistrations, updateRegistrationStatus } from "./db";
 import { getRegistrationAccessId, issueRegistrationAccess } from "./access";
 import { programs } from "./programCatalog";
