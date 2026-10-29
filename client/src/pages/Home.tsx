@@ -24,8 +24,6 @@ import {
 import { programs, type Program } from "@/data/programs";
 import { learningItems, learningPhases } from "@/data/learningPath";
 
-const sourcePrograms = "https://github.com/ahmedmokireldinonline/startup-programs-2026-2027";
-const sourceFunding = "https://github.com/ahmedmokireldinonline/Startup-Funding-2025";
 const reviews = [
   { quote: "أصبح لدينا مسار واضح بدل البحث العشوائي عن برامج الدعم والـ credits.", name: "مؤسس شركة EdTech", country: "مصر", flag: "🇪🇬", image: "https://randomuser.me/api/portraits/men/32.jpg" },
   { quote: "ساعدتنا المطابقة على فهم أي برنامج يناسب مرحلة المنتج قبل تجهيز التقديم.", name: "Founder · AI SaaS", country: "السعودية", flag: "🇸🇦", image: "https://randomuser.me/api/portraits/women/44.jpg" },
@@ -39,9 +37,19 @@ const categoryArabic: Record<string, string> = {
   "SaaS discounts & perks": "خصومات ومزايا SaaS",
 };
 
-function providerIconUrl(link: string) {
+const providerDomains: Record<string, string> = {
+  "Amazon Web Services": "aws.amazon.com",
+  "Google Cloud": "cloud.google.com",
+  "Microsoft": "microsoft.com",
+  "Anthropic": "anthropic.com",
+  "GitHub": "github.com",
+  "NVIDIA": "nvidia.com",
+};
+
+function providerIconUrl(provider: string) {
   try {
-    return `https://www.google.com/s2/favicons?domain=${new URL(link).hostname}&sz=64`;
+    const domain = providerDomains[provider];
+    return domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : "";
   } catch {
     return "";
   }
@@ -56,8 +64,8 @@ function ProviderIcon({ program }: { program: Program }) {
   const fallback = initials(program.provider);
   return (
     <span className="provider-icon" aria-hidden="true">
-      {!failed && providerIconUrl(program.link) ? <img src={providerIconUrl(program.link)} alt="" onError={() => setFailed(true)} /> : null}
-      {failed || !providerIconUrl(program.link) ? <span>{fallback}</span> : null}
+      {!failed && providerIconUrl(program.provider) ? <img src={providerIconUrl(program.provider)} alt="" onError={() => setFailed(true)} /> : null}
+      {failed || !providerIconUrl(program.provider) ? <span>{fallback}</span> : null}
     </span>
   );
 }

@@ -4,5 +4,5 @@
   "buildCommand": "pnpm build:static",
   "outputDirectory": "dist/public",
   "cleanUrls": true,
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [{ "source": "/((?!api(?:/|$)).*)", "destination": "/" }]
 }
