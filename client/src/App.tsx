@@ -11,6 +11,8 @@ import Investors from "./pages/Investors";
 import UserDashboard from "./pages/UserDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 import Admin from "./pages/Admin";
+import About from "./pages/About";
+import AdminLogin from "./pages/AdminLogin";
 
 function Router() {
   return (
@@ -19,7 +21,9 @@ function Router() {
       <Route path={"/register"} component={Register} />
       <Route path={"/programs"} component={Programs} />
       <Route path={"/investors"} component={Investors} />
+      <Route path={"/about"} component={About} />
       <Route path={"/dashboard"} component={UserDashboard} />
+      <Route path={"/admin/login"} component={AdminLogin} />
       <Route path={"/admin"} component={Admin} />
       <Route path={"/admin/control"} component={AdminDashboard} />
       <Route path={"/404"} component={NotFound} />
