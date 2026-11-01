@@ -1,5 +1,5 @@
 import { serialize } from "cookie";
-import { ADMIN_SESSION_COOKIE, createAdminSession, verifyAdminCredentials } from "../../server/_core/adminPassword";
+import { ADMIN_SESSION_COOKIE, createAdminSession, verifyAdminCredentials } from "../../server/_core/adminPassword.js";
 
 export default function handler(req: any, res: any) {
   if (req.method !== "POST") {
