@@ -2,8 +2,8 @@ export type AcademyBook = {
   id: string;
   title: string;
   author: string;
-  isbn: string;
   image: string;
+  pdfPath: string;
   importance: string;
   projects: string;
   tags: string[];
@@ -16,33 +16,33 @@ export type BookCatalog = {
   books: AcademyBook[];
 };
 
-const cover = (isbn: string) => `https://covers.openlibrary.org/isbn/${isbn}-L.jpg`;
+const pdf = (path: string) => `/pdf-library/${path}`;
 
 export const bookCatalogs: BookCatalog[] = [
   {
-    id: "founder-core",
-    name: "كتالوج المؤسس وبناء المنتج",
-    subtitle: "كتب تساعدك على فهم المشكلة، اختبار السوق، وبناء منتج قابل للنمو.",
+    id: "business-models",
+    name: "كتالوج نماذج الأعمال وبناء المنتج",
+    subtitle: "أغلفة أصلية من مجموعة Business Models - Super Guides Bundle الموجودة في المستودع.",
     books: [
-      { id: "lean-startup", title: "The Lean Startup", author: "Eric Ries", isbn: "9780307887894", image: cover("9780307887894"), importance: "يحول بناء الشركة إلى تجارب صغيرة وقياس مستمر بدل الإنفاق قبل التحقق.", projects: "MVP، SaaS، EdTech، ومنتجات AI في مرحلة التحقق.", tags: ["MVP", "Validation"] },
-      { id: "zero-to-one", title: "Zero to One", author: "Peter Thiel", isbn: "9780804139298", image: cover("9780804139298"), importance: "يساعدك على التفكير في ميزة تنافسية حقيقية بدل تكرار الموجود.", projects: "DeepTech، منصات B2B، والمنتجات التي تستهدف سوقًا جديدًا.", tags: ["Strategy", "Moat"] },
-      { id: "mom-test", title: "The Mom Test", author: "Rob Fitzpatrick", isbn: "9781492180746", image: cover("9781492180746"), importance: "دليل عملي لإجراء مقابلات عملاء تكشف المشكلة الحقيقية دون أسئلة منحازة.", projects: "أبحاث العملاء، حلول المؤسسات، وتحقق أفكار الشركات الناشئة.", tags: ["Customers", "Research"] },
-      { id: "inspired", title: "Inspired", author: "Marty Cagan", isbn: "9781119387503", image: cover("9781119387503"), importance: "يبني طريقة عمل فرق المنتج وتحويل احتياجات المستخدم إلى قرارات واضحة.", projects: "SaaS، تطبيقات المؤسسات، ومنتجات التعليم الرقمية.", tags: ["Product", "Teams"] },
-      { id: "crossing-chasm", title: "Crossing the Chasm", author: "Geoffrey A. Moore", isbn: "9780062292988", image: cover("9780062292988"), importance: "يفسر الانتقال من المستخدمين الأوائل إلى سوق واسع قابل للتوسع.", projects: "B2B SaaS، حلول Cloud، وتقنيات المؤسسات.", tags: ["Go-to-market", "B2B"] },
-      { id: "hooked", title: "Hooked", author: "Nir Eyal", isbn: "9781591847786", image: cover("9781591847786"), importance: "يساعدك على تصميم حلقات استخدام مفيدة وأخلاقية تزيد العودة للمنتج.", projects: "تطبيقات المستهلك، المنصات التعليمية، والمنتجات ذات الاستخدام المتكرر.", tags: ["Retention", "UX"] },
+      { id: "mvp", title: "Minimum Viable Product (MVP)", author: "Business Models Super Guides", image: "/book-covers/mvp.jpg", pdfPath: pdf("Business%20Models%20-%20Super%20Guides%20Bundle/17.%20Minimum-Viable-Product-MVP-txseve.pdf"), importance: "يساعد الفريق على تحديد أصغر منتج يثبت القيمة قبل بناء منظومة كبيرة.", projects: "MVP، SaaS، EdTech، ومنتجات AI في مرحلة التحقق.", tags: ["MVP", "Validation"] },
+      { id: "business-model-canvas", title: "Business Model Canvas Explained", author: "Business Models Super Guides", image: "/book-covers/business-model-canvas.jpg", pdfPath: pdf("Business%20Models%20-%20Super%20Guides%20Bundle/52.%20Business_Model_Canvas_Explained-bhmuli.pdf"), importance: "يحول فكرة الشركة إلى نموذج واضح للقيمة والعملاء والقنوات والتكاليف.", projects: "تخطيط الشركات، المنصات، والخدمات المؤسسية.", tags: ["Strategy", "Canvas"] },
+      { id: "product-market-fit", title: "Super Guide: Product-Market Fit", author: "Business Models Super Guides", image: "/book-covers/product-market-fit.jpg", pdfPath: pdf("Business%20Models%20-%20Super%20Guides%20Bundle/27.%20Super_Guide_Product_Market_Fit-javh8c.pdf"), importance: "يضع إطارًا لاختبار التوافق بين المشكلة والحل والسوق قبل التوسع.", projects: "SaaS، التطبيقات، وفرق اكتشاف المنتج.", tags: ["PMF", "Customers"] },
+      { id: "go-to-market", title: "Go-to-Market Strategies", author: "Business Models Super Guides", image: "/book-covers/go-to-market.jpg", pdfPath: pdf("Business%20Models%20-%20Super%20Guides%20Bundle/54.%20Go-to-Market_Strategies-px4w6a.pdf"), importance: "يساعدك على اختيار العميل المثالي والرسالة والقناة وخطة الإطلاق.", projects: "B2B SaaS، Cloud، ومشاريع التوسع التجاري.", tags: ["GTM", "Growth"] },
+      { id: "saas-business-model", title: "Super Guide: SaaS Business Model", author: "Business Models Super Guides", image: "/book-covers/saas-business-model.jpg", pdfPath: pdf("Business%20Models%20-%20Super%20Guides%20Bundle/13.%20Super-Guide-SaaS-Business-Model-4-xnexrn.pdf"), importance: "يشرح عناصر نموذج SaaS ومؤشرات الإيراد والاحتفاظ والتوسع.", projects: "SaaS، اشتراكات B2B، ومنتجات Cloud.", tags: ["SaaS", "Metrics"] },
+      { id: "edtech-business-model", title: "EdTech Business Model", author: "Business Models Super Guides", image: "/book-covers/edtech-business-model.jpg", pdfPath: pdf("Business%20Models%20-%20Super%20Guides%20Bundle/15.%20EdTech_Business_Model-q5nnpi.pdf"), importance: "يربط نموذج الإيراد بتجربة المتعلم والمؤسسة والنتيجة التعليمية.", projects: "EdTech، الجامعات، التدريب، ومنصات التعلم.", tags: ["EdTech", "Education"] },
     ],
   },
   {
-    id: "ai-growth",
-    name: "كتالوج AI والنمو والتوسع",
-    subtitle: "كتب مناسبة للشركات التي تبني أتمتة وAI وCloud أو تقود تحولًا داخل مؤسسة.",
+    id: "business-explained",
+    name: "كتالوج الإدارة والـ AI والتنفيذ",
+    subtitle: "أغلفة أصلية من مجلد Business Explained داخل المستودع، مناسبة لفرق التنفيذ والنمو.",
     books: [
-      { id: "ai-superpowers", title: "AI Superpowers", author: "Kai-Fu Lee", isbn: "9781328543967", image: cover("9781328543967"), importance: "يقدم منظورًا عمليًا لتأثير الذكاء الاصطناعي على الأعمال والمهارات والأسواق.", projects: "AI SaaS، التعليم، وخدمات الأتمتة للمؤسسات.", tags: ["AI", "Markets"] },
-      { id: "coming-wave", title: "The Coming Wave", author: "Mustafa Suleyman", isbn: "9780593593950", image: cover("9780593593950"), importance: "يساعد فرق القيادة على فهم فرص ومخاطر موجة النماذج والأنظمة الذكية.", projects: "حوكمة AI، منتجات المؤسسات، واستراتيجية الابتكار.", tags: ["AI strategy", "Risk"] },
-      { id: "prediction-machines", title: "Prediction Machines", author: "Ajay Agrawal et al.", isbn: "9781633695672", image: cover("9781633695672"), importance: "يبسط اقتصاديات الذكاء الاصطناعي وكيفية اختيار حالات الاستخدام ذات العائد.", projects: "تحليلات، FinTech، لوجستيات، وأتمتة القرار.", tags: ["Economics", "Use cases"] },
-      { id: "fourth-revolution", title: "The Fourth Education Revolution", author: "Sir Anthony Seldon", isbn: "9781472926032", image: cover("9781472926032"), importance: "يفتح نقاشًا عمليًا حول دور التقنية والذكاء الاصطناعي في مستقبل التعليم.", projects: "EdTech، الجامعات، التدريب المؤسسي، ومنصات التعلم.", tags: ["Education", "Future"] },
-      { id: "measure-what-matters", title: "Measure What Matters", author: "John Doerr", isbn: "9780525536222", image: cover("9780525536222"), importance: "يحول الرؤية إلى أهداف ونتائج قابلة للقياس داخل الفريق.", projects: "شركات النمو، برامج التحول، والفرق متعددة التخصصات.", tags: ["OKRs", "Growth"] },
-      { id: "platform-revolution", title: "Platform Revolution", author: "Geoffrey Parker et al.", isbn: "9780393249132", image: cover("9780393249132"), importance: "يشرح بناء المنصات والأسواق متعددة الأطراف وتأثير الشبكة.", projects: "Marketplaces، شبكات التعليم، ومنصات الخدمات الرقمية.", tags: ["Platforms", "Network"] },
+      { id: "artificial-intelligence", title: "Artificial Intelligence Explained", author: "Business Explained", image: "/book-covers/artificial-intelligence.jpg", pdfPath: pdf("Business%20Explained/Artificial-Intelligence-EXPLAINED-by-Business-Explained-v6.pdf"), importance: "مدخل عملي لفهم فرص الذكاء الاصطناعي واختيار حالات استخدام قابلة للتطبيق.", projects: "AI SaaS، الأتمتة، التعليم، وتحول المؤسسات.", tags: ["AI", "Automation"] },
+      { id: "machine-learning", title: "Machine Learning Explained", author: "Business Explained", image: "/book-covers/machine-learning.jpg", pdfPath: pdf("Business%20Explained/Machine-Learning-EXPLAINED-by-Business-Explained-v2.pdf"), importance: "يبني لغة مشتركة بين الفرق التجارية والتقنية حول النماذج والبيانات.", projects: "تحليلات، تنبؤ، توصيات، ومنتجات تعتمد على البيانات.", tags: ["ML", "Data"] },
+      { id: "agile-manual", title: "Agile Manual", author: "Business Explained", image: "/book-covers/agile-manual.jpg", pdfPath: pdf("Business%20Explained/Agile-Manual-by-Business-Explained-v2.pdf"), importance: "يحول العمل إلى دورات قصيرة بتغذية راجعة وتسليم مستمر.", projects: "فرق البرمجيات، MVP، وفرق المنتجات متعددة التخصصات.", tags: ["Agile", "Delivery"] },
+      { id: "strategic-management", title: "Strategic Management Explained", author: "Business Explained", image: "/book-covers/strategic-management.jpg", pdfPath: pdf("Business%20Explained/Strategic-Management-Explained-by-Business-Explained-v3.pdf"), importance: "يساعد القيادة على ربط الرؤية بالأهداف والقرارات والموارد.", projects: "الشركات المتوسطة، المؤسسات التعليمية، والتوسع.", tags: ["Strategy", "Leadership"] },
+      { id: "financial-management", title: "Financial Management Explained", author: "Business Explained", image: "/book-covers/financial-management.jpg", pdfPath: pdf("Business%20Explained/Financial-Management-EXPLAINED-by-Business-Explained-v5.pdf"), importance: "يمنح الفريق أساسًا لفهم التدفق النقدي والتكاليف والقرارات المالية.", projects: "النماذج المالية، التسعير، والاستعداد للاستثمار.", tags: ["Finance", "Runway"] },
+      { id: "project-management", title: "Project Management Explained", author: "Business Explained", image: "/book-covers/project-management.jpg", pdfPath: pdf("Business%20Explained/Project-Management-Explained-by-Business-Explained-v4.pdf"), importance: "ينظم النطاق والمسؤوليات والمخاطر والتسليم من البداية إلى النهاية.", projects: "تنفيذ Cloud، التحول الرقمي، ومشاريع المؤسسات.", tags: ["Projects", "Operations"] },
     ],
   },
 ];

@@ -600,3 +600,20 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .book-projects { padding-top: 12px; border-top: 1px solid #edf0f2; color: #526b5d; font-size: 11px; line-height: 1.65; }
 .book-projects strong { color: #d9664d; }
 @media (max-width: 620px) { .books-main { width: min(100% - 30px, 1220px); padding-top: 42px; } .book-catalog-heading { display: block; } .book-slider-controls { margin-top: 15px; } .book-slider { grid-auto-columns: minmax(265px, 84vw); } }
+
+/* Original PDF cover carousels on the homepage */
+.home-book-library { padding-top: 68px; padding-bottom: 75px; }
+.home-book-catalog { margin-top: 28px; }
+.home-book-catalog-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; color: var(--ink); }
+.home-book-catalog-title strong { font-size: 16px; }
+.home-book-catalog-title span { color: #8996a4; font-size: 10px; }
+.home-book-slider { grid-auto-columns: minmax(230px, 285px); padding-bottom: 15px; }
+.home-book-card { display: flex; align-items: center; gap: 12px; min-height: 102px; padding: 10px; overflow: hidden; border: 1px solid #dfe6e9; border-radius: 13px; color: inherit; background: #fff; text-decoration: none; box-shadow: 0 10px 28px rgba(28,49,67,.05); transition: transform .2s ease, border-color .2s ease; }
+.home-book-card:hover { transform: translateY(-3px); border-color: #b7ccda; }
+.home-book-cover { width: 57px; height: 80px; flex: 0 0 57px; overflow: hidden; border-radius: 5px; background: #182844; box-shadow: 0 6px 14px rgba(14,27,51,.2); }
+.home-book-cover img { width: 100%; height: 100%; object-fit: cover; }
+.home-book-card > div:last-child { min-width: 0; }
+.home-book-card strong, .home-book-card small { display: block; }
+.home-book-card strong { overflow: hidden; color: #27374a; font-size: 12px; line-height: 1.45; text-overflow: ellipsis; white-space: nowrap; }
+.home-book-card small { display: -webkit-box; overflow: hidden; margin-top: 7px; color: #81909d; font-size: 9px; line-height: 1.55; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+@media (max-width: 620px) { .home-book-library { padding-top: 48px; } .home-book-slider { grid-auto-columns: minmax(235px, 78vw); } }
