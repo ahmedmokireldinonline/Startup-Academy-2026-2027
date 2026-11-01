@@ -6,7 +6,7 @@ import { whatsappUrl } from "@/lib/access";
 
 type Investor = (typeof investorData)[number];
 
-type EnrichedInvestor = Investor & { country: string; investments: string[]; image: string };
+type EnrichedInvestor = Investor & { country: string; investments: string[] };
 
 const typeLabels: Record<string, string> = {
   "Angel investor": "مستثمر ملاك",
@@ -28,20 +28,20 @@ function investmentsFor(item: Investor) {
   return Array.from(new Set(companies)).slice(0, 5);
 }
 
-function fallbackImageFor(item: Investor) {
-  return `https://api.dicebear.com/9.x/initials/svg?backgroundColor=16243d&fontFamily=Arial&fontWeight=700&seed=${encodeURIComponent(item.name)}`;
-}
-
-function imageFor(item: Investor) {
-  const slug = item.url.split("/").filter(Boolean).pop() || item.name.toLowerCase().replace(/\s+/g, "-");
-  return `https://unavatar.io/angel.co/${slug}`;
+function initialsFor(name: string) {
+  return name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase();
 }
 
 const enrichedData: EnrichedInvestor[] = investorData.map((item) => ({
   ...item,
   country: countryFor(item.location),
   investments: investmentsFor(item),
-  image: imageFor(item),
 }));
 
 function FilterSelect({ label, value, options, onChange }: { label: string; value: string; options: Array<{ value: string; label: string }>; onChange: (value: string) => void }) {
@@ -75,7 +75,7 @@ export default function Investors() {
           <div className="investor-search-row"><label className="investor-search"><Search size={18} /><input value={query} onChange={(event) => { setQuery(event.target.value); setVisibleCount(60); }} placeholder="ابحث بالاسم، الشركة، الدولة أو المجال..." />{query ? <button onClick={() => setQuery("")} aria-label="مسح البحث"><X size={15} /></button> : null}</label><button className="reset-filters" onClick={reset}><RotateCcw size={14} /> إعادة ضبط</button></div>
           <div className="filter-panel"><div className="filter-panel-heading"><div><strong>فلترة المستثمرين</strong><small>اختر معايير واضحة لتضييق النتائج</small></div>{activeFilters ? <span>{activeFilters} فلاتر مفعلة</span> : <span>كل السجلات</span>}</div><div className="filter-grid"><FilterSelect label="نوع المستثمر" value={type} options={types.map((item) => ({ value: item, label: typeLabels[item] || item }))} onChange={(value) => { setType(value); setVisibleCount(60); }} /><FilterSelect label="الدولة" value={country} options={countries.map((item) => ({ value: item, label: item }))} onChange={(value) => { setCountry(value); setVisibleCount(60); }} /><FilterSelect label="المجال" value={focus} options={focuses.map((item) => ({ value: item, label: item }))} onChange={(value) => { setFocus(value); setVisibleCount(60); }} /></div><div className="quick-filters"><span>الأكثر بحثًا:</span>{["SaaS", "B2B", "AI", "Fintech", "United States"].map((item) => <button key={item} className={query === item ? "is-active" : ""} onClick={() => { setQuery(item); setVisibleCount(60); }}>{item}</button>)}</div></div>
           <div className="results-bar"><span>عرض <strong>{Math.min(visibleCount, filtered.length).toLocaleString("en-US")}</strong> من {filtered.length.toLocaleString("en-US")} نتيجة</span><span className="results-hint"><Check size={14} /> بدون روابط خارجية للمستثمرين</span></div>
-          <div className="investor-grid">{filtered.slice(0, visibleCount).map((item) => <article className="investor-card investor-card-clean" key={item.id}><div className="investor-card-top"><img className="investor-photo" src={item.image} alt={`${item.name} profile`} loading="lazy" onError={(event) => { if (!event.currentTarget.dataset.fallbackApplied) { event.currentTarget.dataset.fallbackApplied = "true"; event.currentTarget.src = fallbackImageFor(item); } }} /><div><h3>{item.name}</h3><span>{typeLabels[item.type] || item.type}</span></div></div><div className="investor-meta-row"><span><Globe2 size={12} /> {item.country}</span><span>{item.focus || "SaaS"}</span></div><div className="investor-companies"><small>شركات استثمر فيها</small><div>{item.investments.length ? item.investments.map((company) => <span key={company}>{company}</span>) : <span>{item.focus || "SaaS portfolio"}</span>}</div></div><a className="investor-copy-cta" href={whatsappUrl(`أريد حجز النسخة الكاملة من ملف ${item.name}`)} target="_blank" rel="noreferrer"><MessageCircle size={13} /> اطلب الملف الكامل عبر WhatsApp</a></article>)}</div>
+          <div className="investor-grid">{filtered.slice(0, visibleCount).map((item) => <article className="investor-card investor-card-clean" key={item.id}><div className="investor-card-top"><div className="investor-photo" aria-hidden="true">{initialsFor(item.name)}</div><div className="investor-card-identity"><h3>{item.name}</h3><span>{typeLabels[item.type] || item.type}</span></div></div><p className="investor-profile-summary">{item.details || `${item.name} مستثمر مهتم بمجال ${item.focus || "SaaS"}.`}</p><div className="investor-meta-row"><span><Globe2 size={12} /> {item.country}</span><span>{item.focus || "SaaS"}</span></div><div className="investor-companies"><small>شركات أو جهات مرتبطة بالبروفايل</small><div>{item.investments.length ? item.investments.map((company) => <span key={company}>{company}</span>) : <span>{item.focus || "SaaS portfolio"}</span>}</div></div><div className="investor-source-row"><span>{item.role || typeLabels[item.type] || item.type}</span><span>{item.source}</span></div><a className="investor-copy-cta" href={whatsappUrl(`أريد حجز النسخة الكاملة من ملف ${item.name}`)} target="_blank" rel="noreferrer"><MessageCircle size={13} /> اطلب الملف الكامل عبر WhatsApp</a></article>)}</div>
           {filtered.length > visibleCount ? <button className="load-more-investors" onClick={() => setVisibleCount((count) => count + 60)}>عرض 60 مستثمرًا إضافيًا <ArrowUpRight size={15} /></button> : null}
           {filtered.length === 0 ? <div className="empty-state"><Search size={27} /><strong>لا توجد نتائج مطابقة.</strong><button onClick={reset}>إعادة ضبط الفلاتر</button></div> : null}
         </section>
