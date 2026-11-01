@@ -648,3 +648,17 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .home-book-cover { position: relative; flex: 0 0 64px; width: 64px; height: 88px; }
 .home-book-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
 @media (max-width: 620px) { .home-book-slider { margin-inline: -2px; padding-inline: 2px; } .home-book-card { flex-basis: min(285px, 82vw); } }
+
+/* RTL stability for horizontal catalog tracks */
+.academy-shell.rtl .program-lane-window,
+.academy-shell.rtl .program-lane-track,
+.academy-shell.rtl .marquee-window,
+.academy-shell.rtl .program-marquee-track,
+.academy-shell.rtl .home-book-slider,
+.academy-shell.rtl .home-book-track { direction: ltr; unicode-bidi: isolate; }
+.academy-shell.rtl .program-lane-window,
+.academy-shell.rtl .marquee-window { overflow-x: auto; overflow-y: hidden; mask-image: none; -webkit-mask-image: none; scrollbar-width: thin; scrollbar-color: #aab9c4 transparent; }
+.academy-shell.rtl .program-lane-track,
+.academy-shell.rtl .program-marquee-track { animation: none; }
+.academy-shell.rtl .home-book-slider { scroll-snap-type: x proximity; scroll-behavior: auto; overscroll-behavior-x: contain; }
+.academy-shell.rtl .home-book-card { direction: rtl; }
