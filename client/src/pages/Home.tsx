@@ -178,6 +178,7 @@ export default function Home() {
             <button onClick={() => scrollTo("opportunities")}>{isArabic ? "الفرص" : "Opportunities"}</button>
             <a className="main-nav-link" href="/programs">{isArabic ? "كل البرامج" : "All programs"}</a>
             <a className="main-nav-link" href="/investors">{isArabic ? "المستثمرون" : "Investors"}</a>
+            <a className="main-nav-link" href="/books">{isArabic ? "مكتبة الكتب" : "Book library"}</a>
             <a className="main-nav-link" href="/dashboard">{isArabic ? "لوحة الحساب" : "Dashboard"}</a>
             <a className="main-nav-link" href="/register">{isArabic ? "التسجيل" : "Register"}</a>
             <a className="main-nav-link admin-nav-link" href="/admin/login"><LockKeyhole size={13} /> {isArabic ? "دخول الإدارة" : "Admin login"}</a>
@@ -192,7 +193,7 @@ export default function Home() {
             <span className="eyebrow hero-eyebrow"><span className="live-dot" /> {copy.eyebrow}</span>
             <h1>{copy.title}<br /><em>{copy.accent}</em></h1>
             <p>{copy.body}</p>
-            <div className="hero-actions"><button className="button button-primary" onClick={() => scrollTo("journey")}>{copy.start} <ArrowLeft size={16} /></button><a className="button button-secondary" href="/programs">{copy.opportunities} <ArrowUpRight size={16} /></a></div>
+            <div className="hero-actions"><button className="button button-primary" onClick={() => scrollTo("journey")}>{copy.start} <ArrowLeft size={16} /></button><a className="button button-secondary" href="/programs">{copy.opportunities} <ArrowUpRight size={16} /></a><a className="button button-secondary" href="/dashboard">{isArabic ? "الأسعار والحجز" : "Plans & booking"} <ArrowUpRight size={16} /></a></div>
             <div className="compact-proof"><span><strong>{programs.length}</strong> {isArabic ? "برنامج" : "programs"}</span><span><strong>{learningPhases.length}</strong> {isArabic ? "مراحل" : "stages"}</span><span><strong>132+</strong> {isArabic ? "مورد" : "resources"}</span></div>
           </div>
           <div className="compact-hero-visual"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="hero-visual-core"><GraduationCap size={32} /><strong>{progress}%</strong><span>{isArabic ? "جاهزية المسار" : "path readiness"}</span></div><div className="hero-visual-badge badge-top"><CheckCircle2 size={15} /> {isArabic ? "مصدر رسمي" : "Official source"}</div><div className="hero-visual-badge badge-bottom"><Trophy size={15} /> {isArabic ? "فرصة مناسبة" : "Fit opportunity"}</div></div>
