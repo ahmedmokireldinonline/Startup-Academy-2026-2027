@@ -617,3 +617,15 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .home-book-card strong { overflow: hidden; color: #27374a; font-size: 12px; line-height: 1.45; text-overflow: ellipsis; white-space: nowrap; }
 .home-book-card small { display: -webkit-box; overflow: hidden; margin-top: 7px; color: #81909d; font-size: 9px; line-height: 1.55; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
 @media (max-width: 620px) { .home-book-library { padding-top: 48px; } .home-book-slider { grid-auto-columns: minmax(235px, 78vw); } }
+
+/* Continuous book carousels */
+.book-auto-slider { display: block; overflow: hidden; scroll-behavior: smooth; }
+.book-auto-track { display: flex; width: max-content; gap: 16px; animation: books-auto-scroll 150s linear infinite; }
+.book-auto-track:hover, .book-auto-slider:focus-within .book-auto-track { animation-play-state: paused; }
+.book-auto-track .book-card { flex: 0 0 330px; }
+.home-auto-slider { padding-inline: 2px; }
+.home-auto-slider .book-auto-track { gap: 16px; animation-duration: 115s; }
+.home-auto-slider .home-book-card { flex: 0 0 285px; }
+@keyframes books-auto-scroll { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 8px)); } }
+@media (max-width: 620px) { .book-auto-track .book-card { flex-basis: min(330px, 84vw); } .home-auto-slider .home-book-card { flex-basis: 78vw; } .book-auto-track { animation-duration: 115s; } }
+@media (prefers-reduced-motion: reduce) { .book-auto-track { animation: none; } .book-auto-slider { overflow-x: auto; } }
