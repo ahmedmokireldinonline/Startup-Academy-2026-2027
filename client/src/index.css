@@ -563,3 +563,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @media (prefers-reduced-motion: reduce) { .testimonial-marquee-track { animation:none; } }
 
 .source-button-locked{color:#31577a!important;background:#eef5fb!important;border-color:#d5e4f0!important}.data-table td small{display:block;margin-top:6px;line-height:1.55}
+
+.admin-registration-table{margin-top:20px;border:1px solid #e0e8e2;border-radius:13px;overflow:hidden}.admin-registration-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px;border-bottom:1px solid #edf1ed}.admin-registration-row:last-child{border-bottom:0}.admin-registration-row strong,.admin-registration-row small{display:block}.admin-registration-row small{margin-top:5px;color:#829087;font-size:11px}.admin-registration-row select{border:1px solid #dbe5de;border-radius:8px;background:#fbfdfb;color:#304d3e;padding:9px 12px;font:inherit;font-size:12px}
+@media (max-width:620px){.admin-registration-row{align-items:stretch;flex-direction:column}.admin-registration-row select{width:100%}}

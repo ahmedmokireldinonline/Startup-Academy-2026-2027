@@ -1560,6 +1560,24 @@ async function createContext(opts) {
   } catch (error) {
     user = null;
   }
+  if (!user) {
+    const cookieHeader = opts.req.headers.cookie || "";
+    const token = cookieHeader.split(";").map((part) => part.trim()).find((part) => part.startsWith(`${ADMIN_SESSION_COOKIE}=`))?.slice(ADMIN_SESSION_COOKIE.length + 1);
+    const adminSession = verifyAdminSession(token);
+    if (adminSession) {
+      user = {
+        id: 0,
+        openId: `admin-session:${adminSession.email}`,
+        name: "Startup Academy Super Admin",
+        email: adminSession.email,
+        loginMethod: "admin_password",
+        role: "super_admin",
+        createdAt: /* @__PURE__ */ new Date(0),
+        updatedAt: /* @__PURE__ */ new Date(),
+        lastSignedIn: /* @__PURE__ */ new Date()
+      };
+    }
+  }
   return {
     req: opts.req,
     res: opts.res,

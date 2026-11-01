@@ -14,7 +14,7 @@ export default function AdminLogin() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    if (!loading && user?.role === "admin") navigate("/admin");
+    if (!loading && (user?.role === "admin" || user?.role === "super_admin")) navigate("/admin/control");
   }, [loading, navigate, user]);
 
   async function submitPasswordLogin(event: FormEvent<HTMLFormElement>) {
@@ -57,7 +57,7 @@ export default function AdminLogin() {
             {error ? <div className="admin-login-error" role="alert">{error}</div> : null}
             <button className="button button-primary admin-login-button" type="submit" disabled={submitting}>{submitting ? "جارٍ تسجيل الدخول..." : "دخول بالبريد وكلمة المرور"} <KeyRound size={16} /></button>
           </form>
-          {user && user.role !== "admin" && <div className="admin-warning">تم تسجيل الدخول، لكن هذا الحساب ليس لديه صلاحية Admin.</div>}
+          {user && user.role !== "admin" && user.role !== "super_admin" && <div className="admin-warning">تم تسجيل الدخول، لكن هذا الحساب ليس لديه صلاحية Admin.</div>}
           <div className="admin-login-divider"><span>أو</span></div>
           <button className="button button-secondary admin-login-button" onClick={() => startLogin()} disabled={loading}>{loading ? "جاري التحقق..." : "الدخول الرسمي بالحساب"} <LockKeyhole size={16} /></button>
           <small>يتم التحقق من صلاحية Admin من الخادم، وليس من المتصفح.</small>
