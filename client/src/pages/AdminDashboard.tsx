@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { BarChart3, CheckCircle2, Database, FileLock2, Settings2, ShieldCheck, Sparkles, Users, WalletCards } from "lucide-react";
+import { trpc } from "@/lib/trpc";
+import AdminLogin from "./AdminLogin";
 
 const initialTiers = [
   { id: "standard", name: "Standard Access", price: 3000, description: "المكتبة الأساسية والبرامج القياسية", active: true, members: 0 },
@@ -7,9 +9,12 @@ const initialTiers = [
 ];
 
 export default function AdminDashboard() {
+  const me = trpc.auth.me.useQuery();
   const [tiers, setTiers] = useState(initialTiers);
   const [saved, setSaved] = useState(false);
   const updateTier = (id: string, field: "name" | "price" | "description", value: string) => setTiers((items) => items.map((item) => item.id === id ? { ...item, [field]: field === "price" ? Number(value) : value } : item));
+  if (me.isLoading) return <div className="admin-login-shell" dir="rtl"><main className="admin-login-main"><section className="admin-login-card"><span className="eyebrow">جارٍ التحقق</span><h1>نجهز مساحة الإدارة.</h1><p>يتم التحقق من صلاحية Admin أو Super Admin من الخادم.</p></section></main></div>;
+  if (!me.data || !["admin", "super_admin"].includes(me.data.role)) return <AdminLogin />;
   return <div className="admin-shell" dir="rtl">
     <header className="dashboard-header admin-header"><a className="brand" href="/"><span className="brand-mark"><Sparkles size={16} /></span><span><strong>Startup Academy</strong><small>Admin Control Center</small></span></a><div className="admin-identity"><ShieldCheck size={16} /> admin@startupacademy.com <a href="/">خروج</a></div></header>
     <main className="admin-main">
