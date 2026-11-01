@@ -4,6 +4,7 @@ import { createServer } from "http";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { registerOAuthRoutes } from "./oauth";
 import { publicPlatformScript } from "./publicConfig";
+import { clearAdminSessionCookie, createAdminSession, setAdminSessionCookie, verifyAdminCredentials } from "./adminPassword";
 import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
@@ -17,6 +18,19 @@ async function startServer() {
   app.get("/api/health", (_req, res) => res.json({ status: "ok" }));
   app.get("/api/platform/config.js", (_req, res) => {
     res.set("Cache-Control", "no-store").type("application/javascript").send(publicPlatformScript());
+  });
+  app.post("/api/admin/login", (req, res) => {
+    const email = typeof req.body?.email === "string" ? req.body.email : "";
+    const password = typeof req.body?.password === "string" ? req.body.password : "";
+    if (!verifyAdminCredentials(email, password)) {
+      return res.status(401).json({ ok: false, message: "بيانات دخول المشرف غير صحيحة أو غير مهيأة." });
+    }
+    setAdminSessionCookie(res, createAdminSession(email));
+    return res.json({ ok: true });
+  });
+  app.post("/api/admin/logout", (_req, res) => {
+    clearAdminSessionCookie(res);
+    return res.json({ ok: true });
   });
   registerOAuthRoutes(app);
   // tRPC API

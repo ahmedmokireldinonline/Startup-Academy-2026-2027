@@ -7,6 +7,7 @@ import { SignJWT, jwtVerify } from "jose";
 import type { User } from "../../drizzle/schema";
 import * as db from "../db";
 import { ENV } from "./env";
+import { ADMIN_SESSION_COOKIE, verifyAdminSession } from "./adminPassword";
 import type {
   ExchangeTokenRequest,
   ExchangeTokenResponse,
@@ -257,8 +258,24 @@ class SDKServer {
   }
 
   async authenticateRequest(req: Request): Promise<AuthenticatedUser> {
-    // 1. Prefer the session cookie (regular OAuth login).
+    // 1. Accept the separately signed admin-password session.
     const cookies = this.parseCookies(req.headers.cookie);
+    const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE));
+    if (adminSession) {
+      return {
+        id: 0,
+        openId: `admin-password:${adminSession.email}`,
+        name: "Administrator",
+        email: adminSession.email,
+        loginMethod: "admin-password",
+        role: "admin",
+        createdAt: new Date(0),
+        updatedAt: new Date(),
+        lastSignedIn: new Date(),
+      } as AuthenticatedUser;
+    }
+
+    // 2. Prefer the session cookie (regular OAuth login).
     let sessionToken = cookies.get(COOKIE_NAME);
     if (!sessionToken && req.path.startsWith("/api/scheduled/")) {
       const ticket = cookies.get("app_session_id");
@@ -266,7 +283,7 @@ class SDKServer {
       if (identity?.openId.startsWith(CRON_OPEN_ID_PREFIX)) sessionToken = ticket;
     }
 
-    // 2. Fallback to the Authorization header (Preview auto-login via
+    // 3. Fallback to the Authorization header (Preview auto-login via
     //    sessionStorage), used when the browser blocks iframe cookies such as
     //    Safari ITP, private browsing, or iOS/Android WebView.
     if (!sessionToken) {
