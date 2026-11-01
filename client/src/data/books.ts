@@ -19,7 +19,7 @@ export type BookCatalog = {
 export const bookCatalogs: BookCatalog[] = [
   {
     "id": "business-models",
-    "name": "كتالوج نماذج الأعمال وبناء المنتج",
+    "name": "Business Models & Product Building",
     "subtitle": "أكثر من خمسين دليلًا أصليًا من مجلد Business Models - Super Guides Bundle لتصميم النموذج واختبار السوق والتوسع.",
     "books": [
       {
@@ -682,7 +682,7 @@ export const bookCatalogs: BookCatalog[] = [
   },
   {
     "id": "business-explained",
-    "name": "كتالوج الإدارة والـ AI والتنفيذ",
+    "name": "Management, AI & Execution",
     "subtitle": "مجموعة Business Explained الكاملة لتطوير الإدارة والذكاء الاصطناعي والتسويق والعمليات داخل الشركة.",
     "books": [
       {

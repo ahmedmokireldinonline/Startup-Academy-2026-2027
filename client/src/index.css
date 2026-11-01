@@ -629,3 +629,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @keyframes books-auto-scroll { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 8px)); } }
 @media (max-width: 620px) { .book-auto-track .book-card { flex-basis: min(330px, 84vw); } .home-auto-slider .home-book-card { flex-basis: 78vw; } .book-auto-track { animation-duration: 115s; } }
 @media (prefers-reduced-motion: reduce) { .book-auto-track { animation: none; } .book-auto-slider { overflow-x: auto; } }
+
+.book-auto-track-reverse { animation-name: books-auto-scroll-reverse; }
+@keyframes books-auto-scroll-reverse { from { transform: translateX(calc(-50% - 8px)); } to { transform: translateX(0); } }
