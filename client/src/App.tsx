@@ -14,6 +14,7 @@ import Admin from "./pages/Admin";
 import About from "./pages/About";
 import AdminLogin from "./pages/AdminLogin";
 import Books from "./pages/Books";
+import Databases from "./pages/Databases";
 
 function Router() {
   return (
@@ -23,6 +24,7 @@ function Router() {
       <Route path={"/programs"} component={Programs} />
       <Route path={"/investors"} component={Investors} />
       <Route path={"/books"} component={Books} />
+      <Route path={"/databases"} component={Databases} />
       <Route path={"/about"} component={About} />
       <Route path={"/dashboard"} component={UserDashboard} />
       <Route path={"/admin/login"} component={AdminLogin} />
