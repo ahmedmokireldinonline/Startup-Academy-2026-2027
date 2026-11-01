@@ -51,7 +51,7 @@ var protectedProcedure = t.procedure.use(requireUser);
 var adminProcedure = t.procedure.use(
   t.middleware(async (opts) => {
     const { ctx, next } = opts;
-    if (!ctx.user || ctx.user.role !== "admin") {
+    if (!ctx.user || !["admin", "super_admin"].includes(ctx.user.role)) {
       throw new TRPCError({ code: "FORBIDDEN", message: NOT_ADMIN_ERR_MSG });
     }
     return next({
@@ -86,6 +86,15 @@ var ENV = {
   // Preserve the legacy hint when supplied; otherwise roles remain application data.
   get ownerOpenId() {
     return process.env.OWNER_OPEN_ID ?? "";
+  },
+  get adminEmail() {
+    return process.env.ADMIN_EMAIL ?? "";
+  },
+  get adminPasswordHash() {
+    return process.env.ADMIN_PASSWORD_HASH ?? "";
+  },
+  get adminSessionSecret() {
+    return process.env.ADMIN_SESSION_SECRET ?? "";
   },
   get isProduction() {
     return process.env.NODE_ENV === "production";
@@ -223,7 +232,7 @@ var users = mysqlTable("users", {
   name: text("name"),
   email: varchar("email", { length: 320 }),
   loginMethod: varchar("loginMethod", { length: 64 }),
-  role: mysqlEnum("role", ["user", "admin"]).default("user").notNull(),
+  role: mysqlEnum("role", ["user", "admin", "super_admin"]).default("user").notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
   lastSignedIn: timestamp("lastSignedIn").defaultNow().notNull()
@@ -285,9 +294,9 @@ async function upsertUser(user) {
   if (user.role !== void 0) {
     values.role = user.role;
     updateSet.role = user.role;
-  } else if (user.openId === ENV.ownerOpenId) {
-    values.role = "admin";
-    updateSet.role = "admin";
+  } else if (user.openId === ENV.ownerOpenId || user.email?.toLowerCase() === "admin@startupacademy.com") {
+    values.role = "super_admin";
+    updateSet.role = "super_admin";
   }
   values.lastSignedIn ??= /* @__PURE__ */ new Date();
   if (Object.keys(updateSet).length === 0) updateSet.lastSignedIn = /* @__PURE__ */ new Date();
@@ -1254,6 +1263,32 @@ var ForbiddenError = (msg) => new HttpError(403, msg);
 import axios from "axios";
 import { parse as parseCookieHeader } from "cookie";
 import { SignJWT, jwtVerify } from "jose";
+
+// server/_core/adminPassword.ts
+import { createHmac, randomBytes as randomBytes2, scryptSync, timingSafeEqual } from "node:crypto";
+var ADMIN_SESSION_COOKIE = "admin_session";
+var SESSION_TTL_SECONDS = 60 * 60 * 8;
+function secret() {
+  return ENV.adminSessionSecret || ENV.cookieSecret;
+}
+function sign(value) {
+  return createHmac("sha256", secret()).update(value).digest("base64url");
+}
+function verifyAdminSession(token) {
+  if (!token || !secret()) return null;
+  const parts = token.split(".");
+  if (parts.length !== 3) return null;
+  const [email, expiresValue, signature] = parts;
+  const payload = `${email}.${expiresValue}`;
+  const expected = sign(payload);
+  if (signature.length !== expected.length || !timingSafeEqual(Buffer.from(signature), Buffer.from(expected))) return null;
+  const expiresAt = Number(expiresValue);
+  if (!email || !Number.isFinite(expiresAt) || expiresAt <= Date.now()) return null;
+  if (ENV.adminEmail && email !== ENV.adminEmail.trim().toLowerCase()) return null;
+  return { email, expiresAt };
+}
+
+// server/_core/sdk.ts
 var isNonEmptyString2 = (value) => typeof value === "string" && value.length > 0;
 var EXCHANGE_TOKEN_PATH = `/webdev.v1.WebDevAuthPublicService/ExchangeToken`;
 var GET_USER_INFO_PATH = `/webdev.v1.WebDevAuthPublicService/GetUserInfo`;
@@ -1355,9 +1390,9 @@ var SDKServer = class {
     return new Map(Object.entries(parsed));
   }
   getSessionSecret() {
-    const secret = ENV.cookieSecret;
-    if (!secret) throw new Error("MANUS_JWT_SECRET is unavailable");
-    return new TextEncoder().encode(secret);
+    const secret2 = ENV.cookieSecret;
+    if (!secret2) throw new Error("MANUS_JWT_SECRET is unavailable");
+    return new TextEncoder().encode(secret2);
   }
   /**
    * Create a session token for a Manus user openId
@@ -1431,6 +1466,20 @@ var SDKServer = class {
   }
   async authenticateRequest(req) {
     const cookies = this.parseCookies(req.headers.cookie);
+    const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE));
+    if (adminSession) {
+      return {
+        id: 0,
+        openId: `admin-password:${adminSession.email}`,
+        name: "Administrator",
+        email: adminSession.email,
+        loginMethod: "admin-password",
+        role: "admin",
+        createdAt: /* @__PURE__ */ new Date(0),
+        updatedAt: /* @__PURE__ */ new Date(),
+        lastSignedIn: /* @__PURE__ */ new Date()
+      };
+    }
     let sessionToken = cookies.get(COOKIE_NAME);
     if (!sessionToken && req.path.startsWith("/api/scheduled/")) {
       const ticket = cookies.get("app_session_id");
