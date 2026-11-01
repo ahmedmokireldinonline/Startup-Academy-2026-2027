@@ -1,6 +1,6 @@
 import { createHmac, randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
 import type { Response } from "express";
-import { ENV } from "./env";
+import { ENV } from "./env.js";
 
 export const ADMIN_SESSION_COOKIE = "admin_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 8;
