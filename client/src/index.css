@@ -698,3 +698,5 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .academy-shell.rtl .home-auto-slider .home-book-card, .academy-shell.rtl .home-data-card { direction: rtl; }
 @media (max-width: 620px) { .home-auto-slider .home-book-card { flex-basis: 78vw; } .home-data-card { width: 220px; flex-basis: 220px; } }
 @media (prefers-reduced-motion: reduce) { .home-auto-slider .home-book-track, .home-data-marquee-track { animation: none; } .home-auto-slider, .home-data-marquee-window { overflow-x: auto; mask-image: none; -webkit-mask-image: none; } }
+
+.book-description-label { color: #d9664d; font-size: 10px; font-weight: 700; }

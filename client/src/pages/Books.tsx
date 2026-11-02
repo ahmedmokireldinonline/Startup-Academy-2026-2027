@@ -1,6 +1,7 @@
 import { ArrowLeft, ArrowUpRight, BookOpen, ChevronLeft, ChevronRight, ExternalLink, MessageCircle, Search, Sparkles } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 import { bookCatalogs, type AcademyBook, type BookCatalog } from "@/data/books";
+import { getBookDescription } from "@/data/bookDescriptions";
 
 const BOOKING_PHONE = "201012025650";
 
@@ -12,62 +13,13 @@ function whatsappUrl(book: AcademyBook, catalog: BookCatalog, isArabic: boolean)
 }
 
 function descriptionFor(book: AcademyBook, isArabic: boolean) {
-  const title = book.title.toLowerCase();
-  const ar: Array<[string, string]> = [
-    ["business models in", "يقارن هذا الدليل بين منطق النماذج التجارية في القرن العشرين والقرن الحادي والعشرين، ويساعد المؤسس على فهم التحول نحو المنصات والبيانات والاشتراكات."],
-    ["consulting", "يشرح كيف تُبنى أعمال الاستشارات من تحديد المشكلة وتسعير الخبرة إلى تصميم عروض قابلة للتكرار وتحقيق إيراد مستمر."],
-    ["fintech", "يركز على نماذج الأعمال في التقنية المالية، ومصادر الإيراد، والثقة، والامتثال، وكيفية تحويل الخدمة المالية إلى منتج قابل للنمو."],
-    ["insurtech", "يعرض فرص بناء منتجات التأمين الرقمية، من تجربة العميل وتوزيع المنتج إلى الشراكات وإدارة المخاطر."],
-    ["saas", "دليل عملي لبناء شركة SaaS: المشكلة، المنتج، التسعير، الاحتفاظ بالعملاء، المقاييس، ومسار الوصول إلى ملاءمة المنتج للسوق."],
-    ["subscription", "يوضح كيف تصمم نموذج الاشتراك، تختار الباقات، تقلل الإلغاء، وتبني إيرادًا متكررًا يمكن التنبؤ به."],
-    ["minimum viable", "يشرح كيف تختبر الفكرة بأقل منتج قابل للحياة، وتتعلم من العملاء قبل الاستثمار في بناء منتج كامل."],
-    ["open source", "يستعرض طرق تحقيق الدخل من المنتجات مفتوحة المصدر عبر الدعم، الاستضافة، الخدمات المدفوعة، والنسخ المؤسسية."],
-    ["pricing", "مرجع لتصميم استراتيجية التسعير واختيار التكتيك المناسب للقيمة، الشريحة المستهدفة، مرحلة المنتج، والمنافسة."],
-    ["revenue", "يفكك مصادر الإيراد المختلفة وكيفية اختيار النموذج الذي يوازن بين القيمة للعميل واستدامة الشركة."],
-    ["product market fit", "يساعد الفريق على اختبار الحاجة الحقيقية، قياس إشارات التوافق مع السوق، وتحسين المنتج بناءً على الاستخدام لا الافتراضات."],
-    ["cost", "يقدم إطارًا لفهم هيكل التكاليف، التكاليف الثابتة والمتغيرة، ونقاط خفض الإنفاق دون إضعاف النمو."],
-    ["metrics", "يحول مؤشرات نموذج الأعمال إلى لوحة قياس تساعد المؤسس على متابعة النمو، الربحية، والقرارات الأسبوعية."],
-    ["empathy map", "أداة لفهم ما يفكر فيه العميل ويشعر به ويقوله ويفعله، ثم تحويل هذه الملاحظات إلى فرص منتج ورسائل تسويقية."],
-    ["artificial intelligence", "مقدمة عملية لفهم الذكاء الاصطناعي وتطبيقاته التجارية، وكيفية اختيار حالات استخدام واقعية بدل مطاردة المصطلحات."],
-    ["agile", "دليل لتطبيق العمل الرشيق في فرق المنتجات عبر دورات قصيرة، أولويات واضحة، وتسليم متكرر قابل للتعلم."],
-    ["brand", "يشرح بناء العلامة التجارية من التموضع والهوية إلى الرسائل والتجربة التي تجعل الشركة أسهل تذكرًا وثقة."],
-    ["content", "مرجع لتصميم محتوى يجذب الجمهور، يشرح القيمة، ويحوله من متابع إلى عميل عبر نظام إنتاج وتوزيع واضح."],
-    ["customer journey", "يرسم انتقال العميل من الفضول إلى القرار، ويكشف نقاط الاحتكاك التي يجب تحسينها في التسويق والمبيعات والتجربة."],
-    ["customer relationship", "يساعد الشركة على بناء علاقات طويلة مع العملاء عبر التواصل، الخدمة، الاحتفاظ، وبرامج النجاح."],
-    ["marketing", "خطة عملية لتنظيم التسويق من تحديد الجمهور والعرض إلى القنوات والحملات وقياس التحويل."],
-    ["sales", "مرجع لتحسين عملية البيع، من اكتشاف الاحتياج وبناء العرض إلى التعامل مع الاعتراضات وإغلاق الصفقة."],
-    ["leadership", "أفكار وأدوات لبناء قيادة واضحة، اتخاذ قرارات أفضل، وتطوير فريق قادر على التنفيذ في بيئة متغيرة."],
-    ["strategy", "يساعد الفريق على تحويل الرؤية إلى خيارات وأولويات وخطة تنفيذ قابلة للقياس."],
-  ];
-  const match = ar.find(([keyword]) => title.includes(keyword));
-  if (isArabic) return match?.[1] || book.importance.replace("دليل عملي لفهم", "مرجع تطبيقي يشرح").replace("وتحويله إلى قرارات قابلة للتنفيذ داخل المشروع.", "ويحوّله إلى خطوات يمكن تطبيقها داخل الشركة.");
-  const en: Array<[string, string]> = [
-    ["business models in", "A practical comparison of twentieth- and twenty-first-century business models, including platforms, data, subscriptions, and scalable digital value."],
-    ["consulting", "A guide to building consulting offers, packaging expertise, pricing services, and creating repeatable revenue."],
-    ["fintech", "Explores fintech business models, revenue streams, trust, compliance, and the path from financial service to scalable product."],
-    ["insurtech", "Covers digital insurance opportunities, customer experience, distribution, partnerships, and risk management."],
-    ["saas", "A practical SaaS playbook covering the problem, product, pricing, retention, metrics, and product-market fit."],
-    ["subscription", "Explains subscription design, packaging, retention, churn reduction, and predictable recurring revenue."],
-    ["minimum viable", "Shows how to test an idea with the smallest useful product and learn from customers before overbuilding."],
-    ["open source", "Explores monetization paths for open-source products through support, hosting, services, and enterprise editions."],
-    ["pricing", "A reference for pricing strategy and tactics based on value, segment, product stage, and competition."],
-    ["product market fit", "Helps teams test real demand, measure market signals, and improve the product from usage evidence."],
-    ["artificial intelligence", "An accessible guide to AI concepts and practical business use cases without chasing hype."],
-    ["agile", "A guide to short delivery cycles, clear priorities, and continuous learning in product teams."],
-    ["brand", "Explains positioning, identity, messaging, and experience so a company becomes easier to remember and trust."],
-    ["content", "A practical reference for content that attracts an audience, communicates value, and supports conversion."],
-    ["customer journey", "Maps the journey from curiosity to decision and reveals friction across marketing, sales, and experience."],
-    ["marketing", "A structured marketing guide covering audience, offer, channels, campaigns, and conversion measurement."],
-    ["sales", "A practical sales reference from discovery and offer design to objections and closing."],
-  ];
-  const matchEn = en.find(([keyword]) => title.includes(keyword));
-  return matchEn?.[1] || `A practical reference on ${book.title}, with frameworks that founders and teams can apply to planning, execution, and growth.`;
+  return getBookDescription(book, isArabic);
 }
 
 function BookCard({ book, catalog, isArabic }: { book: AcademyBook; catalog: BookCatalog; isArabic: boolean }) {
   return <article className="book-card">
     <div className="book-cover-wrap"><img src={book.image} alt={isArabic ? `غلاف كتاب ${book.title}` : `${book.title} cover`} loading="lazy" onError={(event) => { event.currentTarget.style.visibility = "hidden"; }} /><span className="book-cover-fallback"><BookOpen size={23} /></span></div>
-    <div className="book-card-body"><div className="book-tags">{book.tags.map((tag) => <span key={tag}>{tag}</span>)}</div><h3>{book.title}</h3><small>{book.author}</small><p>{descriptionFor(book, isArabic)}</p><div className="book-projects"><strong>{isArabic ? "يناسب:" : "Best for:"}</strong> {book.projects}</div><div className="book-card-actions"><a className="book-preview" href={book.pdfPath} target="_blank" rel="noreferrer"><ExternalLink size={13} /> {isArabic ? "عرض الكتاب" : "Preview"}</a><a className="book-reserve" href={whatsappUrl(book, catalog, isArabic)} target="_blank" rel="noreferrer"><MessageCircle size={14} /> {isArabic ? "احجز عبر واتساب" : "Reserve on WhatsApp"}</a></div></div>
+    <div className="book-card-body"><div className="book-tags">{book.tags.map((tag) => <span key={tag}>{tag}</span>)}</div><h3>{book.title}</h3><small>{book.author}</small><p><strong className="book-description-label">{isArabic ? "عن الكتاب والاستخدام:" : "About and practical use:"}</strong> {descriptionFor(book, isArabic)}</p><div className="book-card-actions"><a className="book-preview" href={book.pdfPath} target="_blank" rel="noreferrer"><ExternalLink size={13} /> {isArabic ? "عرض الكتاب" : "Preview"}</a><a className="book-reserve" href={whatsappUrl(book, catalog, isArabic)} target="_blank" rel="noreferrer"><MessageCircle size={14} /> {isArabic ? "احجز عبر واتساب" : "Reserve on WhatsApp"}</a></div></div>
   </article>;
 }
 
