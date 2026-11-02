@@ -10,7 +10,7 @@ export type DatabaseSource = {
   fieldsAr: string[];
   fieldsEn: string[];
   tone: string;
-  icon: "linkedin" | "facebook" | "reddit" | "phone" | "zoominfo" | "apollo";
+  icon: "linkedin" | "facebook" | "reddit" | "phone" | "zoominfo" | "apollo" | "hubspot" | "clickup" | "googlemaps";
   statusAr: string;
   statusEn: string;
   priceAr: string;
@@ -101,5 +101,26 @@ export const databaseSources: DatabaseSource[] = [
     fieldsAr: ["الشريحة", "الدور", "المنطقة", "مرحلة الحساب", "حالة التواصل"],
     fieldsEn: ["Segment", "Role", "Region", "Account stage", "Outreach status"],
     tone: "teal", icon: "apollo", statusAr: "تنفيذ داخل حسابك", statusEn: "Built in your account", priceAr: "يبدأ من 150$", priceEn: "From $150", deliveryAr: "3–7 أيام عمل", deliveryEn: "3–7 business days", customerPlayAr: "أنشئ قوائم مبيعات مقسمة حسب الدور والمنطقة، ثم اربطها برسائل متابعة وتسلسل مبيعات للحصول على عملاء B2B وشركاء توزيع.", customerPlayEn: "Build sales lists by role and region, then connect them to follow-up sequences for B2B customers and distribution partners.", iconPath: "/platform-logos/apollo.ico", officialUrl: "https://www.apollo.io/",
+  },
+  {
+    id: "hubspot-enrichment", name: "HubSpot CRM Enrichment", labelAr: "إثراء بيانات HubSpot CRM", labelEn: "HubSpot CRM enrichment",
+    descriptionAr: "توحيد حقول CRM وتقسيم العملاء المحتملين وربط مصادر البحث بسير عمل المبيعات داخل HubSpot.", descriptionEn: "Normalize CRM fields, segment prospects, and connect research inputs to sales workflows inside HubSpot.",
+    useCasesAr: ["تنظيف CRM", "تقسيم العملاء", "متابعة المبيعات"], useCasesEn: ["CRM hygiene", "Prospect segmentation", "Sales follow-up"],
+    fieldsAr: ["الشركة", "القطاع", "مرحلة الصفقة", "مالك الحساب"], fieldsEn: ["Company", "Industry", "Deal stage", "Account owner"],
+    tone: "orange", icon: "hubspot", statusAr: "تنفيذ داخل CRM", statusEn: "CRM implementation", priceAr: "يبدأ من 200$", priceEn: "From $200", deliveryAr: "4–7 أيام عمل", deliveryEn: "4–7 business days", customerPlayAr: "حوّل بيانات البحث إلى مراحل واضحة داخل CRM، ووزّع المتابعة على الفريق بدل فقدان العملاء المحتملين في ملفات منفصلة.", customerPlayEn: "Turn research inputs into clear CRM stages and team follow-up instead of losing prospects in separate files.", iconPath: "/platform-logos/hubspot.svg", officialUrl: "https://www.hubspot.com/",
+  },
+  {
+    id: "clickup-workspace", name: "ClickUp Growth Workspace", labelAr: "بيانات وسير عمل ClickUp للنمو", labelEn: "ClickUp growth workspace",
+    descriptionAr: "بناء مساحة عمل تربط العملاء المحتملين بالمهام والحملات والمحتوى ومراحل التسليم للفريق.", descriptionEn: "A growth workspace connecting prospects to tasks, campaigns, content, and delivery stages for the team.",
+    useCasesAr: ["إدارة العملاء", "توزيع المهام", "لوحة متابعة النمو"], useCasesEn: ["Lead operations", "Task assignment", "Growth dashboard"],
+    fieldsAr: ["الحساب", "المهمة التالية", "الأولوية", "حالة التنفيذ"], fieldsEn: ["Account", "Next task", "Priority", "Execution status"],
+    tone: "teal", icon: "clickup", statusAr: "تصميم نظام", statusEn: "System design", priceAr: "يبدأ من 200$", priceEn: "From $200", deliveryAr: "4–7 أيام عمل", deliveryEn: "4–7 business days", customerPlayAr: "حوّل كل فرصة عميل إلى مهمة ومسؤول وموعد نهائي، مع متابعة ما بعد الاجتماع حتى الإغلاق أو التعلم.", customerPlayEn: "Turn every customer opportunity into an owner, task, and due date, with follow-up through close or learning.", iconPath: "/platform-logos/clickup.svg", officialUrl: "https://clickup.com/",
+  },
+  {
+    id: "google-maps-business", name: "Google Maps Business Discovery", labelAr: "اكتشاف الشركات المحلية عبر Google Maps", labelEn: "Google Maps business discovery",
+    descriptionAr: "خريطة للشركات المحلية والفئات والمناطق المستهدفة لبناء شراكات وتوزيع وعروض B2B، باستخدام البيانات العامة فقط.", descriptionEn: "A map of local businesses, categories, and target areas for B2B partnerships, distribution, and offers using public business information only.",
+    useCasesAr: ["اكتشاف شركاء محليين", "تحديد المناطق", "بناء قوائم B2B"], useCasesEn: ["Local partner discovery", "Territory mapping", "B2B list building"],
+    fieldsAr: ["اسم النشاط", "الفئة", "المدينة", "الرابط العام"], fieldsEn: ["Business name", "Category", "City", "Public URL"],
+    tone: "blue", icon: "googlemaps", statusAr: "معلومات عامة", statusEn: "Public business data", priceAr: "يبدأ من 150$", priceEn: "From $150", deliveryAr: "3–5 أيام عمل", deliveryEn: "3–5 business days", customerPlayAr: "ابدأ من المناطق التي يوجد فيها العميل المناسب، وابنِ قائمة شراكات وتوزيع بدل إنفاق الميزانية على جمهور عام.", customerPlayEn: "Start with territories where the right customer exists and build partnership and distribution lists instead of buying a broad audience.", iconPath: "/platform-logos/googlemaps.svg", officialUrl: "https://www.google.com/maps/",
   },
 ];

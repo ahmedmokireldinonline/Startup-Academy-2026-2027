@@ -673,3 +673,28 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 /* Database catalog: official platform marks, pricing, and customer acquisition guidance */
 .database-official-icon { text-decoration: none; }.database-official-icon img { display: block; width: 25px; height: 25px; object-fit: contain; filter: brightness(0) invert(1); }.database-card.db-green .database-official-icon img, .database-card.db-navy .database-official-icon img, .database-card.db-teal .database-official-icon img { filter: none; border-radius: 6px; }.database-price-row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-top: 14px; padding: 10px 0; border-top: 1px solid #edf1f1; border-bottom: 1px solid #edf1f1; }.database-price-row strong { color: #d0644c; font: 700 20px "Space Grotesk", sans-serif; letter-spacing: -.04em; }.database-price-row span { color: #89989a; font-size: 9px; }.database-customer-play { margin-top: 14px; padding: 12px; border-radius: 9px; background: #f2f8f4; }.database-customer-play strong { display: block; color: #32664c; font-size: 10px; }.database-customer-play p { min-height: 0; margin: 6px 0 0; color: #698174; font-size: 10px; line-height: 1.7; }.database-card > p { min-height: 0; }.database-card .database-use-cases { margin-top: 14px; }.database-card-cta { margin-top: 17px; }
 @media (max-width: 620px) { .database-price-row strong { font-size: 18px; } }
+
+
+/* Stable homepage catalog motion in both Arabic and English */
+.home-auto-slider { display: block; overflow: hidden; scroll-snap-type: none; mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%); -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%); }
+.home-auto-slider .home-book-track { display: flex; width: max-content; gap: 14px; animation: home-books-scroll 95s linear infinite; }
+.home-auto-slider:hover .home-book-track { animation-play-state: paused; }
+.home-auto-slider .home-book-card { flex: 0 0 285px; }
+@keyframes home-books-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.home-data-library { padding-top: 22px; padding-bottom: 76px; }
+.home-data-marquee-window { overflow: hidden; padding: 5px 0 22px; mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%); -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%); }
+.home-data-marquee-track { display: flex; width: max-content; gap: 14px; animation: home-data-scroll 82s linear infinite; }
+.home-data-marquee-window:hover .home-data-marquee-track { animation-play-state: paused; }
+.home-data-card { width: 245px; min-height: 78px; display: flex; align-items: center; gap: 11px; flex: 0 0 245px; padding: 13px; border: 1px solid #dfe7e9; border-radius: 13px; color: inherit; background: #fff; text-decoration: none; box-shadow: 0 10px 28px rgba(28,49,67,.05); }
+.home-data-card > span:not(.home-data-icon) { min-width: 0; flex: 1; }
+.home-data-card strong, .home-data-card small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.home-data-card strong { color: #27374a; font-size: 11px; }
+.home-data-card small { margin-top: 6px; color: #d0644c; font-size: 9px; }
+.home-data-card > svg { color: #9aabb5; flex: 0 0 auto; }
+.home-data-icon { width: 33px; height: 33px; display: grid; place-items: center; flex: 0 0 33px; border-radius: 9px; background: #f0f5f7; }
+.home-data-icon img { width: 22px; height: 22px; object-fit: contain; }
+@keyframes home-data-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.academy-shell.rtl .home-auto-slider, .academy-shell.rtl .home-auto-slider .home-book-track, .academy-shell.rtl .home-data-marquee-window, .academy-shell.rtl .home-data-marquee-track { direction: ltr; unicode-bidi: isolate; }
+.academy-shell.rtl .home-auto-slider .home-book-card, .academy-shell.rtl .home-data-card { direction: rtl; }
+@media (max-width: 620px) { .home-auto-slider .home-book-card { flex-basis: 78vw; } .home-data-card { width: 220px; flex-basis: 220px; } }
+@media (prefers-reduced-motion: reduce) { .home-auto-slider .home-book-track, .home-data-marquee-track { animation: none; } .home-auto-slider, .home-data-marquee-window { overflow-x: auto; mask-image: none; -webkit-mask-image: none; } }
