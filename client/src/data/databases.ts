@@ -13,6 +13,14 @@ export type DatabaseSource = {
   icon: "linkedin" | "facebook" | "reddit" | "phone" | "zoominfo" | "apollo";
   statusAr: string;
   statusEn: string;
+  priceAr: string;
+  priceEn: string;
+  deliveryAr: string;
+  deliveryEn: string;
+  customerPlayAr: string;
+  customerPlayEn: string;
+  iconPath: string;
+  officialUrl: string;
 };
 
 export const databaseSources: DatabaseSource[] = [
@@ -27,7 +35,7 @@ export const databaseSources: DatabaseSource[] = [
     useCasesEn: ["Target-account research", "ABM list building", "Personalized outreach"],
     fieldsAr: ["القطاع", "المسمى الوظيفي", "حجم الشركة", "الدولة", "رابط المصدر"],
     fieldsEn: ["Industry", "Job title", "Company size", "Country", "Source URL"],
-    tone: "blue", icon: "linkedin", statusAr: "حسب الطلب", statusEn: "Built to brief",
+    tone: "blue", icon: "linkedin", statusAr: "حسب الطلب", statusEn: "Built to brief", priceAr: "يبدأ من 49$", priceEn: "From $49", deliveryAr: "3–5 أيام عمل", deliveryEn: "3–5 business days", customerPlayAr: "استخدمها لبناء قائمة حسابات مستهدفة، تحديد أدوار الشراء، ثم كتابة رسائل مخصصة للحصول على اجتماعات وتجارب مجانية وعملاء أوائل.", customerPlayEn: "Use it to build target-account lists, map buying roles, and write personalized outreach for meetings, trials, and early customers.", iconPath: "/platform-logos/linkedin.svg", officialUrl: "https://www.linkedin.com/",
   },
   {
     id: "facebook-business",
@@ -40,7 +48,7 @@ export const databaseSources: DatabaseSource[] = [
     useCasesEn: ["Competitor research", "Community mapping", "Distribution discovery"],
     fieldsAr: ["اسم الصفحة", "الرابط العام", "المجال", "الدولة", "ملاحظات الجمهور"],
     fieldsEn: ["Page name", "Public URL", "Category", "Country", "Audience notes"],
-    tone: "violet", icon: "facebook", statusAr: "بحث عام", statusEn: "Public research",
+    tone: "violet", icon: "facebook", statusAr: "بحث عام", statusEn: "Public research", priceAr: "يبدأ من 39$", priceEn: "From $39", deliveryAr: "3–5 أيام عمل", deliveryEn: "3–5 business days", customerPlayAr: "اكتشف الصفحات والمجتمعات التي يوجد فيها عملاؤك، ثم صمّم محتوى وشراكات وتوزيعًا بدل إرسال رسائل عشوائية للأعضاء.", customerPlayEn: "Find the pages and communities where customers already gather, then design content, partnerships, and distribution instead of random member outreach.", iconPath: "/platform-logos/facebook.svg", officialUrl: "https://www.facebook.com/",
   },
   {
     id: "reddit-communities",
@@ -53,7 +61,7 @@ export const databaseSources: DatabaseSource[] = [
     useCasesEn: ["Market discovery", "Content research", "Messaging tests"],
     fieldsAr: ["اسم المجتمع", "الموضوعات", "لغة النقاش", "حجم المجتمع", "أمثلة عامة"],
     fieldsEn: ["Subreddit", "Topics", "Discussion language", "Community size", "Public examples"],
-    tone: "orange", icon: "reddit", statusAr: "مصادر عامة", statusEn: "Public signals",
+    tone: "orange", icon: "reddit", statusAr: "مصادر عامة", statusEn: "Public signals", priceAr: "يبدأ من 39$", priceEn: "From $39", deliveryAr: "3–5 أيام عمل", deliveryEn: "3–5 business days", customerPlayAr: "حلّل الأسئلة المتكررة ونقاط الألم، ثم أنشئ محتوى تعليميًا وحالات استخدام تساعدك على جذب عملاء لديهم مشكلة واضحة.", customerPlayEn: "Analyze recurring questions and pain points, then create educational content and use cases that attract customers with a clear problem.", iconPath: "/platform-logos/reddit.svg", officialUrl: "https://www.reddit.com/",
   },
   {
     id: "truecaller-business",
@@ -66,7 +74,7 @@ export const databaseSources: DatabaseSource[] = [
     useCasesEn: ["CRM hygiene", "Deduplication", "Data quality improvement"],
     fieldsAr: ["حالة الرقم", "البلد", "نوع النشاط", "مصدر الإدخال", "درجة الثقة"],
     fieldsEn: ["Number status", "Country", "Business type", "Input source", "Confidence score"],
-    tone: "green", icon: "phone", statusAr: "يتطلب مصدرًا مصرحًا", statusEn: "Permission required",
+    tone: "green", icon: "phone", statusAr: "يتطلب مصدرًا مصرحًا", statusEn: "Permission required", priceAr: "يبدأ من 59$", priceEn: "From $59", deliveryAr: "2–4 أيام عمل", deliveryEn: "2–4 business days", customerPlayAr: "نظّف بيانات العملاء التجاريين التي تملكها بإذن، وقلّل الأرقام المكررة والأخطاء قبل تشغيل حملات متابعة أو خدمة عملاء.", customerPlayEn: "Clean business contacts you own or have permission to use, reducing duplicates and errors before follow-up or customer-success campaigns.", iconPath: "/platform-logos/truecaller.png", officialUrl: "https://www.truecaller.com/",
   },
   {
     id: "zoominfo-workflow",
@@ -79,7 +87,7 @@ export const databaseSources: DatabaseSource[] = [
     useCasesEn: ["Field normalization", "CRM workflows", "Account qualification"],
     fieldsAr: ["حقل الشركة", "حقل الدور", "قواعد المطابقة", "حالة السجل", "وجهة التصدير"],
     fieldsEn: ["Company field", "Role field", "Match rules", "Record status", "Export destination"],
-    tone: "navy", icon: "zoominfo", statusAr: "خدمة تنفيذ", statusEn: "Implementation service",
+    tone: "navy", icon: "zoominfo", statusAr: "خدمة تنفيذ", statusEn: "Implementation service", priceAr: "يبدأ من 149$", priceEn: "From $149", deliveryAr: "5–10 أيام عمل", deliveryEn: "5–10 business days", customerPlayAr: "حوّل اشتراكك المرخّص إلى شرائح حسابات، إشارات نية شراء، وقواعد CRM تساعد المبيعات على ترتيب العملاء المحتملين لا المستثمرين.", customerPlayEn: "Turn your licensed subscription into account segments, intent signals, and CRM rules that prioritize prospects—not investors.", iconPath: "/platform-logos/zoominfo.ico", officialUrl: "https://www.zoominfo.com/",
   },
   {
     id: "apollo-workflow",
@@ -92,6 +100,6 @@ export const databaseSources: DatabaseSource[] = [
     useCasesEn: ["B2B sales lists", "Lead segmentation", "Follow-up automation"],
     fieldsAr: ["الشريحة", "الدور", "المنطقة", "مرحلة الحساب", "حالة التواصل"],
     fieldsEn: ["Segment", "Role", "Region", "Account stage", "Outreach status"],
-    tone: "teal", icon: "apollo", statusAr: "تنفيذ داخل حسابك", statusEn: "Built in your account",
+    tone: "teal", icon: "apollo", statusAr: "تنفيذ داخل حسابك", statusEn: "Built in your account", priceAr: "يبدأ من 99$", priceEn: "From $99", deliveryAr: "3–7 أيام عمل", deliveryEn: "3–7 business days", customerPlayAr: "أنشئ قوائم مبيعات مقسمة حسب الدور والمنطقة، ثم اربطها برسائل متابعة وتسلسل مبيعات للحصول على عملاء B2B وشركاء توزيع.", customerPlayEn: "Build sales lists by role and region, then connect them to follow-up sequences for B2B customers and distribution partners.", iconPath: "/platform-logos/apollo.ico", officialUrl: "https://www.apollo.io/",
   },
 ];
