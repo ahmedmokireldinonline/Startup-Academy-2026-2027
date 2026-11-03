@@ -58,7 +58,7 @@ export function verifyAdminSession(token?: string | null): AdminSession | null {
 }
 
 export function setAdminSessionCookie(res: Response, token: string) {
-  res.cookie(ADMIN_SESSION_COOKIE, token, {
+  (res as any).cookie(ADMIN_SESSION_COOKIE, token, {
     httpOnly: true,
     secure: true,
     sameSite: "none",
@@ -68,5 +68,5 @@ export function setAdminSessionCookie(res: Response, token: string) {
 }
 
 export function clearAdminSessionCookie(res: Response) {
-  res.clearCookie(ADMIN_SESSION_COOKIE, { httpOnly: true, secure: true, sameSite: "none", path: "/" });
+  (res as any).clearCookie(ADMIN_SESSION_COOKIE, { httpOnly: true, secure: true, sameSite: "none", path: "/" });
 }

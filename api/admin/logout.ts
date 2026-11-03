@@ -1,4 +1,4 @@
-import { serialize } from "cookie";
+import cookie from "cookie";
 import { ADMIN_SESSION_COOKIE } from "../../server/_core/adminPassword.js";
 
 export default function handler(req: any, res: any) {
@@ -7,7 +7,7 @@ export default function handler(req: any, res: any) {
     return res.status(405).json({ ok: false, message: "Method not allowed" });
   }
 
-  res.setHeader("Set-Cookie", serialize(ADMIN_SESSION_COOKIE, "", {
+  res.setHeader("Set-Cookie", cookie.serialize(ADMIN_SESSION_COOKIE, "", {
     httpOnly: true,
     secure: true,
     sameSite: "none",

@@ -1,4 +1,4 @@
-import { serialize } from "cookie";
+import cookie from "cookie";
 import { ADMIN_SESSION_COOKIE, createAdminSession, verifyAdminCredentials } from "../../server/_core/adminPassword.js";
 
 export default function handler(req: any, res: any) {
@@ -14,7 +14,7 @@ export default function handler(req: any, res: any) {
   }
 
   const token = createAdminSession(email);
-  res.setHeader("Set-Cookie", serialize(ADMIN_SESSION_COOKIE, token, {
+  res.setHeader("Set-Cookie", cookie.serialize(ADMIN_SESSION_COOKIE, token, {
     httpOnly: true,
     secure: true,
     sameSite: "none",
