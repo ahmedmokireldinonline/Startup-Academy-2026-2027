@@ -733,3 +733,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .goal-cell { overflow: hidden; color: #6f818b; font-size: 10px; line-height: 1.6; text-overflow: ellipsis; white-space: nowrap; }
 .import-message { margin: 10px 0; padding: 10px 12px; border-radius: 7px; color: #277252; background: #edf8f1; font-size: 10px; }
 @media (max-width: 760px) { .registration-actions { width: 100%; }.registration-actions button { flex: 1; }.registration-filters { grid-template-columns: 1fr 1fr; }.registration-filters label { grid-column: 1 / -1; } }
+
+/* Admin analytics charts */
+.admin-chart-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 18px; }
+.admin-chart-card { min-width: 0; }
+.admin-chart-card .admin-card-heading { margin-bottom: 6px; }
+.admin-chart { width: 100%; min-height: 280px; direction: ltr; }
+@media (max-width: 760px) { .admin-chart-grid { grid-template-columns: 1fr; } }
