@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { FormEvent } from "react";
-import { ArrowLeft, KeyRound, LockKeyhole, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowLeft, Eye, EyeOff, KeyRound, LockKeyhole, ShieldCheck, Sparkles } from "lucide-react";
 import { useLocation } from "wouter";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { startLogin } from "@/const";
@@ -10,6 +10,7 @@ export default function AdminLogin() {
   const { user, loading } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
 
@@ -54,7 +55,7 @@ export default function AdminLogin() {
           <p>أدخل بيانات حساب المشرف التي تم إعدادها في إعدادات البيئة. لا يتم عرض كلمة المرور أو تخزينها في الواجهة.</p>
           <form className="admin-password-form" onSubmit={submitPasswordLogin}>
             <label>البريد الإلكتروني للمشرف<input type="email" value={email} onChange={(event) => setEmail(event.target.value)} autoComplete="username" placeholder="admin@example.com" required /></label>
-            <label>كلمة المرور<input type="password" value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="current-password" placeholder="أدخل كلمة المرور" required /></label>
+            <label>كلمة المرور<div className="password-input-wrap"><input type={showPassword ? "text" : "password"} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="current-password" placeholder="أدخل كلمة المرور" required /><button type="button" className="password-visibility" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? "إخفاء كلمة المرور" : "إظهار كلمة المرور"} title={showPassword ? "إخفاء كلمة المرور" : "إظهار كلمة المرور"}>{showPassword ? <EyeOff size={18} /> : <Eye size={18} />}</button></div></label>
             {error ? <div className="admin-login-error" role="alert">{error}</div> : null}
             <button className="button button-primary admin-login-button" type="submit" disabled={submitting}>{submitting ? "جارٍ تسجيل الدخول..." : "دخول بالبريد وكلمة المرور"} <KeyRound size={16} /></button>
           </form>

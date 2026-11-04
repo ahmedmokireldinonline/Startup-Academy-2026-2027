@@ -1,7 +1,8 @@
 import { ChangeEvent, useMemo, useRef, useState } from "react";
-import { BarChart3, CheckCircle2, Database, Download, FileLock2, Search, Settings2, ShieldCheck, Sparkles, Upload, Users, WalletCards } from "lucide-react";
+import { BarChart3, CheckCircle2, Database, Download, FileLock2, LogOut, Search, Settings, Settings2, ShieldCheck, Sparkles, Upload, UserCircle, Users, WalletCards, X } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { trpc } from "@/lib/trpc";
+import { useAuth } from "@/_core/hooks/useAuth";
 import AdminLogin from "./AdminLogin";
 
 const initialTiers = [
@@ -47,6 +48,7 @@ function parseCsv(text: string): Record<string, string>[] {
 
 export default function AdminDashboard() {
   const me = trpc.auth.me.useQuery();
+  const { logout } = useAuth();
   const isAdmin = Boolean(me.data && ["admin", "super_admin"].includes(me.data.role));
   const stats = trpc.admin.stats.useQuery(undefined, { enabled: isAdmin });
   const allRegistrations = trpc.admin.registrations.useQuery({}, { enabled: isAdmin });
@@ -56,6 +58,7 @@ export default function AdminDashboard() {
   const importRegistrations = trpc.admin.importRegistrations.useMutation({ onSuccess: () => { registrations.refetch(); stats.refetch(); } });
   const fileInput = useRef<HTMLInputElement>(null);
   const [tiers, setTiers] = useState(initialTiers); const [saved, setSaved] = useState(false); const [importMessage, setImportMessage] = useState("");
+  const [profileOpen, setProfileOpen] = useState(false); const [settingsOpen, setSettingsOpen] = useState(false);
   const rows = (registrations.data ?? []) as Registration[];
   const allRows = (allRegistrations.data ?? []) as Registration[];
   const countryChart = useMemo(() => Object.entries(allRows.reduce<Record<string, number>>((result, row) => { result[row.country] = (result[row.country] ?? 0) + 1; return result; }, {})).map(([name, total]) => ({ name, total })).sort((a, b) => b.total - a.total).slice(0, 12), [allRows]);
@@ -76,12 +79,15 @@ export default function AdminDashboard() {
     event.target.value = "";
   };
 
+  const signOut = async () => { await logout(); window.location.href = "/admin/login"; };
+
   if (me.isLoading) return <div className="admin-login-shell" dir="rtl"><main className="admin-login-main"><section className="admin-login-card"><span className="eyebrow">جارٍ التحقق</span><h1>نجهز مساحة الإدارة.</h1><p>يتم التحقق من صلاحية Admin أو Super Admin من الخادم.</p></section></main></div>;
   if (!me.data || !isAdmin) return <AdminLogin />;
   const adminUser = me.data;
   const totalRegistrations = stats.data?.all ?? 0;
   return <div className="admin-shell" dir="rtl">
-    <header className="dashboard-header admin-header"><a className="brand" href="/"><span className="brand-mark"><Sparkles size={16} /></span><span><strong>Startup Academy</strong><small>Super Admin Control Center</small></span></a><div className="admin-identity"><ShieldCheck size={16} /> {adminUser.email || "admin@startupacademy.com"} <a href="/admin/login">خروج</a></div></header>
+    <header className="dashboard-header admin-header"><a className="brand" href="/"><span className="brand-mark"><Sparkles size={16} /></span><span><strong>Startup Academy</strong><small>Super Admin Control Center</small></span></a><div className="admin-header-tools"><button className="admin-icon-button" onClick={() => setSettingsOpen((open) => !open)} aria-label="الإعدادات" title="الإعدادات"><Settings size={17} /></button><div className="admin-profile-wrap"><button className="admin-profile-trigger" onClick={() => setProfileOpen((open) => !open)}><UserCircle size={18} /><span><strong>{adminUser.email || "admin@startupacademy.com"}</strong><small>{adminUser.role === "super_admin" ? "Super Admin" : "Admin"}</small></span></button>{profileOpen && <div className="admin-profile-menu"><div className="admin-profile-summary"><UserCircle size={28} /><div><strong>{adminUser.name || "Startup Academy Admin"}</strong><small>{adminUser.email || "admin@startupacademy.com"}</small></div></div><div className="admin-menu-divider" /><button onClick={() => setSettingsOpen(true)}><Settings size={15} /> إعدادات الحساب</button><button className="admin-logout-item" onClick={signOut}><LogOut size={15} /> تسجيل الخروج</button></div>}</div></div></header>
+    {settingsOpen && <section className="admin-settings-panel"><div><span className="eyebrow"><Settings size={14} /> Account settings</span><h2>إعدادات الحساب والخصوصية</h2><p>هذه الجلسة محمية من الخادم. بيانات الدخول لا يتم عرض كلمة المرور أو تخزينها في الواجهة.</p></div><div className="admin-settings-meta"><span><strong>الحساب</strong>{adminUser.email || "غير متوفر"}</span><span><strong>الصلاحية</strong>{adminUser.role === "super_admin" ? "Super Admin" : "Admin"}</span><span><strong>الجلسة</strong>جلسة آمنة ومفعّلة</span><button className="admin-icon-button" onClick={() => setSettingsOpen(false)} aria-label="إغلاق الإعدادات"><X size={17} /></button></div></section>}
     <main className="admin-main">
       <section className="admin-hero"><div><span className="eyebrow"><Settings2 size={14} /> إدارة المنصة</span><h1>تحكم كامل في <em>بيانات العملاء.</em></h1><p>راجع كل التسجيلات، حدّث حالتها، واستورد أو حمّل القائمة بصيغة CSV.</p></div><span className="admin-ready"><span className="status-dot" /> {adminUser.role === "super_admin" ? "Super Admin" : "Admin"}</span></section>
       <section className="admin-metrics"><article><span><Users size={17} /> طلبات التسجيل</span><strong>{totalRegistrations}</strong><small>{stats.isLoading ? "جارٍ التحميل" : `${stats.data?.new ?? 0} طلبات جديدة`}</small></article><article><span><WalletCards size={17} /> إيرادات محتملة</span><strong>${(totalRegistrations * 3000).toLocaleString()}</strong><small>تقدير على أساس Standard Access</small></article><article><span><FileLock2 size={17} /> برامج متاحة</span><strong>42</strong><small>التقديم محمي فقط</small></article><article><span><BarChart3 size={17} /> مؤهلون</span><strong>{stats.data?.qualified ?? 0}</strong><small>من سجل الطلبات</small></article></section>
