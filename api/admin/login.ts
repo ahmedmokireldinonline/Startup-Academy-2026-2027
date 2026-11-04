@@ -21,5 +21,5 @@ export default function handler(req: any, res: any) {
     path: "/",
     maxAge: 60 * 60 * 8,
   }));
-  return res.status(200).json({ ok: true });
+  return res.status(200).json({ ok: true, token });
 }

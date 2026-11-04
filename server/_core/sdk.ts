@@ -7,7 +7,7 @@ import { SignJWT, jwtVerify } from "jose";
 import type { User } from "../../drizzle/schema";
 import * as db from "../db";
 import { ENV } from "./env";
-import { ADMIN_SESSION_COOKIE, verifyAdminSession } from "./adminPassword";
+import { ADMIN_SESSION_COOKIE, verifyAdminSession } from "./adminPassword.js";
 import type {
   ExchangeTokenRequest,
   ExchangeTokenResponse,
@@ -260,7 +260,11 @@ class SDKServer {
   async authenticateRequest(req: Request): Promise<AuthenticatedUser> {
     // 1. Accept the separately signed admin-password session.
     const cookies = this.parseCookies(req.headers.cookie);
-    const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE));
+    const authHeader = req.headers.authorization;
+    const bearer = typeof authHeader === "string" && authHeader.startsWith("Bearer ")
+      ? authHeader.slice(7)
+      : undefined;
+    const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE)) || verifyAdminSession(bearer);
     if (adminSession) {
       return {
         id: 0,
@@ -287,7 +291,6 @@ class SDKServer {
     //    sessionStorage), used when the browser blocks iframe cookies such as
     //    Safari ITP, private browsing, or iOS/Android WebView.
     if (!sessionToken) {
-      const authHeader = req.headers.authorization;
       if (typeof authHeader === "string" && authHeader.startsWith("Bearer ")) {
         sessionToken = authHeader.slice(7);
       }
