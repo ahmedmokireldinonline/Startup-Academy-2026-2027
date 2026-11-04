@@ -5,6 +5,7 @@ export default function handler(req: any, res: any) {
   const cookies = parse(req.headers.cookie || "");
   const authorization = typeof req.headers.authorization === "string" ? req.headers.authorization : "";
   const bearer = authorization.startsWith("Bearer ") ? authorization.slice(7) : undefined;
-  const session = verifyAdminSession(cookies[ADMIN_SESSION_COOKIE]) || verifyAdminSession(bearer);
+  const customToken = typeof req.headers["x-admin-session-token"] === "string" ? req.headers["x-admin-session-token"] : undefined;
+  const session = verifyAdminSession(cookies[ADMIN_SESSION_COOKIE]) || verifyAdminSession(bearer) || verifyAdminSession(customToken);
   return res.status(200).json({ authenticated: Boolean(session), email: session?.email ?? null });
 }

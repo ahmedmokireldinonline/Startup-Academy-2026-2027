@@ -261,10 +261,12 @@ class SDKServer {
     // 1. Accept the separately signed admin-password session.
     const cookies = this.parseCookies(req.headers.cookie);
     const authHeader = req.headers.authorization;
+    const customAdminToken = req.headers["x-admin-session-token"];
     const bearer = typeof authHeader === "string" && authHeader.startsWith("Bearer ")
       ? authHeader.slice(7)
       : undefined;
-    const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE)) || verifyAdminSession(bearer);
+    const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE)) || verifyAdminSession(bearer) ||
+      verifyAdminSession(typeof customAdminToken === "string" ? customAdminToken : undefined);
     if (adminSession) {
       return {
         id: 0,

@@ -24,7 +24,8 @@ export async function createContext(
   if (!user) {
     const cookieHeader = opts.req.headers.cookie || "";
     const token = cookieHeader.split(";").map((part) => part.trim()).find((part) => part.startsWith(`${ADMIN_SESSION_COOKIE}=`))?.slice(ADMIN_SESSION_COOKIE.length + 1);
-    const adminSession = verifyAdminSession(token);
+    const customToken = opts.req.headers["x-admin-session-token"];
+    const adminSession = verifyAdminSession(token) || verifyAdminSession(typeof customToken === "string" ? customToken : undefined);
     if (adminSession) {
       user = {
         id: 0,

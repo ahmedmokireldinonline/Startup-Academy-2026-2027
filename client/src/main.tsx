@@ -45,7 +45,7 @@ const trpcClient = trpc.createClient({
       headers() {
         try {
           const adminToken = sessionStorage.getItem("admin-session-token");
-          if (adminToken) return { Authorization: `Bearer ${adminToken}` };
+          if (adminToken) return { Authorization: `Bearer ${adminToken}`, "x-admin-session-token": adminToken };
         } catch {
           // sessionStorage unavailable
         }
