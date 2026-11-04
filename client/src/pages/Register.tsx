@@ -1,5 +1,6 @@
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import { ArrowLeft, CheckCircle2, ClipboardList, Mail, MapPin, MessageCircle, Sparkles } from "lucide-react";
+import { usePageMeta } from "@/hooks/usePageMeta";
 import { countries, countryByCode } from "@/data/countries";
 import { emailUrl, whatsappUrl } from "@/lib/access";
 import { trpc } from "@/lib/trpc";
@@ -8,6 +9,7 @@ type Language = "ar" | "en";
 const initialForm = { name: "", email: "", phone: "", country: "EG", dialCode: "+20", stage: "", goal: "", language: "ar" as "ar" | "en" };
 export default function Register() {
   const [language, setLanguage] = useState<Language>(() => { try { return localStorage.getItem("startup-academy-language") === "en" ? "en" : "ar"; } catch { return "ar"; } }); const isArabic = language === "ar";
+  usePageMeta({ language, titleAr: "التسجيل — Startup Academy", titleEn: "Register — Startup Academy", descriptionAr: "سجّل للوصول إلى دليل برامج الشركات الناشئة وموارد التقديم الموثقة.", descriptionEn: "Register to access the verified startup programs directory and application resources.", path: "/register", type: "WebPage" });
   const [form, setForm] = useState(initialForm); const [submitted, setSubmitted] = useState(false); const [submitError, setSubmitError] = useState(""); const [detecting, setDetecting] = useState(true); const [detected, setDetected] = useState(false); const createRegistration = trpc.registration.create.useMutation();
   const update = (key: keyof typeof initialForm, value: string) => setForm((current) => ({ ...current, [key]: value })); const selectedCountry = countryByCode[form.country] || countryByCode.EG; const sortedCountries = useMemo(() => [...countries].sort((a, b) => a.nameAr.localeCompare(b.nameAr, "ar")), []);
   const message = `${isArabic ? "مرحبًا، أريد الوصول إلى دليل البرامج والتقديمات في Startup Academy 2026–2027." : "Hello, I would like access to the Startup Academy 2026–2027 programs and applications directory."}\n\n${isArabic ? "Name" : "Name"}: ${form.name}\n${isArabic ? "Email" : "Email"}: ${form.email}\n${isArabic ? "Phone" : "Phone"}: ${form.phone}\n${isArabic ? "Country" : "Country"}: ${isArabic ? selectedCountry.nameAr : selectedCountry.nameEn}\n${isArabic ? "Stage" : "Stage"}: ${form.stage}\n${isArabic ? "Goal" : "Goal"}: ${form.goal}`;

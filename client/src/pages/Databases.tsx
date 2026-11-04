@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { ArrowUpRight, Check, Database, Globe2, MessageCircle, Search, ShieldCheck, Sparkles, Users } from "lucide-react";
+import { usePageMeta } from "@/hooks/usePageMeta";
 import { databaseSources, type DatabaseSource } from "@/data/databases";
 
 const PHONE = "201012025650";
@@ -26,6 +27,7 @@ export default function Databases() {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<"all" | "research" | "workflow">("all");
   const isArabic = language === "ar";
+  usePageMeta({ language, titleAr: "منتجات وأنظمة بيانات B2B", titleEn: "B2B Data Products & Systems", descriptionAr: "أبحاث وتنظيف وأنظمة بيانات B2B مسؤولة لاكتساب العملاء وبناء سير العمل.", descriptionEn: "Responsible B2B data research, cleaning, and workflow systems for customer acquisition.", path: "/databases", type: "CollectionPage" });
   const filtered = useMemo(() => { const q = query.trim().toLowerCase(); return databaseSources.filter((source) => { const matchesQuery = !q || `${source.name} ${source.labelAr} ${source.labelEn} ${source.descriptionAr} ${source.descriptionEn} ${source.fieldsEn.join(" ")}`.toLowerCase().includes(q); const isWorkflow = source.id.includes("workflow"); const matchesFilter = filter === "all" || (filter === "workflow" ? isWorkflow : !isWorkflow); return matchesQuery && matchesFilter; }); }, [filter, query]);
   const toggleLanguage = () => { const next = isArabic ? "en" : "ar"; setLanguage(next); try { localStorage.setItem("startup-academy-language", next); } catch {} };
   const allUrl = `https://wa.me/${PHONE}?text=${encodeURIComponent(isArabic ? "مرحبًا، أريد بناء حزمة بيانات B2B مخصصة لشركتي." : "Hello, I would like to build a custom B2B data package for my company.")}`;

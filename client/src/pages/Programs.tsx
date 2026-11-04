@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { ArrowLeft, ExternalLink, Filter, LockKeyhole, Search, ShieldCheck, Sparkles } from "lucide-react";
+import { usePageMeta } from "@/hooks/usePageMeta";
 import { programs as summaryPrograms, type Program } from "@/data/programs";
 import { trpc } from "@/lib/trpc";
 
@@ -12,6 +13,7 @@ function providerInitials(provider: string) { return provider.split(/\s+/).filte
 export default function Programs() {
   const [language, setLanguage] = useState<Language>(() => { try { return localStorage.getItem("startup-academy-language") === "en" ? "en" : "ar"; } catch { return "ar"; } });
   const isArabic = language === "ar";
+  usePageMeta({ language, titleAr: "دليل برامج تمويل الشركات الناشئة", titleEn: "Startup Funding Programs Directory", descriptionAr: "استكشف المنح وأرصدة السحابة والمسرّعات وفرص التقديم الموثقة للشركات الناشئة.", descriptionEn: "Browse verified startup grants, cloud credits, accelerators, and application opportunities.", path: "/programs", type: "CollectionPage" });
   const [query, setQuery] = useState(""); const [region, setRegion] = useState("All"); const [category, setCategory] = useState("All"); const [status, setStatus] = useState("All");
   const access = trpc.registration.accessStatus.useQuery(); const registered = access.data?.registered === true; const directory = trpc.directory.list.useQuery(undefined, { enabled: registered });
   const catalog: UnlockedProgram[] = registered ? (directory.data?.programs || []) as UnlockedProgram[] : summaryPrograms.map((program) => ({ ...program, link: "" }));

@@ -704,3 +704,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .route-loading { min-height: 100svh; display: grid; place-items: center; gap: 10px; color: #6b7b86; background: #f7f9f8; font: 600 13px "Space Grotesk", sans-serif; }
 .route-loading-dot { width: 8px; height: 8px; border-radius: 50%; background: #d0644c; box-shadow: 0 0 0 7px rgba(208,100,76,.12); animation: route-loading-pulse 1.1s ease-in-out infinite; }
 @keyframes route-loading-pulse { 50% { transform: scale(1.35); opacity: .55; } }
+
+.book-cover-wrap, .home-book-cover { aspect-ratio: 272 / 420; overflow: hidden; }
+.book-cover-wrap img, .home-book-cover img { width: 100%; height: 100%; object-fit: cover; }
+
+/* Keep animated catalogs cheap when they are outside the viewport. */
+.program-marquee-track.is-offscreen, .program-lane-track.is-offscreen, .home-book-track.is-offscreen, .home-data-marquee-track.is-offscreen { animation-play-state: paused !important; }
+.program-lanes, .home-book-library, .home-data-library, .spotlight-section { content-visibility: auto; contain-intrinsic-size: 1px 720px; }

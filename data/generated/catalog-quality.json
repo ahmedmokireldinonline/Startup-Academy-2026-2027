@@ -1,0 +1,309 @@
+{
+  "generatedAt": "2026-11-04T23:07:07.286Z",
+  "investors": {
+    "total": 2206,
+    "duplicateNames": [
+      {
+        "name": "nanxi liu",
+        "count": 2
+      },
+      {
+        "name": "jude gomila",
+        "count": 2
+      },
+      {
+        "name": "eric chen",
+        "count": 2
+      },
+      {
+        "name": "jenny fielding",
+        "count": 2
+      },
+      {
+        "name": "stephanie palmeri",
+        "count": 2
+      },
+      {
+        "name": "binh tran",
+        "count": 2
+      },
+      {
+        "name": "joe kirgues",
+        "count": 2
+      },
+      {
+        "name": "kristian andersen",
+        "count": 2
+      },
+      {
+        "name": "jonathan abrams",
+        "count": 2
+      },
+      {
+        "name": "tom hulme",
+        "count": 2
+      },
+      {
+        "name": "cindy padnos",
+        "count": 2
+      },
+      {
+        "name": "marco giberti",
+        "count": 2
+      },
+      {
+        "name": "david beisel",
+        "count": 2
+      },
+      {
+        "name": "ellie wheeler",
+        "count": 2
+      },
+      {
+        "name": "josh breinlinger",
+        "count": 2
+      },
+      {
+        "name": "adam benayoun",
+        "count": 2
+      },
+      {
+        "name": "dave goldberg",
+        "count": 2
+      },
+      {
+        "name": "hiten shah",
+        "count": 2
+      },
+      {
+        "name": "aaron harris",
+        "count": 2
+      },
+      {
+        "name": "andreas klinger",
+        "count": 2
+      },
+      {
+        "name": "hiro maeda",
+        "count": 2
+      },
+      {
+        "name": "matt mickiewicz",
+        "count": 2
+      },
+      {
+        "name": "dalton caldwell",
+        "count": 2
+      },
+      {
+        "name": "joyce chung",
+        "count": 2
+      },
+      {
+        "name": "sean dempsey",
+        "count": 2
+      },
+      {
+        "name": "eva ho",
+        "count": 2
+      },
+      {
+        "name": "rahul vohra",
+        "count": 2
+      },
+      {
+        "name": "fredrik cassel",
+        "count": 2
+      },
+      {
+        "name": "max gazor",
+        "count": 2
+      },
+      {
+        "name": "bill trenchard",
+        "count": 2
+      },
+      {
+        "name": "tod sacerdoti",
+        "count": 2
+      },
+      {
+        "name": "patri friedman",
+        "count": 2
+      },
+      {
+        "name": "david waxman",
+        "count": 2
+      },
+      {
+        "name": "alex chang",
+        "count": 2
+      },
+      {
+        "name": "bedy yang",
+        "count": 2
+      },
+      {
+        "name": "nenad marovac",
+        "count": 2
+      },
+      {
+        "name": "david wieland",
+        "count": 2
+      },
+      {
+        "name": "jeff pulver",
+        "count": 2
+      },
+      {
+        "name": "satya patel",
+        "count": 2
+      },
+      {
+        "name": "dave knox",
+        "count": 2
+      },
+      {
+        "name": "matt wyndowe",
+        "count": 2
+      },
+      {
+        "name": "jeff bonforte",
+        "count": 2
+      },
+      {
+        "name": "dov rosenberg",
+        "count": 2
+      },
+      {
+        "name": "pietro dova",
+        "count": 2
+      },
+      {
+        "name": "jacob brody",
+        "count": 2
+      },
+      {
+        "name": "tak miyata",
+        "count": 2
+      },
+      {
+        "name": "seth berman",
+        "count": 2
+      },
+      {
+        "name": "alvin tse",
+        "count": 2
+      },
+      {
+        "name": "mark mullen",
+        "count": 2
+      },
+      {
+        "name": "mark sugarman",
+        "count": 2
+      },
+      {
+        "name": "itamar novick",
+        "count": 2
+      },
+      {
+        "name": "mike dauber",
+        "count": 2
+      },
+      {
+        "name": "murat bicer",
+        "count": 2
+      },
+      {
+        "name": "rafael corrales",
+        "count": 2
+      },
+      {
+        "name": "eric chin",
+        "count": 2
+      },
+      {
+        "name": "marc mccabe",
+        "count": 2
+      },
+      {
+        "name": "andrew mitchell",
+        "count": 2
+      },
+      {
+        "name": "brad holden",
+        "count": 2
+      },
+      {
+        "name": "adam d. smith",
+        "count": 2
+      },
+      {
+        "name": "varsha rao",
+        "count": 2
+      },
+      {
+        "name": "david stewart",
+        "count": 2
+      },
+      {
+        "name": "ryan floyd",
+        "count": 2
+      },
+      {
+        "name": "tammy camp",
+        "count": 2
+      },
+      {
+        "name": "khailee ng",
+        "count": 2
+      },
+      {
+        "name": "maneesh arora",
+        "count": 2
+      },
+      {
+        "name": "cem sertoglu",
+        "count": 2
+      },
+      {
+        "name": "david lee",
+        "count": 2
+      },
+      {
+        "name": "renaud visage",
+        "count": 2
+      },
+      {
+        "name": "ed walters",
+        "count": 2
+      },
+      {
+        "name": "richard dulude",
+        "count": 2
+      },
+      {
+        "name": "eduardo ronzano",
+        "count": 2
+      },
+      {
+        "name": "remo mahler",
+        "count": 2
+      },
+      {
+        "name": "paul heydon",
+        "count": 2
+      }
+    ]
+  },
+  "books": {
+    "total": 93,
+    "missingCovers": 0
+  },
+  "programs": {
+    "total": 42,
+    "duplicateIds": 0
+  },
+  "errors": []
+}
