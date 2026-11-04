@@ -32,7 +32,7 @@ export default function AdminLogin() {
       const result = await response.json().catch(() => ({}));
       if (!response.ok) throw new Error(result.message || "تعذر تسجيل الدخول.");
       if (result.token) sessionStorage.setItem("admin-session-token", result.token);
-      navigate("/admin");
+      navigate("/admin/control");
       window.setTimeout(() => window.location.reload(), 50);
     } catch (loginError) {
       setError(loginError instanceof Error ? loginError.message : "تعذر تسجيل الدخول.");

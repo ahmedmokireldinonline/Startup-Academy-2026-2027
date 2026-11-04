@@ -11,7 +11,6 @@ const Register = lazy(() => import("./pages/Register"));
 const Investors = lazy(() => import("./pages/Investors"));
 const UserDashboard = lazy(() => import("./pages/UserDashboard"));
 const AdminDashboard = lazy(() => import("./pages/AdminDashboard"));
-const Admin = lazy(() => import("./pages/Admin"));
 const About = lazy(() => import("./pages/About"));
 const AdminLogin = lazy(() => import("./pages/AdminLogin"));
 const Books = lazy(() => import("./pages/Books"));
@@ -34,7 +33,7 @@ function Router() {
       <Route path={"/about"} component={About} />
       <Route path={"/dashboard"} component={UserDashboard} />
       <Route path={"/admin/login"} component={AdminLogin} />
-      <Route path={"/admin"} component={Admin} />
+      <Route path={"/admin"} component={AdminDashboard} />
       <Route path={"/admin/control"} component={AdminDashboard} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
