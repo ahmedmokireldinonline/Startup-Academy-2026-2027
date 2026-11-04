@@ -1,5 +1,5 @@
 import { parse } from "cookie";
-import { ADMIN_SESSION_COOKIE, verifyAdminSession } from "../../server/_core/adminPassword";
+import { ADMIN_SESSION_COOKIE, verifyAdminSession } from "../../server/_core/adminPassword.js";
 
 export default function handler(req: any, res: any) {
   const cookies = parse(req.headers.cookie || "");
