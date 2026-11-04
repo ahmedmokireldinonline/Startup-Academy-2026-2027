@@ -45,6 +45,14 @@ export async function createRegistration(input: InsertRegistration) {
   return Number(result[0].insertId);
 }
 
+export async function bulkCreateRegistrations(input: InsertRegistration[]) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is not available");
+  if (input.length === 0) return { inserted: 0 } as const;
+  await db.insert(registrations).values(input);
+  return { inserted: input.length } as const;
+}
+
 export async function listRegistrations(filters?: { query?: string; country?: string; stage?: string; status?: Registration["status"] | "All" }) {
   const db = await getDb();
   if (!db) throw new Error("Database is not available");
