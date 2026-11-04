@@ -1,20 +1,26 @@
+import { lazy, Suspense } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
-import Programs from "./pages/Programs";
-import Register from "./pages/Register";
-import Investors from "./pages/Investors";
-import UserDashboard from "./pages/UserDashboard";
-import AdminDashboard from "./pages/AdminDashboard";
-import Admin from "./pages/Admin";
-import About from "./pages/About";
-import AdminLogin from "./pages/AdminLogin";
-import Books from "./pages/Books";
-import Databases from "./pages/Databases";
+
+const Home = lazy(() => import("./pages/Home"));
+const Programs = lazy(() => import("./pages/Programs"));
+const Register = lazy(() => import("./pages/Register"));
+const Investors = lazy(() => import("./pages/Investors"));
+const UserDashboard = lazy(() => import("./pages/UserDashboard"));
+const AdminDashboard = lazy(() => import("./pages/AdminDashboard"));
+const Admin = lazy(() => import("./pages/Admin"));
+const About = lazy(() => import("./pages/About"));
+const AdminLogin = lazy(() => import("./pages/AdminLogin"));
+const Books = lazy(() => import("./pages/Books"));
+const Databases = lazy(() => import("./pages/Databases"));
+const NotFound = lazy(() => import("@/pages/NotFound"));
+
+function RouteFallback() {
+  return <div className="route-loading" role="status" aria-live="polite"><span className="route-loading-dot" /> Loading…</div>;
+}
 
 function Router() {
   return (
@@ -42,7 +48,9 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
-          <Router />
+          <Suspense fallback={<RouteFallback />}>
+            <Router />
+          </Suspense>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
