@@ -69,7 +69,19 @@ const trpcClient = trpc.createClient({
         return {};
       },
       fetch(input, init) {
-        return globalThis.fetch(input, {
+        let requestInput = input;
+        try {
+          const adminToken = sessionStorage.getItem("admin-session-token");
+          if (adminToken) {
+            const inputUrl = typeof input === "string" ? input : input instanceof Request ? input.url : input.toString();
+            const requestUrl = new URL(inputUrl, window.location.origin);
+            requestUrl.searchParams.set("admin_session", adminToken);
+            requestInput = requestUrl.toString();
+          }
+        } catch {
+          // Keep the normal request when storage or URL APIs are unavailable.
+        }
+        return globalThis.fetch(requestInput, {
           ...(init ?? {}),
           credentials: "include",
         });

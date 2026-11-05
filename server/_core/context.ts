@@ -25,7 +25,8 @@ export async function createContext(
     const cookieHeader = opts.req.headers.cookie || "";
     const token = cookieHeader.split(";").map((part) => part.trim()).find((part) => part.startsWith(`${ADMIN_SESSION_COOKIE}=`))?.slice(ADMIN_SESSION_COOKIE.length + 1);
     const customToken = opts.req.headers["x-admin-session-token"];
-    const adminSession = verifyAdminSession(token) || verifyAdminSession(typeof customToken === "string" ? customToken : undefined);
+    const queryToken = typeof opts.req.query?.admin_session === "string" ? opts.req.query.admin_session : undefined;
+    const adminSession = verifyAdminSession(token) || verifyAdminSession(typeof customToken === "string" ? customToken : undefined) || verifyAdminSession(queryToken);
     if (adminSession) {
       user = {
         id: 0,

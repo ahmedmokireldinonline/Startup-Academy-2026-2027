@@ -262,11 +262,13 @@ class SDKServer {
     const cookies = this.parseCookies(req.headers.cookie);
     const authHeader = req.headers.authorization;
     const customAdminToken = req.headers["x-admin-session-token"];
+    const queryAdminToken = typeof req.query?.admin_session === "string" ? req.query.admin_session : undefined;
     const bearer = typeof authHeader === "string" && authHeader.startsWith("Bearer ")
       ? authHeader.slice(7)
       : undefined;
     const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE)) || verifyAdminSession(bearer) ||
-      verifyAdminSession(typeof customAdminToken === "string" ? customAdminToken : undefined);
+      verifyAdminSession(typeof customAdminToken === "string" ? customAdminToken : undefined) ||
+      verifyAdminSession(queryAdminToken);
     if (adminSession) {
       return {
         id: 0,
