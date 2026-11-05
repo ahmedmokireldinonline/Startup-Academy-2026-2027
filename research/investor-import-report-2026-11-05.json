@@ -1,0 +1,57 @@
+{
+  "sourceFiles": [
+    "+1200 SaaS Angel Investors  .xlsx",
+    "+900 SaaS Seed Investors .xlsx",
+    "Active Seed Stage SaaS Investors.xlsx"
+  ],
+  "sourceRows": 2206,
+  "importedUniqueRecords": 2133,
+  "mergedDuplicateGroups": 73,
+  "exactDuplicateGroups": 0,
+  "crossFileNameMatches": 73,
+  "countries": [
+    "Argentina",
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "China",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "India",
+    "Ireland",
+    "Israel",
+    "Japan",
+    "Mexico",
+    "Netherlands",
+    "Poland",
+    "Portugal",
+    "Singapore",
+    "Spain",
+    "Switzerland",
+    "Türkiye",
+    "United Arab Emirates",
+    "United Kingdom",
+    "United States"
+  ],
+  "countryCount": 27,
+  "recordsWithImage": 1222,
+  "recordsWithoutImage": 911,
+  "egyptMatches": 0,
+  "gulfMatches": 9,
+  "missingSourceFields": {
+    "name": 0,
+    "locationOrCountry": 12,
+    "image": 911,
+    "profileUrl": 1
+  },
+  "notes": [
+    "No Egypt/Cairo record was found in the three original investor workbooks.",
+    "Only Angel.co-derived images are retained because the original workbooks contain no image column and no verified image list was present in SAAS Toolkit.",
+    "Full fields are generated for server-side use; the client receives sanitized records only."
+  ]
+}

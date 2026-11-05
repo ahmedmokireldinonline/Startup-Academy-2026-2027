@@ -314,6 +314,13 @@ async function createRegistration(input) {
   const result = await db.insert(registrations).values(input);
   return Number(result[0].insertId);
 }
+async function bulkCreateRegistrations(input) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is not available");
+  if (input.length === 0) return { inserted: 0 };
+  await db.insert(registrations).values(input);
+  return { inserted: input.length };
+}
 async function listRegistrations(filters) {
   const db = await getDb();
   if (!db) throw new Error("Database is not available");
@@ -53391,6 +53398,10 @@ var registrationInput = z2.object({
   language: z2.enum(["ar", "en"]).default("ar")
 });
 var statusSchema = z2.enum(["new", "contacted", "qualified", "archived"]);
+var importedRegistration = registrationInput.extend({
+  status: statusSchema.optional(),
+  notes: z2.string().max(4e3).optional()
+}).transform((item) => ({ ...item, status: item.status ?? "new" }));
 function databaseError(error) {
   console.error("[API] Database operation failed", error);
   throw new TRPCError3({ code: "INTERNAL_SERVER_ERROR", message: "Database is not configured or unavailable" });
@@ -53447,6 +53458,13 @@ var appRouter = router({
     registrations: adminProcedure.input(z2.object({ query: z2.string().optional(), country: z2.string().optional(), stage: z2.string().optional(), status: z2.union([statusSchema, z2.literal("All")]).optional() }).optional()).query(async ({ input }) => {
       try {
         return listRegistrations(input);
+      } catch (error) {
+        return databaseError(error);
+      }
+    }),
+    importRegistrations: adminProcedure.input(z2.object({ rows: z2.array(importedRegistration).min(1).max(1e3) })).mutation(async ({ input }) => {
+      try {
+        return bulkCreateRegistrations(input.rows);
       } catch (error) {
         return databaseError(error);
       }
@@ -53678,7 +53696,11 @@ var SDKServer = class {
   }
   async authenticateRequest(req) {
     const cookies = this.parseCookies(req.headers.cookie);
-    const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE));
+    const authHeader = req.headers.authorization;
+    const customAdminToken = req.headers["x-admin-session-token"];
+    const queryAdminToken = typeof req.query?.admin_session === "string" ? req.query.admin_session : void 0;
+    const bearer = typeof authHeader === "string" && authHeader.startsWith("Bearer ") ? authHeader.slice(7) : void 0;
+    const adminSession = verifyAdminSession(cookies.get(ADMIN_SESSION_COOKIE)) || verifyAdminSession(bearer) || verifyAdminSession(typeof customAdminToken === "string" ? customAdminToken : void 0) || verifyAdminSession(queryAdminToken);
     if (adminSession) {
       return {
         id: 0,
@@ -53699,7 +53721,6 @@ var SDKServer = class {
       if (identity?.openId.startsWith(CRON_OPEN_ID_PREFIX)) sessionToken = ticket;
     }
     if (!sessionToken) {
-      const authHeader = req.headers.authorization;
       if (typeof authHeader === "string" && authHeader.startsWith("Bearer ")) {
         sessionToken = authHeader.slice(7);
       }
@@ -53775,7 +53796,9 @@ async function createContext(opts) {
   if (!user) {
     const cookieHeader = opts.req.headers.cookie || "";
     const token = cookieHeader.split(";").map((part) => part.trim()).find((part) => part.startsWith(`${ADMIN_SESSION_COOKIE}=`))?.slice(ADMIN_SESSION_COOKIE.length + 1);
-    const adminSession = verifyAdminSession(token);
+    const customToken = opts.req.headers["x-admin-session-token"];
+    const queryToken = typeof opts.req.query?.admin_session === "string" ? opts.req.query.admin_session : void 0;
+    const adminSession = verifyAdminSession(token) || verifyAdminSession(typeof customToken === "string" ? customToken : void 0) || verifyAdminSession(queryToken);
     if (adminSession) {
       user = {
         id: 0,
