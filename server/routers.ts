@@ -7,6 +7,7 @@ import { COOKIE_NAME } from "../shared/const";
 import { bulkCreateRegistrations, createRegistration, getRegistrationStats, listRegistrations, updateRegistrationStatus } from "./db";
 import { getRegistrationAccessId, issueRegistrationAccess } from "./access";
 import { programs } from "./programCatalog";
+import { investorCatalog } from "./investorCatalog";
 
 const registrationInput = z.object({
   name: z.string().trim().min(2).max(160),
@@ -60,6 +61,19 @@ export const appRouter = router({
       const registrationId = await getRegistrationAccessId(ctx.req);
       if (!registrationId) throw new TRPCError({ code: "UNAUTHORIZED", message: "Registration required" });
       return { programs, registrationId };
+    }),
+  }),
+
+  investors: router({
+    public: publicProcedure.query(() => ({
+      investors: investorCatalog.map(({ id, name, type, location, locations, countries, focus, role, image, investmentsCount }) => ({ id, name, type, location, locations, countries, focus, role, image, investmentsCount })),
+      total: investorCatalog.length,
+      countries: Array.from(new Set(investorCatalog.flatMap((item) => item.countries))).sort(),
+    })),
+    full: publicProcedure.query(async ({ ctx }) => {
+      const registrationId = await getRegistrationAccessId(ctx.req);
+      if (!registrationId) throw new TRPCError({ code: "UNAUTHORIZED", message: "Paid access required" });
+      return { investors: investorCatalog, registrationId };
     }),
   }),
 
