@@ -1,4 +1,5 @@
 import type { CreateExpressContextOptions } from "@trpc/server/adapters/express";
+import { parse as parseCookies } from "cookie";
 import type { User } from "../../drizzle/schema";
 import { sdk } from "./sdk";
 import { ADMIN_SESSION_COOKIE, verifyAdminSession } from "./adminPassword";
@@ -23,7 +24,7 @@ export async function createContext(
 
   if (!user) {
     const cookieHeader = opts.req.headers.cookie || "";
-    const token = cookieHeader.split(";").map((part) => part.trim()).find((part) => part.startsWith(`${ADMIN_SESSION_COOKIE}=`))?.slice(ADMIN_SESSION_COOKIE.length + 1);
+    const token = parseCookies(cookieHeader)[ADMIN_SESSION_COOKIE];
     const customToken = opts.req.headers["x-admin-session-token"];
     const queryToken = typeof opts.req.query?.admin_session === "string" ? opts.req.query.admin_session : undefined;
     const adminSession = verifyAdminSession(token) || verifyAdminSession(typeof customToken === "string" ? customToken : undefined) || verifyAdminSession(queryToken);

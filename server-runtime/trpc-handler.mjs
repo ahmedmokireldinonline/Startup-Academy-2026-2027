@@ -53479,6 +53479,9 @@ var appRouter = router({
   })
 });
 
+// server/_core/context.ts
+import { parse as parseCookies } from "cookie";
+
 // shared/_core/errors.ts
 var HttpError = class extends Error {
   constructor(statusCode, message) {
@@ -53795,7 +53798,7 @@ async function createContext(opts) {
   }
   if (!user) {
     const cookieHeader = opts.req.headers.cookie || "";
-    const token = cookieHeader.split(";").map((part) => part.trim()).find((part) => part.startsWith(`${ADMIN_SESSION_COOKIE}=`))?.slice(ADMIN_SESSION_COOKIE.length + 1);
+    const token = parseCookies(cookieHeader)[ADMIN_SESSION_COOKIE];
     const customToken = opts.req.headers["x-admin-session-token"];
     const queryToken = typeof opts.req.query?.admin_session === "string" ? opts.req.query.admin_session : void 0;
     const adminSession = verifyAdminSession(token) || verifyAdminSession(typeof customToken === "string" ? customToken : void 0) || verifyAdminSession(queryToken);
