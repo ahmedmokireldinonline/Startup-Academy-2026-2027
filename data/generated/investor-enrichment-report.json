@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-05T22:56:33.437Z",
+  "total": 2206,
+  "withImages": 980,
+  "withCountries": 1484,
+  "countryCounts": {
+    "Argentina": 3,
+    "Australia": 16,
+    "Belgium": 1,
+    "Brazil": 11,
+    "Canada": 84,
+    "China": 9,
+    "Colombia": 7,
+    "France": 33,
+    "Germany": 29,
+    "India": 18,
+    "Indonesia": 4,
+    "Israel": 93,
+    "Japan": 9,
+    "Mexico": 17,
+    "Netherlands": 2,
+    "New Zealand": 4,
+    "Pakistan": 1,
+    "Portugal": 3,
+    "Singapore": 17,
+    "Spain": 6,
+    "Switzerland": 1,
+    "Turkey": 1,
+    "United Kingdom": 93,
+    "United States": 1292,
+    "Vietnam": 1
+  }
+}
