@@ -1196,6 +1196,7 @@ var investorCatalog = [
       "Cambridge"
     ],
     "countries": [
+      "Israel",
       "United States"
     ],
     "focus": "3D Printing",
@@ -1203,7 +1204,7 @@ var investorCatalog = [
     "details": "Founder and General Manager of Samsung Mobile R&D Center in Israel. EIR at JVP. Lead UI Designer at Heartland Robotics. Ph.D Student at @massachusetts-institute-of-technology Media Lab",
     "url": "https://angel.co/natan-linder",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/natan-linder",
+    "image": "https://photos.wellfound.com/users/64405-medium_jpg?1462882353",
     "investmentsCount": "0.0",
     "id": "investor-1",
     "sources": [
@@ -1249,7 +1250,7 @@ var investorCatalog = [
     "details": "COO @KruzeConsulting - Startup CFO Consulting. 225+ Startups! Founders and Friends Startup Podcast, Former Partner @ Lighthouse & Co-Founder @BensFriends",
     "url": "https://angel.co/scottorn",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/scottorn",
+    "image": "https://photos.wellfound.com/users/3787-medium_jpg?1546921285",
     "investmentsCount": "8.0",
     "id": "investor-3",
     "sources": [
@@ -1272,7 +1273,7 @@ var investorCatalog = [
     "details": "Building LA's largest creative / entrepreneurial community while redefining the concept of office.",
     "url": "https://angel.co/ronensky",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ronensky",
+    "image": "https://photos.wellfound.com/users/59411-medium_jpg?1415293531",
     "investmentsCount": "5.0",
     "id": "investor-4",
     "sources": [
@@ -1364,7 +1365,7 @@ var investorCatalog = [
     "details": "@instagram Eng Leadership , Startup Advisor, Angel and Hacker",
     "url": "https://angel.co/stevemorin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stevemorin",
+    "image": "https://photos.wellfound.com/users/3407-medium_jpg?1405435593",
     "investmentsCount": "2.0",
     "id": "investor-8",
     "sources": [
@@ -1410,7 +1411,7 @@ var investorCatalog = [
     "details": "CEO/Founder @appnexus, CTO Right Media (sold to @yahoo). Author of bokonads.com.",
     "url": "https://angel.co/bokelley",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bokelley",
+    "image": "https://photos.wellfound.com/users/2450-medium_jpg?1512412556",
     "investmentsCount": "22.0",
     "id": "investor-10",
     "sources": [
@@ -1479,7 +1480,7 @@ var investorCatalog = [
     "details": "Founder & Managing Partner @cota Capital, Founded @saba, executive @oracle-1. Bobby has mentored entrepreneurs and invested over 100 early-stage companies.",
     "url": "https://angel.co/bobbyyazdani",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bobbyyazdani",
+    "image": "https://photos.wellfound.com/users/43368-medium_jpg?1598137743",
     "investmentsCount": "70.0",
     "id": "investor-13",
     "sources": [
@@ -1502,7 +1503,7 @@ var investorCatalog = [
     "details": "Venture Investor | Serial Entrepreneur | Tech Innovator |",
     "url": "https://angel.co/mashinsky",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mashinsky",
+    "image": "https://photos.wellfound.com/users/45184-medium_jpg?1673031543",
     "investmentsCount": "33.0",
     "id": "investor-14",
     "sources": [
@@ -1525,7 +1526,7 @@ var investorCatalog = [
     "details": "Founder of @qwiki.",
     "url": "https://angel.co/dougimbruce",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dougimbruce",
+    "image": "https://photos.wellfound.com/users/50379-medium_jpg?1405470805",
     "investmentsCount": "6.0",
     "id": "investor-15",
     "sources": [
@@ -1548,7 +1549,7 @@ var investorCatalog = [
     "details": "Advising global startups' Japan entry as Trailnavi, Inc. (Founded in April, 2013) and Egg Japan MD. Invested in @twitter, @linkedin and etc. when worked at DG.",
     "url": "https://angel.co/digitalbear",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/digitalbear",
+    "image": "https://photos.wellfound.com/users/51186-medium_jpg?1405471011",
     "investmentsCount": "29.0",
     "id": "investor-16",
     "sources": [
@@ -1594,7 +1595,7 @@ var investorCatalog = [
     "details": "Venture Partner at OCA Ventures",
     "url": "https://angel.co/joedwy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joedwy",
+    "image": "https://photos.wellfound.com/users/11984-medium_jpg?1405444061",
     "investmentsCount": "14.0",
     "id": "investor-18",
     "sources": [
@@ -1617,7 +1618,7 @@ var investorCatalog = [
     "details": "Operator/developer turned early stage investor. Previously exec at both public co and founder/CEO of startup. @the-wharton-school-university-of-pennsylvania MBA",
     "url": "https://angel.co/kenzi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kenzi",
+    "image": "https://photos.wellfound.com/users/55831-medium_jpg?1405473452",
     "investmentsCount": "6.0",
     "id": "investor-19",
     "sources": [
@@ -1664,7 +1665,7 @@ var investorCatalog = [
     "details": "CEO and Co-Founder of @enplug. Founded @nanoly, named @intel Top Social Innovation. Forbes 30 Under 30. @university-of-california-berkeley-1 alum.",
     "url": "https://angel.co/nanxi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nanxi",
+    "image": "https://photos.wellfound.com/users/71042-medium_jpg?1405477845",
     "investmentsCount": "0.0",
     "id": "investor-21",
     "sources": [
@@ -1713,7 +1714,7 @@ var investorCatalog = [
     "details": "Fellow @cdl-2 Founder @razorfish (LA) @schematic @prompt-ly +10. Worked @samsung-electronics, @bbc @videoplaza Early cohort @foundry-group",
     "url": "https://angel.co/richardtitus",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/richardtitus",
+    "image": "https://photos.wellfound.com/users/3422-medium_jpg?1476892260",
     "investmentsCount": "18.0",
     "id": "investor-23",
     "sources": [
@@ -1736,7 +1737,7 @@ var investorCatalog = [
     "details": "Partner at @real-ventures Entrepreneur angel investor father of 5 hockey player",
     "url": "https://angel.co/jscournoyer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jscournoyer",
+    "image": "https://photos.wellfound.com/users/1204-medium_jpg?1405434001",
     "investmentsCount": "21.0",
     "id": "investor-24",
     "sources": [
@@ -1759,7 +1760,7 @@ var investorCatalog = [
     "details": "Product @facebook (Groups, Location & Events, Photos Composer, Video/Brand Advertising) \u2022 CEO/Founder @hot-potato \u2022 SVP, New Media @mlb-advanced-media (MLB.tv, Gameday, PitchF/X, Infrastructure) Interests: Building Teams & Products, Social Science, Aerona",
     "url": "https://angel.co/shafferj",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/shafferj",
+    "image": "https://photos.wellfound.com/users/6625-medium_jpg?1405439514",
     "investmentsCount": "9.0",
     "id": "investor-25",
     "sources": [
@@ -1782,7 +1783,7 @@ var investorCatalog = [
     "details": 'Founder and Managing Director at @entrepreneurs-roundtable-accelerator, Author of "Location Aware Applications", Serial Technology Entrepreneur',
     "url": "https://angel.co/murat-aktihanoglu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/murat-aktihanoglu",
+    "image": "https://photos.wellfound.com/users/58904-medium_jpg?1540246797",
     "investmentsCount": "28.0",
     "id": "investor-26",
     "sources": [
@@ -1805,7 +1806,7 @@ var investorCatalog = [
     "details": "Co-Founder of HIREtech, an Inc. 500 fastest growing company for 2011. Serial Entrepreneur and Investor.",
     "url": "https://angel.co/karim-solanji",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/karim-solanji",
+    "image": "https://photos.wellfound.com/users/52798-medium_jpg?1405472190",
     "investmentsCount": "6.0",
     "id": "investor-27",
     "sources": [
@@ -1828,7 +1829,7 @@ var investorCatalog = [
     "details": "UX \xB7 interested in new remote opportunities! UX Design, strategy, user research + innovation. 8yrs, 45 launches \xB7 Apple, TED, TDA \xB7",
     "url": "https://angel.co/cbolton",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cbolton",
+    "image": "https://photos.wellfound.com/users/64911-medium_jpg?1479830649",
     "investmentsCount": "0.0",
     "id": "investor-28",
     "sources": [
@@ -1851,7 +1852,7 @@ var investorCatalog = [
     "details": "I\u2019m an entrepreneur, advisor, investor and author.",
     "url": "https://angel.co/michael-burke",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-burke",
+    "image": "https://photos.wellfound.com/users/43689-medium_jpg?1405468775",
     "investmentsCount": "4.0",
     "id": "investor-29",
     "sources": [
@@ -1874,7 +1875,7 @@ var investorCatalog = [
     "details": "Venture Partner Plug & Play Ventures",
     "url": "https://angel.co/zarko-maletin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zarko-maletin",
+    "image": "https://photos.wellfound.com/users/34606-medium_jpg?1405463225",
     "investmentsCount": "14.0",
     "id": "investor-30",
     "sources": [
@@ -1966,7 +1967,7 @@ var investorCatalog = [
     "details": "Founder Techcrunch, @crunchfund Partner, blogger at Uncrunched.",
     "url": "https://angel.co/michael-arrington",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-arrington",
+    "image": "https://photos.wellfound.com/users/10982-medium_jpg?1405443250",
     "investmentsCount": "44.0",
     "id": "investor-34",
     "sources": [
@@ -2012,7 +2013,7 @@ var investorCatalog = [
     "details": "Cofounder at Bridgerock. Capital, Data Science, Risk @square. EIR @angellist Viral Growth @playdom (acq. by Disney). Data @opendns . Crunchbase @techcrunch.",
     "url": "https://angel.co/jbryanscott",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jbryanscott",
+    "image": "https://photos.wellfound.com/users/1733-medium_jpg?1530138856",
     "investmentsCount": "2.0",
     "id": "investor-36",
     "sources": [
@@ -2033,7 +2034,7 @@ var investorCatalog = [
     "details": "Was the CEO of @compete.com. He is an investor in RunKeeper.",
     "url": "https://angel.co/don-mclagan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/don-mclagan",
+    "image": "https://photos.wellfound.com/users/7045-medium_jpg?1405439912",
     "investmentsCount": "8.0",
     "id": "investor-37",
     "sources": [
@@ -2049,6 +2050,7 @@ var investorCatalog = [
       "Palo Alto"
     ],
     "countries": [
+      "Mexico",
       "United States"
     ],
     "focus": "Analytics",
@@ -2079,7 +2081,7 @@ var investorCatalog = [
     "details": "Hardaway Connections, Hardaway Marketing (acq. by Intel), Stealthmode Partners,OTEF.org Advise and consult to entrepreneurs. Now VP communications, SurchX",
     "url": "https://angel.co/hardaway",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/hardaway",
+    "image": "https://photos.wellfound.com/users/2478-medium_jpg?1554765014",
     "investmentsCount": "6.0",
     "id": "investor-39",
     "sources": [
@@ -2102,7 +2104,7 @@ var investorCatalog = [
     "details": "Fund manager, Investor | INSEAD, RSM Erasmus | Fintech, Financial services | Singapore, Amsterdam",
     "url": "https://angel.co/wouterkneepkens",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/wouterkneepkens",
+    "image": "https://photos.wellfound.com/users/16530-medium_jpg?1567060031",
     "investmentsCount": "43.0",
     "id": "investor-40",
     "sources": [
@@ -2125,7 +2127,7 @@ var investorCatalog = [
     "details": "@microverse COO, Founder/CEO at @tileo. COO @redbooth-3. Founder @weddingpress.org, CS/ECE @carnegie-mellon-university, MBA @university-of-california-berkeley.",
     "url": "https://angel.co/jjmata",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jjmata",
+    "image": "https://photos.wellfound.com/users/5816-medium_jpg?1513555544",
     "investmentsCount": "6.0",
     "id": "investor-41",
     "sources": [
@@ -2169,7 +2171,7 @@ var investorCatalog = [
     "details": "Founding Partner, Inspovation Ventures. Co-founded @healtheon (now WebMD) with Jim Clark. Company is public (WBMD). Founder/CEO of @cendura (sold to CA).",
     "url": "https://angel.co/pavan-nigam",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pavan-nigam",
+    "image": "https://photos.wellfound.com/users/52858-medium_jpg?1405472216",
     "investmentsCount": "15.0",
     "id": "investor-43",
     "sources": [
@@ -2185,14 +2187,15 @@ var investorCatalog = [
       "Melbourne"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "focus": "Audio",
     "role": "Angel investor",
     "details": "Founder @adventure-capital, @ybfventures, @equiem, Hoist. Founding Investor @axiflux, @omnystudio, BEng(Aero), MBA & @stanford-university GSB - AU/US",
     "url": "https://angel.co/stuart-b-richardson-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stuart-b-richardson-1",
+    "image": "https://photos.wellfound.com/users/43450-medium_jpg?1465356428",
     "investmentsCount": "10.0",
     "id": "investor-44",
     "sources": [
@@ -2215,7 +2218,7 @@ var investorCatalog = [
     "details": "ex-CEO of @mimoco, makers of pop-culture-infused electronics like MimoPower & MIMOBOT. Licensing partners include Star Wars, Hasbro, Cartoon Network, Einstein.",
     "url": "https://angel.co/evanblaustein",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/evanblaustein",
+    "image": "https://photos.wellfound.com/users/46590-medium_jpg?1615788986",
     "investmentsCount": "3.0",
     "id": "investor-45",
     "sources": [
@@ -2238,7 +2241,7 @@ var investorCatalog = [
     "details": "Investor in @tesla-motors.",
     "url": "https://angel.co/alan-chang",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alan-chang",
+    "image": "https://photos.wellfound.com/users/12984-medium_jpg?1405444810",
     "investmentsCount": "13.0",
     "id": "investor-46",
     "sources": [
@@ -2261,7 +2264,7 @@ var investorCatalog = [
     "details": "CEO and Founding Partner @500startups . Previously @google & @youtube . Left-handed. Ballet dancer of > 25 yrs. Go Bears.",
     "url": "https://angel.co/christinetsai",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christinetsai",
+    "image": "https://photos.wellfound.com/users/2719-medium_jpg?1511286420",
     "investmentsCount": "152.0",
     "id": "investor-47",
     "sources": [
@@ -2284,7 +2287,7 @@ var investorCatalog = [
     "details": "Founder @boxgroup \u2022 Worked at @techstars \u2022 Studied at @university-of-pennsylvania, @new-york-university \u2022 Angel Investor @boxgroup",
     "url": "https://angel.co/davidtisch",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidtisch",
+    "image": "https://photos.wellfound.com/users/300-medium_jpg?1405433157",
     "investmentsCount": "134.0",
     "id": "investor-48",
     "sources": [
@@ -2307,7 +2310,7 @@ var investorCatalog = [
     "details": "Investor in @hubspot, @apperian, @carbonite, @mortar-data, @kinvey, @collaborate, @scvngr, @nextly-1, @skyhook Wireless, @smarterer, @constant-contact, @parelastic...",
     "url": "https://angel.co/joecaruso2020",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joecaruso2020",
+    "image": "https://photos.wellfound.com/users/3991-medium_jpg?1485100748",
     "investmentsCount": "123.0",
     "id": "investor-49",
     "sources": [
@@ -2330,7 +2333,7 @@ var investorCatalog = [
     "details": "Real estate developer @MillenniumPartners and real estate tech investor @metaprop-nyc Former VC @eniac-ventures Tour Guide @travelgoat Brown BA, Columbia MBA.",
     "url": "https://angel.co/zachaarons",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zachaarons",
+    "image": "https://photos.wellfound.com/users/43153-medium_jpg?1640788816",
     "investmentsCount": "108.0",
     "id": "investor-50",
     "sources": [
@@ -2354,7 +2357,7 @@ var investorCatalog = [
     "details": "CEO@Golden. @Heyzap[Acq] $->200+ co: Gusto, ClearTax, Boom, Astra, Benchling, Ginkgo, Airtable, Carta, Ironclad, Superhuman, Mercury, Linear, Calm, Relativity",
     "url": "https://angel.co/gomila",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gomila",
+    "image": "https://photos.wellfound.com/users/9505-medium_jpg?1437266499",
     "investmentsCount": "81.0",
     "id": "investor-51",
     "sources": [
@@ -2382,6 +2385,7 @@ var investorCatalog = [
       "San Mateo"
     ],
     "countries": [
+      "China",
       "United States"
     ],
     "focus": "B2B",
@@ -2389,7 +2393,7 @@ var investorCatalog = [
     "details": "Founder at @ovofund (Seed Fund) Partner @equilibrium-investments (Real Estate) Venture Partner at @wi-harper-group (US-China VC) Co-founder @tiny-prints",
     "url": "https://angel.co/eric-chen",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eric-chen",
+    "image": "https://photos.wellfound.com/users/4448-medium_jpg?1486762142",
     "investmentsCount": "68.0",
     "id": "investor-52",
     "sources": [
@@ -2416,7 +2420,7 @@ var investorCatalog = [
     "details": "Less is more",
     "url": "https://angel.co/jenny-fielding",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jenny-fielding",
+    "image": "https://photos.wellfound.com/users/4963-medium_jpg?1602330031",
     "investmentsCount": "65.0",
     "id": "investor-53",
     "sources": [
@@ -2442,7 +2446,7 @@ var investorCatalog = [
     "details": "Co-founded a renewable business, was a VC, worked at Credit Suisse & Deutsche Bank Graduated from Yale and Columbia Business School",
     "url": "https://angel.co/aamerbdullah10",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aamerbdullah10",
+    "image": "https://photos.wellfound.com/users/4563-medium_jpg?1405436685",
     "investmentsCount": "54.0",
     "id": "investor-54",
     "sources": [
@@ -2465,7 +2469,7 @@ var investorCatalog = [
     "details": "Co-founder @venture51. Co-founded @republic-project (acq. '13). Founding team @ Flypaper (acq. '11). Interact alum (ACT! & SalesLogix). Advisor @ Tony Hawk Fndn",
     "url": "https://angel.co/brandonzeuner",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brandonzeuner",
+    "image": "https://photos.wellfound.com/users/9578-medium_jpg?1405442147",
     "investmentsCount": "53.0",
     "id": "investor-55",
     "sources": [
@@ -2486,7 +2490,7 @@ var investorCatalog = [
     "details": "investing via SK Ventures (www.skvcap.com); running gluecon ()",
     "url": "https://angel.co/eric-norlin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eric-norlin",
+    "image": "https://photos.wellfound.com/users/72845-medium_jpg?1408582616",
     "investmentsCount": "47.0",
     "id": "investor-56",
     "sources": [
@@ -2507,7 +2511,7 @@ var investorCatalog = [
     "details": "Former head of business for Asana, and Chief Product Officer for Solarwinds. Board member for CastLight Health, and Itential",
     "url": "https://angel.co/kennyvz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kennyvz",
+    "image": "https://photos.wellfound.com/users/216-medium_jpg?1405433092",
     "investmentsCount": "47.0",
     "id": "investor-57",
     "sources": [
@@ -2528,7 +2532,7 @@ var investorCatalog = [
     "details": "Founder of now public co. Got Yale into Entrepreneurship. Working with others to build DC into an entrepreneurial hub. Angel / VC/ Entrepreneur.",
     "url": "https://angel.co/seanglass",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/seanglass",
+    "image": "https://photos.wellfound.com/users/244-medium_jpg?1405433111",
     "investmentsCount": "44.0",
     "id": "investor-58",
     "sources": [
@@ -2551,7 +2555,7 @@ var investorCatalog = [
     "details": "Founder @dreamhost @hmc-inq \u2022 Investor @flutterwave @kraken @wefunder @lob @chartio @wp-engine @easypost @armory @doordash @truebill @razorpay",
     "url": "https://angel.co/josh-jones",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/josh-jones",
+    "image": "https://photos.wellfound.com/users/39672-medium_jpg?1405467524",
     "investmentsCount": "43.0",
     "id": "investor-59",
     "sources": [
@@ -2574,7 +2578,7 @@ var investorCatalog = [
     "details": "Investor in various start ups",
     "url": "https://angel.co/gigi-levy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gigi-levy",
+    "image": "https://photos.wellfound.com/users/47296-medium_jpg?1405470334",
     "investmentsCount": "43.0",
     "id": "investor-60",
     "sources": [
@@ -2597,7 +2601,7 @@ var investorCatalog = [
     "details": "Managing Director of @HydeparkVP and @HydePark Angels, Professor at University of Chicago @BoothThinking School of Business, and former partner at RK Ventures",
     "url": "https://angel.co/ira-weiss",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ira-weiss",
+    "image": "https://photos.wellfound.com/users/55654-medium_jpg?1405473383",
     "investmentsCount": "39.0",
     "id": "investor-61",
     "sources": [
@@ -2643,7 +2647,7 @@ var investorCatalog = [
     "details": "Founding & Managing Partner at MESA Ventures",
     "url": "https://angel.co/andrew-william-montgomery",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrew-william-montgomery",
+    "image": "https://photos.wellfound.com/users/71562-medium_jpg?1479239868",
     "investmentsCount": "38.0",
     "id": "investor-63",
     "sources": [
@@ -2687,7 +2691,7 @@ var investorCatalog = [
     "details": "Founder @smart-furniture-1, @delegator, @pricewaiter, @prodiligence, Causeway, General Partner of CRF, former Peace Corps Volunteer and U.S. Naval Officer",
     "url": "https://angel.co/culp",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/culp",
+    "image": "https://photos.wellfound.com/users/6584-medium_jpg?1405439467",
     "investmentsCount": "36.0",
     "id": "investor-65",
     "sources": [
@@ -2708,7 +2712,7 @@ var investorCatalog = [
     "details": "General Partner & co-founder at Hustle Fund. Prev partner at 500Startups. CEO/co-founder of LaunchBit (Acq Sept '14). BSEE Stanford. MBA MIT Sloan.",
     "url": "https://angel.co/elizy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/elizy",
+    "image": "https://photos.wellfound.com/users/35426-medium_jpg?1405463942",
     "investmentsCount": "35.0",
     "id": "investor-66",
     "sources": [
@@ -2729,7 +2733,7 @@ var investorCatalog = [
     "details": "Founder @ecosystem-ventures, @playspan, @svox, @PURESWISS\u2022 Worked at @stanley Ventures @mxd3d, @mobile-mantra \u2022 Studied at @university-of-san-francisco",
     "url": "https://angel.co/ecosystemventures",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ecosystemventures",
+    "image": "https://photos.wellfound.com/users/4937-medium_jpg?1405437379",
     "investmentsCount": "35.0",
     "id": "investor-67",
     "sources": [
@@ -2759,7 +2763,7 @@ var investorCatalog = [
     "details": "Partner @softtech-vc. Investing in marketplaces, consumer services, SaaS, edtech, health, and hardware. Marketing, product & consulting in a former life.",
     "url": "https://angel.co/stephanie-palmeri",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stephanie-palmeri",
+    "image": "https://photos.wellfound.com/users/46680-medium_jpg?1647971860",
     "investmentsCount": "34.0",
     "id": "investor-68",
     "sources": [
@@ -2785,7 +2789,7 @@ var investorCatalog = [
     "details": "Engineer. Co-founded VC backed company out of @massachusetts-institute-of-technology. Was GP at Atlas for 19 years. Now co-founder and GP at Bolt.",
     "url": "https://angel.co/axel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/axel",
+    "image": "https://photos.wellfound.com/users/3789-medium_jpg?1516891985",
     "investmentsCount": "32.0",
     "id": "investor-69",
     "sources": [
@@ -2825,14 +2829,15 @@ var investorCatalog = [
       "San Francisco"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Vietnam"
     ],
     "focus": "B2B",
     "role": "Angel investor",
     "details": "General Partner @500startups Vietnam, previously co-founder @klout",
     "url": "https://angel.co/binhtran",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/binhtran",
+    "image": "https://photos.wellfound.com/users/62152-medium_jpg?1640016927",
     "investmentsCount": "28.0",
     "id": "investor-71",
     "sources": [
@@ -2859,7 +2864,7 @@ var investorCatalog = [
     "details": "Co-Founder @gener8tor, a concierge startup accelerator",
     "url": "https://angel.co/jkirgues",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jkirgues",
+    "image": "https://photos.wellfound.com/users/54663-medium_jpg?1431359661",
     "investmentsCount": "28.0",
     "id": "investor-72",
     "sources": [
@@ -2889,7 +2894,7 @@ var investorCatalog = [
     "details": "Design + Startups + Hunting & Outdoors. Married to Brandi, Daddy to Scout, Daisy, Indy, Dixie, Dolly & Violet. @HighAlpha & @StudioScience",
     "url": "https://angel.co/kristianindy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kristianindy",
+    "image": "https://photos.wellfound.com/users/303-medium_jpg?1637251496",
     "investmentsCount": "27.0",
     "id": "investor-73",
     "sources": [
@@ -2915,7 +2920,7 @@ var investorCatalog = [
     "details": "Worked at @mayfield-fund \u2022 Studied at @stanford-university",
     "url": "https://angel.co/michael-levinthal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-levinthal",
+    "image": "https://photos.wellfound.com/users/43316-medium_jpg?1405468758",
     "investmentsCount": "25.0",
     "id": "investor-74",
     "sources": [
@@ -2938,7 +2943,7 @@ var investorCatalog = [
     "details": "GP @7BC Venture Capital and @rubicon VC, Author: Masters of CVC, Masters of Blockchain & The Entrepreneurial Bible to Venture Capital linkedin.com/in/romans/",
     "url": "https://angel.co/andrew-romans-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrew-romans-1",
+    "image": "https://photos.wellfound.com/users/43858-medium_jpg?1430355147",
     "investmentsCount": "25.0",
     "id": "investor-75",
     "sources": [
@@ -2961,7 +2966,7 @@ var investorCatalog = [
     "details": "Jonathan Abrams is an engineer, entrepreneur, and investor. Co-founder and Managing Partner of Founders Den, previously founder of Nuzzel and Friendster.",
     "url": "https://angel.co/abrams",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/abrams",
+    "image": "https://photos.wellfound.com/users/64-medium_jpg?1487181514",
     "investmentsCount": "25.0",
     "id": "investor-76",
     "sources": [
@@ -2987,7 +2992,7 @@ var investorCatalog = [
     "details": "Advisor at Kapor Capital for seed/A investments. Advisor Palantir, @facebook @causes,.. Founded @cubetree, sold to @successfactors. Fmr exec SYMC, @tellme, @netscape",
     "url": "https://angel.co/fubini",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/fubini",
+    "image": "https://photos.wellfound.com/users/2975-medium_jpg?1405435280",
     "investmentsCount": "25.0",
     "id": "investor-77",
     "sources": [
@@ -3010,7 +3015,7 @@ var investorCatalog = [
     "details": "Founder and Managing Partner @cendana-capital",
     "url": "https://angel.co/michaelkim",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michaelkim",
+    "image": "https://photos.wellfound.com/users/5446-medium_jpg?1637952291",
     "investmentsCount": "25.0",
     "id": "investor-78",
     "sources": [
@@ -3033,7 +3038,7 @@ var investorCatalog = [
     "details": "Managing Director at Hyde Park Venture Partners. Big fan of fast growth.",
     "url": "https://angel.co/guy-turner",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/guy-turner",
+    "image": "https://photos.wellfound.com/users/67245-medium_jpg?1405476901",
     "investmentsCount": "24.0",
     "id": "investor-79",
     "sources": [
@@ -3056,7 +3061,7 @@ var investorCatalog = [
     "details": "Led @icontact to $170M exit, Chairman of @hive-10, MBA @harvard-business-school-1. Investor in @kuli-kuli @catalanttechnologies, @spiral-genetics, @spacex",
     "url": "https://angel.co/ryanallis",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ryanallis",
+    "image": "https://photos.wellfound.com/users/67016-medium_jpg?1569135621",
     "investmentsCount": "23.0",
     "id": "investor-80",
     "sources": [
@@ -3123,7 +3128,7 @@ var investorCatalog = [
     "details": "Investor and Founding Partner @upwest-labs . Chief builder at Silicon Valley/Tel-Aviv Tech Junction.",
     "url": "https://angel.co/shuly-galili",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/shuly-galili",
+    "image": "https://photos.wellfound.com/users/12194-medium_jpg?1631119144",
     "investmentsCount": "21.0",
     "id": "investor-83",
     "sources": [
@@ -3144,7 +3149,7 @@ var investorCatalog = [
     "details": "Partner Drive Capital. Co-Founder Formation Data Systems @formation-data-systems-1 ; @stage-one-capital; Board Member @bottlenose;",
     "url": "https://angel.co/ajenks",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ajenks",
+    "image": "https://photos.wellfound.com/users/1446-medium_jpg?1405434176",
     "investmentsCount": "21.0",
     "id": "investor-84",
     "sources": [
@@ -3190,7 +3195,7 @@ var investorCatalog = [
     "details": "Engineering at @google, formerly Co-Founder/CTO @jambool, lifetime at @amazon.com",
     "url": "https://angel.co/reza",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/reza",
+    "image": "https://photos.wellfound.com/users/35985-medium_jpg?1405464439",
     "investmentsCount": "20.0",
     "id": "investor-86",
     "sources": [
@@ -3213,7 +3218,7 @@ var investorCatalog = [
     "details": "Investor in @zendesk, Softscan (now Part of Symantec), @panorama9, @softcom-solutions, Love Product management, Biz dev and go2market",
     "url": "https://angel.co/athorvaldsen",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/athorvaldsen",
+    "image": "https://photos.wellfound.com/users/4876-medium_jpg?1424332766",
     "investmentsCount": "20.0",
     "id": "investor-87",
     "sources": [
@@ -3236,7 +3241,7 @@ var investorCatalog = [
     "details": "Partner at Emergent Ventures",
     "url": "https://angel.co/ankur-jain",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ankur-jain",
+    "image": "https://photos.wellfound.com/users/57030-medium_jpg?1469677954",
     "investmentsCount": "19.0",
     "id": "investor-88",
     "sources": [
@@ -3282,7 +3287,7 @@ var investorCatalog = [
     "details": "Partner @runa-capital",
     "url": "https://angel.co/andre-bliznyuk",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andre-bliznyuk",
+    "image": "https://photos.wellfound.com/users/43601-medium_jpg?1405468823",
     "investmentsCount": "19.0",
     "id": "investor-90",
     "sources": [
@@ -3341,7 +3346,7 @@ var investorCatalog = [
     "details": "Private Equity & Seed Investor \u2022 Managing Director @tscp-1 \u2022 Worked @goldman-sachs IBD FIG \u2022 Studied @stanford @wharton-school",
     "url": "https://angel.co/craig-albrecht",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/craig-albrecht",
+    "image": "https://photos.wellfound.com/users/65578-medium_jpg?1433091048",
     "investmentsCount": "18.0",
     "id": "investor-92",
     "sources": [
@@ -3364,7 +3369,7 @@ var investorCatalog = [
     "details": "Serial Entrepreneur, Non-exec director, Angel Investor",
     "url": "https://angel.co/scoutu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/scoutu",
+    "image": "https://photos.wellfound.com/users/3401-medium_jpg?1405435589",
     "investmentsCount": "18.0",
     "id": "investor-93",
     "sources": [
@@ -3387,7 +3392,7 @@ var investorCatalog = [
     "details": "Smiling Serial Investor with an appetite for disruptive bizz models",
     "url": "https://angel.co/mortenmallorca",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mortenmallorca",
+    "image": "https://photos.wellfound.com/users/43088-medium_jpg?1405468701",
     "investmentsCount": "17.0",
     "id": "investor-94",
     "sources": [
@@ -3431,7 +3436,7 @@ var investorCatalog = [
     "details": "Founder @connect-ventures \u2022 Worked at @doughty-hanson-technology-ventures, @jefferies-co \u2022 Investor @citymapper, @typeform-1",
     "url": "https://angel.co/sitar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sitar",
+    "image": "https://photos.wellfound.com/users/12567-medium_jpg?1405444529",
     "investmentsCount": "17.0",
     "id": "investor-96",
     "sources": [
@@ -3454,7 +3459,7 @@ var investorCatalog = [
     "details": "Co Founder and Managing Director Tensility Venture Partners with a focus on enterprise software that utilizes artificial intelligence methods,",
     "url": "https://angel.co/wayne-boulais",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/wayne-boulais",
+    "image": "https://photos.wellfound.com/users/52031-medium_jpg?1405471173",
     "investmentsCount": "15.0",
     "id": "investor-97",
     "sources": [
@@ -3501,7 +3506,7 @@ var investorCatalog = [
     "details": "Founder @ludei. Past: @hostalia (acquired by Telefonica). Investor: @ticketbis (acquired by eBay), @chicisimo, @habitissimo (acquired), @petcoach (acquired)",
     "url": "https://angel.co/eneko-knorr",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eneko-knorr",
+    "image": "https://photos.wellfound.com/users/55048-medium_jpg?1426138047",
     "investmentsCount": "14.0",
     "id": "investor-99",
     "sources": [
@@ -3539,13 +3544,15 @@ var investorCatalog = [
     "locations": [
       "Islamabad"
     ],
-    "countries": [],
+    "countries": [
+      "Pakistan"
+    ],
     "focus": "B2B",
     "role": "Angel investor",
     "details": "Managing Partner LaksonVC, Early Investor: BTC\u{1F680}LTC\u{1F680}ETH\u{1F680}XRP, Board Member @ Bookme.pk, KnowledgePlatform.pk, Bagallery.com, Roomy.pk, MandiExpress.pk. ex-Executive MTV International.",
     "url": "https://angel.co/faisalaftab-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/faisalaftab-gmail-com",
+    "image": "https://photos.wellfound.com/users/67990-medium_jpg?1646582167",
     "investmentsCount": "14.0",
     "id": "investor-101",
     "sources": [
@@ -3576,7 +3583,7 @@ var investorCatalog = [
     "details": "Entrepreneur. Angel Investor. Advisor Focus on Event Tech, B2B Media Tech, MarkTech, EdTech, B2B SaaS and Marketplaces",
     "url": "https://angel.co/marco-giberti",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marco-giberti",
+    "image": "https://photos.wellfound.com/users/53720-medium_jpg?1444177019",
     "investmentsCount": "14.0",
     "id": "investor-102",
     "sources": [
@@ -3600,7 +3607,7 @@ var investorCatalog = [
     "details": "online advertising advisor",
     "url": "https://angel.co/rich-lefurgy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rich-lefurgy",
+    "image": "https://photos.wellfound.com/users/40940-medium_jpg?1405468142",
     "investmentsCount": "14.0",
     "id": "investor-103",
     "sources": [
@@ -3623,7 +3630,7 @@ var investorCatalog = [
     "details": "Partner at Fathom Ventures. Multiple software & finance startups. Lifelong fintech quant. Love machine learning, blockchain, and serving humanity at scale.",
     "url": "https://angel.co/danvk",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/danvk",
+    "image": "https://photos.wellfound.com/users/5835-medium_jpg?1587532525",
     "investmentsCount": "14.0",
     "id": "investor-104",
     "sources": [
@@ -3646,7 +3653,7 @@ var investorCatalog = [
     "details": "Managing Partner at Voivoda",
     "url": "https://angel.co/val-babajov",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/val-babajov",
+    "image": "https://photos.wellfound.com/users/72459-medium_jpg?1418109710",
     "investmentsCount": "13.0",
     "id": "investor-105",
     "sources": [
@@ -3669,7 +3676,7 @@ var investorCatalog = [
     "details": "Author of The Creative Curve. Founder of @trackmaven - Co-founder Acceleprise",
     "url": "https://angel.co/allen-gannett",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/allen-gannett",
+    "image": "https://photos.wellfound.com/users/65173-medium_jpg?1479698038",
     "investmentsCount": "13.0",
     "id": "investor-106",
     "sources": [
@@ -3692,7 +3699,7 @@ var investorCatalog = [
     "details": "Investor in @snaplogic, @involver, @zephyr, @claritics, @systems-in-motion.",
     "url": "https://angel.co/preetish-nijhawan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/preetish-nijhawan",
+    "image": "https://photos.wellfound.com/users/9159-medium_jpg?1405441804",
     "investmentsCount": "13.0",
     "id": "investor-107",
     "sources": [
@@ -3713,7 +3720,7 @@ var investorCatalog = [
     "details": "vc @inovia - excited about ideas http://www.inoviacapital.com uwaterloo (''06 / comp sci-bioinformatics) ivey ('10 / mba) rbc, psi, fidelity (engineering gigs)",
     "url": "https://angel.co/karam_n",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/karam_n",
+    "image": "https://photos.wellfound.com/users/3345-medium_jpg?1405435556",
     "investmentsCount": "13.0",
     "id": "investor-108",
     "sources": [
@@ -3780,7 +3787,7 @@ var investorCatalog = [
     "details": "Product & ops at @manicube, Entrepreneurship at @columbia-university; Worked at BillGuard, @ia-ventures; Columbia JD/MBA, Michigan BBA; Actual human being",
     "url": "https://angel.co/justin-singer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/justin-singer",
+    "image": "https://photos.wellfound.com/users/45043-medium_jpg?1405469599",
     "investmentsCount": "12.0",
     "id": "investor-111",
     "sources": [
@@ -3819,6 +3826,7 @@ var investorCatalog = [
       "Los Angeles"
     ],
     "countries": [
+      "United Kingdom",
       "United States"
     ],
     "focus": "B2B",
@@ -3826,7 +3834,7 @@ var investorCatalog = [
     "details": "Managing Partner @maxfield-capital, MBA @london-business-school School",
     "url": "https://angel.co/alexander-lazarev",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alexander-lazarev",
+    "image": "https://photos.wellfound.com/users/63708-medium_jpg?1585503484",
     "investmentsCount": "11.0",
     "id": "investor-113",
     "sources": [
@@ -3872,7 +3880,7 @@ var investorCatalog = [
     "details": "Founder & CEO @roniin; Founder & GP @BuildersVC. Former GP at @lightbank - led Seed/Series A investments in Udemy, Sprout Social, Carbon Health, CourseKey.",
     "url": "https://angel.co/paullee",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/paullee",
+    "image": "https://photos.wellfound.com/users/8811-medium_jpg?1517239792",
     "investmentsCount": "11.0",
     "id": "investor-115",
     "sources": [
@@ -3895,7 +3903,7 @@ var investorCatalog = [
     "details": "Broad cross asset-class investment experience in both fiduciary and principal roles.",
     "url": "https://angel.co/alex-bresler",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alex-bresler",
+    "image": "https://photos.wellfound.com/users/10202-medium_jpg?1405442642",
     "investmentsCount": "11.0",
     "id": "investor-116",
     "sources": [
@@ -3918,7 +3926,7 @@ var investorCatalog = [
     "details": "Currently: @small-door-veterinary Past: @softbank-capital, @outbrain, @aol, @sphere-surphace Education: @duke-university, @columbia-university",
     "url": "https://angel.co/jgut",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jgut",
+    "image": "https://photos.wellfound.com/users/4001-medium_jpg?1465501005",
     "investmentsCount": "11.0",
     "id": "investor-117",
     "sources": [
@@ -3941,7 +3949,7 @@ var investorCatalog = [
     "details": "Investor & entrepreneur: COO @reside & Partner @draft-ventures - former COO @livefyre (sold to @adobe-1 ) & VC @greycroft-partners - alum @duke-university-1",
     "url": "https://angel.co/davidjrodriguez",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidjrodriguez",
+    "image": "https://photos.wellfound.com/users/5743-medium_jpg?1436904976",
     "investmentsCount": "11.0",
     "id": "investor-118",
     "sources": [
@@ -4008,7 +4016,7 @@ var investorCatalog = [
     "details": "Currently Co-Founder of @prizepool. Previously at @apple, Co-Founder & CEO of @learnsprout (Sold to Apple), @facebook , @microsoft, and @deloitte-consulting",
     "url": "https://angel.co/frank-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/frank-1",
+    "image": "https://photos.wellfound.com/users/43792-medium_jpg?1429045151",
     "investmentsCount": "10.0",
     "id": "investor-121",
     "sources": [
@@ -4054,7 +4062,7 @@ var investorCatalog = [
     "details": "Venture investor",
     "url": "https://angel.co/kerby",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kerby",
+    "image": "https://photos.wellfound.com/users/10166-medium_jpg?1423073075",
     "investmentsCount": "10.0",
     "id": "investor-123",
     "sources": [
@@ -4078,7 +4086,7 @@ var investorCatalog = [
     "details": "Co-Founding Partner at @nextview-ventures, a NYC- & Boston-based VC firm that invests in founders redesigning the Everyday Economy.",
     "url": "https://angel.co/davidbeisel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidbeisel",
+    "image": "https://photos.wellfound.com/users/3188-medium_jpg?1429646839",
     "investmentsCount": "10.0",
     "id": "investor-124",
     "sources": [
@@ -4146,7 +4154,7 @@ var investorCatalog = [
     "details": "Founder/CTO @real-media (acq by 24/7-WPP). CTO @tacoda (acq by AOL). Founder/Managing Partner @genacast-ventures, technology seed fund w/exits to @google & @adobe",
     "url": "https://angel.co/gil",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gil",
+    "image": "https://photos.wellfound.com/users/1581-medium_jpg?1405434262",
     "investmentsCount": "10.0",
     "id": "investor-127",
     "sources": [
@@ -4169,7 +4177,7 @@ var investorCatalog = [
     "details": "Founder / CEO Near-Me.com, DesksNear.Me, PeerAnalytics, BrandCommunities.co. Founder/CTO @business-catalyst (acquired by Adobe);",
     "url": "https://angel.co/adam-broadway",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/adam-broadway",
+    "image": "https://photos.wellfound.com/users/63094-medium_jpg?1405476991",
     "investmentsCount": "9.0",
     "id": "investor-128",
     "sources": [
@@ -4192,7 +4200,7 @@ var investorCatalog = [
     "details": "Ben Way is a best selling author, leading futurologist, technologist, inventor, and entrepreneur.",
     "url": "https://angel.co/benpbway",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/benpbway",
+    "image": "https://photos.wellfound.com/users/69268-medium_jpg?1405479823",
     "investmentsCount": "9.0",
     "id": "investor-129",
     "sources": [
@@ -4215,7 +4223,7 @@ var investorCatalog = [
     "details": "Josh is an 8x founder and angel investor. Josh rose to prominence in the tech world with a first-of-its kind e-signature app, Zosh, which he served as CEO. Josh is currently managing partner at his family fund Kerr Tech Investments.",
     "url": "https://angel.co/joshkerr",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joshkerr",
+    "image": "https://photos.wellfound.com/users/60936-medium_jpg?1608576593",
     "investmentsCount": "9.0",
     "id": "investor-130",
     "sources": [
@@ -4238,7 +4246,7 @@ var investorCatalog = [
     "details": "VP of Growth and Marketing",
     "url": "https://angel.co/andrewtweed",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrewtweed",
+    "image": "https://photos.wellfound.com/users/61788-medium_jpg?1741387454",
     "investmentsCount": "9.0",
     "id": "investor-131",
     "sources": [
@@ -4284,7 +4292,7 @@ var investorCatalog = [
     "details": "Current @shipwell. Investor @bisonwood. Founded @leaky (Acq 2013). @y-combinator & @massachusetts-institute-of-technology alum. Did one ultramarathon.",
     "url": "https://angel.co/jasontraff",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jasontraff",
+    "image": "https://photos.wellfound.com/users/53917-medium_jpg?1446591587",
     "investmentsCount": "9.0",
     "id": "investor-133",
     "sources": [
@@ -4330,7 +4338,7 @@ var investorCatalog = [
     "details": "Executive Director, Technology Investment fund, @amalfi-capital, Formerly @southern Cross VP, @skype, DFJ, Wedgetail Communications, Allen & Buckeridge",
     "url": "https://angel.co/tristen",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tristen",
+    "image": "https://photos.wellfound.com/users/44807-medium_jpg?1468019541",
     "investmentsCount": "9.0",
     "id": "investor-135",
     "sources": [
@@ -4351,7 +4359,7 @@ var investorCatalog = [
     "details": "Senior Advisor at Santander -- Formerly @blumberg-capital @menlo-ventures @gilt-groupe @ngmoco and @playphone",
     "url": "https://angel.co/christopher-gottschalk",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christopher-gottschalk",
+    "image": "https://photos.wellfound.com/users/46446-medium_jpg?1405469649",
     "investmentsCount": "9.0",
     "id": "investor-136",
     "sources": [
@@ -4376,7 +4384,7 @@ var investorCatalog = [
     "details": "Partner @greycroft-partners",
     "url": "https://angel.co/ellie-wheeler",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ellie-wheeler",
+    "image": "https://photos.wellfound.com/users/46645-medium_jpg?1405470122",
     "investmentsCount": "9.0",
     "id": "investor-137",
     "sources": [
@@ -4402,7 +4410,7 @@ var investorCatalog = [
     "details": "11x founder focused on helping founders stay healthy while running their companies. Founder at @FoundersFirstSystem, former co-founder and chairman at @icontact",
     "url": "https://angel.co/aaron-houghton",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aaron-houghton",
+    "image": "https://photos.wellfound.com/users/9141-medium_jpg?1587940694",
     "investmentsCount": "9.0",
     "id": "investor-138",
     "sources": [
@@ -4446,7 +4454,7 @@ var investorCatalog = [
     "details": "CEO of Worthright. Operating at the intersection of aging, fintech and insurance. Founder of Startup Institute, EIR @ Techstars.",
     "url": "https://angel.co/aaron0",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aaron0",
+    "image": "https://photos.wellfound.com/users/53877-medium_jpg?1587393287",
     "investmentsCount": "8.0",
     "id": "investor-140",
     "sources": [
@@ -4492,7 +4500,7 @@ var investorCatalog = [
     "details": "Investor in @omniture, @voltage-security, @baynote, @sliderocket, @mulesoft, @aria-systems.",
     "url": "https://angel.co/larsleckie",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/larsleckie",
+    "image": "https://photos.wellfound.com/users/2502-medium_jpg?1405434960",
     "investmentsCount": "8.0",
     "id": "investor-142",
     "sources": [
@@ -4515,7 +4523,7 @@ var investorCatalog = [
     "details": "Managing Partner at Beacon, Angel investor, Engineer, Mentor, INSEAD EIR, Included.VC Board",
     "url": "https://angel.co/maria-dramalioti-taylor",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/maria-dramalioti-taylor",
+    "image": "https://photos.wellfound.com/users/62508-medium_jpg?1605805112",
     "investmentsCount": "7.0",
     "id": "investor-143",
     "sources": [
@@ -4538,7 +4546,7 @@ var investorCatalog = [
     "details": "Early Stage Investing",
     "url": "https://angel.co/vijay-nagappan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vijay-nagappan",
+    "image": "https://photos.wellfound.com/users/68074-medium_jpg?1405479172",
     "investmentsCount": "7.0",
     "id": "investor-144",
     "sources": [
@@ -4582,7 +4590,7 @@ var investorCatalog = [
     "details": "Founder of @betterworks and @badgeville. Investor/advisor in @palantir-technologies, @addepar.",
     "url": "https://angel.co/kris-duggan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kris-duggan",
+    "image": "https://photos.wellfound.com/users/61997-medium_jpg?1462943822",
     "investmentsCount": "7.0",
     "id": "investor-146",
     "sources": [
@@ -4605,7 +4613,7 @@ var investorCatalog = [
     "details": "Founder at Hone - www.gohone.com. Partner at Workhouse Capital. Founder of Brightfield Energy. Angel Investor. Start up Advisor. South American Focus.",
     "url": "https://angel.co/andrew-heckler",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrew-heckler",
+    "image": "https://photos.wellfound.com/users/58956-medium_jpg?1462881062",
     "investmentsCount": "7.0",
     "id": "investor-147",
     "sources": [
@@ -4634,7 +4642,7 @@ var investorCatalog = [
     "details": "Managing Director @jsv , 4th @odesk, cofounder / board @rev, @massachusetts-institute-of-technology.",
     "url": "https://angel.co/jbreinlinger",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jbreinlinger",
+    "image": "https://photos.wellfound.com/users/7771-medium_jpg?1441124254",
     "investmentsCount": "7.0",
     "id": "investor-148",
     "sources": [
@@ -4660,7 +4668,7 @@ var investorCatalog = [
     "details": "3x entrepreneur, investor, advisor. Recently, COO of marketplace startup. Experience building marketplaces for the apparel, beauty, media and venture industry.",
     "url": "https://angel.co/deblanda",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/deblanda",
+    "image": "https://photos.wellfound.com/users/6409-medium_jpg?1405439293",
     "investmentsCount": "7.0",
     "id": "investor-149",
     "sources": [
@@ -4706,7 +4714,7 @@ var investorCatalog = [
     "details": "Angel Investor, Advisor, C-level Executive with 20 years of Media experience in print and digital platforms. Currently CEO at SheKnows.com",
     "url": "https://angel.co/philippe-guelton",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/philippe-guelton",
+    "image": "https://photos.wellfound.com/users/57782-medium_jpg?1462880934",
     "investmentsCount": "6.0",
     "id": "investor-151",
     "sources": [
@@ -4729,7 +4737,7 @@ var investorCatalog = [
     "details": "Head Operate Venture Studio; Fmr COO @aspiration, CPO @experian, CXO @happymoney, CEO @realpractice; Consumer Fintech, Mkting, Product, BizDev; Hoosier & UCLA MBA",
     "url": "https://angel.co/carey-ransom",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/carey-ransom",
+    "image": "https://photos.wellfound.com/users/73427-medium_jpg?1586145383",
     "investmentsCount": "6.0",
     "id": "investor-152",
     "sources": [
@@ -4752,7 +4760,7 @@ var investorCatalog = [
     "details": "My background is in venture capital, law, and biophysics. Working w @hbcuvc and teaching VC @yale-university. Native NYC'er w roots in \u{1F1F5}\u{1F1F7}.",
     "url": "https://angel.co/jorgemtorres",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jorgemtorres",
+    "image": "https://photos.wellfound.com/users/65097-medium_jpg?1537232910",
     "investmentsCount": "6.0",
     "id": "investor-153",
     "sources": [
@@ -4840,7 +4848,7 @@ var investorCatalog = [
     "details": "Managing Director at Sierra Ventures",
     "url": "https://angel.co/mark-fernandes",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mark-fernandes",
+    "image": "https://photos.wellfound.com/users/66897-medium_jpg?1462882621",
     "investmentsCount": "5.0",
     "id": "investor-157",
     "sources": [
@@ -4863,7 +4871,7 @@ var investorCatalog = [
     "details": "Early Stage Investor at @accel-partners. BA/MA from @stanford-university. Formerly at @opentable, @facebook & @yahoo-news",
     "url": "https://angel.co/sara-lannin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sara-lannin",
+    "image": "https://photos.wellfound.com/users/68014-medium_jpg?1516429615",
     "investmentsCount": "5.0",
     "id": "investor-158",
     "sources": [
@@ -4884,7 +4892,7 @@ var investorCatalog = [
     "details": "Entrepreneur, investor, executive coach. Interested in media, technology, and national security. Stanford BA/MA. **not investing at this time**",
     "url": "https://angel.co/jeff-giesea",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeff-giesea",
+    "image": "https://photos.wellfound.com/users/48736-medium_jpg?1415641068",
     "investmentsCount": "5.0",
     "id": "investor-159",
     "sources": [
@@ -4905,7 +4913,7 @@ var investorCatalog = [
     "details": "Co-founder @winning-by-design , CEO @loglogic (acq. by Tibco), CMO @agilone , CMO @totango, former VC. Created $800m value. Modern go to market & inside sales.",
     "url": "https://angel.co/dominique-levin1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dominique-levin1",
+    "image": "https://photos.wellfound.com/users/34939-medium_jpg?1405463508",
     "investmentsCount": "5.0",
     "id": "investor-160",
     "sources": [
@@ -5019,7 +5027,7 @@ var investorCatalog = [
     "details": "CEO & co-founder at @binpress, @500startups, Formerly @lionite, @octabox. Animation at Minshar School of Arts. Strong UI/UX & Design. Sales & Marketing drone.",
     "url": "https://angel.co/adam-benayoun",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/adam-benayoun",
+    "image": "https://photos.wellfound.com/users/6432-medium_jpg?1642983040",
     "investmentsCount": "4.0",
     "id": "investor-165",
     "sources": [
@@ -5045,7 +5053,7 @@ var investorCatalog = [
     "details": "Co-Founder Corazon Capital; Board Member Techstars Chicago",
     "url": "https://angel.co/farsht",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/farsht",
+    "image": "https://photos.wellfound.com/users/55593-medium_jpg?1475684958",
     "investmentsCount": "3.0",
     "id": "investor-166",
     "sources": [
@@ -5068,7 +5076,7 @@ var investorCatalog = [
     "details": "Founder of @myprotein-com \xAE | \xA3500 to \xA358m Exit with 100% Equity in 7 Years | Fully Bootstrapped | E&Y Entrepreneur Winner.",
     "url": "https://angel.co/olivercookson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/olivercookson",
+    "image": "https://photos.wellfound.com/users/52732-medium_jpg?1588179771",
     "investmentsCount": "3.0",
     "id": "investor-167",
     "sources": [
@@ -5089,7 +5097,7 @@ var investorCatalog = [
     "details": "Serial Entrepreneur; Matchmaker @godaddy; Operating Partner @pearvc Venture Capital",
     "url": "https://angel.co/tparang",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tparang",
+    "image": "https://photos.wellfound.com/users/67695-medium_jpg?1528837296",
     "investmentsCount": "3.0",
     "id": "investor-168",
     "sources": [
@@ -5154,7 +5162,7 @@ var investorCatalog = [
     "details": "Dot connector. @sylvan-ventures. @ex-tent-vc. @fenwick-and-west. Columbia B-School. UCLA. Hockey Player. Runner.",
     "url": "https://angel.co/dkongusa",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dkongusa",
+    "image": "https://photos.wellfound.com/users/42011-medium_jpg?1650505941",
     "investmentsCount": "2.0",
     "id": "investor-171",
     "sources": [
@@ -5200,7 +5208,7 @@ var investorCatalog = [
     "details": "Design Ethics @ Google. CEO of @apture (acquired by @google in '11). ex-Apple. Mayfield Fellow. @stanford-university Computer Science. Always make new mistakes.",
     "url": "https://angel.co/tristan-harris",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tristan-harris",
+    "image": "https://photos.wellfound.com/users/44850-medium_jpg?1405469143",
     "investmentsCount": "2.0",
     "id": "investor-173",
     "sources": [
@@ -5223,7 +5231,7 @@ var investorCatalog = [
     "details": "Co-founder and CEO of @centrifuge-3 Co-founder and Chief Product Officer at @taulia. Co-founder of @ebydos (sold to ReadSoft).",
     "url": "https://angel.co/markus-ament",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/markus-ament",
+    "image": "https://photos.wellfound.com/users/5830-medium_jpg?1519304645",
     "investmentsCount": "2.0",
     "id": "investor-174",
     "sources": [
@@ -5267,7 +5275,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/gcotsikis",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gcotsikis",
+    "image": "https://photos.wellfound.com/users/57079-medium_jpg?1420660451",
     "investmentsCount": "1.0",
     "id": "investor-176",
     "sources": [
@@ -5311,7 +5319,7 @@ var investorCatalog = [
     "details": "Data and software wrangler. MS EE. Like to work on the full-stack. Prefer APIs over UIs. Previously founder @tinychat.",
     "url": "https://angel.co/martin-redmond",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/martin-redmond",
+    "image": "https://photos.wellfound.com/users/36318-medium_jpg?1405464714",
     "investmentsCount": "1.0",
     "id": "investor-178",
     "sources": [
@@ -5334,7 +5342,7 @@ var investorCatalog = [
     "details": "Founder / CEO @xwinginc, Former VP @godaddy, Founder & COO @locu (acquired by @godaddy) MIT + UCL Alum",
     "url": "https://angel.co/mpiette",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mpiette",
+    "image": "https://photos.wellfound.com/users/34282-medium_jpg?1473370108",
     "investmentsCount": "1.0",
     "id": "investor-179",
     "sources": [
@@ -5350,6 +5358,7 @@ var investorCatalog = [
       "San Francisco"
     ],
     "countries": [
+      "France",
       "United States"
     ],
     "focus": "B2B",
@@ -5357,7 +5366,7 @@ var investorCatalog = [
     "details": "COO @snips, formerly CTO & COO @appsfire. Startup angel, advisor, board member. Paris based. Basketball player. @insead-mba",
     "url": "https://angel.co/ylechelle",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ylechelle",
+    "image": "https://photos.wellfound.com/users/35252-medium_jpg?1405463791",
     "investmentsCount": "1.0",
     "id": "investor-180",
     "sources": [
@@ -5378,7 +5387,7 @@ var investorCatalog = [
     "details": "CEO of @happyco. Designer/Entrepreneur/Hustler. Exited 2 tech startups. Things I \u2665 include mobile, startups, technology, soccer and real estate.",
     "url": "https://angel.co/jindoulee",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jindoulee",
+    "image": "https://photos.wellfound.com/users/45423-medium_jpg?1405469315",
     "investmentsCount": "0.0",
     "id": "investor-181",
     "sources": [
@@ -5401,7 +5410,7 @@ var investorCatalog = [
     "details": "Having fun exploring and building. ex Greylock, AngelList, Oxford, Canuckland.",
     "url": "https://angel.co/brendan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brendan",
+    "image": "https://photos.wellfound.com/users/276-medium_jpg?1405433138",
     "investmentsCount": "0.0",
     "id": "investor-182",
     "sources": [
@@ -5471,7 +5480,7 @@ var investorCatalog = [
     "details": "Employee #88 at @qualcomm, VP Eng for OmniTRACS, launched Vuforia AR, original developer on Eudora email team. Most recent exit: Tocagen IPO and Cozy.",
     "url": "https://angel.co/craig-lauer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/craig-lauer",
+    "image": "https://photos.wellfound.com/users/45206-medium_jpg?1405469278",
     "investmentsCount": "10.0",
     "id": "investor-185",
     "sources": [
@@ -5494,7 +5503,7 @@ var investorCatalog = [
     "details": "founder and investor in startups @investo-1",
     "url": "https://angel.co/romo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/romo",
+    "image": "https://photos.wellfound.com/users/62492-medium_jpg?1468013850",
     "investmentsCount": "31.0",
     "id": "investor-186",
     "sources": [
@@ -5540,7 +5549,7 @@ var investorCatalog = [
     "details": "CEO Enlitic; Faculty Singularity U; Previous: President / Chief Scientist Kaggle; Founder FastMail.FM (sold to Opera) and ODG (sold to Choicepoint). ex-McKinsey",
     "url": "https://angel.co/jeremyphoward",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeremyphoward",
+    "image": "https://photos.wellfound.com/users/4641-medium_jpg?1405436805",
     "investmentsCount": "3.0",
     "id": "investor-188",
     "sources": [
@@ -5563,7 +5572,7 @@ var investorCatalog = [
     "details": "Currently CTO at Mercari, Inc. PhD @mit, Founder @everyscape, CIO @where, Chief Scientist @paypal, EIR @north Bridge, CEO @moju Labs, Corp VP @samsung",
     "url": "https://angel.co/mok",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mok",
+    "image": "https://photos.wellfound.com/users/40964-medium_jpg?1604286669",
     "investmentsCount": "0.0",
     "id": "investor-189",
     "sources": [
@@ -5586,7 +5595,7 @@ var investorCatalog = [
     "details": "CEO @outlierai. Founder of @flurry (now part of Yahoo!). Active angel and startup advisor.",
     "url": "https://angel.co/sean-byrnes",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sean-byrnes",
+    "image": "https://photos.wellfound.com/users/4463-medium_jpg?1405436554",
     "investmentsCount": "20.0",
     "id": "investor-190",
     "sources": [
@@ -5630,7 +5639,7 @@ var investorCatalog = [
     "details": "Investor @appbackr, @yottaa, SignalFire, Airside Mobile, Jurni, Zyudly Labs, talech, Health at Scale, Innovaccer, Telestax, Falkonry, Funnelbeam",
     "url": "https://angel.co/esalisbury",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/esalisbury",
+    "image": "https://photos.wellfound.com/users/289-medium_jpg?1437412831",
     "investmentsCount": "8.0",
     "id": "investor-192",
     "sources": [
@@ -5651,7 +5660,7 @@ var investorCatalog = [
     "details": "Coach, Mentor, CTO @arrowlabs , Founder @imeem , Engineering Director @napster , PhD Computer Science @stanford-university",
     "url": "https://angel.co/jannink",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jannink",
+    "image": "https://photos.wellfound.com/users/59316-medium_jpg?1405473767",
     "investmentsCount": "4.0",
     "id": "investor-193",
     "sources": [
@@ -5674,7 +5683,7 @@ var investorCatalog = [
     "details": "Founder @oh-my-green (YCombinator, YPO, StartX); ex@bain, @bridgewater-associates, @microsoft; educated @stanford-university, @berkeley, @harvard-university",
     "url": "https://angel.co/mheinrich",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mheinrich",
+    "image": "https://photos.wellfound.com/users/50177-medium_jpg?1492836800",
     "investmentsCount": "4.0",
     "id": "investor-194",
     "sources": [
@@ -5695,7 +5704,7 @@ var investorCatalog = [
     "details": "Ex-research scientist at Apple. Founder of startups in financial services, games, toys, publishing, and real estate.",
     "url": "https://angel.co/jeremy-bornstein",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeremy-bornstein",
+    "image": "https://photos.wellfound.com/users/61992-medium_jpg?1648741766",
     "investmentsCount": "1.0",
     "id": "investor-195",
     "sources": [
@@ -5718,7 +5727,7 @@ var investorCatalog = [
     "details": "Founder & CEO at Cirtru - The Most Trusted Roommate Finder & Voted #1 Nationwide",
     "url": "https://angel.co/navishjain",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/navishjain",
+    "image": "https://photos.wellfound.com/users/12452-medium_jpg?1405444429",
     "investmentsCount": "1.0",
     "id": "investor-196",
     "sources": [
@@ -5764,7 +5773,7 @@ var investorCatalog = [
     "details": "Founder @usell-com. Founder of @liveops. Serial Entrepreneur and Angel investor. Strong entrepreneur with Senior management experience.",
     "url": "https://angel.co/douglas-feirstein",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/douglas-feirstein",
+    "image": "https://photos.wellfound.com/users/54538-medium_jpg?1405472898",
     "investmentsCount": "15.0",
     "id": "investor-198",
     "sources": [
@@ -5787,7 +5796,7 @@ var investorCatalog = [
     "details": "Physicist, programmer, data nerd, entrepreneur, investor.  Constantly running away from boredom by learning new things.",
     "url": "https://angel.co/dhruvbansal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dhruvbansal",
+    "image": "https://photos.wellfound.com/users/47239-medium_jpg?1418924549",
     "investmentsCount": "0.0",
     "id": "investor-199",
     "sources": [
@@ -5810,7 +5819,7 @@ var investorCatalog = [
     "details": "Emerging VC, Serial Entrepreneur and Corporate Attorney. Founding Partner at TMT Investments Fund II. Strong network in US, EU and Asia.",
     "url": "https://angel.co/jzegelman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jzegelman",
+    "image": "https://photos.wellfound.com/users/56823-medium_jpg?1494356578",
     "investmentsCount": "25.0",
     "id": "investor-200",
     "sources": [
@@ -5833,7 +5842,7 @@ var investorCatalog = [
     "details": "Entrepreneur and Investor",
     "url": "https://angel.co/cj-macdonald",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cj-macdonald",
+    "image": "https://photos.wellfound.com/users/72576-medium_jpg?1548888981",
     "investmentsCount": "2.0",
     "id": "investor-201",
     "sources": [
@@ -5852,7 +5861,7 @@ var investorCatalog = [
     "details": "Desktop, mobile, browser, and growth hacker. Making: @10x . Previously: @disconnect, @google, @doubleclick.",
     "url": "https://angel.co/oldestlivingboy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/oldestlivingboy",
+    "image": "https://photos.wellfound.com/users/36294-medium_jpg?1516909423",
     "investmentsCount": "1.0",
     "id": "investor-202",
     "sources": [
@@ -5875,7 +5884,7 @@ var investorCatalog = [
     "details": "Founder @celoorg; Previously founder at @locu (acquired by @godaddy), PhD candidate at @mit CSAIL, @facebook Fellow, and worked at @google, @microsoft, and Sun.",
     "url": "https://angel.co/marek-olszewski",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marek-olszewski",
+    "image": "https://photos.wellfound.com/users/34283-medium_jpg?1405462972",
     "investmentsCount": "10.0",
     "id": "investor-203",
     "sources": [
@@ -5898,7 +5907,7 @@ var investorCatalog = [
     "details": "Entrepreneur, Tech-Geek, Advisor, Maker. I create, fix and run things.",
     "url": "https://angel.co/pstehlik",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pstehlik",
+    "image": "https://photos.wellfound.com/users/5826-medium_jpg?1518707218",
     "investmentsCount": "0.0",
     "id": "investor-204",
     "sources": [
@@ -5919,7 +5928,7 @@ var investorCatalog = [
     "details": "Founder of @milewise. Previously, founder of Isovia (sold to JP Mobile/Motorola) and founder of Reble.FM (sold to Playlist.com). Also, PhD Computer Science @massachusetts-institute-of-technology.",
     "url": "https://angel.co/vpulim",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vpulim",
+    "image": "https://photos.wellfound.com/users/13036-medium_jpg?1313861836",
     "investmentsCount": "0.0",
     "id": "investor-205",
     "sources": [
@@ -5934,13 +5943,15 @@ var investorCatalog = [
     "locations": [
       "Minneapolis"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "Blogging Platforms",
     "role": "Angel investor",
     "details": "Serial founder of Drip (acquired by Leadpages), MicroConf, HitTail (acquired, 2015) and now . Host of Startups for the Rest of Us.",
     "url": "https://angel.co/robwalling",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/robwalling",
+    "image": "https://photos.wellfound.com/users/42502-medium_jpg?1641847950",
     "investmentsCount": "8.0",
     "id": "investor-206",
     "sources": [
@@ -6026,7 +6037,7 @@ var investorCatalog = [
     "details": "Co-Founder of @keas Investor: @luminoso,  @ensurify,  @zapprx , @Rationalwave Analytics, @stackdriver, @docphin, @cCipherhealth, @keas, @bit9, @kiodex",
     "url": "https://angel.co/gk_",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gk_",
+    "image": "https://photos.wellfound.com/users/3420-medium_jpg?1405435606",
     "investmentsCount": "8.0",
     "id": "investor-210",
     "sources": [
@@ -6049,7 +6060,7 @@ var investorCatalog = [
     "details": "Founder / CEO @wikihow. Co-CEO @ehow (sold to Demand Media). Co-founder at @luminescent ($25 MM VC + acquired) and @bigtray (Sequoia).",
     "url": "https://angel.co/jackherrick",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jackherrick",
+    "image": "https://photos.wellfound.com/users/2301-medium_jpg?1405434799",
     "investmentsCount": "22.0",
     "id": "investor-211",
     "sources": [
@@ -6072,7 +6083,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/euwyn",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/euwyn",
+    "image": "https://photos.wellfound.com/users/12382-medium_jpg?1484438804",
     "investmentsCount": "0.0",
     "id": "investor-212",
     "sources": [
@@ -6095,7 +6106,7 @@ var investorCatalog = [
     "details": "Early-stage startup specialist",
     "url": "https://angel.co/mtrifiro",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mtrifiro",
+    "image": "https://photos.wellfound.com/users/12555-medium_jpg?1405444520",
     "investmentsCount": "2.0",
     "id": "investor-213",
     "sources": [
@@ -6139,7 +6150,7 @@ var investorCatalog = [
     "details": "General Partner at Work-Bench investing in early stage enterprise tech startups. Founder of NYETM. Previously Morgan Stanley Office of the CIO",
     "url": "https://angel.co/jonathan-lehr",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jonathan-lehr",
+    "image": "https://photos.wellfound.com/users/5132-medium_jpg?1476592941",
     "investmentsCount": "10.0",
     "id": "investor-215",
     "sources": [
@@ -6162,7 +6173,7 @@ var investorCatalog = [
     "details": "Co-Founder, Bionic Solution",
     "url": "https://angel.co/david-s-kidder",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/david-s-kidder",
+    "image": "https://photos.wellfound.com/users/64632-medium_jpg?1454603549",
     "investmentsCount": "30.0",
     "id": "investor-216",
     "sources": [
@@ -6185,7 +6196,7 @@ var investorCatalog = [
     "details": "Sales Executive, Angel Investor, ERP Training Expert",
     "url": "https://angel.co/james-ledoux",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/james-ledoux",
+    "image": "https://photos.wellfound.com/users/48020-medium_jpg?1468713458",
     "investmentsCount": "4.0",
     "id": "investor-217",
     "sources": [
@@ -6208,7 +6219,7 @@ var investorCatalog = [
     "details": "Founding Partner, @first-round-capital; Founder @half-com (sold to EBay)",
     "url": "https://angel.co/joshk",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joshk",
+    "image": "https://photos.wellfound.com/users/277-medium_jpg?1405433139",
     "investmentsCount": "52.0",
     "id": "investor-218",
     "sources": [
@@ -6252,7 +6263,7 @@ var investorCatalog = [
     "details": "Founder @hackers_and_founders & Managing Director @hackfund5",
     "url": "https://angel.co/iamelgringo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/iamelgringo",
+    "image": "https://photos.wellfound.com/users/8797-medium_jpg?1453337699",
     "investmentsCount": "2.0",
     "id": "investor-220",
     "sources": [
@@ -6275,7 +6286,7 @@ var investorCatalog = [
     "details": "Angel Investor. Previously VP Product @dropbox, EIR @greylock, President & CEO @wealthfront, VP Product at @linkedin. Also @ebay, @preview-systems, @apple.",
     "url": "https://angel.co/adamnash",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/adamnash",
+    "image": "https://photos.wellfound.com/users/10314-medium_jpg?1495084192",
     "investmentsCount": "40.0",
     "id": "investor-221",
     "sources": [
@@ -6296,7 +6307,7 @@ var investorCatalog = [
     "details": "DoorDash. Past: Square, Facebook, Google.",
     "url": "https://angel.co/gokul",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gokul",
+    "image": "https://photos.wellfound.com/users/3269-medium_jpg?1526943574",
     "investmentsCount": "81.0",
     "id": "investor-222",
     "sources": [
@@ -6340,7 +6351,7 @@ var investorCatalog = [
     "details": "Founder, ICD (acquired by Texas Instruments), Angel investor, co-chairman of @Baltimore-Angels.",
     "url": "https://angel.co/icdboss",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/icdboss",
+    "image": "https://photos.wellfound.com/users/3726-medium_jpg?1405435853",
     "investmentsCount": "17.0",
     "id": "investor-224",
     "sources": [
@@ -6363,7 +6374,7 @@ var investorCatalog = [
     "details": "Corporate Development at @twitter",
     "url": "https://angel.co/michael-brown",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-brown",
+    "image": "https://photos.wellfound.com/users/6534-medium_jpg?1405439414",
     "investmentsCount": "3.0",
     "id": "investor-225",
     "sources": [
@@ -6386,7 +6397,7 @@ var investorCatalog = [
     "details": "CFO at ZipRecruiter Co Founder at Basepoint Ventures Partner at Rustic Canyon",
     "url": "https://angel.co/traversdavid",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/traversdavid",
+    "image": "https://photos.wellfound.com/users/2467-medium_jpg?1405434936",
     "investmentsCount": "8.0",
     "id": "investor-226",
     "sources": [
@@ -6408,7 +6419,7 @@ var investorCatalog = [
     "details": "Co-founder of FYI (usefyi.com) with @marie-prokopets.",
     "url": "https://angel.co/hnshah",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/hnshah",
+    "image": "https://photos.wellfound.com/users/1572-medium_jpg?1405434257",
     "investmentsCount": "39.0",
     "id": "investor-227",
     "sources": [
@@ -6457,7 +6468,7 @@ var investorCatalog = [
     "details": "Co-Founder @ Shape Therapeutics Founder & Investor @ Step Partners",
     "url": "https://angel.co/john-suliman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/john-suliman",
+    "image": "https://photos.wellfound.com/users/67142-medium_jpg?1572930287",
     "investmentsCount": "14.0",
     "id": "investor-229",
     "sources": [
@@ -6480,7 +6491,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/scottmarlette",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/scottmarlette",
+    "image": "https://photos.wellfound.com/users/63167-medium_jpg?1405474952",
     "investmentsCount": "6.0",
     "id": "investor-230",
     "sources": [
@@ -6503,7 +6514,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/jeff-gorelick",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeff-gorelick",
+    "image": "https://photos.wellfound.com/users/62989-medium_jpg?1442850393",
     "investmentsCount": "11.0",
     "id": "investor-231",
     "sources": [
@@ -6526,7 +6537,7 @@ var investorCatalog = [
     "details": "Vice President of Product, LinkedIn CEO, co-founder, Connectifier CEO, co-founder, Zintin",
     "url": "https://angel.co/john-jersin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/john-jersin",
+    "image": "https://photos.wellfound.com/users/63020-medium_jpg?1611710059",
     "investmentsCount": "4.0",
     "id": "investor-232",
     "sources": [
@@ -6593,7 +6604,7 @@ var investorCatalog = [
     "details": "Founder of @airbnb",
     "url": "https://angel.co/brianchesky",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brianchesky",
+    "image": "https://photos.wellfound.com/users/69424-medium_jpg?1405479898",
     "investmentsCount": "3.0",
     "id": "investor-235",
     "sources": [
@@ -6616,7 +6627,7 @@ var investorCatalog = [
     "details": "Managing Partner Steelhead Ventures, LLC , VP of Bus. Dev. @aisle411. Former VP Corp. Dev at NetShelter. VP NetObjects, Director of Sales AOL.",
     "url": "https://angel.co/garabian",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/garabian",
+    "image": "https://photos.wellfound.com/users/55177-medium_jpg?1435964924",
     "investmentsCount": "2.0",
     "id": "investor-236",
     "sources": [
@@ -6639,7 +6650,7 @@ var investorCatalog = [
     "details": "Building something new. Investor: @airgarageinc , @skip-yc-w18, @rightmessage. Advisor: @lyte & @convertkit . Previously: @omni @gumroad, @square & @ihub.",
     "url": "https://angel.co/delk",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/delk",
+    "image": "https://photos.wellfound.com/users/57740-medium_jpg?1509422912",
     "investmentsCount": "4.0",
     "id": "investor-237",
     "sources": [
@@ -6662,7 +6673,7 @@ var investorCatalog = [
     "details": "Co-founder @joinknowable ex: @vidme ; @socialengine, @mucker-lab, @golden-gate-capital, @jpmorgan-3, @harvard-university. Human? Human!",
     "url": "https://angel.co/warren-shaeffer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/warren-shaeffer",
+    "image": "https://photos.wellfound.com/users/57769-medium_jpg?1428361235",
     "investmentsCount": "2.0",
     "id": "investor-238",
     "sources": [
@@ -6685,7 +6696,7 @@ var investorCatalog = [
     "details": "Founder Yulu, @inmobi,",
     "url": "https://angel.co/amit-gupta",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/amit-gupta",
+    "image": "https://photos.wellfound.com/users/56462-medium_jpg?1518872686",
     "investmentsCount": "15.0",
     "id": "investor-239",
     "sources": [
@@ -6732,7 +6743,7 @@ var investorCatalog = [
     "details": "Founded Tutorspree. Partner at YC.",
     "url": "https://angel.co/akharris-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/akharris-gmail-com",
+    "image": "https://photos.wellfound.com/users/72630-medium_jpg?1604509198",
     "investmentsCount": "6.0",
     "id": "investor-241",
     "sources": [
@@ -6754,7 +6765,7 @@ var investorCatalog = [
     "details": "CO-Founder & CEO at Talenthouse Inc., previously Co-Founder Jajah Inc.",
     "url": "https://angel.co/roman-scharf",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/roman-scharf",
+    "image": "https://photos.wellfound.com/users/71571-medium_jpg?1405478566",
     "investmentsCount": "2.0",
     "id": "investor-242",
     "sources": [
@@ -6775,7 +6786,7 @@ var investorCatalog = [
     "details": "CEO @spoke-software",
     "url": "https://angel.co/philippe-cases",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/philippe-cases",
+    "image": "https://photos.wellfound.com/users/71991-medium_jpg?1493344703",
     "investmentsCount": "10.0",
     "id": "investor-243",
     "sources": [
@@ -6796,7 +6807,7 @@ var investorCatalog = [
     "details": "Co-Founder & CEO of Tada. Last company acquired by Rakuten in 2017. Investor and advisor.",
     "url": "https://angel.co/zephrin-lasker",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zephrin-lasker",
+    "image": "https://photos.wellfound.com/users/73407-medium_jpg?1462942212",
     "investmentsCount": "2.0",
     "id": "investor-244",
     "sources": [
@@ -6835,6 +6846,7 @@ var investorCatalog = [
       "Los Angeles"
     ],
     "countries": [
+      "United Kingdom",
       "United States"
     ],
     "focus": "Clean Technology",
@@ -6842,7 +6854,7 @@ var investorCatalog = [
     "details": "Product Manager @la-clippers - Co-Founder & CTO @good Audience (Techstars London '14) \u2022 Product Strategist at @google \u2022 BS @university-of-california-berkeley-1",
     "url": "https://angel.co/karlgusner",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/karlgusner",
+    "image": "https://photos.wellfound.com/users/64526-medium_jpg?1405475460",
     "investmentsCount": "0.0",
     "id": "investor-246",
     "sources": [
@@ -6869,7 +6881,7 @@ var investorCatalog = [
     "details": "Previously: @angellist @product-hunt, @coinlist, @die-socialisten Engineering/Product/Metrics-kind-of-guy",
     "url": "https://angel.co/andreasklinger",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andreasklinger",
+    "image": "https://photos.wellfound.com/users/64964-medium_jpg?1405475606",
     "investmentsCount": "0.0",
     "id": "investor-247",
     "sources": [
@@ -6893,7 +6905,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/sama",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sama",
+    "image": "https://photos.wellfound.com/users/67525-medium_jpg?1405478902",
     "investmentsCount": "4.0",
     "id": "investor-248",
     "sources": [
@@ -6916,7 +6928,7 @@ var investorCatalog = [
     "details": "Lyft BizOps. Ex-@Twitter lawyer. Ex-YouTube lawyer. Georgian at heart. Californian by location. Good things: music. tech. geo. mobile. snowboarding.",
     "url": "https://angel.co/bakari",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bakari",
+    "image": "https://photos.wellfound.com/users/60098-medium_jpg?1638938546",
     "investmentsCount": "3.0",
     "id": "investor-249",
     "sources": [
@@ -6939,7 +6951,7 @@ var investorCatalog = [
     "details": "Tech co-founder @hedgy, Edgertronic. Founder Jacobs Pineda, Inc: ASI licensing. VLSI/SOC Architect. Apple laptop ASIC design & MPEG/ISO developer circa 1990s.",
     "url": "https://angel.co/pineda",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pineda",
+    "image": "https://photos.wellfound.com/users/61618-medium_jpg?1414118199",
     "investmentsCount": "2.0",
     "id": "investor-250",
     "sources": [
@@ -6981,7 +6993,7 @@ var investorCatalog = [
     "details": "Goldman Sachs \u2022 Founder @final \u2022 Worked at @simple-energy, @ibm \u2022 Studied at @university-of-maryland-college-park",
     "url": "https://angel.co/arfrank",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/arfrank",
+    "image": "https://photos.wellfound.com/users/53742-medium_jpg?1405471733",
     "investmentsCount": "9.0",
     "id": "investor-252",
     "sources": [
@@ -7004,7 +7016,7 @@ var investorCatalog = [
     "details": "Partner at Pegasus Tech Ventures",
     "url": "https://angel.co/bill-reichert",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bill-reichert",
+    "image": "https://photos.wellfound.com/users/54790-medium_jpg?1542663164",
     "investmentsCount": "14.0",
     "id": "investor-253",
     "sources": [
@@ -7048,7 +7060,7 @@ var investorCatalog = [
     "details": "Serial entrepreneur (midPhase.com sold to UK2Group), CEO & founder of SingleHop- $40M IaaS provider. Interested in investing in passionate entrepreneurs.",
     "url": "https://angel.co/zak-boca",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zak-boca",
+    "image": "https://photos.wellfound.com/users/75505-medium_jpg?1642702923",
     "investmentsCount": "13.0",
     "id": "investor-255",
     "sources": [
@@ -7071,7 +7083,7 @@ var investorCatalog = [
     "details": "@affirm, @pinterest, founder, @linkedin . Before that: @google, @oracle-2, @stanford-university.",
     "url": "https://angel.co/smallchou",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/smallchou",
+    "image": "https://photos.wellfound.com/users/70993-medium_jpg?1476815943",
     "investmentsCount": "5.0",
     "id": "investor-256",
     "sources": [
@@ -7094,7 +7106,7 @@ var investorCatalog = [
     "details": "Co-Founder/CEO, Charming Robot Co-Founder, Hard Candy Shell Advisor/LP: Mesa + UX, Design, Strategy, Investor.",
     "url": "https://angel.co/danmaccarone",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/danmaccarone",
+    "image": "https://photos.wellfound.com/users/68358-medium_jpg?1405477336",
     "investmentsCount": "6.0",
     "id": "investor-257",
     "sources": [
@@ -7138,7 +7150,7 @@ var investorCatalog = [
     "details": "1 Helped iContact get acquired for $169 million dollars. 2 Have generated millions per month in online sales. 3 Mass Traffic Expert 4 Mobile Marketing Expert",
     "url": "https://angel.co/carlos-garcia",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/carlos-garcia",
+    "image": "https://photos.wellfound.com/users/44658-medium_jpg?1472568023",
     "investmentsCount": "4.0",
     "id": "investor-259",
     "sources": [
@@ -7161,7 +7173,7 @@ var investorCatalog = [
     "details": "Cofounder @weav-music. Former e-dir @facebook. Cofounder @where 2 Tech -- sold to @google to make Google Maps. Started Google Wave.",
     "url": "https://angel.co/lr",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lr",
+    "image": "https://photos.wellfound.com/users/43108-medium_jpg?1459377200",
     "investmentsCount": "19.0",
     "id": "investor-260",
     "sources": [
@@ -7182,7 +7194,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/dave-withers",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dave-withers",
+    "image": "https://photos.wellfound.com/users/43437-medium_jpg?1416867803",
     "investmentsCount": "0.0",
     "id": "investor-261",
     "sources": [
@@ -7202,6 +7214,7 @@ var investorCatalog = [
       "United States"
     ],
     "countries": [
+      "Japan",
       "United States"
     ],
     "focus": "Clean Technology",
@@ -7209,7 +7222,7 @@ var investorCatalog = [
     "details": "Venture capitalist based in Tokyo.",
     "url": "https://angel.co/hiro-maeda",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/hiro-maeda",
+    "image": "https://photos.wellfound.com/users/34295-medium_jpg?1405462988",
     "investmentsCount": "34.0",
     "id": "investor-262",
     "sources": [
@@ -7254,7 +7267,7 @@ var investorCatalog = [
     "details": "Kauffman Fellow. Early Stage Investor. Entrepreneur.",
     "url": "https://angel.co/whitney-rowe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/whitney-rowe",
+    "image": "https://photos.wellfound.com/users/36229-medium_jpg?1405464641",
     "investmentsCount": "7.0",
     "id": "investor-264",
     "sources": [
@@ -7277,7 +7290,7 @@ var investorCatalog = [
     "details": "Managing Director, NYU Innovation Venture Fund. @rimalovski",
     "url": "https://angel.co/rimalovski",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rimalovski",
+    "image": "https://photos.wellfound.com/users/35616-medium_jpg?1405464103",
     "investmentsCount": "14.0",
     "id": "investor-265",
     "sources": [
@@ -7300,7 +7313,7 @@ var investorCatalog = [
     "details": "Founder & CTO of @gnip",
     "url": "https://angel.co/jvaleski",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jvaleski",
+    "image": "https://photos.wellfound.com/users/35644-medium_jpg?1405464122",
     "investmentsCount": "10.0",
     "id": "investor-266",
     "sources": [
@@ -7346,7 +7359,7 @@ var investorCatalog = [
     "details": "Co-Founder / CEO of @estately. 500 Startups Mentor. We make it easy to buy a home online. I love user experience and customer acquisition.",
     "url": "https://angel.co/galenward",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/galenward",
+    "image": "https://photos.wellfound.com/users/35413-medium_jpg?1624035713",
     "investmentsCount": "1.0",
     "id": "investor-268",
     "sources": [
@@ -7369,7 +7382,7 @@ var investorCatalog = [
     "details": "Founder/CEO @Right Media (sold to @yahoo), @yext Chairman, @moat Inc. Chairman, @inadco investor/board, angel, advisor.",
     "url": "https://angel.co/michael-walrath",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-walrath",
+    "image": "https://photos.wellfound.com/users/36578-medium_jpg?1405464918",
     "investmentsCount": "7.0",
     "id": "investor-269",
     "sources": [
@@ -7392,7 +7405,7 @@ var investorCatalog = [
     "details": "Founder @tapsense. Engineer at @google. YC alum. Founder @buxfer. PhD Computer Science Carnegie Mellon.",
     "url": "https://angel.co/amitmanjhi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/amitmanjhi",
+    "image": "https://photos.wellfound.com/users/36628-medium_jpg?1607722130",
     "investmentsCount": "0.0",
     "id": "investor-270",
     "sources": [
@@ -7415,7 +7428,7 @@ var investorCatalog = [
     "details": "currently: investor . Ex: product lead @ Twitter/FB/Snap. writing/subscribe \u{1F449}:",
     "url": "https://angel.co/sriramk",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sriramk",
+    "image": "https://photos.wellfound.com/users/47086-medium_jpg?1405470264",
     "investmentsCount": "4.0",
     "id": "investor-271",
     "sources": [
@@ -7436,7 +7449,7 @@ var investorCatalog = [
     "details": "Entrepreneur/Investor",
     "url": "https://angel.co/jens-christensen",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jens-christensen",
+    "image": "https://photos.wellfound.com/users/41434-medium_jpg?1432942421",
     "investmentsCount": "9.0",
     "id": "investor-272",
     "sources": [
@@ -7457,7 +7470,7 @@ var investorCatalog = [
     "details": "Cofounded RJMetrics & Stitch. Previously at Insight Venture Partners. Wharton undergrad.",
     "url": "https://angel.co/jake-stein",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jake-stein",
+    "image": "https://photos.wellfound.com/users/49671-medium_jpg?1617813768",
     "investmentsCount": "3.0",
     "id": "investor-273",
     "sources": [
@@ -7480,7 +7493,7 @@ var investorCatalog = [
     "details": "CEO and Co-Founder of Shots. Join Shots today! shots.com/app",
     "url": "https://angel.co/johnshahidi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/johnshahidi",
+    "image": "https://photos.wellfound.com/users/50089-medium_jpg?1405471283",
     "investmentsCount": "1.0",
     "id": "investor-274",
     "sources": [
@@ -7503,7 +7516,7 @@ var investorCatalog = [
     "details": "Managing Director at DFJ",
     "url": "https://angel.co/jennifer-fonstad",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jennifer-fonstad",
+    "image": "https://photos.wellfound.com/users/37419-medium_jpg?1405465772",
     "investmentsCount": "8.0",
     "id": "investor-275",
     "sources": [
@@ -7549,7 +7562,7 @@ var investorCatalog = [
     "details": "Co-founder of @beautylish.",
     "url": "https://angel.co/nils-johnson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nils-johnson",
+    "image": "https://photos.wellfound.com/users/38866-medium_jpg?1405467277",
     "investmentsCount": "18.0",
     "id": "investor-277",
     "sources": [
@@ -7572,7 +7585,7 @@ var investorCatalog = [
     "details": "Founder @diystro, acquired in 2011. Designer, hacker, maker, eccentric. UI Design and Development.",
     "url": "https://angel.co/matt-terich",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matt-terich",
+    "image": "https://photos.wellfound.com/users/38891-medium_jpg?1405467401",
     "investmentsCount": "0.0",
     "id": "investor-278",
     "sources": [
@@ -7606,7 +7619,7 @@ var investorCatalog = [
     "details": "Co-Founder @hired @99designs, @sitepoint, @flippa. Forbes 30 under 30 & Inc 30 under 30.",
     "url": "https://angel.co/matt-mickiewicz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matt-mickiewicz",
+    "image": "https://photos.wellfound.com/users/47266-medium_jpg?1405470319",
     "investmentsCount": "12.0",
     "id": "investor-279",
     "sources": [
@@ -7655,7 +7668,7 @@ var investorCatalog = [
     "details": "I do a lot of things",
     "url": "https://angel.co/stevecheney",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stevecheney",
+    "image": "https://photos.wellfound.com/users/4441-medium_jpg?1469553688",
     "investmentsCount": "1.0",
     "id": "investor-281",
     "sources": [
@@ -7679,7 +7692,7 @@ var investorCatalog = [
     "details": "Partner @y-combinator Previously founder/CEO of @imeem and @app.net. @stanford-university SymSys '03.",
     "url": "https://angel.co/daltonc",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/daltonc",
+    "image": "https://photos.wellfound.com/users/4933-medium_jpg?1405437374",
     "investmentsCount": "18.0",
     "id": "investor-282",
     "sources": [
@@ -7732,7 +7745,7 @@ var investorCatalog = [
     "details": "Founder @StandardBots , @etacts, @a-plus \u2022 Studied at @duke-university",
     "url": "https://angel.co/evan-beard",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/evan-beard",
+    "image": "https://photos.wellfound.com/users/10350-medium_jpg?1405442780",
     "investmentsCount": "1.0",
     "id": "investor-284",
     "sources": [
@@ -7755,7 +7768,7 @@ var investorCatalog = [
     "details": "Cofounder of @stripe. Previously: MIT, Auctomatic, reverse engineering iPhone apps, reading books.",
     "url": "https://angel.co/patrick-collison",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/patrick-collison",
+    "image": "https://photos.wellfound.com/users/10228-medium_jpg?1405442666",
     "investmentsCount": "0.0",
     "id": "investor-285",
     "sources": [
@@ -7778,7 +7791,7 @@ var investorCatalog = [
     "details": "Facebook Platform developer relations. Google biz dev. Advisor/Angel to great entrepreneurs.",
     "url": "https://angel.co/ethanbeard",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ethanbeard",
+    "image": "https://photos.wellfound.com/users/9086-medium_jpg?1405441728",
     "investmentsCount": "32.0",
     "id": "investor-286",
     "sources": [
@@ -7793,13 +7806,15 @@ var investorCatalog = [
     "locations": [
       "New Zealand"
     ],
-    "countries": [],
+    "countries": [
+      "New Zealand"
+    ],
     "focus": "Clean Technology",
     "role": "Angel investor",
     "details": "@square @domainr @six-apart @altavista",
     "url": "https://angel.co/rr",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rr",
+    "image": "https://photos.wellfound.com/users/5877-medium_jpg?1621532958",
     "investmentsCount": "6.0",
     "id": "investor-287",
     "sources": [
@@ -7822,7 +7837,7 @@ var investorCatalog = [
     "details": 'CEO @sweatwithstudio - The Smart Hub For Your Home Gym. Previously: CEO of @onswipe (acquired). 2X Techstars CEO. Author "The Ultralight Startup"',
     "url": "https://angel.co/jasonlbaptiste",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jasonlbaptiste",
+    "image": "https://photos.wellfound.com/users/6604-medium_jpg?1605553299",
     "investmentsCount": "0.0",
     "id": "investor-288",
     "sources": [
@@ -7845,7 +7860,7 @@ var investorCatalog = [
     "details": "@getaround CEO; Occasional angel investor.",
     "url": "https://angel.co/samzaid",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/samzaid",
+    "image": "https://photos.wellfound.com/users/6738-medium_jpg?1528677859",
     "investmentsCount": "7.0",
     "id": "investor-289",
     "sources": [
@@ -7868,7 +7883,7 @@ var investorCatalog = [
     "details": "Former EIR at @idealab; Founder & CEO of @accessdna (acquired by InformedDNA) and early employee and senior exec at @weddingchannel (acquired by TheKnot).",
     "url": "https://angel.co/leeessner",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/leeessner",
+    "image": "https://photos.wellfound.com/users/2681-medium_jpg?1405435076",
     "investmentsCount": "1.0",
     "id": "investor-290",
     "sources": [
@@ -7884,6 +7899,7 @@ var investorCatalog = [
       "San Francisco"
     ],
     "countries": [
+      "United Kingdom",
       "United States"
     ],
     "focus": "Clean Technology",
@@ -7891,7 +7907,7 @@ var investorCatalog = [
     "details": "Founder @freedompop, @woome-com \u2022 Investor @zuli @freedompop, @ShareSquare @voiq \u2022 Studied at @london-business-school, @university-of-california-berkeley",
     "url": "https://angel.co/stokols",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stokols",
+    "image": "https://photos.wellfound.com/users/5127-medium_jpg?1405437656",
     "investmentsCount": "3.0",
     "id": "investor-291",
     "sources": [
@@ -7914,7 +7930,7 @@ var investorCatalog = [
     "details": "Founded @caviar (Acquired 8/14). Founded @munch-on-me (YC S11, Acquired 5/12). Forbes 30 Under 30.",
     "url": "https://angel.co/jwang815",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jwang815",
+    "image": "https://photos.wellfound.com/users/5145-medium_jpg?1422937949",
     "investmentsCount": "8.0",
     "id": "investor-292",
     "sources": [
@@ -7983,7 +7999,7 @@ var investorCatalog = [
     "details": "CEO and CoFounder of Talla (@tallainc). Former CEO @backupify (acq by Datto 2014). I also write an A.I. newsletter at inside.com/ai",
     "url": "https://angel.co/robmay",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/robmay",
+    "image": "https://photos.wellfound.com/users/6245-medium_jpg?1624827096",
     "investmentsCount": "23.0",
     "id": "investor-295",
     "sources": [
@@ -8006,7 +8022,7 @@ var investorCatalog = [
     "details": "Founder @fundersclub",
     "url": "https://angel.co/boris-silver",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/boris-silver",
+    "image": "https://photos.wellfound.com/users/12454-medium_jpg?1405444431",
     "investmentsCount": "3.0",
     "id": "investor-296",
     "sources": [
@@ -8073,7 +8089,7 @@ var investorCatalog = [
     "details": "Former CEO of @nail-your-mortgage. Mentor at Founders Institute and Women Innovate Mobile.",
     "url": "https://angel.co/mark-pickett",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mark-pickett",
+    "image": "https://photos.wellfound.com/users/11269-medium_jpg?1405443487",
     "investmentsCount": "0.0",
     "id": "investor-299",
     "sources": [
@@ -8094,7 +8110,7 @@ var investorCatalog = [
     "details": "Entrepreneur & Internet Visionary, Private Equity, Venture & Impact Investor, Board Director & Advisor. @proven leadership/partnership in start-up environments.",
     "url": "https://angel.co/graifman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/graifman",
+    "image": "https://photos.wellfound.com/users/13077-medium_jpg?1405444879",
     "investmentsCount": "16.0",
     "id": "investor-300",
     "sources": [
@@ -8117,7 +8133,7 @@ var investorCatalog = [
     "details": "Passionate about building great things with great people!",
     "url": "https://angel.co/sevin514",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sevin514",
+    "image": "https://photos.wellfound.com/users/11624-medium_jpg?1756236885",
     "investmentsCount": "3.0",
     "id": "investor-301",
     "sources": [
@@ -8167,7 +8183,7 @@ var investorCatalog = [
     "details": "Co-Founder and Managing Director @merus-capital. Ex- @google and @microsoft",
     "url": "https://angel.co/seandem",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/seandem",
+    "image": "https://photos.wellfound.com/users/4312-medium_jpg?1405436369",
     "investmentsCount": "17.0",
     "id": "investor-303",
     "sources": [
@@ -8191,7 +8207,7 @@ var investorCatalog = [
     "details": "Founder, CTO from Startup to IPO, Investor, and Advisor, business operator, and substantial success in investing in, and advising high-tech startup companies.",
     "url": "https://angel.co/vgurbuxani",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vgurbuxani",
+    "image": "https://photos.wellfound.com/users/5549-medium_jpg?1554860745",
     "investmentsCount": "7.0",
     "id": "investor-304",
     "sources": [
@@ -8212,7 +8228,7 @@ var investorCatalog = [
     "details": "Co-Founder & CTO @leadx, Founder & CEO @appfog (Acquired in June 2013), Co-Founder & CTO of @mog",
     "url": "https://angel.co/cardmagic",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cardmagic",
+    "image": "https://photos.wellfound.com/users/1352-medium_jpg?1462879576",
     "investmentsCount": "7.0",
     "id": "investor-305",
     "sources": [
@@ -8256,7 +8272,7 @@ var investorCatalog = [
     "details": "Co-Founder @sapient (NASDAQ: SAPE, $1B Revenue) Co-CEO @sapient (1991 to 2006)",
     "url": "https://angel.co/j-stuart-moore",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/j-stuart-moore",
+    "image": "https://photos.wellfound.com/users/53322-medium_jpg?1405471602",
     "investmentsCount": "1.0",
     "id": "investor-307",
     "sources": [
@@ -8279,7 +8295,7 @@ var investorCatalog = [
     "details": "Leading APAC for @stripe Formerly: Product + Engineering Management @twitter, CEO @lucky-sort (Acq. 2013). Always: curious.",
     "url": "https://angel.co/noahmp",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/noahmp",
+    "image": "https://photos.wellfound.com/users/11671-medium_jpg?1405443806",
     "investmentsCount": "2.0",
     "id": "investor-308",
     "sources": [
@@ -8348,7 +8364,7 @@ var investorCatalog = [
     "details": "Founder of half a dozen startups, including Writely (Google Docs) and Scalyr; four exits and counting; Senior Staff Engineer at Google.",
     "url": "https://angel.co/steve-newman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/steve-newman",
+    "image": "https://photos.wellfound.com/users/58461-medium_jpg?1409871347",
     "investmentsCount": "1.0",
     "id": "investor-311",
     "sources": [
@@ -8369,7 +8385,7 @@ var investorCatalog = [
     "details": "Founding Partner of WING. Former Partner at Accel (15 years). Previously @silicon-graphics, McKinsey, Harvard.",
     "url": "https://angel.co/peter-wagner",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/peter-wagner",
+    "image": "https://photos.wellfound.com/users/36587-medium_jpg?1600970162",
     "investmentsCount": "46.0",
     "id": "investor-312",
     "sources": [
@@ -8392,7 +8408,7 @@ var investorCatalog = [
     "details": "Seed investor & stealth startup founder. Previously: EIR @benchmark-capital ,@twitter, @mitro-lectorius-inc, @google. Investor in @wish, @pilothq and @heroku.",
     "url": "https://angel.co/vijayp",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vijayp",
+    "image": "https://photos.wellfound.com/users/5394-medium_jpg?1580854603",
     "investmentsCount": "13.0",
     "id": "investor-313",
     "sources": [
@@ -8438,7 +8454,7 @@ var investorCatalog = [
     "details": "Investor in @omniture, @verisign, @salesforce, @productionpro, New Wave Foods",
     "url": "https://angel.co/gigib1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gigib1",
+    "image": "https://photos.wellfound.com/users/9286-medium_jpg?1405441926",
     "investmentsCount": "12.0",
     "id": "investor-315",
     "sources": [
@@ -8503,7 +8519,7 @@ var investorCatalog = [
     "details": "Co-founded 3 startups, Successful exit on the first 2 & the 3rd (@iterasi) is closed. Mostly retired now ;)",
     "url": "https://angel.co/petegrillo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/petegrillo",
+    "image": "https://photos.wellfound.com/users/73727-medium_jpg?1405478698",
     "investmentsCount": "3.0",
     "id": "investor-318",
     "sources": [
@@ -8526,7 +8542,7 @@ var investorCatalog = [
     "details": "@rev Product Manager @y-combinator @genacast-ventures Associate @foundation-capital YEP @massachusetts-institute-of-technology EECS &Management @wharton-school",
     "url": "https://angel.co/austin-neudecker",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/austin-neudecker",
+    "image": "https://photos.wellfound.com/users/46073-medium_jpg?1405469524",
     "investmentsCount": "3.0",
     "id": "investor-319",
     "sources": [
@@ -8549,7 +8565,7 @@ var investorCatalog = [
     "details": "@earthweb, @alexa-internet, @compete, CEO & Co-founder @discovery-mining, CEO & Co-founder @cohuman @pivotallabs @sprint.ly Alta Motors Cognizant Accelerator",
     "url": "https://angel.co/mattwork",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mattwork",
+    "image": "https://photos.wellfound.com/users/1324-medium_jpg?1476301663",
     "investmentsCount": "0.0",
     "id": "investor-320",
     "sources": [
@@ -8570,7 +8586,7 @@ var investorCatalog = [
     "details": "@webkite Founder - First developer, team builder; Founder @alt-capital, Former CMO @modcloth , Former Consultant @mckinsey-company",
     "url": "https://angel.co/eric-silver",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eric-silver",
+    "image": "https://photos.wellfound.com/users/35957-medium_jpg?1405464382",
     "investmentsCount": "11.0",
     "id": "investor-321",
     "sources": [
@@ -8593,7 +8609,7 @@ var investorCatalog = [
     "details": "Entrepreneur, problem solver, & investor. Explorer, experience & sports enthusiast.",
     "url": "https://angel.co/ekroll",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ekroll",
+    "image": "https://photos.wellfound.com/users/68774-medium_jpg?1405477016",
     "investmentsCount": "17.0",
     "id": "investor-322",
     "sources": [
@@ -8616,7 +8632,7 @@ var investorCatalog = [
     "details": "Co-founder and partner at Venrex",
     "url": "https://angel.co/tom-fleming",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tom-fleming",
+    "image": "https://photos.wellfound.com/users/56353-medium_jpg?1405473687",
     "investmentsCount": "16.0",
     "id": "investor-323",
     "sources": [
@@ -8637,7 +8653,7 @@ var investorCatalog = [
     "details": "COO @masterclass Founder @restorehealth (acq by Zillion) @zoodles (acq by HTC), @shelfari (acq by Amazon)\u2022 EDU @ MIT and @ UIUC",
     "url": "https://angel.co/markwilliamson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/markwilliamson",
+    "image": "https://photos.wellfound.com/users/71184-medium_jpg?1405478424",
     "investmentsCount": "10.0",
     "id": "investor-324",
     "sources": [
@@ -8658,7 +8674,7 @@ var investorCatalog = [
     "details": "CTO, @go-interactive Strong background in developing web applications. Over 12 years of software engineering experience. BS from @university-of-california-los-angeles, MS from @university-of-southern-california.",
     "url": "https://angel.co/blogged-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/blogged-1",
+    "image": "https://photos.wellfound.com/users/72244-medium_jpg?1405481211",
     "investmentsCount": "1.0",
     "id": "investor-325",
     "sources": [
@@ -8679,7 +8695,7 @@ var investorCatalog = [
     "details": "Founder, GigaPoints. Started and sold 2 companies. Product background with bootstrap mentality.",
     "url": "https://angel.co/erik-budde",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/erik-budde",
+    "image": "https://photos.wellfound.com/users/61987-medium_jpg?1603143383",
     "investmentsCount": "2.0",
     "id": "investor-326",
     "sources": [
@@ -8700,7 +8716,7 @@ var investorCatalog = [
     "details": "Founding partner GrowthX VC fund. Founded largest dating site of 90's (now Match.com). Helped found/fund CriticalWatch enterprise security software.",
     "url": "https://angel.co/will-bunker",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/will-bunker",
+    "image": "https://photos.wellfound.com/users/73376-medium_jpg?1471992105",
     "investmentsCount": "65.0",
     "id": "investor-327",
     "sources": [
@@ -8723,7 +8739,7 @@ var investorCatalog = [
     "details": "Founder Upslope Ventures Founder & former CEO at Galvanize",
     "url": "https://angel.co/yodeets",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/yodeets",
+    "image": "https://photos.wellfound.com/users/75341-medium_jpg?1420999912",
     "investmentsCount": "9.0",
     "id": "investor-328",
     "sources": [
@@ -8767,7 +8783,7 @@ var investorCatalog = [
     "details": "Partner at Sumo Ventures.",
     "url": "https://angel.co/amuse",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/amuse",
+    "image": "https://photos.wellfound.com/users/201-medium_jpg?1431876985",
     "investmentsCount": "0.0",
     "id": "investor-330",
     "sources": [
@@ -8790,7 +8806,7 @@ var investorCatalog = [
     "details": "Founded WiredConcierge (part of @wiredscore), @beer-dreamer. Engineering roots; now business; intellectually curious @brown-university @wharton-school",
     "url": "https://angel.co/jelpern",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jelpern",
+    "image": "https://photos.wellfound.com/users/62998-medium_jpg?1405476951",
     "investmentsCount": "4.0",
     "id": "investor-331",
     "sources": [
@@ -8813,7 +8829,7 @@ var investorCatalog = [
     "details": "15+ years in the NYC venture ecosystem across investing, operations and banking roles.",
     "url": "https://angel.co/swolfgang",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/swolfgang",
+    "image": "https://photos.wellfound.com/users/43660-medium_jpg?1448686703",
     "investmentsCount": "21.0",
     "id": "investor-332",
     "sources": [
@@ -8836,7 +8852,7 @@ var investorCatalog = [
     "details": "Investor in @marin-software, @sidestep, @ob10, @edreams, @organic-motion, @serena-and-lily.",
     "url": "https://angel.co/robbie-vannadibe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/robbie-vannadibe",
+    "image": "https://photos.wellfound.com/users/6435-medium_jpg?1405439322",
     "investmentsCount": "13.0",
     "id": "investor-333",
     "sources": [
@@ -8859,7 +8875,7 @@ var investorCatalog = [
     "details": "Chairman/Co-founder NRG eSports, Co-owner Sacramento Kings, Former CEO Quattro Wireless, VP Mobile advertising Apple",
     "url": "https://angel.co/andy-miller-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andy-miller-1",
+    "image": "https://photos.wellfound.com/users/67185-medium_jpg?1462882650",
     "investmentsCount": "2.0",
     "id": "investor-334",
     "sources": [
@@ -8880,7 +8896,7 @@ var investorCatalog = [
     "details": "Worked at @cibc-world-markets, @jefferies, @glassratner \u2022 Investor @3tera, @lateraldata \u2022 Studied at @tulane-university",
     "url": "https://angel.co/adam-meislik",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/adam-meislik",
+    "image": "https://photos.wellfound.com/users/65509-medium_jpg?1415725036",
     "investmentsCount": "6.0",
     "id": "investor-335",
     "sources": [
@@ -8903,7 +8919,7 @@ var investorCatalog = [
     "details": "Founder, CEO @b8ta",
     "url": "https://angel.co/vibhu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vibhu",
+    "image": "https://photos.wellfound.com/users/56307-medium_jpg?1447877417",
     "investmentsCount": "2.0",
     "id": "investor-336",
     "sources": [
@@ -8924,7 +8940,7 @@ var investorCatalog = [
     "details": "General Partner @ Resolute Ventures: . Previously at @automattic, Dow Jones and Time Warner.",
     "url": "https://angel.co/raanan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/raanan",
+    "image": "https://photos.wellfound.com/users/64685-medium_jpg?1405475506",
     "investmentsCount": "9.0",
     "id": "investor-337",
     "sources": [
@@ -8945,7 +8961,7 @@ var investorCatalog = [
     "details": "Entrepreneur, EIR @ Accel, Angel Investor, Fmr Worldwide Head of Android Partnerships",
     "url": "https://angel.co/tom-moss",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tom-moss",
+    "image": "https://photos.wellfound.com/users/60399-medium_jpg?1462881236",
     "investmentsCount": "15.0",
     "id": "investor-338",
     "sources": [
@@ -8966,7 +8982,7 @@ var investorCatalog = [
     "details": "Founder @graph, @quora \u2022 Worked at @amazon, @facebook \u2022 Studied at @harvard-university",
     "url": "https://angel.co/ccheever",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ccheever",
+    "image": "https://photos.wellfound.com/users/54551-medium_jpg?1405471844",
     "investmentsCount": "46.0",
     "id": "investor-339",
     "sources": [
@@ -8989,7 +9005,7 @@ var investorCatalog = [
     "details": "20 yrs founding, funding, leading venture backed startups. CEO/Founder of @3jam (sold to Skype); rebuilt product/eng team at @zvents and sold to eBay",
     "url": "https://angel.co/andyjagoe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andyjagoe",
+    "image": "https://photos.wellfound.com/users/42276-medium_jpg?1405468411",
     "investmentsCount": "8.0",
     "id": "investor-340",
     "sources": [
@@ -9010,7 +9026,7 @@ var investorCatalog = [
     "details": "Venture investor, full stack engineer. Booth MBA. Interested in health, fintech, & consumer.",
     "url": "https://angel.co/bshyong",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bshyong",
+    "image": "https://photos.wellfound.com/users/44757-medium_jpg?1556676733",
     "investmentsCount": "3.0",
     "id": "investor-341",
     "sources": [
@@ -9033,7 +9049,7 @@ var investorCatalog = [
     "details": "Enterprise security operator angel. CEO @rapid7. Formerly MSFT and @parallels. HBS and Vanderbilt alumnus.",
     "url": "https://angel.co/coreythomas",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/coreythomas",
+    "image": "https://photos.wellfound.com/users/49515-medium_jpg?1405470528",
     "investmentsCount": "1.0",
     "id": "investor-342",
     "sources": [
@@ -9077,7 +9093,7 @@ var investorCatalog = [
     "details": "VP Engineering.",
     "url": "https://angel.co/perrochon",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/perrochon",
+    "image": "https://photos.wellfound.com/users/4601-medium_jpg?1405436737",
     "investmentsCount": "5.0",
     "id": "investor-344",
     "sources": [
@@ -9100,7 +9116,7 @@ var investorCatalog = [
     "details": "Founder @foundry-group, @excite-home \u2022 Worked at @oracle-corporation \u2022 Studied at @stanford-university",
     "url": "https://angel.co/ryan_mcintyre",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ryan_mcintyre",
+    "image": "https://photos.wellfound.com/users/47-medium_jpg?1405432889",
     "investmentsCount": "20.0",
     "id": "investor-345",
     "sources": [
@@ -9121,7 +9137,7 @@ var investorCatalog = [
     "details": "Spatial Computing Research & Strategy @InfiniteRetina #spatialcomputing #VR #AR #AI #XR #MR",
     "url": "https://angel.co/scobleizer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/scobleizer",
+    "image": "https://photos.wellfound.com/users/9298-medium_jpg?1566068105",
     "investmentsCount": "0.0",
     "id": "investor-346",
     "sources": [
@@ -9144,7 +9160,7 @@ var investorCatalog = [
     "details": "Co-founder @candidco previously led digital design growth at WeWork. Founded @flud 1st social news app, strong award winning product background.",
     "url": "https://angel.co/ghoshal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ghoshal",
+    "image": "https://photos.wellfound.com/users/2885-medium_jpg?1428352721",
     "investmentsCount": "8.0",
     "id": "investor-347",
     "sources": [
@@ -9167,7 +9183,7 @@ var investorCatalog = [
     "details": "Product & UX for Photos @amazon. Helped build #NYTM, @picturelife , @ohours-1, @anyclip-media .",
     "url": "https://angel.co/innonate",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/innonate",
+    "image": "https://photos.wellfound.com/users/3919-medium_jpg?1634251607",
     "investmentsCount": "6.0",
     "id": "investor-348",
     "sources": [
@@ -9190,7 +9206,7 @@ var investorCatalog = [
     "details": "6x entrepreneur, faculty at MIT, award-winning product designer, author of Enchanted Objects, interested in ambient computing and inspiring incredible teams.",
     "url": "https://angel.co/davidrose",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidrose",
+    "image": "https://photos.wellfound.com/users/12185-medium_jpg?1542411935",
     "investmentsCount": "1.0",
     "id": "investor-349",
     "sources": [
@@ -9211,7 +9227,7 @@ var investorCatalog = [
     "details": "Co-Founder, @ooga-labs",
     "url": "https://angel.co/stan_007",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stan_007",
+    "image": "https://photos.wellfound.com/users/1408-medium_jpg?1405434146",
     "investmentsCount": "22.0",
     "id": "investor-350",
     "sources": [
@@ -9234,7 +9250,7 @@ var investorCatalog = [
     "details": "Entrepreneur in Residence, DCM Ventures. Co-Founder, SoFi. GSB '11.",
     "url": "https://angel.co/ian-brady",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ian-brady",
+    "image": "https://photos.wellfound.com/users/64782-medium_jpg?1405476004",
     "investmentsCount": "2.0",
     "id": "investor-351",
     "sources": [
@@ -9257,7 +9273,7 @@ var investorCatalog = [
     "details": "fintech",
     "url": "https://angel.co/edward-tolson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/edward-tolson",
+    "image": "https://photos.wellfound.com/users/60712-medium_jpg?1504563633",
     "investmentsCount": "17.0",
     "id": "investor-352",
     "sources": [
@@ -9301,7 +9317,7 @@ var investorCatalog = [
     "details": "Founder @collaborative-seed-growth-partners, @silverplatter-international",
     "url": "https://angel.co/walter-a-winshall",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/walter-a-winshall",
+    "image": "https://photos.wellfound.com/users/42262-medium_jpg?1405468648",
     "investmentsCount": "84.0",
     "id": "investor-354",
     "sources": [
@@ -9324,7 +9340,7 @@ var investorCatalog = [
     "details": "Active angel investor, board member of Common Angels. Retired fall 2010 after 13 years at @harmonix (Guitar Hero, Rock Band, Dance Central). COO.",
     "url": "https://angel.co/michael-dornbrook",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-dornbrook",
+    "image": "https://photos.wellfound.com/users/43882-medium_jpg?1405469168",
     "investmentsCount": "67.0",
     "id": "investor-355",
     "sources": [
@@ -9347,7 +9363,7 @@ var investorCatalog = [
     "details": "Viaweb->@yahoo, @tellme; Harvard PhD in crypto+auctions+finance; @babel-research, @blueleaf.",
     "url": "https://angel.co/christopher-thorpe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christopher-thorpe",
+    "image": "https://photos.wellfound.com/users/34426-medium_jpg?1525101717",
     "investmentsCount": "6.0",
     "id": "investor-356",
     "sources": [
@@ -9368,7 +9384,7 @@ var investorCatalog = [
     "details": "Founder of UserScape. Creators of HelpSpot.",
     "url": "https://angel.co/ianlandsman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ianlandsman",
+    "image": "https://photos.wellfound.com/users/5671-medium_jpg?1435248027",
     "investmentsCount": "4.0",
     "id": "investor-357",
     "sources": [
@@ -9414,7 +9430,7 @@ var investorCatalog = [
     "details": "Startup Product Exec",
     "url": "https://angel.co/saadiq",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/saadiq",
+    "image": "https://photos.wellfound.com/users/5540-medium_jpg?1405438223",
     "investmentsCount": "0.0",
     "id": "investor-359",
     "sources": [
@@ -9458,7 +9474,7 @@ var investorCatalog = [
     "details": "Co-founder of @longworth-venture-partners. Over 20 years building early stage, internet & digital media companies. CEO of @planetall, founding executive of @zdnet.",
     "url": "https://angel.co/jim-savage",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jim-savage",
+    "image": "https://photos.wellfound.com/users/51210-medium_jpg?1405471020",
     "investmentsCount": "9.0",
     "id": "investor-361",
     "sources": [
@@ -9479,7 +9495,7 @@ var investorCatalog = [
     "details": "CEO of @mwd-trading \u2022 Investor @casetext, @fg-angels @bullet Time Ventures. Likes financial markets, fast software and snowboarding.",
     "url": "https://angel.co/ted-graham",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ted-graham",
+    "image": "https://photos.wellfound.com/users/45428-medium_jpg?1405469338",
     "investmentsCount": "4.0",
     "id": "investor-362",
     "sources": [
@@ -9502,7 +9518,7 @@ var investorCatalog = [
     "details": "Founded Socialize, AppMakr, PointAbout and FamilyOven in both San Francisco and Washington D.C., all of which have been acquired and are still live today.",
     "url": "https://angel.co/sshadmand",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sshadmand",
+    "image": "https://photos.wellfound.com/users/49590-medium_jpg?1405470554",
     "investmentsCount": "3.0",
     "id": "investor-363",
     "sources": [
@@ -9525,7 +9541,7 @@ var investorCatalog = [
     "details": "Entrepreneur who founded and sold 3 companies. @techstars mentor. Curious and hardworking. MIT @mit-sloan-school-of-management MBA 2004. CS undergrad.",
     "url": "https://angel.co/joe-heitzeberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joe-heitzeberg",
+    "image": "https://photos.wellfound.com/users/48858-medium_jpg?1405470325",
     "investmentsCount": "6.0",
     "id": "investor-364",
     "sources": [
@@ -9546,7 +9562,7 @@ var investorCatalog = [
     "details": "CEO of @dynamic-signal. Founder/Executive at 4 companies: 2 IPO's, 2 Exits.",
     "url": "https://angel.co/rfradin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rfradin",
+    "image": "https://photos.wellfound.com/users/342-medium_jpg?1405433202",
     "investmentsCount": "35.0",
     "id": "investor-365",
     "sources": [
@@ -9569,7 +9585,7 @@ var investorCatalog = [
     "details": "Managing Director at @javelin-venture-partners",
     "url": "https://angel.co/noahventure",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/noahventure",
+    "image": "https://photos.wellfound.com/users/2791-medium_jpg?1405435137",
     "investmentsCount": "17.0",
     "id": "investor-366",
     "sources": [
@@ -9592,7 +9608,7 @@ var investorCatalog = [
     "details": "Partner at @scale-venture-partners Investor: @namely @lever @demandbase @exacttarget @omniture @vitrue @textio @bizible",
     "url": "https://angel.co/stacey-bishop",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stacey-bishop",
+    "image": "https://photos.wellfound.com/users/10752-medium_jpg?1485474232",
     "investmentsCount": "6.0",
     "id": "investor-367",
     "sources": [
@@ -9659,7 +9675,7 @@ var investorCatalog = [
     "details": "Founder & CEO - @freshworks. Freshworks has raised over $150M in Venture Capital from Accel Partners, Tiger Global and Sequoia Capital.",
     "url": "https://angel.co/mrgirish",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mrgirish",
+    "image": "https://photos.wellfound.com/users/6284-medium_jpg?1405439151",
     "investmentsCount": "10.0",
     "id": "investor-370",
     "sources": [
@@ -9705,7 +9721,7 @@ var investorCatalog = [
     "details": "Early stage venture capitalist at http://www.ffvc.com",
     "url": "https://angel.co/john_frankel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/john_frankel",
+    "image": "https://photos.wellfound.com/users/362-medium_jpg?1421687365",
     "investmentsCount": "66.0",
     "id": "investor-372",
     "sources": [
@@ -9726,7 +9742,7 @@ var investorCatalog = [
     "details": "Managing Director, @citgapfunds; Chief Investment Officer - MACH37 Cyber Acclerator",
     "url": "https://angel.co/tom-weithman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tom-weithman",
+    "image": "https://photos.wellfound.com/users/6355-medium_jpg?1405439235",
     "investmentsCount": "30.0",
     "id": "investor-373",
     "sources": [
@@ -9749,7 +9765,7 @@ var investorCatalog = [
     "details": "B2B SaaS/software leader. Chief Product Officer @mongodb Former: @sumo-logic @vmware @dynamicops @bladelogic @bmc-software",
     "url": "https://angel.co/sahir-azam",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sahir-azam",
+    "image": "https://photos.wellfound.com/users/41823-medium_jpg?1513995150",
     "investmentsCount": "2.0",
     "id": "investor-374",
     "sources": [
@@ -9772,7 +9788,7 @@ var investorCatalog = [
     "details": "Co-founder, CEO @sodalabs | Angel Investor & LP | Alum of @y-combinator",
     "url": "https://angel.co/andrewjiang",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrewjiang",
+    "image": "https://photos.wellfound.com/users/44405-medium_jpg?1478362879",
     "investmentsCount": "13.0",
     "id": "investor-375",
     "sources": [
@@ -9825,7 +9841,7 @@ var investorCatalog = [
     "details": "Founder @selectica, @scoredata  \u2022 Worked at @apple, @cellmania @hewlett-packard @electronics-for-imaging",
     "url": "https://angel.co/vasudev-bhandarkar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vasudev-bhandarkar",
+    "image": "https://photos.wellfound.com/users/36137-medium_jpg?1418424247",
     "investmentsCount": "5.0",
     "id": "investor-377",
     "sources": [
@@ -9848,7 +9864,7 @@ var investorCatalog = [
     "details": "VC at @ubiquity Ventures. Formerly at @bessemer-venture-partners for 6 years. Founder/CEO of @triangulate (VC-backed dating startup using ML). Active coder.",
     "url": "https://angel.co/sunil-nagaraj",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sunil-nagaraj",
+    "image": "https://photos.wellfound.com/users/45609-medium_jpg?1535482960",
     "investmentsCount": "7.0",
     "id": "investor-378",
     "sources": [
@@ -9871,7 +9887,7 @@ var investorCatalog = [
     "details": "Currently: VP of Developer Relations at Google Cloud. Previously: CTO and Co-founder of Cloudera, Inc, VP at Yahoo, PhD EE from Stanford.",
     "url": "https://angel.co/awadallah",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/awadallah",
+    "image": "https://photos.wellfound.com/users/9001-medium_jpg?1600462534",
     "investmentsCount": "13.0",
     "id": "investor-379",
     "sources": [
@@ -9892,7 +9908,7 @@ var investorCatalog = [
     "details": "Operating Partner @amplify-partners. Former Principal SA @aws. Formerly @google UX Research. Focused on big data and enterprise ops.",
     "url": "https://angel.co/marklarosa",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marklarosa",
+    "image": "https://photos.wellfound.com/users/41920-medium_jpg?1628096461",
     "investmentsCount": "1.0",
     "id": "investor-380",
     "sources": [
@@ -9913,7 +9929,7 @@ var investorCatalog = [
     "details": "Co-Founder and CEO of Quantitative Investment Management, $3B hedge fund manager. I program all the statistical prediction models that drive all investments.",
     "url": "https://angel.co/jaffray-woodriff",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jaffray-woodriff",
+    "image": "https://photos.wellfound.com/users/49061-medium_jpg?1460552100",
     "investmentsCount": "19.0",
     "id": "investor-381",
     "sources": [
@@ -9957,7 +9973,7 @@ var investorCatalog = [
     "details": "Founder and Former CTO of @yelp.",
     "url": "https://angel.co/russel-simmons",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/russel-simmons",
+    "image": "https://photos.wellfound.com/users/3675-medium_jpg?1405435818",
     "investmentsCount": "4.0",
     "id": "investor-383",
     "sources": [
@@ -9980,7 +9996,7 @@ var investorCatalog = [
     "details": "Product Management | AI, ML | entrepreneur | product/market fit & shipping AI-powered applications | building ML models for fun | Stanford, Harvard, MIT",
     "url": "https://angel.co/mark-cramer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mark-cramer",
+    "image": "https://photos.wellfound.com/users/4099-medium_jpg?1599877163",
     "investmentsCount": "1.0",
     "id": "investor-384",
     "sources": [
@@ -10001,7 +10017,7 @@ var investorCatalog = [
     "details": "CTO at @alfresco (Accel, Mayfield, SAP), @documentum (sold to EMC). Original Engineer @ingres. BS, EECS @university-of-california-berkeley.",
     "url": "https://angel.co/johnnewton",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/johnnewton",
+    "image": "https://photos.wellfound.com/users/41956-medium_jpg?1405468556",
     "investmentsCount": "4.0",
     "id": "investor-385",
     "sources": [
@@ -10022,7 +10038,7 @@ var investorCatalog = [
     "details": "Media, Technology, Culture, Business",
     "url": "https://angel.co/johnbattelle",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/johnbattelle",
+    "image": "https://photos.wellfound.com/users/40908-medium_jpg?1405468061",
     "investmentsCount": "25.0",
     "id": "investor-386",
     "sources": [
@@ -10045,7 +10061,7 @@ var investorCatalog = [
     "details": "VC Director @samsung-electronics MD at @hattery. Prev head of @google.org investments; BoozAllen consultant. @wharton-school MBA; Fulbright and Kauffman fellow. Food (mostly cheese) and tech geek",
     "url": "https://angel.co/luis-arbulu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/luis-arbulu",
+    "image": "https://photos.wellfound.com/users/12024-medium_jpg?1405444081",
     "investmentsCount": "18.0",
     "id": "investor-387",
     "sources": [
@@ -10060,13 +10076,15 @@ var investorCatalog = [
     "locations": [
       "Burlingame"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "Developer APIs",
     "role": "Angel investor",
     "details": "Managed team of engineers at FB that spent part of their time as software developers, and the other part as technical consultants for US eCommerce advertisers",
     "url": "https://angel.co/ronnie",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ronnie",
+    "image": "https://photos.wellfound.com/users/67817-medium_jpg?1725512657",
     "investmentsCount": "10.0",
     "id": "investor-388",
     "sources": [
@@ -10090,7 +10108,7 @@ var investorCatalog = [
     "details": "Founder & CEO of @superhuman. Founded @rapportive. Computer Scientist, Gamer, Entrepreneur, Designer.",
     "url": "https://angel.co/rahulvohra",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rahulvohra",
+    "image": "https://photos.wellfound.com/users/36308-medium_jpg?1569107639",
     "investmentsCount": "9.0",
     "id": "investor-389",
     "sources": [
@@ -10116,7 +10134,7 @@ var investorCatalog = [
     "details": "Fintech specialist . Two start ups both sold, VC with Chase and Amadeus, operational experience with Microsoft and zulily, and management consultant @mckinsey",
     "url": "https://angel.co/perry-blacher",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/perry-blacher",
+    "image": "https://photos.wellfound.com/users/66292-medium_jpg?1462882553",
     "investmentsCount": "6.0",
     "id": "investor-390",
     "sources": [
@@ -10160,7 +10178,7 @@ var investorCatalog = [
     "details": "Modernizing insurance @newfront-insurance",
     "url": "https://angel.co/gwintrob",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gwintrob",
+    "image": "https://photos.wellfound.com/users/63368-medium_jpg?1641189318",
     "investmentsCount": "4.0",
     "id": "investor-392",
     "sources": [
@@ -10183,7 +10201,7 @@ var investorCatalog = [
     "details": "Founder and CEO, @APIScience. Previously founded @programmableweb",
     "url": "https://angel.co/john-musser",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/john-musser",
+    "image": "https://photos.wellfound.com/users/9881-medium_jpg?1489998146",
     "investmentsCount": "3.0",
     "id": "investor-393",
     "sources": [
@@ -10206,7 +10224,7 @@ var investorCatalog = [
     "details": "Co-founder of Outschool. I love building products and teams. I'm most proud of Trigger.io, Square Payroll, and now, Outschool. We're hiring!",
     "url": "https://angel.co/amirnathoo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/amirnathoo",
+    "image": "https://photos.wellfound.com/users/4795-medium_jpg?1587157740",
     "investmentsCount": "2.0",
     "id": "investor-394",
     "sources": [
@@ -10229,7 +10247,7 @@ var investorCatalog = [
     "details": "GP @matrix Formerly: CEO of @parse / part-time partner at @y-combinator",
     "url": "https://angel.co/ilya-sukhar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ilya-sukhar",
+    "image": "https://photos.wellfound.com/users/66938-medium_jpg?1567471624",
     "investmentsCount": "30.0",
     "id": "investor-395",
     "sources": [
@@ -10252,7 +10270,7 @@ var investorCatalog = [
     "details": "Co-founder of @digits. Previously @ChasingCoral (acq. by @netflix), @fabric (acq. by @google), @crashlytics (acq. by @twitter) and Increo (acq. by @BoxHQ).",
     "url": "https://angel.co/jeffseibert",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeffseibert",
+    "image": "https://photos.wellfound.com/users/63462-medium_jpg?1408807919",
     "investmentsCount": "20.0",
     "id": "investor-396",
     "sources": [
@@ -10275,7 +10293,7 @@ var investorCatalog = [
     "details": "entrepreneur",
     "url": "https://angel.co/johndunham",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/johndunham",
+    "image": "https://photos.wellfound.com/users/55884-medium_jpg?1405472434",
     "investmentsCount": "5.0",
     "id": "investor-397",
     "sources": [
@@ -10298,7 +10316,7 @@ var investorCatalog = [
     "details": "Starting an ambitious new startup. Formerly: Founder of @circleci, @y-combinator, @mozilla, PhD in Computer Science @trinity-college-dublin.",
     "url": "https://angel.co/paul-biggar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/paul-biggar",
+    "image": "https://photos.wellfound.com/users/75419-medium_jpg?1491238059",
     "investmentsCount": "0.0",
     "id": "investor-398",
     "sources": [
@@ -10321,7 +10339,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/aryabolur",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aryabolur",
+    "image": "https://photos.wellfound.com/users/60875-medium_jpg?1453822537",
     "investmentsCount": "32.0",
     "id": "investor-399",
     "sources": [
@@ -10342,7 +10360,7 @@ var investorCatalog = [
     "details": "Investor at Benson Capital Partners. &",
     "url": "https://angel.co/mbkatz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mbkatz",
+    "image": "https://photos.wellfound.com/users/254-medium_jpg?1405433119",
     "investmentsCount": "9.0",
     "id": "investor-400",
     "sources": [
@@ -10365,7 +10383,7 @@ var investorCatalog = [
     "details": "VP Client Strategy at https://www.egannelson.com/professionals/marc-nathan/ helping fundraising strategy. Texas-Squared Startup Newsletter:",
     "url": "https://angel.co/marc1919",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marc1919",
+    "image": "https://photos.wellfound.com/users/194-medium_jpg?1415904851",
     "investmentsCount": "4.0",
     "id": "investor-401",
     "sources": [
@@ -10386,7 +10404,7 @@ var investorCatalog = [
     "details": "Founder @basepoint-ventures. Investor in @gaikai @docstoc @savings-com @untangle @trion-worlds",
     "url": "https://angel.co/nateredmond",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nateredmond",
+    "image": "https://photos.wellfound.com/users/6564-medium_jpg?1411430215",
     "investmentsCount": "11.0",
     "id": "investor-402",
     "sources": [
@@ -10410,7 +10428,7 @@ var investorCatalog = [
     "details": "Investor in @spotify, @videoplaza, @cint.",
     "url": "https://angel.co/fredrik",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/fredrik",
+    "image": "https://photos.wellfound.com/users/4907-medium_jpg?1405437333",
     "investmentsCount": "8.0",
     "id": "investor-403",
     "sources": [
@@ -10480,7 +10498,7 @@ var investorCatalog = [
     "details": "Managing Director @techstars, 2X CEO @draft (Sold for $48M) & @coachup (backed by $14M). Investor in 100+ startups.",
     "url": "https://angel.co/jordanfliegel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jordanfliegel",
+    "image": "https://photos.wellfound.com/users/61616-medium_jpg?1583334729",
     "investmentsCount": "33.0",
     "id": "investor-406",
     "sources": [
@@ -10503,7 +10521,7 @@ var investorCatalog = [
     "details": "Chairman and CEO Jabbar",
     "url": "https://angel.co/samihtoukan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/samihtoukan",
+    "image": "https://photos.wellfound.com/users/55356-medium_jpg?1405472218",
     "investmentsCount": "12.0",
     "id": "investor-407",
     "sources": [
@@ -10526,7 +10544,7 @@ var investorCatalog = [
     "details": "Entrepreneur, investor, community builder, cultural instigator. Co-Founded @general-assembly, @daybreaker-1, @the Fund. Exec Chair @zzdriggs",
     "url": "https://angel.co/brimer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brimer",
+    "image": "https://photos.wellfound.com/users/48041-medium_jpg?1416957768",
     "investmentsCount": "11.0",
     "id": "investor-408",
     "sources": [
@@ -10541,13 +10559,15 @@ var investorCatalog = [
     "locations": [
       "New Zealand"
     ],
-    "countries": [],
+    "countries": [
+      "New Zealand"
+    ],
     "focus": "Education",
     "role": "Angel investor",
     "details": "@xero co-founder, Head of Design for 9 years",
     "url": "https://angel.co/philip",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/philip",
+    "image": "https://photos.wellfound.com/users/36816-medium_jpg?1534115374",
     "investmentsCount": "5.0",
     "id": "investor-409",
     "sources": [
@@ -10568,7 +10588,7 @@ var investorCatalog = [
     "details": "Investor in @facebook, @twitter, Gilt Groupe, @zocdoc, @grockit, @chegg and Kno",
     "url": "https://angel.co/michael-moe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-moe",
+    "image": "https://photos.wellfound.com/users/36202-medium_jpg?1405464613",
     "investmentsCount": "2.0",
     "id": "investor-410",
     "sources": [
@@ -10589,7 +10609,7 @@ var investorCatalog = [
     "details": "Co-Founder, @ulu-ventures & @stanford-university Angels & Entrepreneurs",
     "url": "https://angel.co/miriam-rivera",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/miriam-rivera",
+    "image": "https://photos.wellfound.com/users/4594-medium_jpg?1405436729",
     "investmentsCount": "48.0",
     "id": "investor-411",
     "sources": [
@@ -10612,7 +10632,7 @@ var investorCatalog = [
     "details": "Co-Founder/CEO of Fullstack Academy. Prev. co-founder of Bloomspot (Acq Chase/JPMorgan). MBA @ Wharton, BS Comp Sci @ UIUC.",
     "url": "https://angel.co/nimit",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nimit",
+    "image": "https://photos.wellfound.com/users/9431-medium_jpg?1405442038",
     "investmentsCount": "0.0",
     "id": "investor-412",
     "sources": [
@@ -10633,7 +10653,7 @@ var investorCatalog = [
     "details": "Teacher-Coach who became an #edtech investor and startup ecosystem leader. Manage: @bonsal-capital",
     "url": "https://angel.co/frankbonsal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/frankbonsal",
+    "image": "https://photos.wellfound.com/users/2479-medium_jpg?1536004581",
     "investmentsCount": "19.0",
     "id": "investor-413",
     "sources": [
@@ -10654,7 +10674,7 @@ var investorCatalog = [
     "details": "Partner at Roadmap Advisors",
     "url": "https://angel.co/christopher-novak",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christopher-novak",
+    "image": "https://photos.wellfound.com/users/12836-medium_jpg?1405444719",
     "investmentsCount": "8.0",
     "id": "investor-414",
     "sources": [
@@ -10723,7 +10743,7 @@ var investorCatalog = [
     "details": "Experienced VC | Angel investor | C-Level executive in software/internet related companies",
     "url": "https://angel.co/julian-carter",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/julian-carter",
+    "image": "https://photos.wellfound.com/users/5287-medium_jpg?1405437892",
     "investmentsCount": "21.0",
     "id": "investor-417",
     "sources": [
@@ -10744,7 +10764,7 @@ var investorCatalog = [
     "details": "Founder CEO @cloudcar; Founder CEO @speechpad; Founder CEO @core-mobility; Investment committee Seraph Group; Founder Partner @passport-capital",
     "url": "https://angel.co/konstantin-othmer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/konstantin-othmer",
+    "image": "https://photos.wellfound.com/users/5134-medium_jpg?1405437673",
     "investmentsCount": "52.0",
     "id": "investor-418",
     "sources": [
@@ -10767,7 +10787,7 @@ var investorCatalog = [
     "details": "Venture Partner @500startups, health tech focus. Previous founder @cake-health. Former corporate strategy, @seagate; Market researcher, @ipsos.",
     "url": "https://angel.co/rebecca-woodcock",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rebecca-woodcock",
+    "image": "https://photos.wellfound.com/users/41353-medium_jpg?1615851703",
     "investmentsCount": "1.0",
     "id": "investor-419",
     "sources": [
@@ -10805,13 +10825,16 @@ var investorCatalog = [
     "locations": [
       "Silicon Valley"
     ],
-    "countries": [],
+    "countries": [
+      "France",
+      "United States"
+    ],
     "focus": "Electronics",
     "role": "Angel investor",
     "details": "Organizer of The Startup Conference, former co-founder of @eve-usa, former Director of Founder Institute Paris.",
     "url": "https://angel.co/alain94040",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alain94040",
+    "image": "https://photos.wellfound.com/users/5619-medium_jpg?1405438342",
     "investmentsCount": "9.0",
     "id": "investor-421",
     "sources": [
@@ -10850,7 +10873,8 @@ var investorCatalog = [
       "Madrid"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "focus": "Email Newsletters",
     "role": "Angel investor",
@@ -10880,7 +10904,7 @@ var investorCatalog = [
     "details": "Lover of dogs, owls, inner discovery and outdoor pursuits. Entrepreneur, investor and future enthusiast. Founder and CEO of @hootsuite .",
     "url": "https://angel.co/invoker",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/invoker",
+    "image": "https://photos.wellfound.com/users/8661-medium_jpg?1615224305",
     "investmentsCount": "37.0",
     "id": "investor-424",
     "sources": [
@@ -10903,7 +10927,7 @@ var investorCatalog = [
     "details": "Investor in @seatgeek, @magnetic, @ticketfly, @thumbplay, @txvia, @imagespan. Advisor to @loreal",
     "url": "https://angel.co/jalak",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jalak",
+    "image": "https://photos.wellfound.com/users/3505-medium_jpg?1405435690",
     "investmentsCount": "27.0",
     "id": "investor-425",
     "sources": [
@@ -10924,7 +10948,7 @@ var investorCatalog = [
     "details": "Founding Partner @greenstart, Founder @arizonabay-technology-ventures, Founder @openauto-com, Partner, @QuillWines, 6th Employee @autoweb",
     "url": "https://angel.co/dave-graham",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dave-graham",
+    "image": "https://photos.wellfound.com/users/301-medium_jpg?1405433158",
     "investmentsCount": "23.0",
     "id": "investor-426",
     "sources": [
@@ -10945,7 +10969,7 @@ var investorCatalog = [
     "details": "Founding General Partner at VERDEXUS, a super angel boutique that invests in, and actively grows, a growing portfolio of leading tech companies.",
     "url": "https://angel.co/randall-howard",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/randall-howard",
+    "image": "https://photos.wellfound.com/users/45125-medium_jpg?1549397613",
     "investmentsCount": "13.0",
     "id": "investor-427",
     "sources": [
@@ -10968,7 +10992,7 @@ var investorCatalog = [
     "details": "Product Lead, Integrations @zoom. @pingpad @socialtext @ratexchange @slideshare @linkedin",
     "url": "https://angel.co/ross",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ross",
+    "image": "https://photos.wellfound.com/users/5192-medium_jpg?1405437761",
     "investmentsCount": "0.0",
     "id": "investor-428",
     "sources": [
@@ -10991,7 +11015,7 @@ var investorCatalog = [
     "details": "Partner @dcm Ex-PM @salesforce, Co-Founder/CEO @choicepass (acquired by salesforce.com), Harvard MBA Focus on seed and Series A investments",
     "url": "https://angel.co/kylelui",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kylelui",
+    "image": "https://photos.wellfound.com/users/42124-medium_jpg?1405468604",
     "investmentsCount": "9.0",
     "id": "investor-429",
     "sources": [
@@ -11014,7 +11038,7 @@ var investorCatalog = [
     "details": "Managing Director of Draper Nexus",
     "url": "https://angel.co/hiro-rio-maeda",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/hiro-rio-maeda",
+    "image": "https://photos.wellfound.com/users/55984-medium_jpg?1405473513",
     "investmentsCount": "4.0",
     "id": "investor-430",
     "sources": [
@@ -11037,7 +11061,7 @@ var investorCatalog = [
     "details": "Founder & CTO @mural. Founded @three-melons: created social games played globally. Acquired by Playdom/Disney in 2010. Investor @inspirit-angels-fund",
     "url": "https://angel.co/patojutard",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/patojutard",
+    "image": "https://photos.wellfound.com/users/51697-medium_jpg?1405471807",
     "investmentsCount": "14.0",
     "id": "investor-431",
     "sources": [
@@ -11060,7 +11084,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/davidrecordon",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidrecordon",
+    "image": "https://photos.wellfound.com/users/60722-medium_jpg?1604423261",
     "investmentsCount": "5.0",
     "id": "investor-432",
     "sources": [
@@ -11106,7 +11130,7 @@ var investorCatalog = [
     "details": "Founder of Atlas. Founder of Sportit.com (acquired 2011). Founding Team RiskIQ (65m+ raised). Angel Investor",
     "url": "https://angel.co/ethan-davidoff",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ethan-davidoff",
+    "image": "https://photos.wellfound.com/users/60358-medium_jpg?1428771483",
     "investmentsCount": "7.0",
     "id": "investor-434",
     "sources": [
@@ -11129,7 +11153,7 @@ var investorCatalog = [
     "details": "I'm a freckle faced Irish hustler with a rebellious heart! Partner @FrontlineVC & London Ambassador @Sandbox_network",
     "url": "https://angel.co/willmcq",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/willmcq",
+    "image": "https://photos.wellfound.com/users/56843-medium_jpg?1405472602",
     "investmentsCount": "11.0",
     "id": "investor-435",
     "sources": [
@@ -11150,7 +11174,7 @@ var investorCatalog = [
     "details": "VC and angel investor, mentor, and advisor to Central and Eastern European startups for more than 10 years. Currently a Managing Partner at Nation 1 VC. Looking for startups with smart-ass teams with kick-ass products in big-ass markets.",
     "url": "https://angel.co/trojan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/trojan",
+    "image": "https://photos.wellfound.com/users/43047-medium_jpg?1530454182",
     "investmentsCount": "11.0",
     "id": "investor-436",
     "sources": [
@@ -11173,7 +11197,7 @@ var investorCatalog = [
     "details": "CEO, @ergo. Founding Partner, @northern-gulf-partners. Former Monitor Group, White House NSC, State Department. @brown-university University grad.",
     "url": "https://angel.co/rpeddy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rpeddy",
+    "image": "https://photos.wellfound.com/users/4544-medium_jpg?1405436658",
     "investmentsCount": "10.0",
     "id": "investor-437",
     "sources": [
@@ -11196,7 +11220,7 @@ var investorCatalog = [
     "details": "VC at @flybridge-capital. Founding team WeWork & @weworklabs. Investor in startups such as @bulletin, @imperfect-produce, @splice & @remote-year.",
     "url": "https://angel.co/srcasm",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/srcasm",
+    "image": "https://photos.wellfound.com/users/4552-medium_jpg?1405436665",
     "investmentsCount": "14.0",
     "id": "investor-438",
     "sources": [
@@ -11242,7 +11266,7 @@ var investorCatalog = [
     "details": "Founding team at five B2B software startups. Several successful exits. Advisor to Point Nine Capital, several Saas companies, and 2 x EIR at Benchmark Capital.",
     "url": "https://angel.co/michaelrwolfe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michaelrwolfe",
+    "image": "https://photos.wellfound.com/users/9965-medium_jpg?1405442464",
     "investmentsCount": "1.0",
     "id": "investor-440",
     "sources": [
@@ -11265,7 +11289,7 @@ var investorCatalog = [
     "details": 'I am an entrepreneur turned VC and founded Decibel as an independent VC firm backed by Cisco to help founders at the earliest stage. We invest in software startups at seed and Series A - there is no such thing as "too early" for Decibel.',
     "url": "https://angel.co/jon-sakoda",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jon-sakoda",
+    "image": "https://photos.wellfound.com/users/3685-medium_jpg?1580419903",
     "investmentsCount": "3.0",
     "id": "investor-441",
     "sources": [
@@ -11310,7 +11334,7 @@ var investorCatalog = [
     "details": "General Partner @ CRV",
     "url": "https://angel.co/max-gazor",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/max-gazor",
+    "image": "https://photos.wellfound.com/users/6078-medium_jpg?1436242276",
     "investmentsCount": "4.0",
     "id": "investor-443",
     "sources": [
@@ -11334,7 +11358,7 @@ var investorCatalog = [
     "details": "Founded Orogenesis, Cocoon & World TaSCForce. Crossborder VC. Worked at @apple, @tellme-networks. Studied at @stanford-university, @uc-berkeley-1 , @umbc-1",
     "url": "https://angel.co/bigmike",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bigmike",
+    "image": "https://photos.wellfound.com/users/5950-medium_jpg?1405438790",
     "investmentsCount": "10.0",
     "id": "investor-444",
     "sources": [
@@ -11378,7 +11402,7 @@ var investorCatalog = [
     "details": "Head of Strategic Development at @qihoo-360 Prior VP at @dcm Worked on investments in @life360 @little-black-bag @learnzillion @sofi-1 @peerpong @wepow",
     "url": "https://angel.co/edwardtsai",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/edwardtsai",
+    "image": "https://photos.wellfound.com/users/1619-medium_jpg?1405434289",
     "investmentsCount": "5.0",
     "id": "investor-446",
     "sources": [
@@ -11445,7 +11469,7 @@ var investorCatalog = [
     "details": "Founder/CEO @dialpad, the maker of UberConference and Dialpad, Founder/CEO @grandcentral, acquired by @google",
     "url": "https://angel.co/cwalker123",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cwalker123",
+    "image": "https://photos.wellfound.com/users/2866-medium_jpg?1405435193",
     "investmentsCount": "6.0",
     "id": "investor-449",
     "sources": [
@@ -11468,7 +11492,7 @@ var investorCatalog = [
     "details": "Currently building @cloudflare Workers. Previously @dropbox, @bebop. Co-founder @simpler & @tinyco. @massachusetts-institute-of-technology EECS '05.",
     "url": "https://angel.co/ian-spivey",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ian-spivey",
+    "image": "https://photos.wellfound.com/users/34393-medium_jpg?1497028461",
     "investmentsCount": "0.0",
     "id": "investor-450",
     "sources": [
@@ -11491,7 +11515,7 @@ var investorCatalog = [
     "details": "Co-Founder @datastax, Cassandra project chair @apache Software Foundation.",
     "url": "https://angel.co/jonathan-ellis",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jonathan-ellis",
+    "image": "https://photos.wellfound.com/users/34978-medium_jpg?1666192378",
     "investmentsCount": "12.0",
     "id": "investor-451",
     "sources": [
@@ -11514,7 +11538,7 @@ var investorCatalog = [
     "details": "Founder: Ballistix. Author: The Machine. Expert in the design and management of sales environments and on the Theory of Constraints.",
     "url": "https://angel.co/justin-roff-marsh",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/justin-roff-marsh",
+    "image": "https://photos.wellfound.com/users/59454-medium_jpg?1405473815",
     "investmentsCount": "13.0",
     "id": "investor-452",
     "sources": [
@@ -11537,7 +11561,7 @@ var investorCatalog = [
     "details": "General Partner, CoVenture",
     "url": "https://angel.co/michaelbeller",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michaelbeller",
+    "image": "https://photos.wellfound.com/users/67718-medium_jpg?1553879968",
     "investmentsCount": "14.0",
     "id": "investor-453",
     "sources": [
@@ -11558,7 +11582,7 @@ var investorCatalog = [
     "details": "co-founder System1, former President/COO of @demand-media (NYSE: DMD), founder Hotkeys, Investor in @rssgraffiti, @scopely, @jawbone, State.com",
     "url": "https://angel.co/blender-2",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/blender-2",
+    "image": "https://photos.wellfound.com/users/221-medium_jpg?1405433095",
     "investmentsCount": "9.0",
     "id": "investor-454",
     "sources": [
@@ -11581,7 +11605,7 @@ var investorCatalog = [
     "details": "Co-founder & CEO of @silk.",
     "url": "https://angel.co/salark",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/salark",
+    "image": "https://photos.wellfound.com/users/6310-medium_jpg?1676382993",
     "investmentsCount": "0.0",
     "id": "investor-455",
     "sources": [
@@ -11627,7 +11651,7 @@ var investorCatalog = [
     "details": "President & CTO at Avanoo Builder. Investor. Entrepreneur.",
     "url": "https://angel.co/prospern",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/prospern",
+    "image": "https://photos.wellfound.com/users/42138-medium_jpg?1405468385",
     "investmentsCount": "16.0",
     "id": "investor-457",
     "sources": [
@@ -11648,7 +11672,7 @@ var investorCatalog = [
     "details": "Founder, @metafilter Network, Inc.",
     "url": "https://angel.co/matt-haughey",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matt-haughey",
+    "image": "https://photos.wellfound.com/users/40783-medium_jpg?1405468115",
     "investmentsCount": "2.0",
     "id": "investor-458",
     "sources": [
@@ -11694,7 +11718,7 @@ var investorCatalog = [
     "details": "Managing Director, RSH Ventures",
     "url": "https://angel.co/russell-hinds",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/russell-hinds",
+    "image": "https://photos.wellfound.com/users/49090-medium_jpg?1608752352",
     "investmentsCount": "18.0",
     "id": "investor-460",
     "sources": [
@@ -11736,7 +11760,7 @@ var investorCatalog = [
     "details": "Entrepreneur and Product Guy. Currently: VC at @greylock-partners. Co-founded @howcast.com. Formerly a PM on @google Apps and @google Video. @massachusetts-institute-of-technology EECS grad.",
     "url": "https://angel.co/sanjayraman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sanjayraman",
+    "image": "https://photos.wellfound.com/users/66107-medium_jpg?1405475999",
     "investmentsCount": "4.0",
     "id": "investor-462",
     "sources": [
@@ -11759,7 +11783,7 @@ var investorCatalog = [
     "details": "Angel, Advisor, Board Member & Entrepreneur (Founder & CEO, @dwellaware; CEO @essess); Value Maximization Expert (M&A - CS/Google), Disciplined Strategic Leader",
     "url": "https://angel.co/storm-duncan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/storm-duncan",
+    "image": "https://photos.wellfound.com/users/71322-medium_jpg?1648439910",
     "investmentsCount": "20.0",
     "id": "investor-463",
     "sources": [
@@ -11782,7 +11806,7 @@ var investorCatalog = [
     "details": "Co-Founder of @8capita, Catcha",
     "url": "https://angel.co/nic",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nic",
+    "image": "https://photos.wellfound.com/users/75197-medium_jpg?1405479145",
     "investmentsCount": "16.0",
     "id": "investor-464",
     "sources": [
@@ -11870,7 +11894,7 @@ var investorCatalog = [
     "details": "Founder, Versatile Venture Capital; formerly Managing Partner, HOF Capital ; Partner, ff Venture Capital ; Founder, Harvard Business School Alumni Angels of NY;",
     "url": "https://angel.co/teten",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/teten",
+    "image": "https://photos.wellfound.com/users/35454-medium_jpg?1405463970",
     "investmentsCount": "41.0",
     "id": "investor-468",
     "sources": [
@@ -11893,7 +11917,7 @@ var investorCatalog = [
     "details": "GP @oyster-ventures \xB7 Previously: CSO @republic \xB7 @angellist \xB7 Founding Engineer @chartboost \xB7 Co-founder, CTO @freshpay \xB7 @tapulous @disney",
     "url": "https://angel.co/kb",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kb",
+    "image": "https://photos.wellfound.com/users/35206-medium_jpg?1643604054",
     "investmentsCount": "24.0",
     "id": "investor-469",
     "sources": [
@@ -11916,7 +11940,7 @@ var investorCatalog = [
     "details": "Allowance Manager\xAE Apple, Adobe, VeriFone... UC Berkeley, Economics",
     "url": "https://angel.co/dan-meader",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dan-meader",
+    "image": "https://photos.wellfound.com/users/5705-medium_jpg?1405438459",
     "investmentsCount": "1.0",
     "id": "investor-470",
     "sources": [
@@ -11939,7 +11963,7 @@ var investorCatalog = [
     "details": 'CEO of CapLinked. Co-founder of TransitNet. Early-PayPal. Author of "The PayPal Wars."',
     "url": "https://angel.co/ericmjackson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ericmjackson",
+    "image": "https://photos.wellfound.com/users/6684-medium_jpg?1405439573",
     "investmentsCount": "1.0",
     "id": "investor-471",
     "sources": [
@@ -11962,7 +11986,7 @@ var investorCatalog = [
     "details": "Partner, @first-round-capital",
     "url": "https://angel.co/billtrenchard",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/billtrenchard",
+    "image": "https://photos.wellfound.com/users/307-medium_jpg?1611036384",
     "investmentsCount": "48.0",
     "id": "investor-472",
     "sources": [
@@ -11988,7 +12012,7 @@ var investorCatalog = [
     "details": "Previously co-founder at @freshpay. Worked at @miso-media, @box-com.",
     "url": "https://angel.co/begoldman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/begoldman",
+    "image": "https://photos.wellfound.com/users/12238-medium_jpg?1461104986",
     "investmentsCount": "23.0",
     "id": "investor-473",
     "sources": [
@@ -12011,7 +12035,7 @@ var investorCatalog = [
     "details": "Seasoned & successful securities investor, talent mentor, education advocate, active angel, budding social entrepreneur. Harvard ALI Fellow.",
     "url": "https://angel.co/tom-pappas",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tom-pappas",
+    "image": "https://photos.wellfound.com/users/46919-medium_jpg?1405469752",
     "investmentsCount": "10.0",
     "id": "investor-474",
     "sources": [
@@ -12055,7 +12079,7 @@ var investorCatalog = [
     "details": "CTO at LendingTree.com Investor, Entrepreneur, @refresh, Inc. (acq. @linkedin ), Pulse.io (acq @google ) @mailinator Ex-LinkedIn, Ex-Google",
     "url": "https://angel.co/paul-tyma",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/paul-tyma",
+    "image": "https://photos.wellfound.com/users/60668-medium_jpg?1670764229",
     "investmentsCount": "1.0",
     "id": "investor-476",
     "sources": [
@@ -12076,7 +12100,7 @@ var investorCatalog = [
     "details": "Curious. Previously founder at @layer, @vox.io; EIR at @matrix-partners",
     "url": "https://angel.co/tomazstolfa",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tomazstolfa",
+    "image": "https://photos.wellfound.com/users/60342-medium_jpg?1537825523",
     "investmentsCount": "0.0",
     "id": "investor-477",
     "sources": [
@@ -12120,7 +12144,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/alap-a-shah",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alap-a-shah",
+    "image": "https://photos.wellfound.com/users/47364-medium_jpg?1463605008",
     "investmentsCount": "7.0",
     "id": "investor-479",
     "sources": [
@@ -12135,13 +12159,15 @@ var investorCatalog = [
     "locations": [
       "Las Vegas"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "Financial Exchanges",
     "role": "Angel investor",
     "details": "Founder of @hydeparkangels, On Twitter @pointsnfigures WestLoopVentures.com Lived in Chicago for 58 years, now in Las Vegas.",
     "url": "https://angel.co/pointsnfigures",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pointsnfigures",
+    "image": "https://photos.wellfound.com/users/4048-medium_jpg?1412218751",
     "investmentsCount": "23.0",
     "id": "investor-480",
     "sources": [
@@ -12164,7 +12190,7 @@ var investorCatalog = [
     "details": "Angel Investor; Entrepreneur; Co-founder, Executive Chairman @ Eligo Energy, LLC; Co-founded Pangea Properties, CashNetUSA (now Enova)",
     "url": "https://angel.co/alexg0",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alexg0",
+    "image": "https://photos.wellfound.com/users/10409-medium_jpg?1757621613",
     "investmentsCount": "20.0",
     "id": "investor-481",
     "sources": [
@@ -12187,7 +12213,7 @@ var investorCatalog = [
     "details": "Partnerships & Business Development at @telegram Messenger Formerly @whatsapp",
     "url": "https://angel.co/elies",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/elies",
+    "image": "https://photos.wellfound.com/users/55370-medium_jpg?1430169298",
     "investmentsCount": "26.0",
     "id": "investor-482",
     "sources": [
@@ -12231,7 +12257,7 @@ var investorCatalog = [
     "details": "Co-founder of @aol; now Chairman of Case Foundation and Revolution (@zipcar, @livingsocial, @exclusive-resorts, @everyday-health, @revolution-money, @miraval, etc)",
     "url": "https://angel.co/stevecase",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stevecase",
+    "image": "https://photos.wellfound.com/users/51265-medium_jpg?1405471663",
     "investmentsCount": "34.0",
     "id": "investor-484",
     "sources": [
@@ -12252,7 +12278,7 @@ var investorCatalog = [
     "details": "Founder & CEO of BabyQuip, Founder and former CEO TRUSTe; Co-Founder and first GM of Match.com; also CMO Women.com, BlueLight.com.",
     "url": "https://angel.co/fran-maier",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/fran-maier",
+    "image": "https://photos.wellfound.com/users/67724-medium_jpg?1480977151",
     "investmentsCount": "7.0",
     "id": "investor-485",
     "sources": [
@@ -12298,7 +12324,7 @@ var investorCatalog = [
     "details": "Co-founder/COO The Assembly. Previous: Spright, ChipIn, Sprout (Sold to InMobi), FB games. Mobile, advertising, consumer, do good - do well startups.",
     "url": "https://angel.co/carnet-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/carnet-1",
+    "image": "https://photos.wellfound.com/users/45075-medium_jpg?1462879533",
     "investmentsCount": "5.0",
     "id": "investor-487",
     "sources": [
@@ -12321,7 +12347,7 @@ var investorCatalog = [
     "details": "Sneakerhead. VC.",
     "url": "https://angel.co/phineasb",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/phineasb",
+    "image": "https://photos.wellfound.com/users/75-medium_jpg?1559600271",
     "investmentsCount": "25.0",
     "id": "investor-488",
     "sources": [
@@ -12367,7 +12393,7 @@ var investorCatalog = [
     "details": "Captual (acq @desire2learn), GoInstant (acq @salesforce), Checkout 51 (acq @newscorp). Cofounder of StartupNorth.",
     "url": "https://angel.co/jonasbrandon",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jonasbrandon",
+    "image": "https://photos.wellfound.com/users/1929-medium_jpg?1656937411",
     "investmentsCount": "5.0",
     "id": "investor-490",
     "sources": [
@@ -12416,7 +12442,7 @@ var investorCatalog = [
     "details": "Founder and Managing Partner @connect-ventures. Previously Founder & Ceo of Neo Network, sold to Zodiak Media",
     "url": "https://angel.co/pietrobezza",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pietrobezza",
+    "image": "https://photos.wellfound.com/users/2669-medium_jpg?1405435066",
     "investmentsCount": "9.0",
     "id": "investor-492",
     "sources": [
@@ -12439,7 +12465,7 @@ var investorCatalog = [
     "details": "Co-founder, Boundless - employ anyone, anywhere. A veteran of 20 years developing and building products, leading teams, and creating communities.",
     "url": "https://angel.co/eamonleonard",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eamonleonard",
+    "image": "https://photos.wellfound.com/users/65561-medium_jpg?1492529764",
     "investmentsCount": "7.0",
     "id": "investor-493",
     "sources": [
@@ -12460,7 +12486,7 @@ var investorCatalog = [
     "details": "Managing Director, Shasta Ventures. Early stage venture capital investor since 2000. Previously, InterWest, Goldman Sachs & Amazon.com. Dartmouth & Stanford",
     "url": "https://angel.co/dougpepper",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dougpepper",
+    "image": "https://photos.wellfound.com/users/66798-medium_jpg?1405476736",
     "investmentsCount": "8.0",
     "id": "investor-494",
     "sources": [
@@ -12527,7 +12553,7 @@ var investorCatalog = [
     "details": "Co-Founder, @rackspace",
     "url": "https://angel.co/pat-condonoffice-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pat-condonoffice-com",
+    "image": "https://photos.wellfound.com/users/15693-medium_jpg?1405446529",
     "investmentsCount": "21.0",
     "id": "investor-497",
     "sources": [
@@ -12550,7 +12576,7 @@ var investorCatalog = [
     "details": "Former Co-Founder and CEO @solveconcierge and Former Co-Founder and CEO of @studentbrands",
     "url": "https://angel.co/blainevess",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/blainevess",
+    "image": "https://photos.wellfound.com/users/12789-medium_jpg?1613593709",
     "investmentsCount": "11.0",
     "id": "investor-498",
     "sources": [
@@ -12573,7 +12599,7 @@ var investorCatalog = [
     "details": "Stage-agnostic Angel Investor. Founder / CEO @junglee-games. Previously co-founded Monsoon, acquired by @capital-one",
     "url": "https://angel.co/ankushgera",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ankushgera",
+    "image": "https://photos.wellfound.com/users/57216-medium_jpg?1436381372",
     "investmentsCount": "19.0",
     "id": "investor-499",
     "sources": [
@@ -12594,7 +12620,7 @@ var investorCatalog = [
     "details": "Co-founder & CEO @castle-hill-gaming. Founding President @charlottesville Angel Network. Angel Investor @hpa. MBA @babson. BS Mech Eng @university-of-virginia",
     "url": "https://angel.co/arthur-watson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/arthur-watson",
+    "image": "https://photos.wellfound.com/users/52007-medium_jpg?1405471168",
     "investmentsCount": "30.0",
     "id": "investor-500",
     "sources": [
@@ -12617,7 +12643,7 @@ var investorCatalog = [
     "details": "Co-Founder @ Sideline",
     "url": "https://angel.co/dcanoso",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dcanoso",
+    "image": "https://photos.wellfound.com/users/72535-medium_jpg?1405481324",
     "investmentsCount": "11.0",
     "id": "investor-501",
     "sources": [
@@ -12661,7 +12687,7 @@ var investorCatalog = [
     "details": "Founder and CEO @extend Founder and CEO @estate-assist Founder/CEO- @bringit Board Member @draftkings Founder- @instadium, JD-Chicago Kent, BA-Wisconsin",
     "url": "https://angel.co/woodrow-levin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/woodrow-levin",
+    "image": "https://photos.wellfound.com/users/41329-medium_jpg?1405468307",
     "investmentsCount": "11.0",
     "id": "investor-503",
     "sources": [
@@ -12682,7 +12708,7 @@ var investorCatalog = [
     "details": "Co-founder & CTO of: @resy-network , @crowdtwist , @fotolog , @BlackPlanet. Invested in @getbarkbox, @yearonelabs .",
     "url": "https://angel.co/michaelmontero",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michaelmontero",
+    "image": "https://photos.wellfound.com/users/2639-medium_jpg?1641756572",
     "investmentsCount": "4.0",
     "id": "investor-504",
     "sources": [
@@ -12705,7 +12731,7 @@ var investorCatalog = [
     "details": "Principal SWE at CZI. Past: DNAnexus, Pacific Biosciences, Georgia Tech, Berkeley.",
     "url": "https://angel.co/andrey-kislyuk",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrey-kislyuk",
+    "image": "https://photos.wellfound.com/users/10734-medium_jpg?1463639661",
     "investmentsCount": "6.0",
     "id": "investor-505",
     "sources": [
@@ -12727,7 +12753,7 @@ var investorCatalog = [
     "details": "Managing Partner at Zarco Investment Group; Chairman @the-seasteading-institute; Engineer @google , Husband, Fatherx3.",
     "url": "https://angel.co/patri-friedman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/patri-friedman",
+    "image": "https://photos.wellfound.com/users/64576-medium_jpg?1665017438",
     "investmentsCount": "14.0",
     "id": "investor-506",
     "sources": [
@@ -12774,7 +12800,7 @@ var investorCatalog = [
     "details": "Managing director, @firstmark-capital. Blog: .",
     "url": "https://angel.co/matt-turck",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matt-turck",
+    "image": "https://photos.wellfound.com/users/50343-medium_jpg?1405470794",
     "investmentsCount": "8.0",
     "id": "investor-508",
     "sources": [
@@ -12797,7 +12823,7 @@ var investorCatalog = [
     "details": "Partner at @sigma-prime-ventures ; Co-founder of @general-catalyst; Founder, Chairman and CEO of @uromed Corporation (IPO in 1994)",
     "url": "https://angel.co/johnsimon",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/johnsimon",
+    "image": "https://photos.wellfound.com/users/3817-medium_jpg?1405435932",
     "investmentsCount": "11.0",
     "id": "investor-509",
     "sources": [
@@ -12841,7 +12867,7 @@ var investorCatalog = [
     "details": "Founder and CEO of Honest Discounts.   Partner at Glic Ventures",
     "url": "https://angel.co/chrispjacobs",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/chrispjacobs",
+    "image": "https://photos.wellfound.com/users/69250-medium_jpg?1453309383",
     "investmentsCount": "7.0",
     "id": "investor-511",
     "sources": [
@@ -12887,7 +12913,7 @@ var investorCatalog = [
     "details": "CEO & Founder at @skimlinks",
     "url": "https://angel.co/alicia-navarro",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alicia-navarro",
+    "image": "https://photos.wellfound.com/users/58800-medium_jpg?1462881045",
     "investmentsCount": "3.0",
     "id": "investor-513",
     "sources": [
@@ -12908,7 +12934,7 @@ var investorCatalog = [
     "details": "CoFounder & Chief Architect Rubrik, CTO Tagtile, (acq Facebook). Founder's Award at Google. IIT Kanpur, University of Illinois",
     "url": "https://angel.co/soham-mazumdar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/soham-mazumdar",
+    "image": "https://photos.wellfound.com/users/46083-medium_jpg?1405469536",
     "investmentsCount": "2.0",
     "id": "investor-514",
     "sources": [
@@ -12931,7 +12957,7 @@ var investorCatalog = [
     "details": "VP Business Development, Matterport SVP Business and Corporate Development Apportable VP, Unity Games, @unity-technologies Head of Business Development, Symbian",
     "url": "https://angel.co/oren-tversky",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/oren-tversky",
+    "image": "https://photos.wellfound.com/users/44480-medium_jpg?1405469079",
     "investmentsCount": "1.0",
     "id": "investor-515",
     "sources": [
@@ -12954,7 +12980,7 @@ var investorCatalog = [
     "details": "Founder, Investor, Advisor. MS Finance - Wisconsin",
     "url": "https://angel.co/alan-chesler",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alan-chesler",
+    "image": "https://photos.wellfound.com/users/43888-medium_jpg?1405469172",
     "investmentsCount": "12.0",
     "id": "investor-516",
     "sources": [
@@ -12977,7 +13003,7 @@ var investorCatalog = [
     "details": "Entrepreneur, Negotiation Consultant. Founder @andover-games (acquired) \u2022 Worked at @playdom, @ilike @microsoft \u2022 Investor @yadazing @recursion-pharma",
     "url": "https://angel.co/craigdossantos",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/craigdossantos",
+    "image": "https://photos.wellfound.com/users/8973-medium_jpg?1526659369",
     "investmentsCount": "2.0",
     "id": "investor-517",
     "sources": [
@@ -13000,7 +13026,7 @@ var investorCatalog = [
     "details": "CEO, @adbrite. VP, @ebay. President, DealTime.com / @shopping-com (acquired by @ebay). Managing Director, @morgan-stanley.",
     "url": "https://angel.co/ignacio-fanlo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ignacio-fanlo",
+    "image": "https://photos.wellfound.com/users/11537-medium_jpg?1462969544",
     "investmentsCount": "4.0",
     "id": "investor-518",
     "sources": [
@@ -13023,7 +13049,7 @@ var investorCatalog = [
     "details": "Co-Founder @capsule-8 . Previous: @upfront-ventures , @burstly, @jefferies, @stanford",
     "url": "https://angel.co/kelly-hwang",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kelly-hwang",
+    "image": "https://photos.wellfound.com/users/16245-medium_jpg?1405446894",
     "investmentsCount": "6.0",
     "id": "investor-519",
     "sources": [
@@ -13044,7 +13070,7 @@ var investorCatalog = [
     "details": "Founder & CEO at @36kr",
     "url": "https://angel.co/chengcheng-liu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/chengcheng-liu",
+    "image": "https://photos.wellfound.com/users/66300-medium_jpg?1413858884",
     "investmentsCount": "13.0",
     "id": "investor-520",
     "sources": [
@@ -13067,7 +13093,7 @@ var investorCatalog = [
     "details": "Founder: @buddy-media, @golf-com, U-WIRE. Investing: $10M family partnership with my wife, Kass, and bro, John. We don\u2019t have sharp elbows. $2B+ exits.",
     "url": "https://angel.co/lazerow",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lazerow",
+    "image": "https://photos.wellfound.com/users/61881-medium_jpg?1405474875",
     "investmentsCount": "39.0",
     "id": "investor-521",
     "sources": [
@@ -13088,7 +13114,7 @@ var investorCatalog = [
     "details": "Founder @StartupIceland\u2022 Founder @IcelandVentureStudio \u2022 Time @capgemini @glitnir @greenqloud \u2022Investor @buuteeq @Clara @GuidetoIceland",
     "url": "https://angel.co/balakamallakharan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/balakamallakharan",
+    "image": "https://photos.wellfound.com/users/2437-medium_jpg?1553146790",
     "investmentsCount": "24.0",
     "id": "investor-522",
     "sources": [
@@ -13111,7 +13137,7 @@ var investorCatalog = [
     "details": "Founder of @lavanda-1 \u2022 Head of Marketing & 1st employee @shutl \u2022 Worked @vignette and @canon \u2022 Studied Business at @escp-eap \u2022 BA @university-of-bristol",
     "url": "https://angel.co/guywestlake",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/guywestlake",
+    "image": "https://photos.wellfound.com/users/16404-medium_jpg?1547213400",
     "investmentsCount": "7.0",
     "id": "investor-523",
     "sources": [
@@ -13134,7 +13160,7 @@ var investorCatalog = [
     "details": "CEO and founder of @unitas-global. Founded Mzima, sold to PacketExchange. Board member at non-profit Web Wise Kids. Mentor at @advise-me and Upstart.LA.",
     "url": "https://angel.co/gakirkwood",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gakirkwood",
+    "image": "https://photos.wellfound.com/users/57708-medium_jpg?1405473209",
     "investmentsCount": "2.0",
     "id": "investor-524",
     "sources": [
@@ -13155,7 +13181,7 @@ var investorCatalog = [
     "details": "Devops Evangelist, @puppet-labs Co-Founder, wise benevolent dictator in wolf's clothing, likes to learn, likes to share, firm on the vision, flexible on the plan",
     "url": "https://angel.co/littleidea",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/littleidea",
+    "image": "https://photos.wellfound.com/users/61729-medium_jpg?1405476324",
     "investmentsCount": "0.0",
     "id": "investor-525",
     "sources": [
@@ -13178,7 +13204,7 @@ var investorCatalog = [
     "details": "CEO and lead developer at Small Picture, Inc. Did primary work on RSS, podcasting, blogging, outlining, web CMS. XML-RPC, podcasting. SPI is my third startup.",
     "url": "https://angel.co/davewiner",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davewiner",
+    "image": "https://photos.wellfound.com/users/367-medium_jpg?1405433220",
     "investmentsCount": "2.0",
     "id": "investor-526",
     "sources": [
@@ -13226,7 +13252,7 @@ var investorCatalog = [
     "details": "@wharton-school Prof. @yodle cofounder. Advisor to @milo (acq eBay), @monetate . Investor in @custora, @rjmetrics & others. @carnegie-mellon-university PhD.",
     "url": "https://angel.co/hosanagar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/hosanagar",
+    "image": "https://photos.wellfound.com/users/46026-medium_jpg?1445375464",
     "investmentsCount": "9.0",
     "id": "investor-528",
     "sources": [
@@ -13249,7 +13275,7 @@ var investorCatalog = [
     "details": "Founder Tahoma Ventures, Boulder Angels, Chips on the Deck, Serano Systems, Storage Markets",
     "url": "https://angel.co/jives",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jives",
+    "image": "https://photos.wellfound.com/users/308-medium_jpg?1405433170",
     "investmentsCount": "17.0",
     "id": "investor-529",
     "sources": [
@@ -13272,7 +13298,7 @@ var investorCatalog = [
     "details": "Co-Founder Chairman @eventbrite-4",
     "url": "https://angel.co/kevin-hartz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kevin-hartz",
+    "image": "https://photos.wellfound.com/users/6102-medium_jpg?1566838183",
     "investmentsCount": "40.0",
     "id": "investor-530",
     "sources": [
@@ -13316,7 +13342,7 @@ var investorCatalog = [
     "details": "Partner, @new-world-ventures & @dfj-portage",
     "url": "https://angel.co/mbmccall",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mbmccall",
+    "image": "https://photos.wellfound.com/users/5642-medium_jpg?1405438370",
     "investmentsCount": "19.0",
     "id": "investor-532",
     "sources": [
@@ -13356,7 +13382,7 @@ var investorCatalog = [
     "details": "Investor in @attributor, @discovery-engine, @heartly, WebMynd, @blekko, @dogster, @scanscout, @solve-media, @sundia,Tremor Video, @ustream, @ooyala, @octopart, @factery.",
     "url": "https://angel.co/frankcaufield",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/frankcaufield",
+    "image": "https://photos.wellfound.com/users/5272-medium_jpg?1405437870",
     "investmentsCount": "16.0",
     "id": "investor-534",
     "sources": [
@@ -13379,7 +13405,7 @@ var investorCatalog = [
     "details": "founder of / seed stage at @upsidevc. formerly a partner @firstround. gratefully @loroSF\u2019s lesser half. napkins are for ideas.",
     "url": "https://angel.co/kentgoldman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kentgoldman",
+    "image": "https://photos.wellfound.com/users/332-medium_jpg?1600714049",
     "investmentsCount": "15.0",
     "id": "investor-535",
     "sources": [
@@ -13402,7 +13428,7 @@ var investorCatalog = [
     "details": "VC focused on early stage (seed/series A) in Cloud, Commerce, Mobile. High-engagement model. Can make seed investments as angel.",
     "url": "https://angel.co/superuser",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/superuser",
+    "image": "https://photos.wellfound.com/users/3341-medium_jpg?1405435551",
     "investmentsCount": "15.0",
     "id": "investor-536",
     "sources": [
@@ -13425,7 +13451,7 @@ var investorCatalog = [
     "details": "Founder @coinsph , Founding Partner @innovation-endeavors , Founder @tokbox (Sequoia, Bain Capital). Masters Computer Science @cornell-university",
     "url": "https://angel.co/ron-hose",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ron-hose",
+    "image": "https://photos.wellfound.com/users/7958-medium_jpg?1405440740",
     "investmentsCount": "13.0",
     "id": "investor-537",
     "sources": [
@@ -13448,7 +13474,7 @@ var investorCatalog = [
     "details": "Founder of @gerson-lehrman-group. Angel Investor. Director at @kipp-nyc.",
     "url": "https://angel.co/thomas-d-lehrman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/thomas-d-lehrman",
+    "image": "https://photos.wellfound.com/users/6470-medium_jpg?1405439357",
     "investmentsCount": "13.0",
     "id": "investor-538",
     "sources": [
@@ -13471,7 +13497,7 @@ var investorCatalog = [
     "details": "Partner at Accel",
     "url": "https://angel.co/rich_wong",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rich_wong",
+    "image": "https://photos.wellfound.com/users/3090-medium_jpg?1405435365",
     "investmentsCount": "12.0",
     "id": "investor-539",
     "sources": [
@@ -13494,7 +13520,7 @@ var investorCatalog = [
     "details": "long crypto",
     "url": "https://angel.co/ronp",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ronp",
+    "image": "https://photos.wellfound.com/users/5276-medium_jpg?1405437875",
     "investmentsCount": "11.0",
     "id": "investor-540",
     "sources": [
@@ -13517,7 +13543,7 @@ var investorCatalog = [
     "details": "Co-Founder & CEO of @meetup",
     "url": "https://angel.co/heif",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/heif",
+    "image": "https://photos.wellfound.com/users/3536-medium_jpg?1405435714",
     "investmentsCount": "10.0",
     "id": "investor-541",
     "sources": [
@@ -13540,7 +13566,7 @@ var investorCatalog = [
     "details": "Partner, @accel-partners",
     "url": "https://angel.co/ping_accel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ping_accel",
+    "image": "https://photos.wellfound.com/users/3061-medium_jpg?1405435350",
     "investmentsCount": "10.0",
     "id": "investor-542",
     "sources": [
@@ -13563,7 +13589,7 @@ var investorCatalog = [
     "details": "Investor in @the-filter, @tideway, @timetric.",
     "url": "https://angel.co/john-taysom",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/john-taysom",
+    "image": "https://photos.wellfound.com/users/5137-medium_jpg?1405437676",
     "investmentsCount": "10.0",
     "id": "investor-543",
     "sources": [
@@ -13607,7 +13633,7 @@ var investorCatalog = [
     "details": "Co-Founder of @webtv; CEO and co-founder of @carrier-iq",
     "url": "https://angel.co/bruce-leak",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bruce-leak",
+    "image": "https://photos.wellfound.com/users/5209-medium_jpg?1405437790",
     "investmentsCount": "9.0",
     "id": "investor-545",
     "sources": [
@@ -13649,7 +13675,7 @@ var investorCatalog = [
     "details": "Software engineer turned entrepreneur, angel investor, and filmmaker.",
     "url": "https://angel.co/rongarret",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rongarret",
+    "image": "https://photos.wellfound.com/users/1966-medium_jpg?1405434560",
     "investmentsCount": "8.0",
     "id": "investor-547",
     "sources": [
@@ -13695,7 +13721,7 @@ var investorCatalog = [
     "details": "General Partner at New Enterprise Associates (NEA)",
     "url": "https://angel.co/kittukolluri",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kittukolluri",
+    "image": "https://photos.wellfound.com/users/5221-medium_jpg?1493820592",
     "investmentsCount": "7.0",
     "id": "investor-549",
     "sources": [
@@ -13718,7 +13744,7 @@ var investorCatalog = [
     "details": "Co-Founder of MyMiniLife (sold to Zynga). CTO of Farmville.",
     "url": "https://angel.co/lrajlich",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lrajlich",
+    "image": "https://photos.wellfound.com/users/3451-medium_jpg?1405435634",
     "investmentsCount": "6.0",
     "id": "investor-550",
     "sources": [
@@ -13741,7 +13767,7 @@ var investorCatalog = [
     "details": "General Partner at @benchmark-capital",
     "url": "https://angel.co/mattcohler",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mattcohler",
+    "image": "https://photos.wellfound.com/users/6752-medium_jpg?1405439638",
     "investmentsCount": "6.0",
     "id": "investor-551",
     "sources": [
@@ -13764,7 +13790,7 @@ var investorCatalog = [
     "details": "Co-Founder of @rimnet-k-k, @mysql K.K., @redrobot-k-k; Worked at @news-7, @ntt-docomo R&D, @mysql, @mysql-sun-microsystems and @oracle-2.",
     "url": "https://angel.co/saitodaniel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/saitodaniel",
+    "image": "https://photos.wellfound.com/users/2865-medium_jpg?1471802980",
     "investmentsCount": "6.0",
     "id": "investor-552",
     "sources": [
@@ -13848,7 +13874,7 @@ var investorCatalog = [
     "details": "Guy Kawasaki is the chief evangelist of Canva, an online graphic design tool. He advised Motorola and was chief evangelist of Apple. He has written 12 books.",
     "url": "https://angel.co/guy-kawasaki",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/guy-kawasaki",
+    "image": "https://photos.wellfound.com/users/43323-medium_jpg?1412273854",
     "investmentsCount": "4.0",
     "id": "investor-556",
     "sources": [
@@ -13871,7 +13897,7 @@ var investorCatalog = [
     "details": "Investor in @return-path, @path101, @quickoffice.",
     "url": "https://angel.co/mattblumberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mattblumberg",
+    "image": "https://photos.wellfound.com/users/389-medium_jpg?1616069119",
     "investmentsCount": "4.0",
     "id": "investor-557",
     "sources": [
@@ -13892,7 +13918,7 @@ var investorCatalog = [
     "details": "Founder @Hedgeye @firefly-space-systems \u2022 Worked at @paypal, @ebay \u2022 Studied at @yale-university \u2022 Astronaut in Waiting @xcor-aerospace",
     "url": "https://angel.co/mablum",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mablum",
+    "image": "https://photos.wellfound.com/users/2795-medium_jpg?1405435141",
     "investmentsCount": "4.0",
     "id": "investor-558",
     "sources": [
@@ -14005,7 +14031,7 @@ var investorCatalog = [
     "details": "Head of @youtube at @google",
     "url": "https://angel.co/salar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/salar",
+    "image": "/images/logo/og_image.png",
     "investmentsCount": "0.0",
     "id": "investor-563",
     "sources": [
@@ -14028,7 +14054,7 @@ var investorCatalog = [
     "details": "CEO/Founder OneSpot \u2022 Former early stage VC @G51.com \u2022 24 years Media & Internet tech: registered the 1st news domain in 1988 (chron.com) \u2022 @rice-university CompSci",
     "url": "https://angel.co/matt-cohen",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matt-cohen",
+    "image": "https://photos.wellfound.com/users/6055-medium_jpg?1405438915",
     "investmentsCount": "0.0",
     "id": "investor-564",
     "sources": [
@@ -14074,7 +14100,7 @@ var investorCatalog = [
     "details": "Founder @superglued (acquired by @complex-media ) @firetalk ; Advisor @techstars @namu. Alum @meetup @georgetown @nyu Investor @fintech-1 @insuretech",
     "url": "https://angel.co/rush-doshi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rush-doshi",
+    "image": "https://photos.wellfound.com/users/68561-medium_jpg?1497550164",
     "investmentsCount": "0.0",
     "id": "investor-566",
     "sources": [
@@ -14090,6 +14116,7 @@ var investorCatalog = [
       "San Francisco"
     ],
     "countries": [
+      "United Kingdom",
       "United States"
     ],
     "focus": "Interest Graph",
@@ -14097,7 +14124,7 @@ var investorCatalog = [
     "details": "CGO @hellotech, Co-founded @geekatoo. Worked at @sun-microsystems as a Chief of Staff. @uc Berkeley, @harvard-university, and @london-school-of-economics grad.",
     "url": "https://angel.co/christian-shelton",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christian-shelton",
+    "image": "https://photos.wellfound.com/users/46201-medium_jpg?1405469985",
     "investmentsCount": "0.0",
     "id": "investor-567",
     "sources": [
@@ -14120,7 +14147,7 @@ var investorCatalog = [
     "details": "8-time entrepreneur (2 IPOs, 3 acquired, 3 private). @jumpcloud, @mobileday, @yesware, @stillsecure, @quova, @interliant, @servicemetrics, @netgenesis.",
     "url": "https://angel.co/rajat-bhargava",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rajat-bhargava",
+    "image": "https://photos.wellfound.com/users/44831-medium_jpg?1405469162",
     "investmentsCount": "25.0",
     "id": "investor-568",
     "sources": [
@@ -14141,7 +14168,7 @@ var investorCatalog = [
     "details": "Managing Director, thoughtLEADERS, LLC; CEO, @tixit; Ohio TechAngels member; VP Scotts Miracle-Gro; Director, Capital One; McKinsey; Army; West Point grad.",
     "url": "https://angel.co/figliuolo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/figliuolo",
+    "image": "https://photos.wellfound.com/users/3820-medium_jpg?1405435936",
     "investmentsCount": "6.0",
     "id": "investor-569",
     "sources": [
@@ -14187,7 +14214,7 @@ var investorCatalog = [
     "details": "Investor in @weatherbill, @chai-labs.",
     "url": "https://angel.co/salman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/salman",
+    "image": "https://photos.wellfound.com/users/3107-medium_jpg?1405435376",
     "investmentsCount": "4.0",
     "id": "investor-571",
     "sources": [
@@ -14210,7 +14237,7 @@ var investorCatalog = [
     "details": "Greycroft",
     "url": "https://angel.co/ian-sigalow",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ian-sigalow",
+    "image": "https://photos.wellfound.com/users/5069-medium_jpg?1405437578",
     "investmentsCount": "14.0",
     "id": "investor-572",
     "sources": [
@@ -14233,7 +14260,7 @@ var investorCatalog = [
     "details": "Maker of websites and mobile apps. Investor in great entrepreneurs and products.",
     "url": "https://angel.co/pud",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pud",
+    "image": "https://photos.wellfound.com/users/1823-medium_jpg?1513708721",
     "investmentsCount": "16.0",
     "id": "investor-573",
     "sources": [
@@ -14256,7 +14283,7 @@ var investorCatalog = [
     "details": "Entrepreneur at large",
     "url": "https://angel.co/uvsh",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/uvsh",
+    "image": "https://photos.wellfound.com/users/43516-medium_jpg?1422725048",
     "investmentsCount": "2.0",
     "id": "investor-574",
     "sources": [
@@ -14279,7 +14306,7 @@ var investorCatalog = [
     "details": "Founder @webrazzi \u2022 Investor @naytev @rigetti-quantum-computing-1 @ginkgo-bioworks",
     "url": "https://angel.co/akutsal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/akutsal",
+    "image": "https://photos.wellfound.com/users/58017-medium_jpg?1405473319",
     "investmentsCount": "7.0",
     "id": "investor-575",
     "sources": [
@@ -14302,7 +14329,7 @@ var investorCatalog = [
     "details": "Partner at @marathon-vc. Founder/CEO @bugsense (acq. by @splunk), angel investor in @shift @tradingview-1 @nurx @resin-io @pollfish @planetary-resources",
     "url": "https://angel.co/panosjee-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/panosjee-gmail-com",
+    "image": "https://photos.wellfound.com/users/49078-medium_jpg?1421464857",
     "investmentsCount": "17.0",
     "id": "investor-576",
     "sources": [
@@ -14325,7 +14352,7 @@ var investorCatalog = [
     "details": "Managing Partner byFounders.vc. Founder @memolane. Worked @skype, @tradeshift & @oracle-corporation. Studied @boston-university & @copenhagen-business-school.",
     "url": "https://angel.co/eric-dexmi-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eric-dexmi-com",
+    "image": "https://photos.wellfound.com/users/3650-medium_jpg?1586161466",
     "investmentsCount": "5.0",
     "id": "investor-577",
     "sources": [
@@ -14417,7 +14444,7 @@ var investorCatalog = [
     "details": "Co-founder of @boostable. Co-founded and sold @social-amp. Worked previously at @daylife which was acquired by @newscred. Studied CS at @columbia-university",
     "url": "https://angel.co/changcommaalex",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/changcommaalex",
+    "image": "https://photos.wellfound.com/users/3910-medium_jpg?1428705585",
     "investmentsCount": "8.0",
     "id": "investor-581",
     "sources": [
@@ -14443,7 +14470,7 @@ var investorCatalog = [
     "details": "Partner, Reach Capital, an education technology venture fund, focused on access and opportunity in education.",
     "url": "https://angel.co/wayee",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/wayee",
+    "image": "https://photos.wellfound.com/users/43435-medium_jpg?1552545080",
     "investmentsCount": "19.0",
     "id": "investor-582",
     "sources": [
@@ -14512,7 +14539,7 @@ var investorCatalog = [
     "details": "CEO of @gumgum",
     "url": "https://angel.co/ophir-tanz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ophir-tanz",
+    "image": "https://photos.wellfound.com/users/60006-medium_jpg?1405474058",
     "investmentsCount": "9.0",
     "id": "investor-585",
     "sources": [
@@ -14527,7 +14554,9 @@ var investorCatalog = [
     "locations": [
       "Washington DC"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "iPhone",
     "role": "Angel investor",
     "details": "I'm the former head of the webspam team at @google. Now I run the US Digital Service in Washington, DC.",
@@ -14556,7 +14585,7 @@ var investorCatalog = [
     "details": "A man. A plan. A panda. @pandawhale ...",
     "url": "https://angel.co/ifindkarma",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ifindkarma",
+    "image": "https://photos.wellfound.com/users/4515-medium_jpg?1405436613",
     "investmentsCount": "1.0",
     "id": "investor-587",
     "sources": [
@@ -14602,7 +14631,7 @@ var investorCatalog = [
     "details": "Partner at Serra Ventures. Early and growth stage investor in the Midwest.",
     "url": "https://angel.co/rob-schultz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rob-schultz",
+    "image": "https://photos.wellfound.com/users/7065-medium_jpg?1405439928",
     "investmentsCount": "21.0",
     "id": "investor-589",
     "sources": [
@@ -14623,7 +14652,7 @@ var investorCatalog = [
     "details": "love to build & lead smart/creative teams solving interesting problems. lots of experience with same, fundraising, strategy, & stuff. feedback is super candid.",
     "url": "https://angel.co/cory-reid",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cory-reid",
+    "image": "https://photos.wellfound.com/users/12435-medium_jpg?1405444413",
     "investmentsCount": "7.0",
     "id": "investor-590",
     "sources": [
@@ -14669,7 +14698,7 @@ var investorCatalog = [
     "details": "CEO at @beyond-the-rack",
     "url": "https://angel.co/yonashtern-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/yonashtern-gmail-com",
+    "image": "https://photos.wellfound.com/users/47099-medium_jpg?1462879593",
     "investmentsCount": "3.0",
     "id": "investor-592",
     "sources": [
@@ -14692,7 +14721,7 @@ var investorCatalog = [
     "details": "Managing Partner 500Startups (focused Latam + international); Founder @brazil-innovators",
     "url": "https://angel.co/bedy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bedy",
+    "image": "https://photos.wellfound.com/users/45128-medium_jpg?1435248198",
     "investmentsCount": "40.0",
     "id": "investor-593",
     "sources": [
@@ -14718,7 +14747,7 @@ var investorCatalog = [
     "details": "Early stage edtech. Founder + Managing Director @socraticlabs, Ex-Mg Dir @rak-tech-fund, @georgetown-university JD/MBA dropout, @grockit alum.",
     "url": "https://angel.co/heather-socraticlabs-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/heather-socraticlabs-com",
+    "image": "https://photos.wellfound.com/users/40730-medium_jpg?1405468073",
     "investmentsCount": "4.0",
     "id": "investor-594",
     "sources": [
@@ -14733,13 +14762,15 @@ var investorCatalog = [
     "locations": [
       "Osaka"
     ],
-    "countries": [],
+    "countries": [
+      "Japan"
+    ],
     "focus": "Language Learning",
     "role": "Angel investor",
     "details": "Serial Entrepreneur & Startup Accelerator. Founder at DreamVision. Co-founder of SunBridge Global Ventures, Interscope (sold to Yahoo! JAPAN), WebCrew(IPO).",
     "url": "https://angel.co/ikuo-ch-dreamvision-co-jp",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ikuo-ch-dreamvision-co-jp",
+    "image": "https://photos.wellfound.com/users/50447-medium_jpg?1448636817",
     "investmentsCount": "10.0",
     "id": "investor-595",
     "sources": [
@@ -14762,7 +14793,7 @@ var investorCatalog = [
     "details": "Partner at @bdmi",
     "url": "https://angel.co/sblaustein",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sblaustein",
+    "image": "https://photos.wellfound.com/users/271-medium_jpg?1405433130",
     "investmentsCount": "19.0",
     "id": "investor-596",
     "sources": [
@@ -14787,7 +14818,7 @@ var investorCatalog = [
     "details": "Managing Partner at @dn-capital \u2022 Investor @fnbox, @apsmart",
     "url": "https://angel.co/nenad-marovac",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nenad-marovac",
+    "image": "https://photos.wellfound.com/users/63413-medium_jpg?1739982116",
     "investmentsCount": "7.0",
     "id": "investor-597",
     "sources": [
@@ -14811,7 +14842,7 @@ var investorCatalog = [
     "details": "Founder @metric-collective \u2022 Prev @goldman-sachs, @lazard, @deloitte-consulting \u2022 B.S. @stanford-university Symbolic Systems (Human-Computer Interaction)",
     "url": "https://angel.co/kayvon-bina",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kayvon-bina",
+    "image": "https://photos.wellfound.com/users/65742-medium_jpg?1575500564",
     "investmentsCount": "1.0",
     "id": "investor-598",
     "sources": [
@@ -14838,7 +14869,7 @@ var investorCatalog = [
     "details": "GP @motivatevc Founder @irishangels 100+investments @lifeatchime @tradingview-1 @techstars @change-org @influitive @homechef @appcast-2 @unsplash 4x Founder w/ successful exits",
     "url": "https://angel.co/david-wieland",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/david-wieland",
+    "image": "https://photos.wellfound.com/users/51848-medium_jpg?1405471123",
     "investmentsCount": "53.0",
     "id": "investor-599",
     "sources": [
@@ -14864,7 +14895,7 @@ var investorCatalog = [
     "details": "Global CEO of @MMAGlobal; former CEO of the IAB and 25+ years of Digital Media experience.",
     "url": "https://angel.co/greg-stuart",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/greg-stuart",
+    "image": "https://photos.wellfound.com/users/52723-medium_jpg?1602465185",
     "investmentsCount": "14.0",
     "id": "investor-600",
     "sources": [
@@ -14887,7 +14918,7 @@ var investorCatalog = [
     "details": "Tech entrepreneur and investor, founder of @viatel, @ya-com, @jazztel, and @fon.",
     "url": "https://angel.co/martin-varsavsky",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/martin-varsavsky",
+    "image": "https://photos.wellfound.com/users/73391-medium_jpg?1405478600",
     "investmentsCount": "26.0",
     "id": "investor-601",
     "sources": [
@@ -14910,7 +14941,7 @@ var investorCatalog = [
     "details": "Early stage investor and supporter of amazing founders. Investor in Twitch, Triller, OURA, Unity Technologies, Birdy Grey, Sleeper, Evite, WellAir, Novaerus, Plasma-Air, Navitas, Lion Semi, Navitas Semi, Movidius, etc.",
     "url": "https://angel.co/jasonalin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jasonalin",
+    "image": "https://photos.wellfound.com/users/68043-medium_jpg?1505898745",
     "investmentsCount": "15.0",
     "id": "investor-602",
     "sources": [
@@ -14933,7 +14964,7 @@ var investorCatalog = [
     "details": "Co-founder & CTO @shipveho. Prev Gondola, OneMove, Moveline. TechStars NYC 2012. Virginia Tech Engineering.",
     "url": "https://angel.co/frederickcook",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/frederickcook",
+    "image": "https://photos.wellfound.com/users/67870-medium_jpg?1460082395",
     "investmentsCount": "0.0",
     "id": "investor-603",
     "sources": [
@@ -14954,7 +14985,7 @@ var investorCatalog = [
     "details": "Angel Investor, Investment Committee at Reno Seed Fund, Founder @computertrainingschools-com (sold to QNST).",
     "url": "https://angel.co/rick-winfield",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rick-winfield",
+    "image": "https://photos.wellfound.com/users/48187-medium_jpg?1418111898",
     "investmentsCount": "9.0",
     "id": "investor-604",
     "sources": [
@@ -14975,7 +15006,7 @@ var investorCatalog = [
     "details": "revolutionizing energy",
     "url": "https://angel.co/jigar-shah",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jigar-shah",
+    "image": "https://photos.wellfound.com/users/47919-medium_jpg?1405470076",
     "investmentsCount": "15.0",
     "id": "investor-605",
     "sources": [
@@ -14996,7 +15027,7 @@ var investorCatalog = [
     "details": "Co-Founder & CEO at @red-antler",
     "url": "https://angel.co/jbosborne",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jbosborne",
+    "image": "https://photos.wellfound.com/users/43266-medium_jpg?1405468669",
     "investmentsCount": "0.0",
     "id": "investor-606",
     "sources": [
@@ -15019,7 +15050,7 @@ var investorCatalog = [
     "details": "Founder @apartmentratings-com (UGC apartment site; sold to @internet-brands), Founder, BuzzStream. @capital-factory Mentor.",
     "url": "https://angel.co/jeremy-bencken",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeremy-bencken",
+    "image": "https://photos.wellfound.com/users/42357-medium_jpg?1426172031",
     "investmentsCount": "1.0",
     "id": "investor-607",
     "sources": [
@@ -15040,7 +15071,7 @@ var investorCatalog = [
     "details": "CEO at @scorestream. CEO of @chumby-industries. President, COO & Founder @intercasting (sold to @good-technology). COO of @mp3-com (MPPP) sold to Vivendi.",
     "url": "https://angel.co/derrick-oien",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/derrick-oien",
+    "image": "https://photos.wellfound.com/users/34886-medium_jpg?1405463466",
     "investmentsCount": "0.0",
     "id": "investor-608",
     "sources": [
@@ -15063,7 +15094,7 @@ var investorCatalog = [
     "details": "Founder @talklocal \u2022 Investor @fleksy, @alibaba-com , @mindbody , @bazaarvoice , @talklocal \u2022 Studied at @wharton-school, @university-of-maryland-college-park",
     "url": "https://angel.co/manpreet-singh",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/manpreet-singh",
+    "image": "https://photos.wellfound.com/users/45769-medium_jpg?1451320425",
     "investmentsCount": "10.0",
     "id": "investor-609",
     "sources": [
@@ -15086,7 +15117,7 @@ var investorCatalog = [
     "details": "Sales Chemist @ the Fastest Growing Internet Service in the US (EdgeCast) and acquired by Verizon 0-$100m ARR in 6 years SAAS, Media Tech, Video, Enterprise",
     "url": "https://angel.co/craig-kaplan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/craig-kaplan",
+    "image": "https://photos.wellfound.com/users/42364-medium_jpg?1405468678",
     "investmentsCount": "5.0",
     "id": "investor-610",
     "sources": [
@@ -15109,7 +15140,7 @@ var investorCatalog = [
     "details": "Serial entrepreneur: founded 4 VC-backed companies, 2 exits + 1 still growing. Passionate product developer & angel investor in 50+ companies.",
     "url": "https://angel.co/adamjackson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/adamjackson",
+    "image": "https://photos.wellfound.com/users/273-medium_jpg?1409294202",
     "investmentsCount": "19.0",
     "id": "investor-611",
     "sources": [
@@ -15155,7 +15186,7 @@ var investorCatalog = [
     "details": "Partner, Enginefish - Lead Gen & User Acquisition",
     "url": "https://angel.co/david-quiec",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/david-quiec",
+    "image": "https://photos.wellfound.com/users/11138-medium_jpg?1462879053",
     "investmentsCount": "4.0",
     "id": "investor-613",
     "sources": [
@@ -15178,7 +15209,7 @@ var investorCatalog = [
     "details": "Co-Founder @blackbirdvc, Creater @startmate. Lover of numbers",
     "url": "https://angel.co/niki-scevak",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/niki-scevak",
+    "image": "https://photos.wellfound.com/users/12175-medium_jpg?1405444193",
     "investmentsCount": "1.0",
     "id": "investor-614",
     "sources": [
@@ -15201,7 +15232,7 @@ var investorCatalog = [
     "details": "Founder, Partner at @arizona-bay-ventures",
     "url": "https://angel.co/jeffnatland",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeffnatland",
+    "image": "https://photos.wellfound.com/users/1485-medium_jpg?1405434198",
     "investmentsCount": "13.0",
     "id": "investor-615",
     "sources": [
@@ -15270,7 +15301,7 @@ var investorCatalog = [
     "details": "Founder @progress-ventures SMD at @progress-partners, Created and ran Client Relations for @ign-entertainment (Snowball.com), Media junkie, and Babson MBA.",
     "url": "https://angel.co/svthompson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/svthompson",
+    "image": "https://photos.wellfound.com/users/53802-medium_jpg?1405471753",
     "investmentsCount": "12.0",
     "id": "investor-618",
     "sources": [
@@ -15293,7 +15324,7 @@ var investorCatalog = [
     "details": "EIR @ Comcast Ventures. Started a few companies and sold one. Now advising, investing in, and playing with new ideas. Prior, covered growth/tech on Wall Street.",
     "url": "https://angel.co/dslevy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dslevy",
+    "image": "https://photos.wellfound.com/users/55772-medium_jpg?1405472190",
     "investmentsCount": "7.0",
     "id": "investor-619",
     "sources": [
@@ -15316,7 +15347,7 @@ var investorCatalog = [
     "details": "CTO of Woot, an Amazon company. Founder/CTO/GM roles @innovacion, @newbrandanalytics, @servicelive, @selectica. Strong tech & biz background. Wharton MBA, IIT M",
     "url": "https://angel.co/vivek-sagi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vivek-sagi",
+    "image": "https://photos.wellfound.com/users/64418-medium_jpg?1462882355",
     "investmentsCount": "6.0",
     "id": "investor-620",
     "sources": [
@@ -15341,7 +15372,7 @@ var investorCatalog = [
     "details": "Chairman of @zula-1. A pioneer who helped shape the development and growth of the worldwide VoIP industry. Loves Disruptive Technologies. Host #140conf.",
     "url": "https://angel.co/jeff-pulver",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeff-pulver",
+    "image": "https://photos.wellfound.com/users/62797-medium_jpg?1405476844",
     "investmentsCount": "31.0",
     "id": "investor-621",
     "sources": [
@@ -15365,7 +15396,7 @@ var investorCatalog = [
     "details": "Co-founder/Managing Partner, Fifth Wall. Co-Founder/CEO, Identified (sold to Workday) Co-Founder, Cabify $29 million invested on AngelList, 28 syndicates.",
     "url": "https://angel.co/brendan-wallace",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brendan-wallace",
+    "image": "https://photos.wellfound.com/users/65587-medium_jpg?1559169453",
     "investmentsCount": "23.0",
     "id": "investor-622",
     "sources": [
@@ -15409,7 +15440,7 @@ var investorCatalog = [
     "details": "Co-founder of Limbix. Previously co-founder at @karma-1 Science and @tapjoy.",
     "url": "https://angel.co/ben-lewis",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ben-lewis",
+    "image": "https://photos.wellfound.com/users/69429-medium_jpg?1588654223",
     "investmentsCount": "6.0",
     "id": "investor-624",
     "sources": [
@@ -15432,7 +15463,7 @@ var investorCatalog = [
     "details": "Strategy and Planning, Angel Investor; Technology, Media and Entertainment Executive, Computer Hardware",
     "url": "https://angel.co/bril",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bril",
+    "image": "https://photos.wellfound.com/users/56481-medium_jpg?1405472737",
     "investmentsCount": "14.0",
     "id": "investor-625",
     "sources": [
@@ -15455,7 +15486,7 @@ var investorCatalog = [
     "details": "Founder of LegalZoom and @shoedazzle",
     "url": "https://angel.co/brian-lee-2",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brian-lee-2",
+    "image": "https://photos.wellfound.com/users/56447-medium_jpg?1405472394",
     "investmentsCount": "12.0",
     "id": "investor-626",
     "sources": [
@@ -15501,7 +15532,7 @@ var investorCatalog = [
     "details": "CEO of Verimos. Unicorn founder with 3 exits and 1 IPO.",
     "url": "https://angel.co/bmenell",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bmenell",
+    "image": "https://photos.wellfound.com/users/71983-medium_jpg?1462941517",
     "investmentsCount": "9.0",
     "id": "investor-628",
     "sources": [
@@ -15524,7 +15555,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/jonatan-russo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jonatan-russo",
+    "image": "https://photos.wellfound.com/users/73149-medium_jpg?1405479111",
     "investmentsCount": "4.0",
     "id": "investor-629",
     "sources": [
@@ -15560,13 +15591,16 @@ var investorCatalog = [
     "locations": [
       "Truckee"
     ],
-    "countries": [],
+    "countries": [
+      "Canada",
+      "United States"
+    ],
     "focus": "Location Based Services",
     "role": "Angel investor",
     "details": "SVP/GM, USA @zapper. SVP Sales @punchh-6. GM, Canada @groupon. MBA @university-of-chicago-booth-school-of-business. Prior life, institutional investment mgmt.",
     "url": "https://angel.co/josh-miller-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/josh-miller-1",
+    "image": "https://photos.wellfound.com/users/59913-medium_jpg?1565797588",
     "investmentsCount": "0.0",
     "id": "investor-631",
     "sources": [
@@ -15587,7 +15621,7 @@ var investorCatalog = [
     "details": "Product and Technology Executive & Entrepreneur",
     "url": "https://angel.co/davidbreckling",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidbreckling",
+    "image": "https://photos.wellfound.com/users/61282-medium_jpg?1567204342",
     "investmentsCount": "5.0",
     "id": "investor-632",
     "sources": [
@@ -15610,7 +15644,7 @@ var investorCatalog = [
     "details": "Founded @pocket-gems, a Sequoia backed mobile social gaming startup",
     "url": "https://angel.co/harlancrystal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/harlancrystal",
+    "image": "https://photos.wellfound.com/users/54255-medium_jpg?1606238783",
     "investmentsCount": "5.0",
     "id": "investor-633",
     "sources": [
@@ -15633,7 +15667,7 @@ var investorCatalog = [
     "details": "Investor @bluerun-ventures. also: developer, product designer, founder and investor in mobile & consumer web start-ups.",
     "url": "https://angel.co/getjeffnow",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/getjeffnow",
+    "image": "https://photos.wellfound.com/users/54672-medium_jpg?1552342011",
     "investmentsCount": "18.0",
     "id": "investor-634",
     "sources": [
@@ -15656,7 +15690,7 @@ var investorCatalog = [
     "details": "IT professional, Entrepreneur and seed stage Investor. Co-founder @getbraavo Co-founder and President at @itechart.",
     "url": "https://angel.co/sergei-kovalenko",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sergei-kovalenko",
+    "image": "https://photos.wellfound.com/users/54170-medium_jpg?1775418244",
     "investmentsCount": "12.0",
     "id": "investor-635",
     "sources": [
@@ -15679,7 +15713,7 @@ var investorCatalog = [
     "details": "CEO @stradella-road named by Fast Company as one of the World's Top 10 Most Innovative Companies in Hollywood. Gordon works with entrepreneurs at @umbel, @rockify, @openbucks, @epoxy-tv, @dbg , @CakeHealth, @bufferapp and @appssavvy. As an advis",
     "url": "https://angel.co/gpad",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gpad",
+    "image": "https://photos.wellfound.com/users/58960-medium_jpg?1405475053",
     "investmentsCount": "8.0",
     "id": "investor-636",
     "sources": [
@@ -15702,7 +15736,7 @@ var investorCatalog = [
     "details": "Investor, advisor, entrepreneur, creative thinker, accomplished designer.",
     "url": "https://angel.co/mstrehlow",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mstrehlow",
+    "image": "https://photos.wellfound.com/users/58961-medium_jpg?1456940096",
     "investmentsCount": "2.0",
     "id": "investor-637",
     "sources": [
@@ -15748,7 +15782,7 @@ var investorCatalog = [
     "details": "Co-Founder & CEO of @shiftgig;General Partner OCA Ventures; Co-founder of Us Empowered & Chicago SVP; 2010 Crain 40U40; 2011 Chicago United BLC",
     "url": "https://angel.co/eddie-lou",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eddie-lou",
+    "image": "https://photos.wellfound.com/users/59575-medium_jpg?1626286210",
     "investmentsCount": "14.0",
     "id": "investor-639",
     "sources": [
@@ -15838,7 +15872,7 @@ var investorCatalog = [
     "details": "Strategic partnerships @google, founder @mind-the-bridge, managing partner @ MTS Fund , angel investor",
     "url": "https://angel.co/marco-marinucci",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marco-marinucci",
+    "image": "https://photos.wellfound.com/users/73848-medium_jpg?1436510254",
     "investmentsCount": "15.0",
     "id": "investor-643",
     "sources": [
@@ -15857,7 +15891,7 @@ var investorCatalog = [
     "details": "Founder & CEO @ @appsflyer",
     "url": "https://angel.co/oren-kaniel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/oren-kaniel",
+    "image": "https://photos.wellfound.com/users/68416-medium_jpg?1405479349",
     "investmentsCount": "0.0",
     "id": "investor-644",
     "sources": [
@@ -15880,7 +15914,7 @@ var investorCatalog = [
     "details": "Entrepreneur, Co-Founder At Pillow.com",
     "url": "https://angel.co/justinm88",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/justinm88",
+    "image": "https://photos.wellfound.com/users/48564-medium_jpg?1528826922",
     "investmentsCount": "6.0",
     "id": "investor-645",
     "sources": [
@@ -15926,7 +15960,7 @@ var investorCatalog = [
     "details": "Entrepreneur, founding partner at @lifeline-ventures - Investing in early-stage companies in health, Web and games.",
     "url": "https://angel.co/hoopeekoo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/hoopeekoo",
+    "image": "https://photos.wellfound.com/users/47993-medium_jpg?1405470024",
     "investmentsCount": "20.0",
     "id": "investor-647",
     "sources": [
@@ -15947,7 +15981,7 @@ var investorCatalog = [
     "details": "Nitin is CEO of MergerTech an investment bank focused on $5MM - $100MM IT M&A. Prior to that he founded @saber in 1997 and sold it to @eds for $460MM in 2007.",
     "url": "https://angel.co/nitin-khanna",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nitin-khanna",
+    "image": "https://photos.wellfound.com/users/44042-medium_jpg?1584656908",
     "investmentsCount": "8.0",
     "id": "investor-648",
     "sources": [
@@ -15968,7 +16002,7 @@ var investorCatalog = [
     "details": "B2b startup sales and business development, value add angel investor. Specialize in early customers and scaling sales. Multiple exits. Former city planner.",
     "url": "https://angel.co/ken-bane",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ken-bane",
+    "image": "https://photos.wellfound.com/users/43884-medium_jpg?1405468838",
     "investmentsCount": "9.0",
     "id": "investor-649",
     "sources": [
@@ -16037,7 +16071,7 @@ var investorCatalog = [
     "details": "Partner at Plug & Play Ventures",
     "url": "https://angel.co/zgombaivan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zgombaivan",
+    "image": "https://photos.wellfound.com/users/34550-medium_jpg?1405463188",
     "investmentsCount": "28.0",
     "id": "investor-652",
     "sources": [
@@ -16058,7 +16092,7 @@ var investorCatalog = [
     "details": "Managing Member Park One Capital, Single Family Office. Founding Partner of k5 Venture Accelerator TedX Orange Coast Advisor",
     "url": "https://angel.co/kai-tao",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kai-tao",
+    "image": "https://photos.wellfound.com/users/35895-medium_jpg?1405464337",
     "investmentsCount": "6.0",
     "id": "investor-653",
     "sources": [
@@ -16081,7 +16115,7 @@ var investorCatalog = [
     "details": "Angel investor & advisor - social, mobile, local tech. Portfolio includes @summize & @tweetdeck, both acq by @twitter. CEO @collecta, Pres Reuters Tech & SVP AOL",
     "url": "https://angel.co/gerry-campbell1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gerry-campbell1",
+    "image": "https://photos.wellfound.com/users/36513-medium_jpg?1462941390",
     "investmentsCount": "10.0",
     "id": "investor-654",
     "sources": [
@@ -16102,7 +16136,7 @@ var investorCatalog = [
     "details": "Serial Entrepreneur interested in investing in exciting new high tech companies.",
     "url": "https://angel.co/randy-smerik",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/randy-smerik",
+    "image": "https://photos.wellfound.com/users/35903-medium_jpg?1405464345",
     "investmentsCount": "4.0",
     "id": "investor-655",
     "sources": [
@@ -16125,7 +16159,7 @@ var investorCatalog = [
     "details": "Inventor. Founder and CEO of @roximity. Creator of amazing products for mobile devices/people",
     "url": "https://angel.co/dannynewman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dannynewman",
+    "image": "https://photos.wellfound.com/users/45796-medium_jpg?1405469845",
     "investmentsCount": "16.0",
     "id": "investor-656",
     "sources": [
@@ -16148,7 +16182,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/juha",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/juha",
+    "image": "https://photos.wellfound.com/users/45659-medium_jpg?1405469411",
     "investmentsCount": "6.0",
     "id": "investor-657",
     "sources": [
@@ -16171,7 +16205,7 @@ var investorCatalog = [
     "details": "Sigma Partners & JEGI Capital (Partner), @webline-communications (Cisco), Stream International, IBM / DNB, Harvard MBA",
     "url": "https://angel.co/roger-krakoff",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/roger-krakoff",
+    "image": "https://photos.wellfound.com/users/46711-medium_jpg?1405470153",
     "investmentsCount": "20.0",
     "id": "investor-658",
     "sources": [
@@ -16215,7 +16249,7 @@ var investorCatalog = [
     "details": "Founder Appointment.com / Codebase.com",
     "url": "https://angel.co/mrbradshaw",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mrbradshaw",
+    "image": "https://photos.wellfound.com/users/40732-medium_jpg?1493797919",
     "investmentsCount": "11.0",
     "id": "investor-660",
     "sources": [
@@ -16238,7 +16272,7 @@ var investorCatalog = [
     "details": "Parallel entrepreneur, author speaker. Lean Analytics, Coradiant, Year One Labs. Strata, Startupfest, FWD50, HBS. Startup acceleration, biz model innovation.",
     "url": "https://angel.co/acroll",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/acroll",
+    "image": "https://photos.wellfound.com/users/40675-medium_jpg?1617819780",
     "investmentsCount": "10.0",
     "id": "investor-661",
     "sources": [
@@ -16261,7 +16295,7 @@ var investorCatalog = [
     "details": "Systems Designer + Investor",
     "url": "https://angel.co/cesarsalazar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cesarsalazar",
+    "image": "https://photos.wellfound.com/users/50147-medium_jpg?1619538745",
     "investmentsCount": "15.0",
     "id": "investor-662",
     "sources": [
@@ -16284,7 +16318,7 @@ var investorCatalog = [
     "details": "Two decades of technology venture capital investment experience. Co-founded Pequot Ventures, the direct venture investment arm of Pequot Capital Management.",
     "url": "https://angel.co/ewjansen",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ewjansen",
+    "image": "https://photos.wellfound.com/users/48851-medium_jpg?1405470266",
     "investmentsCount": "10.0",
     "id": "investor-663",
     "sources": [
@@ -16307,7 +16341,7 @@ var investorCatalog = [
     "details": "VP of Product - Mobile at IAC. Ex-CEO @ Bloglovin'. Mobile veteran, angel investor with focus on consumer mobile and e-commerce companies",
     "url": "https://angel.co/giordanobc",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/giordanobc",
+    "image": "https://photos.wellfound.com/users/50375-medium_jpg?1439220569",
     "investmentsCount": "11.0",
     "id": "investor-664",
     "sources": [
@@ -16328,7 +16362,7 @@ var investorCatalog = [
     "details": "Founded @horn, Founded @trustwave(@securepipe) , Founded @lfci (ERP - Sold 1998), Created first Fetal Ultrasound System (1983). Old School - New Tech.",
     "url": "https://angel.co/lawrence-t-levine",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lawrence-t-levine",
+    "image": "https://photos.wellfound.com/users/35494-medium_jpg?1405464007",
     "investmentsCount": "1.0",
     "id": "investor-665",
     "sources": [
@@ -16372,7 +16406,7 @@ var investorCatalog = [
     "details": "Partner at @redpoint-ventures; Director of Platform at @twitter and early employee; Director of Consumer Product at @skyhook and early employee;",
     "url": "https://angel.co/rsarver",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rsarver",
+    "image": "https://photos.wellfound.com/users/39465-medium_jpg?1624732220",
     "investmentsCount": "4.0",
     "id": "investor-667",
     "sources": [
@@ -16393,7 +16427,7 @@ var investorCatalog = [
     "details": "Director of Economic Development, Metro Louisville, KY. Entrepreneur-in-residence, @university-of-louisville-college-of-business.",
     "url": "https://angel.co/ted-smith",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ted-smith",
+    "image": "https://photos.wellfound.com/users/39561-medium_jpg?1405467492",
     "investmentsCount": "4.0",
     "id": "investor-668",
     "sources": [
@@ -16439,7 +16473,7 @@ var investorCatalog = [
     "details": "Engineering @affirm , Mentor @500startups. Prior:CTO @the-realreal, Dir New Ventures, @paypal. CTO Reel.com (sold), Advisor/CTO esurance, bigwords.",
     "url": "https://angel.co/peter-rosberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/peter-rosberg",
+    "image": "https://photos.wellfound.com/users/5198-medium_jpg?1441901588",
     "investmentsCount": "3.0",
     "id": "investor-670",
     "sources": [
@@ -16462,7 +16496,7 @@ var investorCatalog = [
     "details": "Founder/CEO The Mega Smart Company. Past: Founder/CEO @tangible-worldwide (global ad agency; fmr AOR of Pitchfork, MTV, T-Mobile, etc.), Urchin/GA, Flash, NCSA.",
     "url": "https://angel.co/mayorrock",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mayorrock",
+    "image": "https://photos.wellfound.com/users/4073-medium_jpg?1569523514",
     "investmentsCount": "3.0",
     "id": "investor-671",
     "sources": [
@@ -16485,7 +16519,7 @@ var investorCatalog = [
     "details": "Founding General Partner @eniac-ventures, over 150 mobile-first investments + 15 years operating experience (founded 5 startups) across the mobile ecosystem.",
     "url": "https://angel.co/nihalmehta",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nihalmehta",
+    "image": "https://photos.wellfound.com/users/319-medium_jpg?1405433181",
     "investmentsCount": "90.0",
     "id": "investor-672",
     "sources": [
@@ -16508,7 +16542,7 @@ var investorCatalog = [
     "details": "Founder Upstate Supply Chairman Hifi GP @raptor-ventures Former CEO FanManager Angel Investor Father of 2 (not including my French Bulldog) Avid NY Ranger fan",
     "url": "https://angel.co/hdemott",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/hdemott",
+    "image": "https://photos.wellfound.com/users/371-medium_jpg?1405433225",
     "investmentsCount": "20.0",
     "id": "investor-673",
     "sources": [
@@ -16531,7 +16565,7 @@ var investorCatalog = [
     "details": "Mentor, advisor, director, author and angel investor. 5x founder: Innoveda and Viewlogic. Advisor at Bolt. Mentor at Techstars.",
     "url": "https://angel.co/willherman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/willherman",
+    "image": "https://photos.wellfound.com/users/212-medium_jpg?1533650007",
     "investmentsCount": "42.0",
     "id": "investor-674",
     "sources": [
@@ -16565,7 +16599,7 @@ var investorCatalog = [
     "details": "Partner @homebrew. Formerly VP Product at @twitter, ex-Google PM, ex-Partner at @battery-ventures. Penn educated. Vegas raised.",
     "url": "https://angel.co/satyap",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/satyap",
+    "image": "https://photos.wellfound.com/users/50-medium_jpg?1405432893",
     "investmentsCount": "28.0",
     "id": "investor-675",
     "sources": [
@@ -16591,7 +16625,7 @@ var investorCatalog = [
     "details": "Founder & Investor @chapter-one-ventures. Former VP of Product, Revenue @tinder. Led revenue team to #1 top grossing app.",
     "url": "https://angel.co/jmj",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jmj",
+    "image": "https://photos.wellfound.com/users/8770-medium_jpg?1512880955",
     "investmentsCount": "19.0",
     "id": "investor-676",
     "sources": [
@@ -16614,7 +16648,7 @@ var investorCatalog = [
     "details": "Co-founder @venture51, Co-Founded @republic-project (which was acquired in 2013 by DGIT on Nasdaq), Father, Skier, Golfer, Surfer and Canadian.",
     "url": "https://angel.co/ryanswagar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ryanswagar",
+    "image": "https://photos.wellfound.com/users/9304-medium_jpg?1423517706",
     "investmentsCount": "47.0",
     "id": "investor-677",
     "sources": [
@@ -16637,7 +16671,7 @@ var investorCatalog = [
     "details": "Founding Partner of @golden-gate-ventures & Director of Singapore @founder-institute",
     "url": "https://angel.co/jpaine",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jpaine",
+    "image": "https://photos.wellfound.com/users/7047-medium_jpg?1596448883",
     "investmentsCount": "13.0",
     "id": "investor-678",
     "sources": [
@@ -16653,6 +16687,7 @@ var investorCatalog = [
       "London"
     ],
     "countries": [
+      "India",
       "United Kingdom"
     ],
     "focus": "Location Based Services",
@@ -16660,7 +16695,7 @@ var investorCatalog = [
     "details": "Co-Founder & Partner @seedcamp. Invested in 120+ startups. Worked @vodafone eVentures India, Broadview. @insead-1 MBA, @university-of-pennsylvania Eng & Bus.",
     "url": "https://angel.co/reshma-sohoni",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/reshma-sohoni",
+    "image": "https://photos.wellfound.com/users/8251-medium_jpg?1435248055",
     "investmentsCount": "66.0",
     "id": "investor-679",
     "sources": [
@@ -16683,7 +16718,7 @@ var investorCatalog = [
     "details": "Angel Investor - Over 30 IPOs and M&A exits in excess of $13 billion in aggregate value...",
     "url": "https://angel.co/ericdibenedetto",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ericdibenedetto",
+    "image": "https://photos.wellfound.com/users/9518-medium_jpg?1475535498",
     "investmentsCount": "44.0",
     "id": "investor-680",
     "sources": [
@@ -16729,7 +16764,7 @@ var investorCatalog = [
     "details": "Investor & Advisor @ several tech startups, co-founder @searchman and @appgrooves , CEO @crowdstar, Founding team member @admob , @yahoo Mobile & @mtv Asia",
     "url": "https://angel.co/nirenhiro",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nirenhiro",
+    "image": "https://photos.wellfound.com/users/9259-medium_jpg?1405441903",
     "investmentsCount": "3.0",
     "id": "investor-682",
     "sources": [
@@ -16759,7 +16794,7 @@ var investorCatalog = [
     "details": "Brand Marketer, Venture Capitalist, Startup Advisor, Co-founder @the-brandery. CMO Rockfish. Partner @vine-street-ventures. Author of Predicting The Turn.",
     "url": "https://angel.co/daveknox",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/daveknox",
+    "image": "https://photos.wellfound.com/users/9265-medium_jpg?1635429584",
     "investmentsCount": "14.0",
     "id": "investor-683",
     "sources": [
@@ -16785,7 +16820,7 @@ var investorCatalog = [
     "details": "CEO @ Creative Labs.",
     "url": "https://angel.co/marallo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marallo",
+    "image": "https://photos.wellfound.com/users/3516-medium_jpg?1405435699",
     "investmentsCount": "42.0",
     "id": "investor-684",
     "sources": [
@@ -16809,7 +16844,7 @@ var investorCatalog = [
     "details": "Head of Product Partnerships @uber. Previously Product @facebook New York, Product Mgr @facebook Games, Director of BD at @facebook, @stanford-university MBA/d.school.",
     "url": "https://angel.co/mattw",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mattw",
+    "image": "https://photos.wellfound.com/users/3736-medium_jpg?1405435864",
     "investmentsCount": "33.0",
     "id": "investor-685",
     "sources": [
@@ -16835,7 +16870,7 @@ var investorCatalog = [
     "details": "Founder and CEO at @olx, Investor at @alibaba @beepi @fanduel @delivery-hero & over 200 other investments",
     "url": "https://angel.co/fabrice",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/fabrice",
+    "image": "https://photos.wellfound.com/users/3582-medium_jpg?1405435741",
     "investmentsCount": "179.0",
     "id": "investor-686",
     "sources": [
@@ -16858,7 +16893,7 @@ var investorCatalog = [
     "details": "Founder @betterhotel @bukisa, @articlesbase, @pixlater",
     "url": "https://angel.co/webshark",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/webshark",
+    "image": "https://photos.wellfound.com/users/3843-medium_jpg?1674043532",
     "investmentsCount": "5.0",
     "id": "investor-687",
     "sources": [
@@ -16881,7 +16916,7 @@ var investorCatalog = [
     "details": "Entrepreneur, Technology Executive, Angel Investor",
     "url": "https://angel.co/robertjadon",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/robertjadon",
+    "image": "https://photos.wellfound.com/users/4287-medium_jpg?1614891205",
     "investmentsCount": "9.0",
     "id": "investor-688",
     "sources": [
@@ -16904,7 +16939,7 @@ var investorCatalog = [
     "details": "Founder @groupsite-com, @progressly \u2022 Worked at @verisign, @mindshare-alumni",
     "url": "https://angel.co/clarencewooten",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/clarencewooten",
+    "image": "https://photos.wellfound.com/users/4400-medium_jpg?1486782755",
     "investmentsCount": "7.0",
     "id": "investor-689",
     "sources": [
@@ -16927,7 +16962,7 @@ var investorCatalog = [
     "details": "Founder/CEO @articulate",
     "url": "https://angel.co/getadam",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/getadam",
+    "image": "https://photos.wellfound.com/users/5724-medium_jpg?1565091715",
     "investmentsCount": "21.0",
     "id": "investor-690",
     "sources": [
@@ -16969,7 +17004,7 @@ var investorCatalog = [
     "details": "Founder of @gridlogix, @gentry-systems. Investor in @langlearner, @coolfire-solutions, @gremln.",
     "url": "https://angel.co/halgentry",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/halgentry",
+    "image": "https://photos.wellfound.com/users/5893-medium_jpg?1405438731",
     "investmentsCount": "9.0",
     "id": "investor-692",
     "sources": [
@@ -17013,7 +17048,7 @@ var investorCatalog = [
     "details": "Venture Partner & COO @company prev. @expa , @foursquare @union-square-ventures | Focused on early stage",
     "url": "https://angel.co/ericfriedman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ericfriedman",
+    "image": "https://photos.wellfound.com/users/2477-medium_jpg?1610722470",
     "investmentsCount": "4.0",
     "id": "investor-694",
     "sources": [
@@ -17036,7 +17071,7 @@ var investorCatalog = [
     "details": "Investor in @lucid-software, @setjam.",
     "url": "https://angel.co/jtbetz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jtbetz",
+    "image": "https://photos.wellfound.com/users/2497-medium_jpg?1474203521",
     "investmentsCount": "5.0",
     "id": "investor-695",
     "sources": [
@@ -17059,7 +17094,7 @@ var investorCatalog = [
     "details": "Investor for 20 years in teams (@zynga, XenSource/CTRX @facebook, Datamirror/IBM, Fortinet/FTNT, Tango, @metaweb, D-Wave) solving hard problems for large markets.",
     "url": "https://angel.co/mattocko",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mattocko",
+    "image": "https://photos.wellfound.com/users/2873-medium_jpg?1405435199",
     "investmentsCount": "119.0",
     "id": "investor-696",
     "sources": [
@@ -17126,7 +17161,7 @@ var investorCatalog = [
     "details": "General Partner at @rre-ventures , Entrepreneur, Light-Weight Hacker & Gamer.",
     "url": "https://angel.co/raju-rishi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/raju-rishi",
+    "image": "https://photos.wellfound.com/users/4988-medium_jpg?1405437460",
     "investmentsCount": "7.0",
     "id": "investor-699",
     "sources": [
@@ -17149,7 +17184,7 @@ var investorCatalog = [
     "details": "Co-founder and CEO @delighted. Formerly Creator of heymosaic.com, Co-founder and CEO of @yobongo. VP of Products @justin-tv,",
     "url": "https://angel.co/calebelston",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/calebelston",
+    "image": "https://photos.wellfound.com/users/5211-medium_jpg?1405437796",
     "investmentsCount": "0.0",
     "id": "investor-700",
     "sources": [
@@ -17193,7 +17228,7 @@ var investorCatalog = [
     "details": "Investor. Formerly Ceo @campaign-monitor Formerly EVP and GM @salesforce Career entrepreneur (part of starting 4 companies) and big dreamer.",
     "url": "https://angel.co/alexbard",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alexbard",
+    "image": "https://photos.wellfound.com/users/6001-medium_jpg?1498950051",
     "investmentsCount": "25.0",
     "id": "investor-702",
     "sources": [
@@ -17237,7 +17272,7 @@ var investorCatalog = [
     "details": "Reimagining social at @highriseapp. Founder @aussiecommerce @smeeters @lookingo . Former VC @redpoint-ventures and @insight-venture-partners.",
     "url": "https://angel.co/antonber",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/antonber",
+    "image": "https://photos.wellfound.com/users/10665-medium_jpg?1538703918",
     "investmentsCount": "11.0",
     "id": "investor-704",
     "sources": [
@@ -17284,7 +17319,7 @@ var investorCatalog = [
     "details": "Managing Partner @catapult Capital, private equity and active angel investor. Former SVP @yahoo, CEO @xobni (acq by Yahoo); co-founder @gizmo5 (acq by @google).",
     "url": "https://angel.co/bonforte",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bonforte",
+    "image": "https://photos.wellfound.com/users/11054-medium_jpg?1673302981",
     "investmentsCount": "38.0",
     "id": "investor-706",
     "sources": [
@@ -17310,7 +17345,7 @@ var investorCatalog = [
     "details": "MD,Southboro Capital,5X start-upCXO, 2 IPOs,5exits; Mentor:@techstars, Founders Inst, Long @massachusetts-institute-of-technology affiliation.Ex McKinsey.Connector to large global start-up network",
     "url": "https://angel.co/mike-grandinetti",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mike-grandinetti",
+    "image": "https://photos.wellfound.com/users/16347-medium_jpg?1405446967",
     "investmentsCount": "0.0",
     "id": "investor-707",
     "sources": [
@@ -17333,7 +17368,7 @@ var investorCatalog = [
     "details": "General partner of Neoteny and board member and co-founder of Digital Garage.",
     "url": "https://angel.co/joi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joi",
+    "image": "https://photos.wellfound.com/users/16260-medium_jpg?1635397253",
     "investmentsCount": "47.0",
     "id": "investor-708",
     "sources": [
@@ -17356,7 +17391,7 @@ var investorCatalog = [
     "details": "Hacker, investor & serial entrepreneur. Founder & CEO, @hifi. Venture Partner, @dev. Co-founder & CEO, @echospin (acquired '10). VP, Digital, MTV. 20+ patents.",
     "url": "https://angel.co/daegloe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/daegloe",
+    "image": "https://photos.wellfound.com/users/11142-medium_jpg?1593670223",
     "investmentsCount": "25.0",
     "id": "investor-709",
     "sources": [
@@ -17377,7 +17412,7 @@ var investorCatalog = [
     "details": "Managing Partner, VP Business Development, strategic advisor, runner",
     "url": "https://angel.co/jheltzel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jheltzel",
+    "image": "https://photos.wellfound.com/users/11710-medium_jpg?1526331253",
     "investmentsCount": "1.0",
     "id": "investor-710",
     "sources": [
@@ -17400,7 +17435,7 @@ var investorCatalog = [
     "details": "Building startups since 1999. Advisor @homebrew-1, Former VP/GM @zynga (IPO), Ex @atom-entertainment (sold to @viacom), @viacom & other startups.",
     "url": "https://angel.co/roysehgal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/roysehgal",
+    "image": "https://photos.wellfound.com/users/11803-medium_jpg?1405443922",
     "investmentsCount": "6.0",
     "id": "investor-711",
     "sources": [
@@ -17423,7 +17458,7 @@ var investorCatalog = [
     "details": "Co-founder @superworld (AR real estate token + ad marketplace on blockchain), co-founder @phizzle-deleted; co-founder Xfire; @university-of-cambridge.",
     "url": "https://angel.co/maxwoon",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/maxwoon",
+    "image": "https://photos.wellfound.com/users/8681-medium_jpg?1405441332",
     "investmentsCount": "11.0",
     "id": "investor-712",
     "sources": [
@@ -17446,7 +17481,7 @@ var investorCatalog = [
     "details": "@stanford-university PhD, Early Internet pioneer, 20+ Internet startups including founder/CEO Friend Finder (grew to $300M/year)",
     "url": "https://angel.co/andrew-conru",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrew-conru",
+    "image": "https://photos.wellfound.com/users/12535-medium_jpg?1405444502",
     "investmentsCount": "1.0",
     "id": "investor-713",
     "sources": [
@@ -17469,7 +17504,7 @@ var investorCatalog = [
     "details": "General Partner at PROfounders Capital",
     "url": "https://angel.co/setonrog",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/setonrog",
+    "image": "https://photos.wellfound.com/users/1462-medium_jpg?1405434184",
     "investmentsCount": "22.0",
     "id": "investor-714",
     "sources": [
@@ -17492,7 +17527,7 @@ var investorCatalog = [
     "details": "@transmedia-capital, early stage investor in SaaS, commerce and moon shots. Health & fitness junkie, & criminal justice reform advocate. Co Founder of @tlm",
     "url": "https://angel.co/credlitz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/credlitz",
+    "image": "https://photos.wellfound.com/users/1564-medium_jpg?1659642889",
     "investmentsCount": "37.0",
     "id": "investor-715",
     "sources": [
@@ -17538,7 +17573,7 @@ var investorCatalog = [
     "details": "Partner @ Transmedia Capital. Focused on SaaS Enterprise, FinTech/Blockchain, E-commerce, Marketplaces & Digital Media.",
     "url": "https://angel.co/pboboff",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pboboff",
+    "image": "https://photos.wellfound.com/users/1763-medium_jpg?1567471459",
     "investmentsCount": "24.0",
     "id": "investor-717",
     "sources": [
@@ -17584,7 +17619,7 @@ var investorCatalog = [
     "details": "Co-founder Joymode, Co-founder Coliloquy; Co-founder unwrap (Sold to @context-optional); worked on @google's backend billing system; @stanford-university",
     "url": "https://angel.co/waynn",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/waynn",
+    "image": "https://photos.wellfound.com/users/1889-medium_jpg?1405434490",
     "investmentsCount": "5.0",
     "id": "investor-719",
     "sources": [
@@ -17605,7 +17640,7 @@ var investorCatalog = [
     "details": "Managing Member, Baltimore Angels, Co-Founder, @betamore, Founder, @blue-sky-factory, Inc. (Acquired by WhatCounts 7/11).",
     "url": "https://angel.co/gregcangialosi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gregcangialosi",
+    "image": "https://photos.wellfound.com/users/1690-medium_jpg?1517889764",
     "investmentsCount": "22.0",
     "id": "investor-720",
     "sources": [
@@ -17626,7 +17661,7 @@ var investorCatalog = [
     "details": "CEO - @sparkbase",
     "url": "https://angel.co/doughardman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/doughardman",
+    "image": "https://photos.wellfound.com/users/56366-medium_jpg?1405472371",
     "investmentsCount": "4.0",
     "id": "investor-721",
     "sources": [
@@ -17649,7 +17684,7 @@ var investorCatalog = [
     "details": "Retired owner of JL & Co., Exec Search Firm, Worked with Top Tier VCs for Series A-C Internet and Mobile Startups, Placed VP and C-level Execs (business side)",
     "url": "https://angel.co/jonrlove",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jonrlove",
+    "image": "https://photos.wellfound.com/users/52311-medium_jpg?1405471317",
     "investmentsCount": "3.0",
     "id": "investor-722",
     "sources": [
@@ -17691,7 +17726,7 @@ var investorCatalog = [
     "details": "CEO @retention-science \u2022 Studied @uc-berkeley-haas-school-of-business",
     "url": "https://angel.co/jerryjao",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jerryjao",
+    "image": "https://photos.wellfound.com/users/64141-medium_jpg?1488585707",
     "investmentsCount": "0.0",
     "id": "investor-724",
     "sources": [
@@ -17735,7 +17770,7 @@ var investorCatalog = [
     "details": "Angel Investor, @band-of-angels, Founder / Executive at 4 startups (3 exits, 1 operating). Enterprise Software & Professional Services (@accenture) background.",
     "url": "https://angel.co/sudzkhawaja",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sudzkhawaja",
+    "image": "https://photos.wellfound.com/users/73909-medium_jpg?1405481879",
     "investmentsCount": "14.0",
     "id": "investor-726",
     "sources": [
@@ -17779,7 +17814,7 @@ var investorCatalog = [
     "details": "CEO @anova-culinary CEO @fresh, CEO @ybuy, CEO @audiocasefiles. JD, @college-of-william-and-mary, BA @tufts-university.",
     "url": "https://angel.co/svajian",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/svajian",
+    "image": "https://photos.wellfound.com/users/38186-medium_jpg?1671685211",
     "investmentsCount": "7.0",
     "id": "investor-728",
     "sources": [
@@ -17800,7 +17835,7 @@ var investorCatalog = [
     "details": 'Co-Founder enterprise software Target Systems Corp, author "The Business Internet", Founder social media Teen.com, CEO manufacturing Stoneyard.com.',
     "url": "https://angel.co/jerry-croteau",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jerry-croteau",
+    "image": "https://photos.wellfound.com/users/10662-medium_jpg?1423576258",
     "investmentsCount": "10.0",
     "id": "investor-729",
     "sources": [
@@ -17823,7 +17858,7 @@ var investorCatalog = [
     "details": "Ex-Googler, Georgia Tech alumnus, Stanford University MS&E Advisor, Angel Investor, Talent Hacker, and a Coffee Enthusiast.",
     "url": "https://angel.co/gautam-ankala",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gautam-ankala",
+    "image": "https://photos.wellfound.com/users/60823-medium_jpg?1491589021",
     "investmentsCount": "3.0",
     "id": "investor-730",
     "sources": [
@@ -17846,7 +17881,7 @@ var investorCatalog = [
     "details": "Founder/CEO at @the-climate Founder/Chairman at @metromile Founder/Chairman at @eatsa Worked at Google",
     "url": "https://angel.co/david-friedberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/david-friedberg",
+    "image": "https://photos.wellfound.com/users/57311-medium_jpg?1405472811",
     "investmentsCount": "11.0",
     "id": "investor-731",
     "sources": [
@@ -17867,7 +17902,7 @@ var investorCatalog = [
     "details": "Founder/CEO of @love-with-food. Rails Hacker. Strong technical and sales background. Pre-sales engineer at @peoplesoft and @accenture. BSc.Computer Science + MBA.",
     "url": "https://angel.co/aihui",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aihui",
+    "image": "https://photos.wellfound.com/users/64627-medium_jpg?1550129305",
     "investmentsCount": "0.0",
     "id": "investor-732",
     "sources": [
@@ -17890,7 +17925,7 @@ var investorCatalog = [
     "details": "General Partner at Matrix Partners, previously Mechanical engineer and CEO of @grabcad (Community for CAD engineers).",
     "url": "https://angel.co/hardi-meybaum-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/hardi-meybaum-gmail-com",
+    "image": "https://photos.wellfound.com/users/75493-medium_jpg?1424288675",
     "investmentsCount": "3.0",
     "id": "investor-733",
     "sources": [
@@ -17913,7 +17948,7 @@ var investorCatalog = [
     "details": "Early stage investor at Flex Capital",
     "url": "https://angel.co/jiffylu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jiffylu",
+    "image": "https://photos.wellfound.com/users/9527-medium_jpg?1405442103",
     "investmentsCount": "1.0",
     "id": "investor-734",
     "sources": [
@@ -17934,7 +17969,7 @@ var investorCatalog = [
     "details": "Co-Founder & CEO of @listia. Advisor to @remobo.",
     "url": "https://angel.co/geehwan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/geehwan",
+    "image": "https://photos.wellfound.com/users/3104-medium_jpg?1505455006",
     "investmentsCount": "0.0",
     "id": "investor-735",
     "sources": [
@@ -17955,7 +17990,7 @@ var investorCatalog = [
     "details": "North America Business Development Lead, Oracle",
     "url": "https://angel.co/rohit-jain",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rohit-jain",
+    "image": "https://photos.wellfound.com/users/12173-medium_jpg?1629960636",
     "investmentsCount": "8.0",
     "id": "investor-736",
     "sources": [
@@ -17971,6 +18006,7 @@ var investorCatalog = [
       "Seattle"
     ],
     "countries": [
+      "Israel",
       "United States"
     ],
     "focus": "Marketplaces",
@@ -17978,7 +18014,7 @@ var investorCatalog = [
     "details": "Founder @jobaline, @ancora-technologies \u2022 Worked at @microsoft, @8200-israel-s-elite-military-intelligence-unit \u2022 Investor @ancora-technologies, @xeepay",
     "url": "https://angel.co/miki-mullor",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/miki-mullor",
+    "image": "https://photos.wellfound.com/users/12461-medium_jpg?1558473501",
     "investmentsCount": "1.0",
     "id": "investor-737",
     "sources": [
@@ -18001,7 +18037,7 @@ var investorCatalog = [
     "details": "Co-Founder and CEO BlueCove Limited. Formerly CEO and Partner, BlueBay Asset Management. Previously Executive Director, Morgan Stanley. Cornell Ph.D. Physics",
     "url": "https://angel.co/alex-khein",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alex-khein",
+    "image": "https://photos.wellfound.com/users/67394-medium_jpg?1405476460",
     "investmentsCount": "7.0",
     "id": "investor-738",
     "sources": [
@@ -18047,7 +18083,7 @@ var investorCatalog = [
     "details": "Investing via Ecosystem Ventures & MicroVentures...Coffee drinker extraordinaire",
     "url": "https://angel.co/ernesto-paiz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ernesto-paiz",
+    "image": "https://photos.wellfound.com/users/55222-medium_jpg?1405473191",
     "investmentsCount": "13.0",
     "id": "investor-740",
     "sources": [
@@ -18070,7 +18106,7 @@ var investorCatalog = [
     "details": "Founder @wallflowerme \u2022 Studied at @brown-university",
     "url": "https://angel.co/kbrownsirk",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kbrownsirk",
+    "image": "https://photos.wellfound.com/users/55289-medium_jpg?1405472052",
     "investmentsCount": "26.0",
     "id": "investor-741",
     "sources": [
@@ -18093,7 +18129,7 @@ var investorCatalog = [
     "details": "Founder @profitfuel \u2022 Board @homecity \u2022 Advisor @hot-or-not \u2022 Investor @yodle, @kld-energy-technologies, @distil-networks, @ekso-bionics \u2022 Worked @findlaw",
     "url": "https://angel.co/jared-slosberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jared-slosberg",
+    "image": "https://photos.wellfound.com/users/59961-medium_jpg?1405474042",
     "investmentsCount": "29.0",
     "id": "investor-742",
     "sources": [
@@ -18131,13 +18167,15 @@ var investorCatalog = [
     "locations": [
       "Columbus"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "Medical Devices",
     "role": "Angel investor",
     "details": "Former Sr Director of 2nd largest angel group in US. Started Venture Corp Dev to offer finance & strategy leadership to privately-held high growth companies.",
     "url": "https://angel.co/zach-lawrence",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zach-lawrence",
+    "image": "https://photos.wellfound.com/users/54762-medium_jpg?1412097929",
     "investmentsCount": "18.0",
     "id": "investor-744",
     "sources": [
@@ -18181,7 +18219,7 @@ var investorCatalog = [
     "details": "Founder at @romulus-capital, Founder at @romulus-advisory. Ex-McKinsey, JPMorgan. MIT Material Science/Engineering + Management. Former math guy.",
     "url": "https://angel.co/krishna-gupta",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/krishna-gupta",
+    "image": "https://photos.wellfound.com/users/74826-medium_jpg?1405479716",
     "investmentsCount": "19.0",
     "id": "investor-746",
     "sources": [
@@ -18202,7 +18240,7 @@ var investorCatalog = [
     "details": "Patent Attorney. Stanford Professor. First investor @twilio. Early investor @cruise-automation.",
     "url": "https://angel.co/jschox",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jschox",
+    "image": "https://photos.wellfound.com/users/43116-medium_jpg?1405468622",
     "investmentsCount": "46.0",
     "id": "investor-747",
     "sources": [
@@ -18225,7 +18263,7 @@ var investorCatalog = [
     "details": "Company builder - @halo-tech-1 Founder/CEO @google AdSense (grew from $0 to $2B ARR), Co-founder of: @the Grid ($5M ARR pre-order campaign), @onespot, @zaplet.",
     "url": "https://angel.co/brian-axe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brian-axe",
+    "image": "https://photos.wellfound.com/users/41327-medium_jpg?1405468251",
     "investmentsCount": "3.0",
     "id": "investor-748",
     "sources": [
@@ -18294,7 +18332,7 @@ var investorCatalog = [
     "details": "Partner at KAHM Capital",
     "url": "https://angel.co/gitika-srivastava",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gitika-srivastava",
+    "image": "https://photos.wellfound.com/users/39244-medium_jpg?1405467413",
     "investmentsCount": "16.0",
     "id": "investor-751",
     "sources": [
@@ -18315,7 +18353,7 @@ var investorCatalog = [
     "details": "Investor in @halt-medical, @bridgehead. Speculator in @facebook, @proofpoint. Advisor @blyve.",
     "url": "https://angel.co/bornrad2",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bornrad2",
+    "image": "https://photos.wellfound.com/users/4556-medium_jpg?1405436673",
     "investmentsCount": "6.0",
     "id": "investor-752",
     "sources": [
@@ -18338,7 +18376,7 @@ var investorCatalog = [
     "details": "Seed investors; Founder @ironport @topsy; Board Member @paypal @postmates",
     "url": "https://angel.co/cyantist",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cyantist",
+    "image": "https://photos.wellfound.com/users/208-medium_jpg?1427590927",
     "investmentsCount": "214.0",
     "id": "investor-753",
     "sources": [
@@ -18359,7 +18397,7 @@ var investorCatalog = [
     "details": "Have retired, making no further new investments. Not taking down my AngelList account--I need the company tracking--but I've happily faded out into the sunset.",
     "url": "https://angel.co/tydanco",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tydanco",
+    "image": "https://photos.wellfound.com/users/206-medium_jpg?1481423442",
     "investmentsCount": "126.0",
     "id": "investor-754",
     "sources": [
@@ -18380,7 +18418,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/toddfederman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/toddfederman",
+    "image": "https://photos.wellfound.com/users/198-medium_jpg?1405433077",
     "investmentsCount": "25.0",
     "id": "investor-755",
     "sources": [
@@ -18449,7 +18487,7 @@ var investorCatalog = [
     "details": "@lending-club @lotterydotcom @discordapp @sinolending @renovorx @nvision-medical @poshly @evie @kindred-biosciences @hire-an-esquire-1 @avails-medical",
     "url": "https://angel.co/joyowijaya",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joyowijaya",
+    "image": "https://photos.wellfound.com/users/3072-medium_jpg?1405435358",
     "investmentsCount": "32.0",
     "id": "investor-758",
     "sources": [
@@ -18472,7 +18510,7 @@ var investorCatalog = [
     "details": "Investor @on-ramp-wireless-1 @xybertech @techstars-2 @safehostel @lemnoslabs @yourmechanic @hangify \u2022 Studied @wharton-school @claremont-mckenna-college",
     "url": "https://angel.co/scottkosch",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/scottkosch",
+    "image": "https://photos.wellfound.com/users/16488-medium_jpg?1405447067",
     "investmentsCount": "59.0",
     "id": "investor-759",
     "sources": [
@@ -18493,7 +18531,7 @@ var investorCatalog = [
     "details": "Founder of @arcom @wpdeveloper. Also, behind @analytify @thetechjournal. Early investor of @leanplum @facebook @geeky-social @trance-1. Retired at 34!",
     "url": "https://angel.co/asif2bd",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/asif2bd",
+    "image": "https://photos.wellfound.com/users/67211-medium_jpg?1551976196",
     "investmentsCount": "8.0",
     "id": "investor-760",
     "sources": [
@@ -18516,7 +18554,7 @@ var investorCatalog = [
     "details": "1st VC in Flutter / @betfair, did stint of telecom VC in the mid 90s, sin and social in the late 90s, now SaaS, fintech, SMB and IoT",
     "url": "https://angel.co/alex-nigg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alex-nigg",
+    "image": "https://photos.wellfound.com/users/57745-medium_jpg?1462880931",
     "investmentsCount": "3.0",
     "id": "investor-761",
     "sources": [
@@ -18539,7 +18577,7 @@ var investorCatalog = [
     "details": "Co-founder, Opendoor.com",
     "url": "https://angel.co/ericwu01",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ericwu01",
+    "image": "https://photos.wellfound.com/users/52725-medium_jpg?1405471438",
     "investmentsCount": "16.0",
     "id": "investor-762",
     "sources": [
@@ -18562,7 +18600,7 @@ var investorCatalog = [
     "details": "Founder @hard-yaka @globalid @shift-payments @3taps-com, @message-me. First Round Investor @twitter, Senior Analyst Board of Governors of the Federal Reserve",
     "url": "https://angel.co/gregkidd",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gregkidd",
+    "image": "https://photos.wellfound.com/users/72803-medium_jpg?1534474995",
     "investmentsCount": "37.0",
     "id": "investor-763",
     "sources": [
@@ -18585,7 +18623,7 @@ var investorCatalog = [
     "details": "partner at afore capital. formerly partner foundation capital. first pm and started @twitter ads. product at overture, @yahoo.",
     "url": "https://angel.co/anamitra-banerji",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/anamitra-banerji",
+    "image": "https://photos.wellfound.com/users/67750-medium_jpg?1405479015",
     "investmentsCount": "9.0",
     "id": "investor-764",
     "sources": [
@@ -18608,7 +18646,7 @@ var investorCatalog = [
     "details": "Founder of Barricade.io, Angel Investor, Startup Advisor, Data Scientist, Co-Founder of Orchestra.io now acquired by Engine Yard. Evolutionary Game Theorist.",
     "url": "https://angel.co/davidcoallier",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidcoallier",
+    "image": "https://photos.wellfound.com/users/64891-medium_jpg?1411571575",
     "investmentsCount": "8.0",
     "id": "investor-765",
     "sources": [
@@ -18650,7 +18688,7 @@ var investorCatalog = [
     "details": "Co-Founder and CEO Peck. Other: @threefold-photos-webshots, Creator @30-boxes. Early to Twitter and originator of little things like the retweet.",
     "url": "https://angel.co/narendra-rocherolle",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/narendra-rocherolle",
+    "image": "https://photos.wellfound.com/users/47819-medium_jpg?1405469969",
     "investmentsCount": "9.0",
     "id": "investor-767",
     "sources": [
@@ -18673,7 +18711,7 @@ var investorCatalog = [
     "details": "Serial entrepreneur, A pioneer of VoIP, wireless applications, and SAAS. Chairman of NoProblem and AttracTV . Board member of PresenTense",
     "url": "https://angel.co/jacobnerdavid",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jacobnerdavid",
+    "image": "https://photos.wellfound.com/users/43544-medium_jpg?1405468813",
     "investmentsCount": "5.0",
     "id": "investor-768",
     "sources": [
@@ -18696,7 +18734,7 @@ var investorCatalog = [
     "details": "i'm founder+ceo @a17. previously, first US employee @skype, founder @betaworks, xCOO @omgpop!, first BD guy @dropbox , US CEO ad&payments company @hi-media.",
     "url": "https://angel.co/ppreena-a17-ai",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ppreena-a17-ai",
+    "image": "https://photos.wellfound.com/users/44915-medium_jpg?1405469191",
     "investmentsCount": "6.0",
     "id": "investor-769",
     "sources": [
@@ -18719,7 +18757,7 @@ var investorCatalog = [
     "details": "tech, growth, and Stanford football.",
     "url": "https://angel.co/shanewalker",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/shanewalker",
+    "image": "https://photos.wellfound.com/users/2695-medium_jpg?1465090100",
     "investmentsCount": "6.0",
     "id": "investor-770",
     "sources": [
@@ -18742,7 +18780,7 @@ var investorCatalog = [
     "details": "Managing Director at @horizon-partners and angel investor @palantir-technologies and other startups",
     "url": "https://angel.co/sandykory",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sandykory",
+    "image": "https://photos.wellfound.com/users/4850-medium_jpg?1550959761",
     "investmentsCount": "44.0",
     "id": "investor-771",
     "sources": [
@@ -18765,7 +18803,7 @@ var investorCatalog = [
     "details": "Co-founder & Managing Partner @Expon Capital. Global VC based in Luxembourg investing in big ideas with the potential for positive impact & exponential growth.",
     "url": "https://angel.co/rodrigo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rodrigo",
+    "image": "https://photos.wellfound.com/users/5554-medium_jpg?1637914048",
     "investmentsCount": "13.0",
     "id": "investor-772",
     "sources": [
@@ -18788,7 +18826,7 @@ var investorCatalog = [
     "details": "Building SocialRank. Previously Business Development and Partnerships at Dwolla & Aviary. Forbes Contributor.",
     "url": "https://angel.co/alexander-taub",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alexander-taub",
+    "image": "https://photos.wellfound.com/users/61367-medium_jpg?1405474332",
     "investmentsCount": "0.0",
     "id": "investor-773",
     "sources": [
@@ -18834,7 +18872,7 @@ var investorCatalog = [
     "details": "CEO & Co-Founder @koan. Formerly Co-Founder & CTO @jive-software",
     "url": "https://angel.co/matttucker",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matttucker",
+    "image": "https://photos.wellfound.com/users/61645-medium_jpg?1469253838",
     "investmentsCount": "3.0",
     "id": "investor-775",
     "sources": [
@@ -18880,7 +18918,7 @@ var investorCatalog = [
     "details": "Founder @rooster-park, a consulting/recruiting firm. Consult on engineering turnarounds and M&A/interview prep. Worked at @whitepages-com, @amazon. @rice-university grad.",
     "url": "https://angel.co/scott-ruthfield",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/scott-ruthfield",
+    "image": "https://photos.wellfound.com/users/57362-medium_jpg?1628270116",
     "investmentsCount": "6.0",
     "id": "investor-777",
     "sources": [
@@ -18903,7 +18941,7 @@ var investorCatalog = [
     "details": "Co-founder and Chief Architect at @nextdoor.",
     "url": "https://angel.co/prakash",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/prakash",
+    "image": "https://photos.wellfound.com/users/45132-medium_jpg?1416882165",
     "investmentsCount": "2.0",
     "id": "investor-778",
     "sources": [
@@ -18926,7 +18964,7 @@ var investorCatalog = [
     "details": "CEO @ubiquity6 \u2022 Previously @kpcb-1 @google \u2022 Studied at @stanford-university",
     "url": "https://angel.co/anjney",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/anjney",
+    "image": "https://photos.wellfound.com/users/47683-medium_jpg?1434315626",
     "investmentsCount": "4.0",
     "id": "investor-779",
     "sources": [
@@ -18972,7 +19010,7 @@ var investorCatalog = [
     "details": "Co-founder of Atrium LTS and @askwhale. Founded @exec and @justin-tv. Partner at Y Combinator.",
     "url": "https://angel.co/justinkan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/justinkan",
+    "image": "https://photos.wellfound.com/users/34628-medium_jpg?1405463248",
     "investmentsCount": "52.0",
     "id": "investor-781",
     "sources": [
@@ -18995,7 +19033,7 @@ var investorCatalog = [
     "details": "Founder & CEO of Always Be Learning. Previously CTO & Co Founder of @yammer, @cnation",
     "url": "https://angel.co/adam-pisoni",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/adam-pisoni",
+    "image": "https://photos.wellfound.com/users/34935-medium_jpg?1420576533",
     "investmentsCount": "16.0",
     "id": "investor-782",
     "sources": [
@@ -19037,7 +19075,7 @@ var investorCatalog = [
     "details": "Clark Valberg is the co-founder and CEO of InVision, the digital product design platform powering the world's best user experiences.",
     "url": "https://angel.co/clarkvalberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/clarkvalberg",
+    "image": "https://photos.wellfound.com/users/44956-medium_jpg?1672715652",
     "investmentsCount": "34.0",
     "id": "investor-784",
     "sources": [
@@ -19081,7 +19119,7 @@ var investorCatalog = [
     "details": "Cofounder at @gazehawk, acquired by @facebook in 2012. @stripe 2014-2018. @carnegie-mellon-university alum '09",
     "url": "https://angel.co/bkrausz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bkrausz",
+    "image": "https://photos.wellfound.com/users/50371-medium_jpg?1582934037",
     "investmentsCount": "5.0",
     "id": "investor-786",
     "sources": [
@@ -19104,7 +19142,7 @@ var investorCatalog = [
     "details": "Undergrad UCLA. Graduate School of Business Stanford University. Have been a serial entrepreneur since age 17. Have started and or invested in 13+ companies.",
     "url": "https://angel.co/steve-jones1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/steve-jones1",
+    "image": "https://photos.wellfound.com/users/39103-medium_jpg?1405467370",
     "investmentsCount": "3.0",
     "id": "investor-787",
     "sources": [
@@ -19148,7 +19186,7 @@ var investorCatalog = [
     "details": "Founder/CEO @mediaspike. Pioneered Social Gaming industry (Vampires/Zombies). Created 1st version of @causes. Founder @buildforge (Sold to IBM), Founder @ohai.",
     "url": "https://angel.co/commagere",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/commagere",
+    "image": "https://photos.wellfound.com/users/39359-medium_jpg?1428266924",
     "investmentsCount": "16.0",
     "id": "investor-789",
     "sources": [
@@ -19171,7 +19209,7 @@ var investorCatalog = [
     "details": "Partner at Dynamo Ventures. Co-Founder of F6S, Ormeau Baths and Tech.eu. Director of the Bradfield Centre. Advisor to DogPatch Labs and Motive Partners.",
     "url": "https://angel.co/jonbradford",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jonbradford",
+    "image": "https://photos.wellfound.com/users/38850-medium_jpg?1584000290",
     "investmentsCount": "16.0",
     "id": "investor-790",
     "sources": [
@@ -19238,7 +19276,7 @@ var investorCatalog = [
     "details": 'Past CEO SNOCAP & EVP @ EA. Invest/Advise @ early stage. BOD: Glassdoor/HireVue/1-Page and others. Author of "Talent Force". POTUS Advisory Cmmt on Arts.',
     "url": "https://angel.co/rustyrueff",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rustyrueff",
+    "image": "https://photos.wellfound.com/users/4976-medium_jpg?1420729613",
     "investmentsCount": "13.0",
     "id": "investor-793",
     "sources": [
@@ -19261,7 +19299,7 @@ var investorCatalog = [
     "details": "Managing Partner, Sleeping Bear Capital. Former CEO @chute \u2022 Worked at @morgan Stanley, @silver Lake \u2022 Studied at @umich",
     "url": "https://angel.co/ranvir",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ranvir",
+    "image": "https://photos.wellfound.com/users/8965-medium_jpg?1525123227",
     "investmentsCount": "12.0",
     "id": "investor-794",
     "sources": [
@@ -19328,7 +19366,7 @@ var investorCatalog = [
     "details": "CEO DemandSphere (GinzaMetrics). YC S10, 500 Startups. Angel investor. Co-Founder, Functionize.",
     "url": "https://angel.co/rgrieselhuber",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rgrieselhuber",
+    "image": "https://photos.wellfound.com/users/3243-medium_jpg?1521752931",
     "investmentsCount": "3.0",
     "id": "investor-797",
     "sources": [
@@ -19349,7 +19387,7 @@ var investorCatalog = [
     "details": "Team member of @flashsoft.",
     "url": "https://angel.co/tedsanford",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tedsanford",
+    "image": "https://photos.wellfound.com/users/3859-medium_jpg?1405435967",
     "investmentsCount": "3.0",
     "id": "investor-798",
     "sources": [
@@ -19372,7 +19410,7 @@ var investorCatalog = [
     "details": "Planting seeds and watering them. @geekdomfund @gocodeup @grok @dura-software @SAAngelNetwork @alamofireworks @realco. BEA, RSA, WebLogic.",
     "url": "https://angel.co/mgirdley",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mgirdley",
+    "image": "https://photos.wellfound.com/users/4264-medium_jpg?1507579811",
     "investmentsCount": "27.0",
     "id": "investor-799",
     "sources": [
@@ -19418,7 +19456,7 @@ var investorCatalog = [
     "details": "GM @thumbtack; VP of Product @gotomeeting-1; CEO/Co-Founder, @blink; Sr Director Device Products, @boxee; @google, @youtube, @apple; BS Computer Science @university-of-california-san-diego",
     "url": "https://angel.co/kjstephe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kjstephe",
+    "image": "https://photos.wellfound.com/users/2683-medium_jpg?1607451920",
     "investmentsCount": "3.0",
     "id": "investor-801",
     "sources": [
@@ -19485,7 +19523,7 @@ var investorCatalog = [
     "details": "Founder & CEO @movable-ink",
     "url": "https://angel.co/vivsharma",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vivsharma",
+    "image": "https://photos.wellfound.com/users/2833-medium_jpg?1438875834",
     "investmentsCount": "2.0",
     "id": "investor-804",
     "sources": [
@@ -19531,7 +19569,7 @@ var investorCatalog = [
     "details": "Founder of @leisurelink, @gamespy, @ip3-networks, @computerized-lodging-systems. Advisor to @vokle. Team member of @adventurelink-travel.",
     "url": "https://angel.co/dave-berkus",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dave-berkus",
+    "image": "https://photos.wellfound.com/users/6014-medium_jpg?1500315055",
     "investmentsCount": "14.0",
     "id": "investor-806",
     "sources": [
@@ -19554,7 +19592,7 @@ var investorCatalog = [
     "details": "Investment team at @google Ventures, product marketing at @google.",
     "url": "https://angel.co/lindsay-ullman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lindsay-ullman",
+    "image": "https://photos.wellfound.com/users/11201-medium_jpg?1405443432",
     "investmentsCount": "3.0",
     "id": "investor-807",
     "sources": [
@@ -19577,7 +19615,7 @@ var investorCatalog = [
     "details": "Created print/UPC-to-web scanning w/ CueCat. Won an Emmy w/ Slingbox, #1 startup at CEA iStage w/ @boxee & Best Technology at @launch w/ @newaer Proximity Platform",
     "url": "https://angel.co/dave-mathews",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dave-mathews",
+    "image": "https://photos.wellfound.com/users/11030-medium_jpg?1405443281",
     "investmentsCount": "5.0",
     "id": "investor-808",
     "sources": [
@@ -19600,7 +19638,7 @@ var investorCatalog = [
     "details": "CEO and Founder of @front-desk. Analytics at @expedia. Pricing Strategy at @t-mobile. Co-founded a futures trading fund.",
     "url": "https://angel.co/jpzimmerman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jpzimmerman",
+    "image": "https://photos.wellfound.com/users/12076-medium_jpg?1405444112",
     "investmentsCount": "1.0",
     "id": "investor-809",
     "sources": [
@@ -19623,7 +19661,7 @@ var investorCatalog = [
     "details": "Building @makespace. Brooklyn. Tech. Father of twins and a puggle named Samosa. Previously @primary-venture-partners @aol",
     "url": "https://angel.co/rahul-gandhi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rahul-gandhi",
+    "image": "https://photos.wellfound.com/users/11355-medium_jpg?1405443562",
     "investmentsCount": "13.0",
     "id": "investor-810",
     "sources": [
@@ -19646,7 +19684,7 @@ var investorCatalog = [
     "details": "Mobile technology entrepreneur since 2000. Living in Seattle and NYC.",
     "url": "https://angel.co/brent-brookler",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brent-brookler",
+    "image": "https://photos.wellfound.com/users/10761-medium_jpg?1405443055",
     "investmentsCount": "3.0",
     "id": "investor-811",
     "sources": [
@@ -19667,7 +19705,7 @@ var investorCatalog = [
     "details": "CEO of Speak Music. AI / Voice Personal Music Assistant. Was Head of Mobile Revenue @zynga, CEO @hiplogic - @benchmark-capital funded. @ericsson , @polycom",
     "url": "https://angel.co/mark-anderson-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mark-anderson-1",
+    "image": "https://photos.wellfound.com/users/56666-medium_jpg?1608147537",
     "investmentsCount": "10.0",
     "id": "investor-812",
     "sources": [
@@ -19690,7 +19728,7 @@ var investorCatalog = [
     "details": "I help companies grow better. Founded @growth-pilots (acquired). Angel investor and syndicate lead @tempo-ventures.",
     "url": "https://angel.co/soso",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/soso",
+    "image": "https://photos.wellfound.com/users/56739-medium_jpg?1591950768",
     "investmentsCount": "14.0",
     "id": "investor-813",
     "sources": [
@@ -19713,7 +19751,7 @@ var investorCatalog = [
     "details": "VP Product @smartthings \xB7 Previously: Head of Product & UX @GoogleArt \xB7 Head of Platforms @youtube \xB7 @microsoft \xB7 @trendec-1 M&A, Goldman \xB7 @upenn",
     "url": "https://angel.co/mark-yoshitake",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mark-yoshitake",
+    "image": "https://photos.wellfound.com/users/51304-medium_jpg?1497295196",
     "investmentsCount": "10.0",
     "id": "investor-814",
     "sources": [
@@ -19736,7 +19774,7 @@ var investorCatalog = [
     "details": "Co-founder at @joinknowable, @vidme, @socialengine, @techstars alum.",
     "url": "https://angel.co/benzer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/benzer",
+    "image": "https://photos.wellfound.com/users/62201-medium_jpg?1405474619",
     "investmentsCount": "6.0",
     "id": "investor-815",
     "sources": [
@@ -19759,7 +19797,7 @@ var investorCatalog = [
     "details": "Product Manager with extensive experience in data management, audience analytics, digital advertising and machine learning algorithms.",
     "url": "https://angel.co/rahul-bafna",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rahul-bafna",
+    "image": "https://photos.wellfound.com/users/61114-medium_jpg?1498239477",
     "investmentsCount": "1.0",
     "id": "investor-816",
     "sources": [
@@ -19782,7 +19820,7 @@ var investorCatalog = [
     "details": "CEO and Founder of DataScience, Inc. Previously, CEO & Co-Founder of Sometrics, Acquired by American Express.",
     "url": "https://angel.co/ian-swanson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ian-swanson",
+    "image": "https://photos.wellfound.com/users/45988-medium_jpg?1432247309",
     "investmentsCount": "1.0",
     "id": "investor-817",
     "sources": [
@@ -19805,7 +19843,7 @@ var investorCatalog = [
     "details": "CMO and more, to companies with ambition",
     "url": "https://angel.co/jalin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jalin",
+    "image": "https://photos.wellfound.com/users/41805-medium_jpg?1585762630",
     "investmentsCount": "3.0",
     "id": "investor-818",
     "sources": [
@@ -19826,7 +19864,7 @@ var investorCatalog = [
     "details": "1997-Internet Commerce Launches. Before PayPal and even Google, I was paving the FinTech path and ironing out the kinks in the newly-minted e-commerce world.",
     "url": "https://angel.co/she-is-payments",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/she-is-payments",
+    "image": "https://photos.wellfound.com/users/42006-medium_jpg?1524446087",
     "investmentsCount": "12.0",
     "id": "investor-819",
     "sources": [
@@ -19849,7 +19887,7 @@ var investorCatalog = [
     "details": "Cereal Entrepreneur. Founder/CEO: @big-viking-games Founder/CEO/Sold: @upsight-inc-fka-kontagent @bubbleshare @mydesktop",
     "url": "https://angel.co/albertlai",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/albertlai",
+    "image": "https://photos.wellfound.com/users/43744-medium_jpg?1503286592",
     "investmentsCount": "2.0",
     "id": "investor-820",
     "sources": [
@@ -19872,7 +19910,7 @@ var investorCatalog = [
     "details": "Founder & CEO at Stacks",
     "url": "https://angel.co/ian-clarke",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ian-clarke",
+    "image": "https://photos.wellfound.com/users/43879-medium_jpg?1405469163",
     "investmentsCount": "2.0",
     "id": "investor-821",
     "sources": [
@@ -19893,7 +19931,7 @@ var investorCatalog = [
     "details": "Superpreneur. Multi-Lingual. Personal investor in numerous startups. Strong Asian network.",
     "url": "https://angel.co/matthew-n",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matthew-n",
+    "image": "https://photos.wellfound.com/users/47134-medium_jpg?1405470284",
     "investmentsCount": "6.0",
     "id": "investor-822",
     "sources": [
@@ -19914,7 +19952,7 @@ var investorCatalog = [
     "details": "Chief Product & Technology Officer, SnapAV. Formerly Amazon Alexa, Microsoft, etc...",
     "url": "https://angel.co/ckindel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ckindel",
+    "image": "https://photos.wellfound.com/users/45385-medium_jpg?1405469716",
     "investmentsCount": "5.0",
     "id": "investor-823",
     "sources": [
@@ -19937,7 +19975,7 @@ var investorCatalog = [
     "details": "Accord, Pared, LinkedIn, Maybe, AdMob, Xoogler",
     "url": "https://angel.co/waynep",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/waynep",
+    "image": "https://photos.wellfound.com/users/41433-medium_jpg?1681172399",
     "investmentsCount": "5.0",
     "id": "investor-824",
     "sources": [
@@ -19981,7 +20019,7 @@ var investorCatalog = [
     "details": "CEO of YieldMo (Google Ventures and USV backed), former CEO of @quigo for 5.5 years",
     "url": "https://angel.co/mikeyavo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mikeyavo",
+    "image": "https://photos.wellfound.com/users/193-medium_jpg?1405433072",
     "investmentsCount": "23.0",
     "id": "investor-826",
     "sources": [
@@ -20000,7 +20038,7 @@ var investorCatalog = [
     "details": "Founder, President at @equidate. @y-combinator alum. Founding Partner @s2capital. Formerly at @zynga PM, @google, @chartboost, @cmu. Angel in 2 un& 99+ more",
     "url": "https://angel.co/sohail",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sohail",
+    "image": "https://photos.wellfound.com/users/10362-medium_jpg?1490081473",
     "investmentsCount": "29.0",
     "id": "investor-827",
     "sources": [
@@ -20023,7 +20061,7 @@ var investorCatalog = [
     "details": "CEO @snaps-2. Formerly product @airtime , investor @k2-media-labs. Founded @crowdstream-acquired-by-radioio and @youcast (acquired by SocialChorus).",
     "url": "https://angel.co/christian-brucculeri",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christian-brucculeri",
+    "image": "https://photos.wellfound.com/users/9039-medium_jpg?1405441704",
     "investmentsCount": "3.0",
     "id": "investor-828",
     "sources": [
@@ -20044,7 +20082,7 @@ var investorCatalog = [
     "details": "Entrepreneur, Investor, Operator and Deal Maker. Founder @io, @samba-tv @bittorrent \u2022 Worked at @yahoo",
     "url": "https://angel.co/ashwinnavin",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ashwinnavin",
+    "image": "https://photos.wellfound.com/users/3882-medium_jpg?1405435992",
     "investmentsCount": "11.0",
     "id": "investor-829",
     "sources": [
@@ -20090,7 +20128,7 @@ var investorCatalog = [
     "details": "CEO/Co-founder @learnyinc; ex-CEO Corona Labs (acqd by @appodeal); Founder Perk.com (TSX:PER, acqd by RhythmOne) and MdotM. Early employee @socialmedia-com",
     "url": "https://angel.co/roj-niyogi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/roj-niyogi",
+    "image": "https://photos.wellfound.com/users/6107-medium_jpg?1460012482",
     "investmentsCount": "14.0",
     "id": "investor-831",
     "sources": [
@@ -20113,7 +20151,7 @@ var investorCatalog = [
     "details": "Visiting Partner at Y Combinator. Ex-Business at @brave. Ex-Founder, @PerfectAudience. @y-combinator S11.",
     "url": "https://angel.co/brad-flora",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brad-flora",
+    "image": "https://photos.wellfound.com/users/15304-medium_jpg?1499983180",
     "investmentsCount": "63.0",
     "id": "investor-832",
     "sources": [
@@ -20157,7 +20195,7 @@ var investorCatalog = [
     "details": "Angel Investor and entrepreneur. Co-founded @digital-ventures & @inzearch (both acquired by FOX/News Corp). Also @emergingcast (acquired by @demand-media).",
     "url": "https://angel.co/dvoltes",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dvoltes",
+    "image": "https://photos.wellfound.com/users/11377-medium_jpg?1405443581",
     "investmentsCount": "20.0",
     "id": "investor-834",
     "sources": [
@@ -20179,7 +20217,7 @@ var investorCatalog = [
     "details": "Founding Partner at @xg-ventures",
     "url": "https://angel.co/pdova",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pdova",
+    "image": "https://photos.wellfound.com/users/1603-medium_jpg?1405434273",
     "investmentsCount": "52.0",
     "id": "investor-835",
     "sources": [
@@ -20295,7 +20333,7 @@ var investorCatalog = [
     "details": "Jay is a serial entrepreneur from Seattle. He has invested in 30+ companies including high profile ones like Zipwhip, Outreach, and Zevia.",
     "url": "https://angel.co/westerdal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/westerdal",
+    "image": "https://photos.wellfound.com/users/62791-medium_jpg?1405476840",
     "investmentsCount": "24.0",
     "id": "investor-840",
     "sources": [
@@ -20339,7 +20377,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/gomattymo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gomattymo",
+    "image": "https://photos.wellfound.com/users/65547-medium_jpg?1405476252",
     "investmentsCount": "5.0",
     "id": "investor-842",
     "sources": [
@@ -20360,7 +20398,7 @@ var investorCatalog = [
     "details": "Founded InphoMatch (Mobile 365) Sold to Sybase (2006), COO at Way Systems sold to Verifone, CEO Hook Mobile (sold to Kaleyra 2018). LP at 500 Startups, E14, etc",
     "url": "https://angel.co/terry-hsiao",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/terry-hsiao",
+    "image": "https://photos.wellfound.com/users/65923-medium_jpg?1462882500",
     "investmentsCount": "15.0",
     "id": "investor-843",
     "sources": [
@@ -20381,7 +20419,7 @@ var investorCatalog = [
     "details": "The guy who unplugs nostalgia. Founder & Chief Branding Officer Complex.com Artistsandinstigators.com twitter @marcecko",
     "url": "https://angel.co/marcecko",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marcecko",
+    "image": "https://photos.wellfound.com/users/68811-medium_jpg?1414942562",
     "investmentsCount": "9.0",
     "id": "investor-844",
     "sources": [
@@ -20427,7 +20465,7 @@ var investorCatalog = [
     "details": "Founder of @brightstart. Searching for investments for a small angel fund. Worked at @merrill-lynch. Brit.",
     "url": "https://angel.co/brightstartapps",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brightstartapps",
+    "image": "https://photos.wellfound.com/users/57501-medium_jpg?1405473129",
     "investmentsCount": "10.0",
     "id": "investor-846",
     "sources": [
@@ -20473,7 +20511,7 @@ var investorCatalog = [
     "details": "CEO at AppScotch",
     "url": "https://angel.co/andrey_kazakov",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrey_kazakov",
+    "image": "https://photos.wellfound.com/users/57803-medium_jpg?1472513628",
     "investmentsCount": "7.0",
     "id": "investor-848",
     "sources": [
@@ -20496,7 +20534,7 @@ var investorCatalog = [
     "details": "Co-founder of Textline. Previously @xoom-1 @geni @yammer @mollyguard @eventbrite",
     "url": "https://angel.co/alanb42",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alanb42",
+    "image": "https://photos.wellfound.com/users/56084-medium_jpg?1484344832",
     "investmentsCount": "34.0",
     "id": "investor-849",
     "sources": [
@@ -20519,7 +20557,7 @@ var investorCatalog = [
     "details": "Libertus Capital",
     "url": "https://angel.co/pamir-gelenbe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pamir-gelenbe",
+    "image": "https://photos.wellfound.com/users/55443-medium_jpg?1462880704",
     "investmentsCount": "11.0",
     "id": "investor-850",
     "sources": [
@@ -20542,7 +20580,7 @@ var investorCatalog = [
     "details": "Multiple exit entrepreneur, advisor and investor to many interesting companies. Technical co-founder.",
     "url": "https://angel.co/ryan-scott",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ryan-scott",
+    "image": "https://photos.wellfound.com/users/55329-medium_jpg?1462880697",
     "investmentsCount": "17.0",
     "id": "investor-851",
     "sources": [
@@ -20565,7 +20603,7 @@ var investorCatalog = [
     "details": "Founder & Managing Partner at Spider Capital. Previously Co-Founder & Managing Director at Webb Investment Network (WIN).",
     "url": "https://angel.co/michael-neril",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-neril",
+    "image": "https://photos.wellfound.com/users/50598-medium_jpg?1465579957",
     "investmentsCount": "62.0",
     "id": "investor-852",
     "sources": [
@@ -20586,7 +20624,7 @@ var investorCatalog = [
     "details": "Cofounder @mightytext \u2022 Director Eng @facebook, @google (Android), Startups & @cisco \u2022 Investor @500startups \u2022 @android & Cloud expertise \u2022 BS in CS.",
     "url": "https://angel.co/amit-sangani",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/amit-sangani",
+    "image": "https://photos.wellfound.com/users/52696-medium_jpg?1583385471",
     "investmentsCount": "7.0",
     "id": "investor-853",
     "sources": [
@@ -20609,7 +20647,7 @@ var investorCatalog = [
     "details": "Founder & CEO of Punchbowl.com, blogger at StartupSwami.com",
     "url": "https://angel.co/matt-douglas",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matt-douglas",
+    "image": "https://photos.wellfound.com/users/52065-medium_jpg?1459705946",
     "investmentsCount": "3.0",
     "id": "investor-854",
     "sources": [
@@ -20630,7 +20668,7 @@ var investorCatalog = [
     "details": "Co-Founder at Fidelis; Product Manager and Engineer at @google (7.5 years, Founder's Award & others); Computer Sc (IIT Kanpur), MBA (Wharton)",
     "url": "https://angel.co/anoop-jayadevan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/anoop-jayadevan",
+    "image": "https://photos.wellfound.com/users/53209-medium_jpg?1405472348",
     "investmentsCount": "2.0",
     "id": "investor-855",
     "sources": [
@@ -20653,7 +20691,7 @@ var investorCatalog = [
     "details": "Founder @clearbanc \u2022 Worked @top-hat, @mckinsey-company \u2022 Investor @wealthsimple, @tulip-retail \u2022 Advisor @kik-interactive, @joist",
     "url": "https://angel.co/andrew-d-souza",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrew-d-souza",
+    "image": "https://photos.wellfound.com/users/66809-medium_jpg?1462882610",
     "investmentsCount": "6.0",
     "id": "investor-856",
     "sources": [
@@ -20674,7 +20712,7 @@ var investorCatalog = [
     "details": "Entrepreneur and investor with outstanding record of innovation with high-growth companies as well as prominent global enterprises.",
     "url": "https://angel.co/percy-n",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/percy-n",
+    "image": "https://photos.wellfound.com/users/64136-medium_jpg?1405475319",
     "investmentsCount": "26.0",
     "id": "investor-857",
     "sources": [
@@ -20695,7 +20733,7 @@ var investorCatalog = [
     "details": "Founder and a Managing Director of @dfj",
     "url": "https://angel.co/timdraper",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/timdraper",
+    "image": "https://photos.wellfound.com/users/66488-medium_jpg?1405476119",
     "investmentsCount": "151.0",
     "id": "investor-858",
     "sources": [
@@ -20739,7 +20777,7 @@ var investorCatalog = [
     "details": "CEO, @clicktripz.com. Monetization.",
     "url": "https://angel.co/ross-weber",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ross-weber",
+    "image": "https://photos.wellfound.com/users/61741-medium_jpg?1462881393",
     "investmentsCount": "8.0",
     "id": "investor-860",
     "sources": [
@@ -20762,7 +20800,7 @@ var investorCatalog = [
     "details": "Partner at @forerunner-ventures. Previously led consumer venture team @accel-partners.",
     "url": "https://angel.co/brian-omalley",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brian-omalley",
+    "image": "https://photos.wellfound.com/users/54767-medium_jpg?1405471891",
     "investmentsCount": "32.0",
     "id": "investor-861",
     "sources": [
@@ -20786,7 +20824,7 @@ var investorCatalog = [
     "details": "Venture Partner @ Expanding Capital, Co-Founder at Benny + MESA Ventures. Investor in ~40 companies.",
     "url": "https://angel.co/jacob-brody",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jacob-brody",
+    "image": "https://photos.wellfound.com/users/54780-medium_jpg?1632236034",
     "investmentsCount": "32.0",
     "id": "investor-862",
     "sources": [
@@ -20812,7 +20850,7 @@ var investorCatalog = [
     "details": "Co-founder mixi \u2022 Co-founder @east-ventures",
     "url": "https://angel.co/bataraeto",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bataraeto",
+    "image": "https://photos.wellfound.com/users/58882-medium_jpg?1462881054",
     "investmentsCount": "7.0",
     "id": "investor-863",
     "sources": [
@@ -20835,7 +20873,7 @@ var investorCatalog = [
     "details": "Chief Brand & Marketing Officer at Sparta Science. Data-driven, agile marketing executive helping maximize human performance and improve how the world moves.",
     "url": "https://angel.co/denise-terry",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/denise-terry",
+    "image": "https://photos.wellfound.com/users/58133-medium_jpg?1643852368",
     "investmentsCount": "0.0",
     "id": "investor-864",
     "sources": [
@@ -20856,7 +20894,7 @@ var investorCatalog = [
     "details": "Cofounder and Co-CEO of Thras.io",
     "url": "https://angel.co/carlos-cashman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/carlos-cashman",
+    "image": "https://photos.wellfound.com/users/59736-medium_jpg?1405473930",
     "investmentsCount": "13.0",
     "id": "investor-865",
     "sources": [
@@ -20877,7 +20915,7 @@ var investorCatalog = [
     "details": "Bridging South East Europe and Silicon Valley -- Mostly consumer & e-commerce.",
     "url": "https://angel.co/yougo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/yougo",
+    "image": "https://photos.wellfound.com/users/56840-medium_jpg?1405472601",
     "investmentsCount": "23.0",
     "id": "investor-866",
     "sources": [
@@ -20900,7 +20938,7 @@ var investorCatalog = [
     "details": "Founder of Scrum Ventures, early stage-focused fund. Serial entrepreneur background ( J-Magic(mobile), Neven Vision(software))",
     "url": "https://angel.co/tak-miyata",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tak-miyata",
+    "image": "https://photos.wellfound.com/users/75008-medium_jpg?1405807157",
     "investmentsCount": "29.0",
     "id": "investor-867",
     "sources": [
@@ -20926,7 +20964,7 @@ var investorCatalog = [
     "details": "@fundera co-founder & ceo @groupme Co-Founder @tumblr business development",
     "url": "https://angel.co/jared-hecht",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jared-hecht",
+    "image": "https://photos.wellfound.com/users/74116-medium_jpg?1405481986",
     "investmentsCount": "18.0",
     "id": "investor-868",
     "sources": [
@@ -20949,7 +20987,7 @@ var investorCatalog = [
     "details": "Investor in @legalzoom-com @retention-science @figs @chownow \u2022 Passionate about LA Tech \u2022 UCLA Bruin",
     "url": "https://angel.co/stefanie-narayan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/stefanie-narayan",
+    "image": "https://photos.wellfound.com/users/71024-medium_jpg?1320478932",
     "investmentsCount": "10.0",
     "id": "investor-869",
     "sources": [
@@ -20972,7 +21010,7 @@ var investorCatalog = [
     "details": "GP @BetterTomorrowVentures, leading seed deals in fintech. Past includes @500fintech @feefighters @kiva @bcg @carnegie-mellon-university @university-of-michigan",
     "url": "https://angel.co/sheel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sheel",
+    "image": "https://photos.wellfound.com/users/48589-medium_jpg?1480426600",
     "investmentsCount": "26.0",
     "id": "investor-870",
     "sources": [
@@ -20993,7 +21031,7 @@ var investorCatalog = [
     "details": "VP Eng / Co-Founder @acompli was EIR @redpoint-ventures and Eng leader @zimbra @vmware @yahoo. Interests: Mobile, Collaboration, Email, SaaS, & Ad Networks.",
     "url": "https://angel.co/kevinhenrikson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kevinhenrikson",
+    "image": "https://photos.wellfound.com/users/45086-medium_jpg?1415768998",
     "investmentsCount": "22.0",
     "id": "investor-871",
     "sources": [
@@ -21016,7 +21054,7 @@ var investorCatalog = [
     "details": "Partner at @valar-ventures",
     "url": "https://angel.co/andrewmccormack",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andrewmccormack",
+    "image": "https://photos.wellfound.com/users/48136-medium_jpg?1405470618",
     "investmentsCount": "17.0",
     "id": "investor-872",
     "sources": [
@@ -21035,7 +21073,7 @@ var investorCatalog = [
     "details": "Expert in high stakes auctions (spectrum, diamonds,gTLDs). Traveler, Adventurer, Software Developer. Stanford Management Science, Uni Erlangen Computer Science.",
     "url": "https://angel.co/ulrich-gall",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ulrich-gall",
+    "image": "https://photos.wellfound.com/users/44578-medium_jpg?1405469414",
     "investmentsCount": "11.0",
     "id": "investor-873",
     "sources": [
@@ -21058,7 +21096,7 @@ var investorCatalog = [
     "details": "Partner at @shasta-ventures & Shasta Camera Fund investing in Computer Vision, AR/VR, Robotics, Space, Blockchain & Cryptocurrency",
     "url": "https://angel.co/jacob-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jacob-1",
+    "image": "https://photos.wellfound.com/users/46358-medium_jpg?1490373103",
     "investmentsCount": "4.0",
     "id": "investor-874",
     "sources": [
@@ -21104,7 +21142,7 @@ var investorCatalog = [
     "details": "Engineer / Project manager.",
     "url": "https://angel.co/rohitjenveja",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rohitjenveja",
+    "image": "https://photos.wellfound.com/users/41853-medium_jpg?1405468314",
     "investmentsCount": "0.0",
     "id": "investor-876",
     "sources": [
@@ -21127,7 +21165,7 @@ var investorCatalog = [
     "details": "Seth Berman is co-founder and General Partner at Susa Ventures, Seth led Susa\u2019s investments in Flexport, Pericope Data and Expanse.",
     "url": "https://angel.co/seth-berman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/seth-berman",
+    "image": "https://photos.wellfound.com/users/42012-medium_jpg?1405468353",
     "investmentsCount": "28.0",
     "id": "investor-877",
     "sources": [
@@ -21199,7 +21237,7 @@ var investorCatalog = [
     "details": "VP @google, Previously CEO/Founder of Urban Engines (acq. Google) PhD CS, @stanford-university. Founder Gigabeat (acq. Napster)",
     "url": "https://angel.co/shivakumar-n",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/shivakumar-n",
+    "image": "https://photos.wellfound.com/users/41507-medium_jpg?1630221042",
     "investmentsCount": "6.0",
     "id": "investor-880",
     "sources": [
@@ -21245,7 +21283,7 @@ var investorCatalog = [
     "details": "Apple/Yahoo/PayPal/Visa employee 20+ years PR/Communications experience",
     "url": "https://angel.co/cameron-craig",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cameron-craig",
+    "image": "https://photos.wellfound.com/users/42889-medium_jpg?1445833017",
     "investmentsCount": "0.0",
     "id": "investor-882",
     "sources": [
@@ -21291,7 +21329,7 @@ var investorCatalog = [
     "details": "VC at @bain-capital-ventures",
     "url": "https://angel.co/weston-gaddy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/weston-gaddy",
+    "image": "https://photos.wellfound.com/users/49987-medium_jpg?1405471253",
     "investmentsCount": "5.0",
     "id": "investor-884",
     "sources": [
@@ -21312,7 +21350,7 @@ var investorCatalog = [
     "details": "Former CEO/COO of Macworld. Former SVP/EVP IDG, a $3 billion global publishing company, launched IDG's lead generation business IDG Connect.",
     "url": "https://angel.co/ccocrawford",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ccocrawford",
+    "image": "https://photos.wellfound.com/users/39789-medium_jpg?1405467554",
     "investmentsCount": "13.0",
     "id": "investor-885",
     "sources": [
@@ -21356,7 +21394,7 @@ var investorCatalog = [
     "details": "Business and Product",
     "url": "https://angel.co/sunil-raman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sunil-raman",
+    "image": "https://photos.wellfound.com/users/39060-medium_jpg?1405467356",
     "investmentsCount": "4.0",
     "id": "investor-887",
     "sources": [
@@ -21379,7 +21417,7 @@ var investorCatalog = [
     "details": "Entrepreneur",
     "url": "https://angel.co/yuchiang-cheng",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/yuchiang-cheng",
+    "image": "https://photos.wellfound.com/users/39472-medium_jpg?1405467483",
     "investmentsCount": "11.0",
     "id": "investor-888",
     "sources": [
@@ -21448,7 +21486,7 @@ var investorCatalog = [
     "details": "Partner at @venrock",
     "url": "https://angel.co/pakman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/pakman",
+    "image": "https://photos.wellfound.com/users/4034-medium_jpg?1405436126",
     "investmentsCount": "6.0",
     "id": "investor-891",
     "sources": [
@@ -21471,7 +21509,7 @@ var investorCatalog = [
     "details": "Investor with Fabrice Grinda & Jose Marin Investments | Currently @HarvardHBS, formerly @BessemerVP & co-founded commodity options startup:",
     "url": "https://angel.co/mahorowitz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mahorowitz",
+    "image": "https://photos.wellfound.com/users/4405-medium_jpg?1405436456",
     "investmentsCount": "7.0",
     "id": "investor-892",
     "sources": [
@@ -21522,7 +21560,10 @@ var investorCatalog = [
       "Social commerce",
       "Social mobile"
     ],
-    "countries": [],
+    "countries": [
+      "China",
+      "Indonesia"
+    ],
     "focus": "Mobile Commerce",
     "role": "Angel investor",
     "details": "Country Director, Xiaomi Indonesia Head of POCO @xiaomi Former China Lead @flipboard Former EIR @startx BS MS&E @stanford-university",
@@ -21554,7 +21595,7 @@ var investorCatalog = [
     "details": "Investor \u2022 Founder @ozlo \u2022 Worked at @apple, @facebook \u2022 Creator @sproutcore",
     "url": "https://angel.co/charles-jolley",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/charles-jolley",
+    "image": "https://photos.wellfound.com/users/10160-medium_jpg?1662076652",
     "investmentsCount": "6.0",
     "id": "investor-895",
     "sources": [
@@ -21624,7 +21665,7 @@ var investorCatalog = [
     "details": "Founder Tastemade. EVP of Product founding team Demand Media. Founder The Daily Plate. Past Co's: Intermix Media (FIM), Pogo.com (EA), Excite@Home",
     "url": "https://angel.co/joeperez",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joeperez",
+    "image": "https://photos.wellfound.com/users/3444-medium_jpg?1489439236",
     "investmentsCount": "0.0",
     "id": "investor-898",
     "sources": [
@@ -21668,7 +21709,7 @@ var investorCatalog = [
     "details": "Fishbowl is hiring PMs, Engineers, Designers! \u{1F680} Cofounder & CEO of Fishbowl. Prior, was CEO/Cofounder of Social Amp sold to Dentsu and digital pioneer at MTV.",
     "url": "https://angel.co/sunbulli",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sunbulli",
+    "image": "https://photos.wellfound.com/users/3872-medium_jpg?1633839986",
     "investmentsCount": "1.0",
     "id": "investor-900",
     "sources": [
@@ -21689,7 +21730,7 @@ var investorCatalog = [
     "details": "Co-founder: @weekdone communications tool for leaders and managers & @garage48 startup foundation. Product guy.",
     "url": "https://angel.co/jkaljundi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jkaljundi",
+    "image": "https://photos.wellfound.com/users/6490-medium_jpg?1486212012",
     "investmentsCount": "2.0",
     "id": "investor-901",
     "sources": [
@@ -21735,7 +21776,7 @@ var investorCatalog = [
     "details": "Founder/CEO at Comrad Co-Founder/CEO at @spinback-1 (acquired by Buddy Media) Director of Product @buddy-media (acquired by Salesforce, $800M).",
     "url": "https://angel.co/aferenci",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aferenci",
+    "image": "https://photos.wellfound.com/users/2980-medium_jpg?1493128806",
     "investmentsCount": "6.0",
     "id": "investor-903",
     "sources": [
@@ -21758,7 +21799,7 @@ var investorCatalog = [
     "details": "Head of Product @ Autolist | Former Product @ Houzz | Former Product @ Trulia",
     "url": "https://angel.co/matthew-holder",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matthew-holder",
+    "image": "https://photos.wellfound.com/users/5385-medium_jpg?1521667177",
     "investmentsCount": "2.0",
     "id": "investor-904",
     "sources": [
@@ -21781,7 +21822,7 @@ var investorCatalog = [
     "details": "Founding Partner, @mhs-capital",
     "url": "https://angel.co/mark-sugarman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mark-sugarman",
+    "image": "https://photos.wellfound.com/users/6243-medium_jpg?1405439115",
     "investmentsCount": "27.0",
     "id": "investor-905",
     "sources": [
@@ -21807,7 +21848,7 @@ var investorCatalog = [
     "details": "Partner at One97 Mobility Fund",
     "url": "https://angel.co/vijayshekhar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vijayshekhar",
+    "image": "https://photos.wellfound.com/users/15888-medium_jpg?1405446655",
     "investmentsCount": "17.0",
     "id": "investor-906",
     "sources": [
@@ -21828,7 +21869,7 @@ var investorCatalog = [
     "details": "Product executive & angel investor in commerce startups. UX fanatic. 10+ years in the industry working with leading companies.",
     "url": "https://angel.co/timschulz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/timschulz",
+    "image": "https://photos.wellfound.com/users/10478-medium_jpg?1405442857",
     "investmentsCount": "0.0",
     "id": "investor-907",
     "sources": [
@@ -21851,7 +21892,7 @@ var investorCatalog = [
     "details": "Chief Business Officer @life360, Early stage investor and advisor. Previously VC at @morgenthaler-ventures, Venture Partner at @upwest-labs.",
     "url": "https://angel.co/itamar-novick",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/itamar-novick",
+    "image": "https://photos.wellfound.com/users/11041-medium_jpg?1652475519",
     "investmentsCount": "24.0",
     "id": "investor-908",
     "sources": [
@@ -21921,7 +21962,7 @@ var investorCatalog = [
     "details": "Business Builder. Founded 5 & exited 2. Fintech expert. Focused on product & people. Investor. Venture mentor. Teacher. Leader. Dad. Triathlete.",
     "url": "https://angel.co/eric-cantor",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eric-cantor",
+    "image": "https://photos.wellfound.com/users/13148-medium_jpg?1405444918",
     "investmentsCount": "13.0",
     "id": "investor-911",
     "sources": [
@@ -21944,7 +21985,7 @@ var investorCatalog = [
     "details": "General Partner, NFX. Co-Founder @tickle (Monster), @wonderhill (@kabam), IronPearl, @jiff (Castlight: CSLT)",
     "url": "https://angel.co/jamescurrier",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jamescurrier",
+    "image": "https://photos.wellfound.com/users/1395-medium_jpg?1539542822",
     "investmentsCount": "38.0",
     "id": "investor-912",
     "sources": [
@@ -21988,7 +22029,7 @@ var investorCatalog = [
     "details": "Founder @dealtaker-com, @renteval \u2022 Worked at @microsoft, @plumtree-software \u2022 Investor @adealio, @intenta \u2022 Studied at @university-of-arizona",
     "url": "https://angel.co/nealrap",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nealrap",
+    "image": "https://photos.wellfound.com/users/1212-medium_jpg?1405434008",
     "investmentsCount": "21.0",
     "id": "investor-914",
     "sources": [
@@ -22009,7 +22050,7 @@ var investorCatalog = [
     "details": "Founder and CEO with 2x strategic exits with max earn outs",
     "url": "https://angel.co/bob-gilbreath",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bob-gilbreath",
+    "image": "https://photos.wellfound.com/users/67283-medium_jpg?1585403346",
     "investmentsCount": "1.0",
     "id": "investor-915",
     "sources": [
@@ -22053,7 +22094,7 @@ var investorCatalog = [
     "details": "Founder & CSO at @touchofmodern \u2022 Worked at @ernst-young, @jpmorgan-chase \u2022 Studied at @cornell-university",
     "url": "https://angel.co/yoshofosho",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/yoshofosho",
+    "image": "https://photos.wellfound.com/users/72742-medium_jpg?1705445777",
     "investmentsCount": "0.0",
     "id": "investor-917",
     "sources": [
@@ -22074,7 +22115,7 @@ var investorCatalog = [
     "details": "CBO @luxe-1 , fomer COO @bittorrent, COO at @formspring, CEO at @peerpong, CRO at @rockyou. Active advisor on social growth & seed funding",
     "url": "https://angel.co/rochoy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rochoy",
+    "image": "https://photos.wellfound.com/users/42751-medium_jpg?1405468783",
     "investmentsCount": "0.0",
     "id": "investor-918",
     "sources": [
@@ -22097,7 +22138,7 @@ var investorCatalog = [
     "details": "Current: Co-Founder at Expo Pass Past: Founder & CEO at Toy Studio",
     "url": "https://angel.co/gough",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gough",
+    "image": "https://photos.wellfound.com/users/40688-medium_jpg?1405468057",
     "investmentsCount": "6.0",
     "id": "investor-919",
     "sources": [
@@ -22120,7 +22161,7 @@ var investorCatalog = [
     "details": "Early stage investor @YesVC. Founder Ditto (sold to @groupon) & @jaiku (sold to @google)",
     "url": "https://angel.co/jyri-zengestrom-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jyri-zengestrom-com",
+    "image": "https://photos.wellfound.com/users/35279-medium_jpg?1525158859",
     "investmentsCount": "13.0",
     "id": "investor-920",
     "sources": [
@@ -22143,7 +22184,7 @@ var investorCatalog = [
     "details": "Investor in @burstly, @shift-1, @traffic-marketplace, @elephantdrive.",
     "url": "https://angel.co/ben-widhelm",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ben-widhelm",
+    "image": "https://photos.wellfound.com/users/8861-medium_jpg?1405441511",
     "investmentsCount": "5.0",
     "id": "investor-921",
     "sources": [
@@ -22166,7 +22207,7 @@ var investorCatalog = [
     "details": "Managing Partner of @blumberg-capital",
     "url": "https://angel.co/davidblumberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidblumberg",
+    "image": "https://photos.wellfound.com/users/2464-medium_jpg?1405434934",
     "investmentsCount": "13.0",
     "id": "investor-922",
     "sources": [
@@ -22189,7 +22230,7 @@ var investorCatalog = [
     "details": "Founder @outblaze, @animoca \u2022 Investor @dopplr, @machinima, @fuel-2 , @miq",
     "url": "https://angel.co/ysiu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ysiu",
+    "image": "https://photos.wellfound.com/users/10445-medium_jpg?1405442842",
     "investmentsCount": "41.0",
     "id": "investor-923",
     "sources": [
@@ -22212,7 +22253,7 @@ var investorCatalog = [
     "details": "Investor in @nutanix @pubnub @algolia etc. Previously, VP @salesforce , PM/Engg @oracle-corporation. BTech, MS in CS.",
     "url": "https://angel.co/anshu-sharma-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/anshu-sharma-gmail-com",
+    "image": "https://photos.wellfound.com/users/11226-medium_jpg?1405443457",
     "investmentsCount": "7.0",
     "id": "investor-924",
     "sources": [
@@ -22235,7 +22276,7 @@ var investorCatalog = [
     "details": "Investor @boom, @clearbit, @relativity Space, + more. Founder @minogames.",
     "url": "https://angel.co/joshuabuckley",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joshuabuckley",
+    "image": "https://photos.wellfound.com/users/10565-medium_jpg?1595983817",
     "investmentsCount": "16.0",
     "id": "investor-925",
     "sources": [
@@ -22258,7 +22299,7 @@ var investorCatalog = [
     "details": "Sr. Director, Product @zynga Head of PM/Growth Mentor, 500 Startups Employee #1 and founding PM @scopely GrowthPM @playdom (acquired by @disney )",
     "url": "https://angel.co/joshualu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joshualu",
+    "image": "https://photos.wellfound.com/users/11625-medium_jpg?1499061894",
     "investmentsCount": "0.0",
     "id": "investor-926",
     "sources": [
@@ -22348,7 +22389,7 @@ var investorCatalog = [
     "details": "Associate at @gold-hill-capital making $50k-$250K investments in seed/early stage startups and providing $1M-$10M debt facilities to later stage startups.",
     "url": "https://angel.co/alex-choy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alex-choy",
+    "image": "https://photos.wellfound.com/users/6040-medium_jpg?1405438904",
     "investmentsCount": "5.0",
     "id": "investor-930",
     "sources": [
@@ -22371,7 +22412,7 @@ var investorCatalog = [
     "details": "Managing Director at @granite-ventures",
     "url": "https://angel.co/cmckay13",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/cmckay13",
+    "image": "https://photos.wellfound.com/users/12995-medium_jpg?1405444821",
     "investmentsCount": "10.0",
     "id": "investor-931",
     "sources": [
@@ -22394,7 +22435,7 @@ var investorCatalog = [
     "details": "Fundraising Strategy Consultant to Early Stage Startups \u2022 Managing Partner at @foundational \u2022 Co-founded @reonomy, and @menagerie",
     "url": "https://angel.co/harlanmilkove",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/harlanmilkove",
+    "image": "https://photos.wellfound.com/users/66373-medium_jpg?1492689059",
     "investmentsCount": "0.0",
     "id": "investor-932",
     "sources": [
@@ -22417,7 +22458,7 @@ var investorCatalog = [
     "details": "The Internet is a miracle.",
     "url": "https://angel.co/kirkouimet",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kirkouimet",
+    "image": "https://photos.wellfound.com/users/39564-medium_jpg?1755021318",
     "investmentsCount": "18.0",
     "id": "investor-933",
     "sources": [
@@ -22556,7 +22597,7 @@ var investorCatalog = [
     "details": "Technology Executive and Entrepreneur",
     "url": "https://angel.co/eric-groves",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eric-groves",
+    "image": "https://photos.wellfound.com/users/62512-medium_jpg?1462881475",
     "investmentsCount": "3.0",
     "id": "investor-939",
     "sources": [
@@ -22579,7 +22620,7 @@ var investorCatalog = [
     "details": "Founder WebHosting.com (acquired by AT&T), InQuent (acquired by private equity > web.com), VerticalScope (acquired > Torstar).",
     "url": "https://angel.co/jesse-rasch-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jesse-rasch-com",
+    "image": "https://photos.wellfound.com/users/70148-medium_jpg?1442708469",
     "investmentsCount": "86.0",
     "id": "investor-940",
     "sources": [
@@ -22602,7 +22643,7 @@ var investorCatalog = [
     "details": "Founder and CEO, Outfox AI -- marketing tools for Democratic political campaigns and non-profits",
     "url": "https://angel.co/philtsip",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/philtsip",
+    "image": "https://photos.wellfound.com/users/47102-medium_jpg?1533321963",
     "investmentsCount": "0.0",
     "id": "investor-941",
     "sources": [
@@ -22625,7 +22666,7 @@ var investorCatalog = [
     "details": "Founder @cask-data \u2022 Worked at @yahoo-3",
     "url": "https://angel.co/nmotgi",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nmotgi",
+    "image": "https://photos.wellfound.com/users/70450-medium_jpg?1405480416",
     "investmentsCount": "1.0",
     "id": "investor-942",
     "sources": [
@@ -22671,7 +22712,7 @@ var investorCatalog = [
     "details": "Angel & Private Equity Investor, Charlotte Street Capital",
     "url": "https://angel.co/tjamesjones",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tjamesjones",
+    "image": "https://photos.wellfound.com/users/36544-medium_jpg?1565630902",
     "investmentsCount": "15.0",
     "id": "investor-944",
     "sources": [
@@ -22694,7 +22735,7 @@ var investorCatalog = [
     "details": "Strategic Growth Consultant, CEO, CMTO \u2605 Sold Co. to @responsys (sold to @oracle-2 $1.6B) \u2605 Helped @lovephilosphy to $1B exit \u2605 Helped @stubhub to $310M exit",
     "url": "https://angel.co/justonbrommel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/justonbrommel",
+    "image": "https://photos.wellfound.com/users/11239-medium_jpg?1623923420",
     "investmentsCount": "3.0",
     "id": "investor-945",
     "sources": [
@@ -22717,7 +22758,7 @@ var investorCatalog = [
     "details": "Cofounder/partner @real-ventures (Canada\u2019s largest, most active seed fund) & @acta-wireless  Investing in mobile and web tech entrepreneurs since 91. @insead-1",
     "url": "https://angel.co/thealanmac",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/thealanmac",
+    "image": "https://photos.wellfound.com/users/54455-medium_jpg?1405471819",
     "investmentsCount": "31.0",
     "id": "investor-946",
     "sources": [
@@ -22740,7 +22781,7 @@ var investorCatalog = [
     "details": "Investor",
     "url": "https://angel.co/michael-underscore-vc",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-underscore-vc",
+    "image": "https://photos.wellfound.com/users/57262-medium_jpg?1448502749",
     "investmentsCount": "5.0",
     "id": "investor-947",
     "sources": [
@@ -22789,7 +22830,7 @@ var investorCatalog = [
     "details": "SaaS & Cloud company builder. VP DevRel @confluent. Fmr exec @google & @salesforce. @y-combinator advisor. Startups: @meteor-development-group @socialpandas",
     "url": "https://angel.co/marktrang",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marktrang",
+    "image": "https://photos.wellfound.com/users/56117-medium_jpg?1601740840",
     "investmentsCount": "1.0",
     "id": "investor-949",
     "sources": [
@@ -22835,7 +22876,7 @@ var investorCatalog = [
     "details": "Cofounder Spigot, Managing Partner @founders-den, EVP Vendio (sold to Alibaba), CMO Hearme & @paltalk, Cofounder Bluelight, AOL Broadband, @accenture Internet",
     "url": "https://angel.co/michael-levit",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-levit",
+    "image": "https://photos.wellfound.com/users/40727-medium_jpg?1405468072",
     "investmentsCount": "14.0",
     "id": "investor-951",
     "sources": [
@@ -22851,14 +22892,15 @@ var investorCatalog = [
       "Paris"
     ],
     "countries": [
-      "France"
+      "France",
+      "United States"
     ],
     "focus": "Open Source",
     "role": "Angel investor",
     "details": "Head Corporate Development @leboncoin. Investor in @talend, @netvibes, @greenext. Founder @lesmobilizers, @comwax. Chicago MBA. @tedesign",
     "url": "https://angel.co/tedesign",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tedesign",
+    "image": "https://photos.wellfound.com/users/38108-medium_jpg?1405466375",
     "investmentsCount": "3.0",
     "id": "investor-952",
     "sources": [
@@ -22881,7 +22923,7 @@ var investorCatalog = [
     "details": "Partner at Accel",
     "url": "https://angel.co/kefrusy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kefrusy",
+    "image": "https://photos.wellfound.com/users/3256-medium_jpg?1405435491",
     "investmentsCount": "5.0",
     "id": "investor-953",
     "sources": [
@@ -22930,7 +22972,7 @@ var investorCatalog = [
     "details": "General Partner at Crosslink Capital. Founder of Alpha ()",
     "url": "https://angel.co/chindogger",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/chindogger",
+    "image": "https://photos.wellfound.com/users/1301-medium_jpg?1405434081",
     "investmentsCount": "36.0",
     "id": "investor-955",
     "sources": [
@@ -22956,7 +22998,7 @@ var investorCatalog = [
     "details": "CEO & Co-Founder @tidelift \u2022 Board at @julia-computing, @rocana, @continuum-analytics, @ionic \u2022 Prev @general-catalyst, @greylock-partners, @typesafe, @red-hat",
     "url": "https://angel.co/dff",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dff",
+    "image": "https://photos.wellfound.com/users/1068-medium_jpg?1504468403",
     "investmentsCount": "8.0",
     "id": "investor-956",
     "sources": [
@@ -23002,7 +23044,7 @@ var investorCatalog = [
     "details": "Money and Magic. CEO at German Accelerator NYC. Investor in 30+ early stage companies across marketplaces, SAAS, D2C, Proptech et al.",
     "url": "https://angel.co/christianbusch",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christianbusch",
+    "image": "https://photos.wellfound.com/users/64835-medium_jpg?1479160092",
     "investmentsCount": "21.0",
     "id": "investor-958",
     "sources": [
@@ -23067,7 +23109,7 @@ var investorCatalog = [
     "details": "Founder & General Partner @goodaicapital Entrepreneur, CTO / Deep Learner, Armchair Economist, Crossfitter w/ reading glasses, Empowering the masses w/ AI",
     "url": "https://angel.co/darwin-ling",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/darwin-ling",
+    "image": "https://photos.wellfound.com/users/53532-medium_jpg?1405471671",
     "investmentsCount": "10.0",
     "id": "investor-961",
     "sources": [
@@ -23090,7 +23132,7 @@ var investorCatalog = [
     "details": "Co-Founder of @work-market",
     "url": "https://angel.co/jeff-wald",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeff-wald",
+    "image": "https://photos.wellfound.com/users/62116-medium_jpg?1462881425",
     "investmentsCount": "9.0",
     "id": "investor-962",
     "sources": [
@@ -23111,7 +23153,7 @@ var investorCatalog = [
     "details": "CEO of Benzinga. Passionate entrepreneur. Founded 2 companies prior to Benzinga. University of Michigan BBA.",
     "url": "https://angel.co/jasonraznick",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jasonraznick",
+    "image": "https://photos.wellfound.com/users/2928-medium_jpg?1463121399",
     "investmentsCount": "8.0",
     "id": "investor-963",
     "sources": [
@@ -23134,7 +23176,7 @@ var investorCatalog = [
     "details": "Partner at Unusual Ventures. Former exec, product, and growth at Wealthfront, Quora, Twitter, and Facebook.",
     "url": "https://angel.co/andyjohns",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andyjohns",
+    "image": "https://photos.wellfound.com/users/65926-medium_jpg?1538765943",
     "investmentsCount": "3.0",
     "id": "investor-964",
     "sources": [
@@ -23157,7 +23199,7 @@ var investorCatalog = [
     "details": "This & that. Investing & helping. Former GP @ Greylock, former CEO @ @mozilla, dad, husband, son, nerd",
     "url": "https://angel.co/johnolilly",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/johnolilly",
+    "image": "https://photos.wellfound.com/users/2877-medium_jpg?1405435200",
     "investmentsCount": "13.0",
     "id": "investor-965",
     "sources": [
@@ -23178,7 +23220,7 @@ var investorCatalog = [
     "details": "Entrepreneur, tech investor, real estate professional. Working on John Gargasz 3.0: balance, passion, start-ups, family, a better world",
     "url": "https://angel.co/johngargasz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/johngargasz",
+    "image": "https://photos.wellfound.com/users/74289-medium_jpg?1435248299",
     "investmentsCount": "13.0",
     "id": "investor-966",
     "sources": [
@@ -23199,7 +23241,7 @@ var investorCatalog = [
     "details": "Forbes Midas List 2019, 2020. Managing Partner, Initialized Capital. Previously Partner at @y-combinator. Earliest investor in startups worth $45B in market cap",
     "url": "https://angel.co/garrytan-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/garrytan-gmail-com",
+    "image": "https://photos.wellfound.com/users/5773-medium_jpg?1405438569",
     "investmentsCount": "119.0",
     "id": "investor-967",
     "sources": [
@@ -23245,7 +23287,7 @@ var investorCatalog = [
     "details": "BD at @haven. Principal at @oatv. Former trader at Jane Street Capital.",
     "url": "https://angel.co/renee-diresta",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/renee-diresta",
+    "image": "https://photos.wellfound.com/users/52884-medium_jpg?1405471485",
     "investmentsCount": "9.0",
     "id": "investor-969",
     "sources": [
@@ -23268,7 +23310,7 @@ var investorCatalog = [
     "details": "Founder @rhodium; Investments include @outbrain, @face-com,@yotpo @yieldmo @rounds, @zooz @hexatier @imgn-media Reflecting the future",
     "url": "https://angel.co/recanati",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/recanati",
+    "image": "https://photos.wellfound.com/users/6112-medium_jpg?1405438974",
     "investmentsCount": "25.0",
     "id": "investor-970",
     "sources": [
@@ -23314,7 +23356,7 @@ var investorCatalog = [
     "details": "Founder and former CEO of Black Duck Software; Board Member; Advisor and frequent lecturer on startup management, finance and operations at MIT",
     "url": "https://angel.co/dalev",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dalev",
+    "image": "https://photos.wellfound.com/users/5654-medium_jpg?1405438392",
     "investmentsCount": "3.0",
     "id": "investor-972",
     "sources": [
@@ -23330,6 +23372,7 @@ var investorCatalog = [
       "London"
     ],
     "countries": [
+      "India",
       "United Kingdom"
     ],
     "focus": "Predictive Analytics",
@@ -23337,7 +23380,7 @@ var investorCatalog = [
     "details": "Founder Trusted Insight LP Platform Fintech startups & VC Investor Initialized, SaaStr, Index, Atomic, Founders Fund, DCVC, Accel India, Lowercase, Baseline.",
     "url": "https://angel.co/alexbangash",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alexbangash",
+    "image": "https://photos.wellfound.com/users/5869-medium_jpg?1530046018",
     "investmentsCount": "3.0",
     "id": "investor-973",
     "sources": [
@@ -23358,7 +23401,7 @@ var investorCatalog = [
     "details": "Co-Director at Designer Fund, helping designers build businesses with meaningful impact. Former Design lead at Facebook.",
     "url": "https://angel.co/blumenfeld",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/blumenfeld",
+    "image": "https://photos.wellfound.com/users/67416-medium_jpg?1438217071",
     "investmentsCount": "8.0",
     "id": "investor-974",
     "sources": [
@@ -23381,7 +23424,7 @@ var investorCatalog = [
     "details": "Founder @commonwealth-ventures. Venture Partner @500startups. Founder @datahero (acq. by @cloudability). Employee #1 @aster-data-systems (acq. by @teradata).",
     "url": "https://angel.co/chris-neumann",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/chris-neumann",
+    "image": "https://photos.wellfound.com/users/73527-medium_jpg?1649825781",
     "investmentsCount": "1.0",
     "id": "investor-975",
     "sources": [
@@ -23404,7 +23447,7 @@ var investorCatalog = [
     "details": "Engineer, Immigrant. Vegan. 4x Founder, Managing Partner 2048 Ventures. Coach and VC in Residence at Harvard Business School. I write",
     "url": "https://angel.co/alex-iskold",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alex-iskold",
+    "image": "https://photos.wellfound.com/users/57800-medium_jpg?1605744346",
     "investmentsCount": "70.0",
     "id": "investor-976",
     "sources": [
@@ -23427,7 +23470,7 @@ var investorCatalog = [
     "details": "Founder & General Manager at @travelpod ( Acquired by TripAdvisor / Expedia )",
     "url": "https://angel.co/luc-levesque",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/luc-levesque",
+    "image": "https://photos.wellfound.com/users/49023-medium_jpg?1406253924",
     "investmentsCount": "7.0",
     "id": "investor-977",
     "sources": [
@@ -23450,7 +23493,7 @@ var investorCatalog = [
     "details": "Entrepreneur/Co-Founder @onclusive \u2022 EIR @shasta-ventures, VC @sierra-ventures \u2022 Studied at @harvard-business-school, @princeton-university",
     "url": "https://angel.co/sharamfm",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sharamfm",
+    "image": "https://photos.wellfound.com/users/68027-medium_jpg?1405476720",
     "investmentsCount": "2.0",
     "id": "investor-978",
     "sources": [
@@ -23494,7 +23537,7 @@ var investorCatalog = [
     "details": "VP Product & Design at Airship, Product Management Faculty @general Assembly. Previous: @genomera @responsys (Sold for $1.5B) @xing @vantive @chordiant",
     "url": "https://angel.co/angel-co-gregbiggers-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/angel-co-gregbiggers-com",
+    "image": "https://photos.wellfound.com/users/1884-medium_jpg?1446058296",
     "investmentsCount": "4.0",
     "id": "investor-980",
     "sources": [
@@ -23540,7 +23583,7 @@ var investorCatalog = [
     "details": "CEO of Scroll, Founding CEO of Chartbeat.",
     "url": "https://angel.co/arctictony",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/arctictony",
+    "image": "https://photos.wellfound.com/users/69202-medium_jpg?1587152999",
     "investmentsCount": "2.0",
     "id": "investor-982",
     "sources": [
@@ -23563,7 +23606,7 @@ var investorCatalog = [
     "details": "Co-founder @indexacapital @aplazame @bewa7er @soysuper @toprural (sold to @homeaway) and @rentalia-com (sold to @idealista-com) + investor in Internet startups",
     "url": "https://angel.co/fderbaix",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/fderbaix",
+    "image": "https://photos.wellfound.com/users/71388-medium_jpg?1440158689",
     "investmentsCount": "23.0",
     "id": "investor-983",
     "sources": [
@@ -23630,7 +23673,7 @@ var investorCatalog = [
     "details": "Partner at Madrona Venture Group",
     "url": "https://angel.co/scottjacobson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/scottjacobson",
+    "image": "https://photos.wellfound.com/users/1611-medium_jpg?1405434282",
     "investmentsCount": "7.0",
     "id": "investor-986",
     "sources": [
@@ -23670,7 +23713,7 @@ var investorCatalog = [
     "details": "Present: Fundraising Consultant (Series A/B/C) @sequoia-capital Scout Investor Past: Fmr Head of Business Travel @airbnb Former Partner at @sv-angel",
     "url": "https://angel.co/marcmccabe",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marcmccabe",
+    "image": "https://photos.wellfound.com/users/1110-medium_jpg?1548373080",
     "investmentsCount": "18.0",
     "id": "investor-987",
     "sources": [
@@ -23719,7 +23762,7 @@ var investorCatalog = [
     "details": "CEO & Founder, Penrose Studios",
     "url": "https://angel.co/eugenechung",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eugenechung",
+    "image": "https://photos.wellfound.com/users/55467-medium_jpg?1405472263",
     "investmentsCount": "5.0",
     "id": "investor-989",
     "sources": [
@@ -23740,7 +23783,7 @@ var investorCatalog = [
     "details": "John Backus is an investor in @invincea, @pokitdok, @spotflux, @apptap, @mobile365, @divx, @globallogic and many more great companies",
     "url": "https://angel.co/jcbackus",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jcbackus",
+    "image": "https://photos.wellfound.com/users/14999-medium_jpg?1405446101",
     "investmentsCount": "18.0",
     "id": "investor-990",
     "sources": [
@@ -23763,7 +23806,7 @@ var investorCatalog = [
     "details": "President of Structure: venture capital and advisory firm. Worked at Fox and the NFL. Founded Digital Artists and Spotrunner",
     "url": "https://angel.co/adam-shaw",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/adam-shaw",
+    "image": "https://photos.wellfound.com/users/56295-medium_jpg?1462880764",
     "investmentsCount": "12.0",
     "id": "investor-991",
     "sources": [
@@ -23786,7 +23829,7 @@ var investorCatalog = [
     "details": "Fan of big ideas, hard work and entrepreneurs. Principal at NCV. Married to an entrepreneur.",
     "url": "https://angel.co/zaz-floreani",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zaz-floreani",
+    "image": "https://photos.wellfound.com/users/51737-medium_jpg?1605718449",
     "investmentsCount": "1.0",
     "id": "investor-992",
     "sources": [
@@ -23809,7 +23852,7 @@ var investorCatalog = [
     "details": "hedge funds; previously management consulting and developing internet computer networking protocols.",
     "url": "https://angel.co/atul-khanna",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/atul-khanna",
+    "image": "https://photos.wellfound.com/users/62051-medium_jpg?1405474561",
     "investmentsCount": "2.0",
     "id": "investor-993",
     "sources": [
@@ -23832,7 +23875,7 @@ var investorCatalog = [
     "details": "CTO Numerator Founder @bankons 1st hire @powerreviews. Both acq in 2012, 3 yrs Capital One. Numerator acq @infoscout (Vista portCo) - A big SaaS mash-up.",
     "url": "https://angel.co/joshua-greenough",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joshua-greenough",
+    "image": "https://photos.wellfound.com/users/42678-medium_jpg?1599585191",
     "investmentsCount": "11.0",
     "id": "investor-994",
     "sources": [
@@ -23876,7 +23919,7 @@ var investorCatalog = [
     "details": "Founder and CEO of @common-living , Co-founder of @general-assembly, Venture Partner at Maveron",
     "url": "https://angel.co/brad-hargreaves",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brad-hargreaves",
+    "image": "https://photos.wellfound.com/users/5628-medium_jpg?1405438353",
     "investmentsCount": "5.0",
     "id": "investor-996",
     "sources": [
@@ -23927,7 +23970,7 @@ var investorCatalog = [
     "details": "Angel Investor: @birchbox @warby Parker @peloton @harrys Fund Investor: @harrys @allbirds @TheWing @lola-2 @kiwi-crate",
     "url": "https://angel.co/mitchellcandrew",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mitchellcandrew",
+    "image": "https://photos.wellfound.com/users/379-medium_jpg?1448051143",
     "investmentsCount": "27.0",
     "id": "investor-998",
     "sources": [
@@ -23953,7 +23996,7 @@ var investorCatalog = [
     "details": "Founded @polimetrix (acquired by @yougov), @knowledge-networks (GfK), and @preview-systems (IPO 1999). Professor at Stanford. Investor in 7 venture funds.",
     "url": "https://angel.co/doug_rivers",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/doug_rivers",
+    "image": "https://photos.wellfound.com/users/396-medium_jpg?1405433251",
     "investmentsCount": "6.0",
     "id": "investor-999",
     "sources": [
@@ -23999,7 +24042,7 @@ var investorCatalog = [
     "details": "Angel. Past: GP @socialcapital CEO @yelp-eat24 VP @yelp. Co-Founder @stitcher and @barmax. @trialpay @summit-partners @harvard JD and MBA. @usc BS Comp Sci.",
     "url": "https://angel.co/mike-ghaffary",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mike-ghaffary",
+    "image": "https://photos.wellfound.com/users/53685-medium_jpg?1543632420",
     "investmentsCount": "13.0",
     "id": "investor-1001",
     "sources": [
@@ -24022,7 +24065,7 @@ var investorCatalog = [
     "details": "principal at @rho-ventures",
     "url": "https://angel.co/medha",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/medha",
+    "image": "https://photos.wellfound.com/users/5744-medium_jpg?1405438523",
     "investmentsCount": "5.0",
     "id": "investor-1002",
     "sources": [
@@ -24043,7 +24086,7 @@ var investorCatalog = [
     "details": "Partner, @launchbox-digital. Founder Blue Bright Ventures.",
     "url": "https://angel.co/lee-buck",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lee-buck",
+    "image": "https://photos.wellfound.com/users/66007-medium_jpg?1405478225",
     "investmentsCount": "13.0",
     "id": "investor-1003",
     "sources": [
@@ -24066,7 +24109,7 @@ var investorCatalog = [
     "details": "Founder of @runnable.com. Worked at Amazon.com & Cisco Systems. Full stack hacker and engineer",
     "url": "https://angel.co/yashkumar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/yashkumar",
+    "image": "https://photos.wellfound.com/users/68747-medium_jpg?1422994474",
     "investmentsCount": "0.0",
     "id": "investor-1004",
     "sources": [
@@ -24112,7 +24155,7 @@ var investorCatalog = [
     "details": "Angel \xB7 TJNS Capital \xB7 New York City \xB7 Columbia University",
     "url": "https://angel.co/steven-goldman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/steven-goldman",
+    "image": "https://photos.wellfound.com/users/68505-medium_jpg?1405477384",
     "investmentsCount": "12.0",
     "id": "investor-1006",
     "sources": [
@@ -24156,7 +24199,7 @@ var investorCatalog = [
     "details": "Founder @pensar, customers incl NASA. Venture Partner @real-ventures. Led 65+ investments-increased $10bn+ aggregate value..a few below.",
     "url": "https://angel.co/charles-seely",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/charles-seely",
+    "image": "https://photos.wellfound.com/users/56944-medium_jpg?1784402534",
     "investmentsCount": "36.0",
     "id": "investor-1008",
     "sources": [
@@ -24177,7 +24220,7 @@ var investorCatalog = [
     "details": "Founder @aytm-ask-your-target-market \u2022 Worked at @facebook \u2022 Investor @facebook",
     "url": "https://angel.co/david-handel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/david-handel",
+    "image": "https://photos.wellfound.com/users/55601-medium_jpg?1620646674",
     "investmentsCount": "4.0",
     "id": "investor-1009",
     "sources": [
@@ -24221,7 +24264,7 @@ var investorCatalog = [
     "details": "Founder of @pathlight-1 . Previously started @seatme (acquired by @yelp). Investor and adviser.",
     "url": "https://angel.co/alexanderkvamme",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alexanderkvamme",
+    "image": "https://photos.wellfound.com/users/52928-medium_jpg?1725378926",
     "investmentsCount": "8.0",
     "id": "investor-1011",
     "sources": [
@@ -24244,7 +24287,7 @@ var investorCatalog = [
     "details": "CEO+Co-Founder, Quesnay. Former@American Express @verizon led innovation, @cbs Investor & Board Observer @vouchr",
     "url": "https://angel.co/jennifer-e-byrne",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jennifer-e-byrne",
+    "image": "https://photos.wellfound.com/users/72625-medium_jpg?1552585086",
     "investmentsCount": "5.0",
     "id": "investor-1012",
     "sources": [
@@ -24290,7 +24333,7 @@ var investorCatalog = [
     "details": "Just a guy, trying to be a great dad, husband, and help build the next big thing.",
     "url": "https://angel.co/joglekar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joglekar",
+    "image": "https://photos.wellfound.com/users/65061-medium_jpg?1652711977",
     "investmentsCount": "0.0",
     "id": "investor-1014",
     "sources": [
@@ -24336,7 +24379,7 @@ var investorCatalog = [
     "details": "Owner, @redyns-medical",
     "url": "https://angel.co/nate-snyder",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/nate-snyder",
+    "image": "https://photos.wellfound.com/users/64841-medium_jpg?1785361764",
     "investmentsCount": "5.0",
     "id": "investor-1016",
     "sources": [
@@ -24359,7 +24402,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/mark-kantor",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mark-kantor",
+    "image": "https://photos.wellfound.com/users/67542-medium_jpg?1405477028",
     "investmentsCount": "5.0",
     "id": "investor-1017",
     "sources": [
@@ -24382,7 +24425,7 @@ var investorCatalog = [
     "details": "Founder @fast-forward - accelerator for tech nonprofits, Founder @context-optional now @adobe-systems, \u2022 Studied at @stanford-university, @harvard-business-school",
     "url": "https://angel.co/kevin-barenblat",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kevin-barenblat",
+    "image": "https://photos.wellfound.com/users/66187-medium_jpg?1405478302",
     "investmentsCount": "6.0",
     "id": "investor-1018",
     "sources": [
@@ -24405,7 +24448,7 @@ var investorCatalog = [
     "details": "Founder/CEO @ @doximity. Previously Founder @ @epocrates (EPOC).",
     "url": "https://angel.co/jeff-tangney",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeff-tangney",
+    "image": "https://photos.wellfound.com/users/54237-medium_jpg?1405471884",
     "investmentsCount": "1.0",
     "id": "investor-1019",
     "sources": [
@@ -24428,7 +24471,7 @@ var investorCatalog = [
     "details": "Investor @bookingbug, @streetlife",
     "url": "https://angel.co/gifernando",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gifernando",
+    "image": "https://photos.wellfound.com/users/53479-medium_jpg?1405472446",
     "investmentsCount": "16.0",
     "id": "investor-1020",
     "sources": [
@@ -24451,7 +24494,7 @@ var investorCatalog = [
     "details": "Internet investing @sequoia-capital",
     "url": "https://angel.co/matthuang",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/matthuang",
+    "image": "https://photos.wellfound.com/users/59218-medium_jpg?1405475159",
     "investmentsCount": "4.0",
     "id": "investor-1021",
     "sources": [
@@ -24520,7 +24563,7 @@ var investorCatalog = [
     "details": "Founder Ariso Partners \u2022 Worked at @mckinsey-company, @novartis \u2022 Investor @zocdoc, @tethys-bioscience \u2022 Studied at @northwestern-university",
     "url": "https://angel.co/aristo-partners-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aristo-partners-1",
+    "image": "https://photos.wellfound.com/users/71937-medium_jpg?1405478705",
     "investmentsCount": "4.0",
     "id": "investor-1024",
     "sources": [
@@ -24543,7 +24586,7 @@ var investorCatalog = [
     "details": "Former VP, Mobile @vmware - former CEO & Founder of @socialcast (acquired by @vmware) | Co-founder of @about-me (acquired by AOL)",
     "url": "https://angel.co/timyoung",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/timyoung",
+    "image": "https://photos.wellfound.com/users/48596-medium_jpg?1514582161",
     "investmentsCount": "4.0",
     "id": "investor-1025",
     "sources": [
@@ -24564,7 +24607,7 @@ var investorCatalog = [
     "details": "CEO/Founder of BuyLikeMe & @needtagger; President & Founder @twinspires-com; 13 yrs @accenture; Angel investor @flipboard @tumri and more.",
     "url": "https://angel.co/vernon-niven",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vernon-niven",
+    "image": "https://photos.wellfound.com/users/45900-medium_jpg?1405469478",
     "investmentsCount": "5.0",
     "id": "investor-1026",
     "sources": [
@@ -24587,7 +24630,7 @@ var investorCatalog = [
     "details": "CEO of Hummingbird, a platform for investigating financial crime. Product leadership at Square, IDEO.org, & Circle before that. Organizer of Designers + Geeks.",
     "url": "https://angel.co/joe-robinson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joe-robinson",
+    "image": "https://photos.wellfound.com/users/45100-medium_jpg?1459350009",
     "investmentsCount": "2.0",
     "id": "investor-1027",
     "sources": [
@@ -24610,7 +24653,7 @@ var investorCatalog = [
     "details": "Founder @metabolic-1 / One Fix Previously @facebook via @storylane acquisition Before that, @fashmatch founder (sold to @like-com -> @google).",
     "url": "https://angel.co/jonathan-gheller",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jonathan-gheller",
+    "image": "https://photos.wellfound.com/users/46078-medium_jpg?1405469954",
     "investmentsCount": "14.0",
     "id": "investor-1028",
     "sources": [
@@ -24633,7 +24676,7 @@ var investorCatalog = [
     "details": "Cofounded @picasa -> @google",
     "url": "https://angel.co/michael-herf",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/michael-herf",
+    "image": "https://photos.wellfound.com/users/46185-medium_jpg?1405469572",
     "investmentsCount": "6.0",
     "id": "investor-1029",
     "sources": [
@@ -24656,7 +24699,7 @@ var investorCatalog = [
     "details": "Japan Head, Salesforce Ventures",
     "url": "https://angel.co/shinji-asada",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/shinji-asada",
+    "image": "https://photos.wellfound.com/users/44823-medium_jpg?1511659323",
     "investmentsCount": "7.0",
     "id": "investor-1030",
     "sources": [
@@ -24679,7 +24722,7 @@ var investorCatalog = [
     "details": "Platform guy @microsoft, Mozy and @vmware.",
     "url": "https://angel.co/charles-fitzgerald",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/charles-fitzgerald",
+    "image": "https://photos.wellfound.com/users/43189-medium_jpg?1405468912",
     "investmentsCount": "15.0",
     "id": "investor-1031",
     "sources": [
@@ -24723,7 +24766,7 @@ var investorCatalog = [
     "details": "Retail junkie running digital for brands like @legowear @newbalance @mooseknuckles @alexisbittar @terramarsports and @joefresh-com",
     "url": "https://angel.co/ryanmcraver-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ryanmcraver-gmail-com",
+    "image": "https://photos.wellfound.com/users/41872-medium_jpg?1405468516",
     "investmentsCount": "10.0",
     "id": "investor-1033",
     "sources": [
@@ -24746,7 +24789,7 @@ var investorCatalog = [
     "details": "Serial entrepreneur, angel investor and start-up advisor Founder & CEO at @abra",
     "url": "https://angel.co/billbar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/billbar",
+    "image": "https://photos.wellfound.com/users/41165-medium_jpg?1405468207",
     "investmentsCount": "5.0",
     "id": "investor-1034",
     "sources": [
@@ -24815,7 +24858,7 @@ var investorCatalog = [
     "details": "Founder @powerset (sold to @microsoft), @moon-express, @locomobi. @singularity University. AI Pioneer. Ex NASA & MSFT. AI/ML Fellow @Creative Destruction Lab.",
     "url": "https://angel.co/barneyp",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/barneyp",
+    "image": "https://photos.wellfound.com/users/9183-medium_jpg?1405441828",
     "investmentsCount": "50.0",
     "id": "investor-1037",
     "sources": [
@@ -24838,7 +24881,7 @@ var investorCatalog = [
     "details": "Co-Founder of Plink (acquired by @google); Engineer on @google Goggles; PhD in Robotics at Oxford.",
     "url": "https://angel.co/markcummins",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/markcummins",
+    "image": "https://photos.wellfound.com/users/5615-medium_jpg?1405438335",
     "investmentsCount": "7.0",
     "id": "investor-1038",
     "sources": [
@@ -24861,7 +24904,7 @@ var investorCatalog = [
     "details": "Partner at OMERS Ventures Europe - \u20AC300m \u{1F1EA}\u{1F1FA} VC. Previously at @balderton Capital & BGF Ventures Early investor @revolut @gocardless Founder: Firefly Tonics",
     "url": "https://angel.co/harrybriggs",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/harrybriggs",
+    "image": "https://photos.wellfound.com/users/2828-medium_jpg?1405435171",
     "investmentsCount": "23.0",
     "id": "investor-1039",
     "sources": [
@@ -24884,7 +24927,7 @@ var investorCatalog = [
     "details": "Co-founder @intermix and @mogotix . Previous long-term @accenture exec..",
     "url": "https://angel.co/lars",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lars",
+    "image": "https://photos.wellfound.com/users/5226-medium_jpg?1578948750",
     "investmentsCount": "8.0",
     "id": "investor-1040",
     "sources": [
@@ -24907,7 +24950,7 @@ var investorCatalog = [
     "details": "Co-Founder, @flatiron-health Inc. Previously Co-Founder, President & COO at @invite-media Inc. part of @google",
     "url": "https://angel.co/zachweinberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zachweinberg",
+    "image": "https://photos.wellfound.com/users/222-medium_jpg?1588734234",
     "investmentsCount": "58.0",
     "id": "investor-1041",
     "sources": [
@@ -24955,7 +24998,7 @@ var investorCatalog = [
     "details": "Angel/Seed for AWS & Venture Partner @tomorrowventures",
     "url": "https://angel.co/bradh",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/bradh",
+    "image": "https://photos.wellfound.com/users/5140-medium_jpg?1635956315",
     "investmentsCount": "46.0",
     "id": "investor-1043",
     "sources": [
@@ -24973,7 +25016,9 @@ var investorCatalog = [
     "locations": [
       "Salt Lake City"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "SaaS",
     "role": "Angel investor",
     "details": "Partner at Pritzker Group Venture Capital Investment Committee Chicago Ventures Board Member Techstars Chicago",
@@ -25002,7 +25047,7 @@ var investorCatalog = [
     "details": "At times deeply engaged at RightCart, RightScale, RightSignature, Exceptional, Airbrake, and RedisToGo. Now advise, invest and operate at Xenon Ventures.",
     "url": "https://angel.co/usiegj00",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/usiegj00",
+    "image": "https://photos.wellfound.com/users/1450-medium_jpg?1405434180",
     "investmentsCount": "38.0",
     "id": "investor-1045",
     "sources": [
@@ -25069,7 +25114,7 @@ var investorCatalog = [
     "details": "Mgr. Partner, Flashpoint & MosleyVentures; President, @imlay-investments. MSA (Acq: @dun-bradstreet), ISS (Acq: IBM), Witness Systems (IPO)",
     "url": "https://angel.co/secretsig",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/secretsig",
+    "image": "https://photos.wellfound.com/users/5216-medium_jpg?1405437807",
     "investmentsCount": "23.0",
     "id": "investor-1048",
     "sources": [
@@ -25092,7 +25137,7 @@ var investorCatalog = [
     "details": "Partner at @origin-ventures. VC since 2001.  Adjunct Professor of Entrepreneurship at @booth-school-of-business.",
     "url": "https://angel.co/jheltzer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jheltzer",
+    "image": "https://photos.wellfound.com/users/4257-medium_jpg?1435248015",
     "investmentsCount": "22.0",
     "id": "investor-1049",
     "sources": [
@@ -25141,7 +25186,7 @@ var investorCatalog = [
     "details": "Entrepreneurial VC with truly global exposure",
     "url": "https://angel.co/mathias-schilling",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mathias-schilling",
+    "image": "https://photos.wellfound.com/users/6477-medium_jpg?1405439365",
     "investmentsCount": "19.0",
     "id": "investor-1051",
     "sources": [
@@ -25162,7 +25207,7 @@ var investorCatalog = [
     "details": "Founder @xing, @hackfwd \u2022 Investor @fab-com, @flip4new",
     "url": "https://angel.co/lars_hinrichs",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lars_hinrichs",
+    "image": "https://photos.wellfound.com/users/2894-medium_jpg?1405435217",
     "investmentsCount": "18.0",
     "id": "investor-1052",
     "sources": [
@@ -25227,7 +25272,7 @@ var investorCatalog = [
     "details": "Founded @rackspace Helping Job Seekers navigate the hiring process with confidence",
     "url": "https://angel.co/dirk-elmendorf",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dirk-elmendorf",
+    "image": "https://photos.wellfound.com/users/56394-medium_jpg?1595877078",
     "investmentsCount": "16.0",
     "id": "investor-1055",
     "sources": [
@@ -25277,7 +25322,7 @@ var investorCatalog = [
     "details": "Head of Global Operations, Airbnb; SVP International @livingsocial; Founder @eve-com",
     "url": "https://angel.co/varsharao",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/varsharao",
+    "image": "https://photos.wellfound.com/users/5603-medium_jpg?1648273809",
     "investmentsCount": "15.0",
     "id": "investor-1057",
     "sources": [
@@ -25367,7 +25412,7 @@ var investorCatalog = [
     "details": "Current: Chief Business Officer @turo. Former Founder @jumpcam & @fade-2, VP Product @yammer; Sr Dir of Virality & Mktg @playdom; also @youtube and @google.",
     "url": "https://angel.co/davidstewartny",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davidstewartny",
+    "image": "https://photos.wellfound.com/users/4489-medium_jpg?1405436579",
     "investmentsCount": "12.0",
     "id": "investor-1061",
     "sources": [
@@ -25393,7 +25438,7 @@ var investorCatalog = [
     "details": "Managing Director @stormventures Investor in @splashtop @swiftstack @metacloud @guidespark @digitalshadows @appcelerator @hubpages @atscale",
     "url": "https://angel.co/ryanfloyd",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ryanfloyd",
+    "image": "https://photos.wellfound.com/users/2247-medium_jpg?1405434768",
     "investmentsCount": "12.0",
     "id": "investor-1062",
     "sources": [
@@ -25482,7 +25527,7 @@ var investorCatalog = [
     "details": "Founder of @personify, and Cloudconnect. Investor in @pantheon, @heroku, @docker-3 , @mileiq, @streak and others. Team member of @salesforce.",
     "url": "https://angel.co/adam-gross",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/adam-gross",
+    "image": "https://photos.wellfound.com/users/10295-medium_jpg?1488043922",
     "investmentsCount": "10.0",
     "id": "investor-1066",
     "sources": [
@@ -25528,7 +25573,7 @@ var investorCatalog = [
     "details": "CoFounder/CEO @troops. CoFounder/Pres @tulaskincare. Words @forbes. Prev @spinback-1 now @salesforce. Rescue @MountSnow. ECE @university-of-wisconsin-madison-3",
     "url": "https://angel.co/dan-reich",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dan-reich",
+    "image": "https://photos.wellfound.com/users/35941-medium_jpg?1450469376",
     "investmentsCount": "6.0",
     "id": "investor-1068",
     "sources": [
@@ -25551,7 +25596,7 @@ var investorCatalog = [
     "details": "Founder of Stronghold. Angel Investor. Formerly a Partner at 500 Startups, Stellar.org and NFX Guild. Growth engineer.",
     "url": "https://angel.co/tammycamp",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tammycamp",
+    "image": "https://photos.wellfound.com/users/3450-medium_jpg?1405435633",
     "investmentsCount": "6.0",
     "id": "investor-1069",
     "sources": [
@@ -25575,7 +25620,7 @@ var investorCatalog = [
     "details": "Investor in @trialpay, @mixbook, @roblox, @godengo.",
     "url": "https://angel.co/gregbaszucki",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gregbaszucki",
+    "image": "https://photos.wellfound.com/users/1907-medium_jpg?1405434504",
     "investmentsCount": "6.0",
     "id": "investor-1070",
     "sources": [
@@ -25598,7 +25643,7 @@ var investorCatalog = [
     "details": "Partner at Norwest Venture Partners. Co-Founder of @harvard-business-school Angels. Former VP at @cornerstone-ondemand (CSOD) and @wageworks (WAGE).",
     "url": "https://angel.co/sjacobsohn",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sjacobsohn",
+    "image": "https://photos.wellfound.com/users/1258-medium_jpg?1405434044",
     "investmentsCount": "6.0",
     "id": "investor-1071",
     "sources": [
@@ -25621,7 +25666,7 @@ var investorCatalog = [
     "details": "Founder & CEO of EverTrue. Investor in @bonobos @lovepop @rategravity @visitdays @chubbies-shorts. Harvard MBA. Former Captain of Brown University football.",
     "url": "https://angel.co/brent-grinna",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/brent-grinna",
+    "image": "https://photos.wellfound.com/users/55781-medium_jpg?1432129058",
     "investmentsCount": "5.0",
     "id": "investor-1072",
     "sources": [
@@ -25644,7 +25689,7 @@ var investorCatalog = [
     "details": "CxO. Experienced with $1M to $1B ARR SaaS businesses.",
     "url": "https://angel.co/freddy-j-mangum",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/freddy-j-mangum",
+    "image": "https://photos.wellfound.com/users/52825-medium_jpg?1583208294",
     "investmentsCount": "5.0",
     "id": "investor-1073",
     "sources": [
@@ -25688,7 +25733,7 @@ var investorCatalog = [
     "details": "VC @Rho-ventures and investor of @justfab.com, product manager @ign. Founder @treasurebox, and consultant @mckinsey.",
     "url": "https://angel.co/yichen-wang",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/yichen-wang",
+    "image": "https://photos.wellfound.com/users/39132-medium_jpg?1405467367",
     "investmentsCount": "5.0",
     "id": "investor-1075",
     "sources": [
@@ -25711,7 +25756,7 @@ var investorCatalog = [
     "details": "Founder/President Concept Corridor. Digital marketing/technology veteran, formerly CEO Omnicom Media Group Digital, Founder @resolution-media",
     "url": "https://angel.co/mspiegel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mspiegel",
+    "image": "https://photos.wellfound.com/users/2880-medium_jpg?1405435204",
     "investmentsCount": "5.0",
     "id": "investor-1076",
     "sources": [
@@ -25757,7 +25802,7 @@ var investorCatalog = [
     "details": "Marketing technology entrepreneur, CEO of @influitive, co-founder of @eloqua.",
     "url": "https://angel.co/markorgan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/markorgan",
+    "image": "https://photos.wellfound.com/users/2934-medium_jpg?1405435250",
     "investmentsCount": "4.0",
     "id": "investor-1078",
     "sources": [
@@ -25780,7 +25825,7 @@ var investorCatalog = [
     "details": "Creative Entrepreneur. Founder and investor in numerous startups. Life-long learner of emotional intelligence.",
     "url": "https://angel.co/alasaarela",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alasaarela",
+    "image": "https://photos.wellfound.com/users/5987-medium_jpg?1674821330",
     "investmentsCount": "4.0",
     "id": "investor-1079",
     "sources": [
@@ -25801,7 +25846,7 @@ var investorCatalog = [
     "details": "VeriSign EVP&GM (pre/post-IPO); AmEx VP; DataSphere & Verious Founder/CEO; Board Member/Advisor to over 25 startups. 90% successful exits.",
     "url": "https://angel.co/anil-pereira",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/anil-pereira",
+    "image": "https://photos.wellfound.com/users/4860-medium_jpg?1405437268",
     "investmentsCount": "3.0",
     "id": "investor-1080",
     "sources": [
@@ -25824,7 +25869,7 @@ var investorCatalog = [
     "details": "Formerly: Head of Groups & Community @facebook, president & COO at Change.org, CEO at The Dealmap (Acquired by @google), Group VP/GM @yahoo",
     "url": "https://angel.co/jdulski",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jdulski",
+    "image": "https://photos.wellfound.com/users/6442-medium_jpg?1405439333",
     "investmentsCount": "3.0",
     "id": "investor-1081",
     "sources": [
@@ -25847,7 +25892,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/mike-champion",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mike-champion",
+    "image": "https://photos.wellfound.com/users/35774-medium_jpg?1558799944",
     "investmentsCount": "1.0",
     "id": "investor-1082",
     "sources": [
@@ -25870,7 +25915,7 @@ var investorCatalog = [
     "details": "Former @angellist. @stanford-university Physics/CS. Musician and improvisor.",
     "url": "https://angel.co/k2",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/k2",
+    "image": "https://photos.wellfound.com/users/6195-medium_jpg?1734616227",
     "investmentsCount": "1.0",
     "id": "investor-1083",
     "sources": [
@@ -25893,7 +25938,7 @@ var investorCatalog = [
     "details": "Founder/CEO @banzai ; Previously GM @avalara and Founder/CEO/CPO @evoapp",
     "url": "https://angel.co/joedavy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/joedavy",
+    "image": "https://photos.wellfound.com/users/11134-medium_jpg?1487270211",
     "investmentsCount": "0.0",
     "id": "investor-1084",
     "sources": [
@@ -25914,7 +25959,7 @@ var investorCatalog = [
     "details": "Vice President - OC Network at @tech-coast-angels",
     "url": "https://angel.co/markedro",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/markedro",
+    "image": "https://photos.wellfound.com/users/4858-medium_jpg?1405437266",
     "investmentsCount": "11.0",
     "id": "investor-1085",
     "sources": [
@@ -25937,7 +25982,7 @@ var investorCatalog = [
     "details": "Founder @peak-1 \u2022 Worked at @google",
     "url": "https://angel.co/sagi-shorrer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sagi-shorrer",
+    "image": "https://photos.wellfound.com/users/46077-medium_jpg?1668442682",
     "investmentsCount": "12.0",
     "id": "investor-1086",
     "sources": [
@@ -25960,7 +26005,7 @@ var investorCatalog = [
     "details": "co-Founder of Manifold http://manifold.co Past: @goinstant acq by @salesforce Board: @npm-2 Early. Enterprise. Platforms.",
     "url": "https://angel.co/jevonmacdonald",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jevonmacdonald",
+    "image": "https://photos.wellfound.com/users/9718-medium_jpg?1405442267",
     "investmentsCount": "10.0",
     "id": "investor-1087",
     "sources": [
@@ -25998,13 +26043,15 @@ var investorCatalog = [
     "locations": [
       "Naples"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "Sales Automation",
     "role": "Angel investor",
     "details": "Angel Investor in a bunch of awesome companies... I spend my time between Naples, Columbus, San Francisco and New York, but most of my time in Naples.",
     "url": "https://angel.co/lance",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lance",
+    "image": "https://photos.wellfound.com/users/1415-medium_jpg?1628190273",
     "investmentsCount": "83.0",
     "id": "investor-1089",
     "sources": [
@@ -26050,7 +26097,7 @@ var investorCatalog = [
     "details": "Marketing, Product Marketing and Community Building from pre-revenue to scale. Read my personal blog on Strategies for Emerging Tech at aiinvestor.com",
     "url": "https://angel.co/jonaslamis",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jonaslamis",
+    "image": "https://photos.wellfound.com/users/59426-medium_jpg?1476126065",
     "investmentsCount": "3.0",
     "id": "investor-1091",
     "sources": [
@@ -26073,7 +26120,7 @@ var investorCatalog = [
     "details": "VC Investor (Consumer, Mobile, Media, SemTech); @echovc; ex @intel-capital ; Investor in dots before lines; Plot/execute daily assaults on conventional wisdom",
     "url": "https://angel.co/eghosao",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eghosao",
+    "image": "https://photos.wellfound.com/users/309-medium_jpg?1405433172",
     "investmentsCount": "23.0",
     "id": "investor-1092",
     "sources": [
@@ -26115,7 +26162,7 @@ var investorCatalog = [
     "details": "Co-Founder & CEO @giant-swarm, @adcloud (sold to @deutsche-post-1), @ormigo (sold to @M\xFCller Medien), @ligatus (sold to @gruner-jahr) | Angel Investor",
     "url": "https://angel.co/henning-lange",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/henning-lange",
+    "image": "https://photos.wellfound.com/users/71757-medium_jpg?1405478634",
     "investmentsCount": "5.0",
     "id": "investor-1094",
     "sources": [
@@ -26161,7 +26208,7 @@ var investorCatalog = [
     "details": "4x Founder; CEO of @svacademy, Fmr CEO @involver (Acq by Oracle); Fmr Product Exec @oracle-corporation; I like to help founders build great companies.",
     "url": "https://angel.co/rahimfazal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rahimfazal",
+    "image": "https://photos.wellfound.com/users/66437-medium_jpg?1416539086",
     "investmentsCount": "6.0",
     "id": "investor-1096",
     "sources": [
@@ -26184,7 +26231,7 @@ var investorCatalog = [
     "details": "CEO & Co-Founder @transferwise, previously helped build @skype as 1st employee",
     "url": "https://angel.co/taavet",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/taavet",
+    "image": "https://photos.wellfound.com/users/69966-medium_jpg?1405477964",
     "investmentsCount": "30.0",
     "id": "investor-1097",
     "sources": [
@@ -26230,7 +26277,7 @@ var investorCatalog = [
     "details": "*Co-founder Hubdoc, Co-founder @sparkroom ('07), Co-founder J&JLids * ex-lawyer (Wilson Sonsini, Torys)",
     "url": "https://angel.co/jamie-shulman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jamie-shulman",
+    "image": "https://photos.wellfound.com/users/67854-medium_jpg?1411143471",
     "investmentsCount": "3.0",
     "id": "investor-1099",
     "sources": [
@@ -26251,7 +26298,7 @@ var investorCatalog = [
     "details": "Angel investor in enterprise  related software - self and with the Band of Angels.",
     "url": "https://angel.co/christian-dahlen",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christian-dahlen",
+    "image": "https://photos.wellfound.com/users/64373-medium_jpg?1405475407",
     "investmentsCount": "19.0",
     "id": "investor-1100",
     "sources": [
@@ -26274,7 +26321,7 @@ var investorCatalog = [
     "details": 'Owner of the Dallas Mavericks, Landmark Theaters, Magnolia Pictures, and the chairman of AXS TV. He is also a "shark" investor on Shark Tank.',
     "url": "https://angel.co/mcuban",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mcuban",
+    "image": "https://photos.wellfound.com/users/60943-medium_jpg?1405475973",
     "investmentsCount": "77.0",
     "id": "investor-1101",
     "sources": [
@@ -26318,7 +26365,7 @@ var investorCatalog = [
     "details": "Managing Partner, 500 Startups. Previously founded Groupsmore (exit: Groupon) and SAYS.com (exit: Catcha Group).",
     "url": "https://angel.co/khailee",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/khailee",
+    "image": "https://photos.wellfound.com/users/47719-medium_jpg?1405470472",
     "investmentsCount": "30.0",
     "id": "investor-1103",
     "sources": [
@@ -26367,7 +26414,7 @@ var investorCatalog = [
     "details": "CEO of Perch. Founder with 2 decades of experience in startups including an IPO, two $100M+ acquisitions. Product, marketing and tech exec. Angel.",
     "url": "https://angel.co/trevorsumner",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/trevorsumner",
+    "image": "https://photos.wellfound.com/users/44240-medium_jpg?1725404406",
     "investmentsCount": "5.0",
     "id": "investor-1105",
     "sources": [
@@ -26390,7 +26437,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://angel.co/vincent-turner",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/vincent-turner",
+    "image": "https://photos.wellfound.com/users/35732-medium_jpg?1605508386",
     "investmentsCount": "7.0",
     "id": "investor-1106",
     "sources": [
@@ -26414,7 +26461,7 @@ var investorCatalog = [
     "details": "CEO & Co-founder @mightytext. Product @lyft, @zynga, @google (PM on Consumer, Ads; Founders Award). b4:Enterprise software. CS degree @ucla-1 #PRODUCTBUILDER",
     "url": "https://angel.co/maneesh",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/maneesh",
+    "image": "https://photos.wellfound.com/users/306-medium_jpg?1405433165",
     "investmentsCount": "67.0",
     "id": "investor-1107",
     "sources": [
@@ -26440,7 +26487,7 @@ var investorCatalog = [
     "details": "General Partner @social-leverage, formerly founder & COO of @assistly and @goowy",
     "url": "https://angel.co/garybenitt",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/garybenitt",
+    "image": "https://photos.wellfound.com/users/8991-medium_jpg?1588203865",
     "investmentsCount": "23.0",
     "id": "investor-1108",
     "sources": [
@@ -26463,7 +26510,7 @@ var investorCatalog = [
     "details": "Managing Partner & Co-Founder of Wavemaker Partners. Founder of Frontera Group, @sitestar & @interfoods.",
     "url": "https://angel.co/ericmanlunas",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ericmanlunas",
+    "image": "https://photos.wellfound.com/users/3488-medium_jpg?1405435669",
     "investmentsCount": "40.0",
     "id": "investor-1109",
     "sources": [
@@ -26486,7 +26533,7 @@ var investorCatalog = [
     "details": "Managing Director at @correlation-ventures",
     "url": "https://angel.co/aldenguyca",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aldenguyca",
+    "image": "https://photos.wellfound.com/users/3621-medium_jpg?1405435775",
     "investmentsCount": "21.0",
     "id": "investor-1110",
     "sources": [
@@ -26536,7 +26583,7 @@ var investorCatalog = [
     "details": "Angel Round Capital Fund",
     "url": "https://angel.co/javamick01",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/javamick01",
+    "image": "https://photos.wellfound.com/users/6261-medium_jpg?1405439127",
     "investmentsCount": "8.0",
     "id": "investor-1112",
     "sources": [
@@ -26582,7 +26629,7 @@ var investorCatalog = [
     "details": "Founder @backops-2 @loyalty-lab (Tibco); Early @epinions (eBay) @angellist; Investor @goldman-sachs @credit-suisse @AthenaPartners",
     "url": "https://angel.co/kristenkoh",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kristenkoh",
+    "image": "https://photos.wellfound.com/users/12773-medium_jpg?1515199778",
     "investmentsCount": "13.0",
     "id": "investor-1114",
     "sources": [
@@ -26605,7 +26652,7 @@ var investorCatalog = [
     "details": "Professional Trader, Genetic Algorithmist, Managing Partner @purvi-capital LLC.",
     "url": "https://angel.co/rpsrivastava",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rpsrivastava",
+    "image": "https://photos.wellfound.com/users/12747-medium_jpg?1405444657",
     "investmentsCount": "19.0",
     "id": "investor-1115",
     "sources": [
@@ -26626,7 +26673,7 @@ var investorCatalog = [
     "details": "Active involved investor for over 15 years. Been CFO/COO at young cos and done corp dev & strat at public cos. Member, Sand Hill Angels",
     "url": "https://angel.co/christianhobbs",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/christianhobbs",
+    "image": "https://photos.wellfound.com/users/1286-medium_jpg?1405434071",
     "investmentsCount": "26.0",
     "id": "investor-1116",
     "sources": [
@@ -26670,7 +26717,7 @@ var investorCatalog = [
     "details": "Entrepreneur",
     "url": "https://angel.co/mac-harman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mac-harman",
+    "image": "https://photos.wellfound.com/users/43192-medium_jpg?1405468914",
     "investmentsCount": "23.0",
     "id": "investor-1118",
     "sources": [
@@ -26693,7 +26740,7 @@ var investorCatalog = [
     "details": "Co-founder, Fearless Ventures. Leadership & culture advisor. Previously, Co-founder, @worklife (acq. by Cisco), Wellsphere (acq. by IAC-backed HealthCentral).",
     "url": "https://angel.co/davekashen",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/davekashen",
+    "image": "https://photos.wellfound.com/users/3430-medium_jpg?1509056717",
     "investmentsCount": "14.0",
     "id": "investor-1119",
     "sources": [
@@ -26716,7 +26763,7 @@ var investorCatalog = [
     "details": "Founder & CEO at Ignite. Providing experiences that improve the world. Early founder at fast growing start up & investor at $200m VC fund.",
     "url": "https://angel.co/ryancjeffery",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ryancjeffery",
+    "image": "https://photos.wellfound.com/users/3864-medium_jpg?1633532826",
     "investmentsCount": "10.0",
     "id": "investor-1120",
     "sources": [
@@ -26737,7 +26784,7 @@ var investorCatalog = [
     "details": "Former CEO / Chairman of Jive. Now doing buyouts / turnarounds of ecommerce and SaaS companies.",
     "url": "https://angel.co/djhersh",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/djhersh",
+    "image": "https://photos.wellfound.com/users/12047-medium_jpg?1510874844",
     "investmentsCount": "12.0",
     "id": "investor-1121",
     "sources": [
@@ -26760,7 +26807,7 @@ var investorCatalog = [
     "details": "Partner at @avalon-ventures; Co-founder @phoenix-technologies (PTEC); Vice President at America Online",
     "url": "https://angel.co/richlevandov",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/richlevandov",
+    "image": "https://photos.wellfound.com/users/215-medium_jpg?1405433091",
     "investmentsCount": "39.0",
     "id": "investor-1122",
     "sources": [
@@ -26783,7 +26830,7 @@ var investorCatalog = [
     "details": "Founder and CEO of Woovit. Previously ran TriplePoint PR. Angel investor, but not while I'm building Woovit.",
     "url": "https://angel.co/richardkain",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/richardkain",
+    "image": "https://photos.wellfound.com/users/6726-medium_jpg?1405439619",
     "investmentsCount": "21.0",
     "id": "investor-1123",
     "sources": [
@@ -26829,7 +26876,7 @@ var investorCatalog = [
     "details": "Founder and Managing Partner, @pivotnorth-capital",
     "url": "https://angel.co/timothy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/timothy",
+    "image": "https://photos.wellfound.com/users/1848-medium_jpg?1405434466",
     "investmentsCount": "5.0",
     "id": "investor-1125",
     "sources": [
@@ -26852,7 +26899,7 @@ var investorCatalog = [
     "details": "CEO of Medium. Co-founder, Twitter, Blogger, Obvious.",
     "url": "https://angel.co/ev",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ev",
+    "image": "https://photos.wellfound.com/users/9712-medium_jpg?1405442259",
     "investmentsCount": "19.0",
     "id": "investor-1126",
     "sources": [
@@ -26873,7 +26920,7 @@ var investorCatalog = [
     "details": "Search and social media entrepreneur. Chairman at 410Labs. Founded Wondir (sold to Revolution Health) & Personal Library Software (sold to AOL). Angel investor.",
     "url": "https://angel.co/mattkoll",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mattkoll",
+    "image": "https://photos.wellfound.com/users/4408-medium_jpg?1405436459",
     "investmentsCount": "10.0",
     "id": "investor-1127",
     "sources": [
@@ -26896,7 +26943,7 @@ var investorCatalog = [
     "details": "CEO of @betaworks",
     "url": "https://angel.co/borthwick",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/borthwick",
+    "image": "https://photos.wellfound.com/users/11857-medium_jpg?1405443971",
     "investmentsCount": "8.0",
     "id": "investor-1128",
     "sources": [
@@ -26919,7 +26966,7 @@ var investorCatalog = [
     "details": "Investor-Transformational Startups: Digital Health; SaaS; D2C; AI/Data Sc. Entrepreneur. CoFounder Inferlyitcs, Invarium, Metorex, Sensys, Metara (all M&A).",
     "url": "https://angel.co/ramsramanujam",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ramsramanujam",
+    "image": "https://photos.wellfound.com/users/1159-medium_jpg?1581039345",
     "investmentsCount": "8.0",
     "id": "investor-1129",
     "sources": [
@@ -26934,13 +26981,15 @@ var investorCatalog = [
     "locations": [
       "Santa Monica"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "Social Media Marketing",
     "role": "Angel investor",
     "details": "Los Angeles-based entrepreneur and angel investor.",
     "url": "https://angel.co/jamesborow",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jamesborow",
+    "image": "https://photos.wellfound.com/users/70893-medium_jpg?1582233180",
     "investmentsCount": "8.0",
     "id": "investor-1130",
     "sources": [
@@ -26963,7 +27012,7 @@ var investorCatalog = [
     "details": "Founder and CEO of @stensul. Previously, Co-Founder of @fanbridge. One of these days I'll get a segway.",
     "url": "https://angel.co/imnoah",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/imnoah",
+    "image": "https://photos.wellfound.com/users/60815-medium_jpg?1405474009",
     "investmentsCount": "0.0",
     "id": "investor-1131",
     "sources": [
@@ -26982,7 +27031,7 @@ var investorCatalog = [
     "details": "Co-Founder at @quixey.com",
     "url": "https://angel.co/tomer-kagan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tomer-kagan",
+    "image": "https://photos.wellfound.com/users/41337-medium_jpg?1614816907",
     "investmentsCount": "3.0",
     "id": "investor-1132",
     "sources": [
@@ -27005,7 +27054,7 @@ var investorCatalog = [
     "details": "Founded Giant Media in 2009; successfully sold business to an AdTech company backed by TPG & JMI in 2014. Actively investing in early stage companies.",
     "url": "https://angel.co/david-segura",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/david-segura",
+    "image": "https://photos.wellfound.com/users/6228-medium_jpg?1460664444",
     "investmentsCount": "11.0",
     "id": "investor-1133",
     "sources": [
@@ -27049,7 +27098,7 @@ var investorCatalog = [
     "details": "CTO @flexport. Engineering @yammer. CTO @geni.",
     "url": "https://angel.co/amos-elliston",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/amos-elliston",
+    "image": "https://photos.wellfound.com/users/56025-medium_jpg?1405472489",
     "investmentsCount": "26.0",
     "id": "investor-1135",
     "sources": [
@@ -27072,7 +27121,7 @@ var investorCatalog = [
     "details": "Former CEO at @quid. Previous lives @google, @slide, @paypal, @ebay, Half.com",
     "url": "https://angel.co/kevin-freedman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/kevin-freedman",
+    "image": "https://photos.wellfound.com/users/51751-medium_jpg?1405471830",
     "investmentsCount": "7.0",
     "id": "investor-1136",
     "sources": [
@@ -27095,7 +27144,7 @@ var investorCatalog = [
     "details": "CEO, Founder @OneDrop , Co-Founder and CEO @razorfish - IPO (NASDAQ:RAZF) Founder and CEO @DachisGroup - Exit to @sprinklr. Type 1 Diabetic.",
     "url": "https://angel.co/jeffdachis",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeffdachis",
+    "image": "https://photos.wellfound.com/users/67657-medium_jpg?1435248286",
     "investmentsCount": "1.0",
     "id": "investor-1137",
     "sources": [
@@ -27118,7 +27167,7 @@ var investorCatalog = [
     "details": "Founder CEO @Healthiq , @like.com (sold to @google), and @andale (sold to Alibaba). Investor & Advisor in many Co's. MS @stanford-university in CS",
     "url": "https://angel.co/munjal",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/munjal",
+    "image": "https://photos.wellfound.com/users/48205-medium_jpg?1405470644",
     "investmentsCount": "19.0",
     "id": "investor-1138",
     "sources": [
@@ -27157,7 +27206,8 @@ var investorCatalog = [
       "Hong Kong"
     ],
     "countries": [
-      "Hong Kong"
+      "Hong Kong",
+      "United States"
     ],
     "focus": "Social Media Platforms",
     "role": "Angel investor",
@@ -27210,7 +27260,7 @@ var investorCatalog = [
     "details": "Founder, CEO at @twenty20-1. Previously founded BoomStreet (Tippr). @insead-1 MBA.",
     "url": "https://angel.co/mattmuns",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mattmuns",
+    "image": "https://photos.wellfound.com/users/35441-medium_jpg?1648938466",
     "investmentsCount": "1.0",
     "id": "investor-1142",
     "sources": [
@@ -27233,7 +27283,7 @@ var investorCatalog = [
     "details": "co-founder @quietly @hootsuite @invoke @brightkit. I'm sparkly, very sparkly.",
     "url": "https://angel.co/dario-meli",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dario-meli",
+    "image": "https://photos.wellfound.com/users/35137-medium_jpg?1405463693",
     "investmentsCount": "6.0",
     "id": "investor-1143",
     "sources": [
@@ -27256,7 +27306,7 @@ var investorCatalog = [
     "details": "Founder, Startup Management @startupmanage. CEO/Founder @engagio, @eqentia. ex- @influitive . 30 yrs in high-tech. Ex-HP, Cognizant. Marketing & Strategy.",
     "url": "https://angel.co/william-mougayar",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/william-mougayar",
+    "image": "https://photos.wellfound.com/users/46759-medium_jpg?1405470165",
     "investmentsCount": "9.0",
     "id": "investor-1144",
     "sources": [
@@ -27279,7 +27329,7 @@ var investorCatalog = [
     "details": "Founder @neotonic (sold to @google). Engineering Director @ @google for orkut.com, @google Groups, sign-in. Manager / Architect for @egroups-com and @yahoo Groups.",
     "url": "https://angel.co/david-jeske",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/david-jeske",
+    "image": "https://photos.wellfound.com/users/41131-medium_jpg?1536605738",
     "investmentsCount": "26.0",
     "id": "investor-1145",
     "sources": [
@@ -27300,7 +27350,7 @@ var investorCatalog = [
     "details": "Founder @peak-ventures Founder @peak-capital-partners \u2022 Investor @studio-design, @owlet-baby-care, @screenie @fireavert \u2022 Studied at @brigham-young-university",
     "url": "https://angel.co/jeff-burningham",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeff-burningham",
+    "image": "https://photos.wellfound.com/users/47280-medium_jpg?1448038319",
     "investmentsCount": "11.0",
     "id": "investor-1146",
     "sources": [
@@ -27346,7 +27396,7 @@ var investorCatalog = [
     "details": "No longer investing, 100% focused on climate change:",
     "url": "https://angel.co/yeeguy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/yeeguy",
+    "image": "https://photos.wellfound.com/users/5355-medium_jpg?1405437980",
     "investmentsCount": "42.0",
     "id": "investor-1148",
     "sources": [
@@ -27369,7 +27419,7 @@ var investorCatalog = [
     "details": "CEO of Superfuture Labs, mobile startup studio. Design Entrepreneur. Founded Backplane, Cortex, previously intern at Google. Forbes 30 Under 30. \u26A1\uFE0F \u270C",
     "url": "https://angel.co/jp",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jp",
+    "image": "https://photos.wellfound.com/users/6151-medium_jpg?1486421374",
     "investmentsCount": "0.0",
     "id": "investor-1149",
     "sources": [
@@ -27390,7 +27440,7 @@ var investorCatalog = [
     "details": "Serial Entrepreneur, former VC, angel investor and advisor, started, invested, or advised over 20 startups. Started first company at 19.",
     "url": "https://angel.co/aaron-day",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/aaron-day",
+    "image": "https://photos.wellfound.com/users/12466-medium_jpg?1405444443",
     "investmentsCount": "2.0",
     "id": "investor-1150",
     "sources": [
@@ -27413,7 +27463,7 @@ var investorCatalog = [
     "details": "Cofounder, CEO of SiliconANGLE Media, @theCUBE, Wikibon. Husband, father, entrepreneur living in Palo Alto",
     "url": "https://angel.co/john-furrier",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/john-furrier",
+    "image": "https://photos.wellfound.com/users/10470-medium_jpg?1405442852",
     "investmentsCount": "1.0",
     "id": "investor-1151",
     "sources": [
@@ -27434,7 +27484,7 @@ var investorCatalog = [
     "details": "Co-Founder & General Partner at Hustle Fund. Actively investing in pre-seed founders. (Portfolio not shown here)",
     "url": "https://angel.co/ericbahn",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ericbahn",
+    "image": "https://photos.wellfound.com/users/5068-medium_jpg?1557635484",
     "investmentsCount": "1.0",
     "id": "investor-1152",
     "sources": [
@@ -27478,7 +27528,7 @@ var investorCatalog = [
     "details": "@uloop CEO. Chairman @ABLE . Marketing Professor @vanderbilt-university. Formerly @amazon @ebay .",
     "url": "https://angel.co/coreycleek",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/coreycleek",
+    "image": "https://photos.wellfound.com/users/2773-medium_jpg?1521559532",
     "investmentsCount": "5.0",
     "id": "investor-1154",
     "sources": [
@@ -27501,7 +27551,7 @@ var investorCatalog = [
     "details": "Venture Investments for Swiss Family Office @b-to-v-partners-ag",
     "url": "https://angel.co/sven-eppert",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sven-eppert",
+    "image": "https://photos.wellfound.com/users/51035-medium_jpg?1493133376",
     "investmentsCount": "14.0",
     "id": "investor-1155",
     "sources": [
@@ -27517,14 +27567,15 @@ var investorCatalog = [
       "Singapore"
     ],
     "countries": [
-      "Singapore"
+      "Singapore",
+      "United States"
     ],
     "focus": "South East Asia",
     "role": "Angel investor",
     "details": "In the US, started pobox.com, SPF, and karmasphere.com. In Singapore, started Hackerspace.SG and now JFDI.Asia, bringing @techstars-1 to Southeast Asia.",
     "url": "https://angel.co/mengwong",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mengwong",
+    "image": "https://photos.wellfound.com/users/3459-medium_jpg?1405435643",
     "investmentsCount": "6.0",
     "id": "investor-1156",
     "sources": [
@@ -27547,7 +27598,7 @@ var investorCatalog = [
     "details": "General Partner at Gradient Ventures",
     "url": "https://angel.co/darian314",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/darian314",
+    "image": "https://photos.wellfound.com/users/4550-medium_jpg?1598383570",
     "investmentsCount": "12.0",
     "id": "investor-1157",
     "sources": [
@@ -27589,7 +27640,7 @@ var investorCatalog = [
     "details": "Founding Partner at Edge Harris Ventures, Transmitive \u2022 Worked at App Uprising \u2022 Early investor @dataminr, @artivest",
     "url": "https://angel.co/mmeyer",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mmeyer",
+    "image": "https://photos.wellfound.com/users/46279-medium_jpg?1409610769",
     "investmentsCount": "6.0",
     "id": "investor-1159",
     "sources": [
@@ -27612,7 +27663,7 @@ var investorCatalog = [
     "details": "CEO of Oceanic Partners.",
     "url": "https://angel.co/indaserv",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/indaserv",
+    "image": "https://photos.wellfound.com/users/4420-medium_jpg?1405436470",
     "investmentsCount": "19.0",
     "id": "investor-1160",
     "sources": [
@@ -27635,7 +27686,7 @@ var investorCatalog = [
     "details": "Angel Investor, Entrepreneur, and Start-Up Advisor",
     "url": "https://angel.co/jacktsai",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jacktsai",
+    "image": "https://photos.wellfound.com/users/5056-medium_jpg?1405437554",
     "investmentsCount": "3.0",
     "id": "investor-1161",
     "sources": [
@@ -27679,7 +27730,7 @@ var investorCatalog = [
     "details": "Founder and CEO of @buyseasons sold in 2006, Acquired (NASDAQ: BDAY) in 2008. Founder & CEO Wantable 2012~ I have a passion for building lasting companies.",
     "url": "https://angel.co/jalem",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jalem",
+    "image": "https://photos.wellfound.com/users/5755-medium_jpg?1405438541",
     "investmentsCount": "10.0",
     "id": "investor-1163",
     "sources": [
@@ -27702,7 +27753,7 @@ var investorCatalog = [
     "details": "Lacrosse and snowboard chauffeur",
     "url": "https://angel.co/wweathersby64-gmail-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/wweathersby64-gmail-com",
+    "image": "https://photos.wellfound.com/users/74361-medium_jpg?1405479525",
     "investmentsCount": "26.0",
     "id": "investor-1164",
     "sources": [
@@ -27723,7 +27774,7 @@ var investorCatalog = [
     "details": "Founder & CEO of @dropship . eCommerce Technology Mastermind. Previous: Cofounder of @doba, Founder of @geartrade-com. Also Founder of non-profit LaunchUp.org",
     "url": "https://angel.co/jeremyhanks",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jeremyhanks",
+    "image": "https://photos.wellfound.com/users/9741-medium_jpg?1405442286",
     "investmentsCount": "4.0",
     "id": "investor-1165",
     "sources": [
@@ -27744,7 +27795,7 @@ var investorCatalog = [
     "details": "Founder/CEO of @webmetrics (sold to @neustar). Now focused on investing and animal welfare @causes. Engineering background. Mentor @fi.co.",
     "url": "https://angel.co/tim-drees",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tim-drees",
+    "image": "https://photos.wellfound.com/users/36000-medium_jpg?1405464449",
     "investmentsCount": "6.0",
     "id": "investor-1166",
     "sources": [
@@ -27767,7 +27818,7 @@ var investorCatalog = [
     "details": "Angel investor in early stage tech startups around the world, based in London. CEO of @1seed - investing, mentoring, building bridges.",
     "url": "https://angel.co/rajram",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rajram",
+    "image": "https://photos.wellfound.com/users/63024-medium_jpg?1405475293",
     "investmentsCount": "9.0",
     "id": "investor-1167",
     "sources": [
@@ -27790,7 +27841,7 @@ var investorCatalog = [
     "details": "Now: Zigg Capital Before: SVP @cbre (CEO @floored) ; Investor @ Red Swan Employee: @bain-company, @bonobos, @tellapart, @accel-partners Ed: @harvard-university",
     "url": "https://angel.co/dave-eisenberg",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dave-eisenberg",
+    "image": "https://photos.wellfound.com/users/68974-medium_jpg?1462939946",
     "investmentsCount": "58.0",
     "id": "investor-1168",
     "sources": [
@@ -27813,7 +27864,7 @@ var investorCatalog = [
     "details": "GP @rising Tide Fund, Board Director @quanergy President @timeline.com.",
     "url": "https://angel.co/tamer-hassanein",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tamer-hassanein",
+    "image": "https://photos.wellfound.com/users/57639-medium_jpg?1421438923",
     "investmentsCount": "19.0",
     "id": "investor-1169",
     "sources": [
@@ -27836,7 +27887,7 @@ var investorCatalog = [
     "details": "CEO, @hatch-credit . Visiting Scholar at @new-york-university. Founded @framed-data (YC W14, acquired by @square ).",
     "url": "https://angel.co/thomson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/thomson",
+    "image": "https://photos.wellfound.com/users/52658-medium_jpg?1465674613",
     "investmentsCount": "8.0",
     "id": "investor-1170",
     "sources": [
@@ -27859,7 +27910,7 @@ var investorCatalog = [
     "details": "Solving the world's hardest problems with entrepreneurs, technology and capital.",
     "url": "https://angel.co/superjz",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/superjz",
+    "image": "https://photos.wellfound.com/users/60726-medium_jpg?1418549247",
     "investmentsCount": "18.0",
     "id": "investor-1171",
     "sources": [
@@ -27875,6 +27926,7 @@ var investorCatalog = [
       "San Francisco"
     ],
     "countries": [
+      "United Kingdom",
       "United States"
     ],
     "focus": "Synthetic Biology",
@@ -27882,7 +27934,7 @@ var investorCatalog = [
     "details": "Neil Anderson is an early stage equity investor based in San Francisco and London.",
     "url": "https://angel.co/neil-anderson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/neil-anderson",
+    "image": "https://photos.wellfound.com/users/58274-medium_jpg?1563364454",
     "investmentsCount": "4.0",
     "id": "investor-1172",
     "sources": [
@@ -27905,7 +27957,7 @@ var investorCatalog = [
     "details": "Technology/Digital Media Entrepreneur Managing Partner of Raine Ventures A founder of Astro Gaming (acquired by Skullcandy) and Rave Digital Media (acquired by AMC Entertainment)",
     "url": "https://angel.co/gordonr",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gordonr",
+    "image": "https://photos.wellfound.com/users/58749-medium_jpg?1427054237",
     "investmentsCount": "20.0",
     "id": "investor-1173",
     "sources": [
@@ -27955,7 +28007,7 @@ var investorCatalog = [
     "details": "Founder @root-ventures. CS @columbia University -> Engineer -> CTO -> Hardware Hacker -> Investor. Always searching espresso || food || beer",
     "url": "https://angel.co/avidan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/avidan",
+    "image": "https://photos.wellfound.com/users/47604-medium_jpg?1532748482",
     "investmentsCount": "15.0",
     "id": "investor-1175",
     "sources": [
@@ -27978,7 +28030,7 @@ var investorCatalog = [
     "details": "Long time enterprise software exec now leveraging digital technology to make healthcare better, co-founder and ex CEO @syapse",
     "url": "https://angel.co/glenn-winokur",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/glenn-winokur",
+    "image": "https://photos.wellfound.com/users/47890-medium_jpg?1405470532",
     "investmentsCount": "7.0",
     "id": "investor-1176",
     "sources": [
@@ -27999,7 +28051,7 @@ var investorCatalog = [
     "details": "Leadership team of 3 startups; Sold Cayman Networks to Netopia & @ppi to United News & Media. 12 years ibanking; 12 years vc; Yale, @stanford-university MBA.",
     "url": "https://angel.co/wadlington",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/wadlington",
+    "image": "https://photos.wellfound.com/users/43600-medium_jpg?1405469062",
     "investmentsCount": "4.0",
     "id": "investor-1177",
     "sources": [
@@ -28045,7 +28097,7 @@ var investorCatalog = [
     "details": "CEO @etf.com (sold to @bats Global Markets); VP Product/Mktg @starmine (sold to @reuters); Co-founder @stanford-technology-group (sold to IBM). BSEE Stanford.",
     "url": "https://angel.co/david-lichtblau",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/david-lichtblau",
+    "image": "https://photos.wellfound.com/users/41749-medium_jpg?1483989426",
     "investmentsCount": "5.0",
     "id": "investor-1179",
     "sources": [
@@ -28068,7 +28120,7 @@ var investorCatalog = [
     "details": "General Partner @pace-capital . Cofounder @wildcard, Cofounder @hyperpublic (acq GRPN), GP at @lerer-hippeau 2009-2016.",
     "url": "https://angel.co/jordancooper",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jordancooper",
+    "image": "https://photos.wellfound.com/users/2798-medium_jpg?1405435143",
     "investmentsCount": "21.0",
     "id": "investor-1180",
     "sources": [
@@ -28091,7 +28143,7 @@ var investorCatalog = [
     "details": "Cofounder & Managing Partner @biospring-partners",
     "url": "https://angel.co/jenniferlum",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jenniferlum",
+    "image": "https://photos.wellfound.com/users/3074-medium_jpg?1641233100",
     "investmentsCount": "25.0",
     "id": "investor-1181",
     "sources": [
@@ -28195,7 +28247,7 @@ var investorCatalog = [
     "details": "Creator, designer, programmer, photographer. Working on something new. Previously at @dropbox and founder at @loom-5 (YC W12 - sold to Dropbox).",
     "url": "https://angel.co/jan",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jan",
+    "image": "https://photos.wellfound.com/users/6304-medium_jpg?1528141987",
     "investmentsCount": "6.0",
     "id": "investor-1185",
     "sources": [
@@ -28218,7 +28270,7 @@ var investorCatalog = [
     "details": "Founder and Chairman, Events.com | Chairman, La Jolla Holding Co. | Co-Founder, Active Network (active.com) | Founder, La Jolla Foundation",
     "url": "https://angel.co/mitchthrower",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mitchthrower",
+    "image": "https://photos.wellfound.com/users/2627-medium_jpg?1628199417",
     "investmentsCount": "11.0",
     "id": "investor-1186",
     "sources": [
@@ -28241,7 +28293,7 @@ var investorCatalog = [
     "details": "General Partner & CEO @SocialLeverage Group of Companies, 15+ years Angel Investing, Family, Hockey, Skiing, Golf, 7/8s Canadian.",
     "url": "https://angel.co/tom-peterson-1",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tom-peterson-1",
+    "image": "https://photos.wellfound.com/users/3069-medium_jpg?1480970805",
     "investmentsCount": "91.0",
     "id": "investor-1187",
     "sources": [
@@ -28264,7 +28316,7 @@ var investorCatalog = [
     "details": "CEO/Founder @oneforty, Co-Auth @twitter for Dummies, Founder, @pistachio-consulting, lectured at @harvard-business-school, MIT-Sloan, Cornell. MHT, Pepsico & WEST award recipient.",
     "url": "https://angel.co/laura-fitton",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/laura-fitton",
+    "image": "https://photos.wellfound.com/users/38145-medium_jpg?1674173885",
     "investmentsCount": "2.0",
     "id": "investor-1188",
     "sources": [
@@ -28287,7 +28339,7 @@ var investorCatalog = [
     "details": "Founder/CEO at Fueled",
     "url": "https://angel.co/rameet-chawla",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/rameet-chawla",
+    "image": "https://photos.wellfound.com/users/11818-medium_jpg?1436554967",
     "investmentsCount": "18.0",
     "id": "investor-1189",
     "sources": [
@@ -28310,7 +28362,7 @@ var investorCatalog = [
     "details": "Serial entrepreneur. Cofounder/COO/CTO at @sittercity. Director of Development at @obama-for-america. Social enterprise investor.",
     "url": "https://angel.co/ratnerdaniel",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ratnerdaniel",
+    "image": "https://photos.wellfound.com/users/2630-medium_jpg?1405435041",
     "investmentsCount": "5.0",
     "id": "investor-1190",
     "sources": [
@@ -28333,7 +28385,7 @@ var investorCatalog = [
     "details": "Founder at Define Media Group",
     "url": "https://angel.co/marshall-simmonds",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/marshall-simmonds",
+    "image": "https://photos.wellfound.com/users/74703-medium_jpg?1408859599",
     "investmentsCount": "16.0",
     "id": "investor-1191",
     "sources": [
@@ -28356,7 +28408,7 @@ var investorCatalog = [
     "details": "Founder and CEO of @truveo. Founder and CTO of Bang Networks. Studied at the @massachusetts-institute-of-technology AI Lab and Lab for Computer Science.",
     "url": "https://angel.co/tim_tuttle",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/tim_tuttle",
+    "image": "https://photos.wellfound.com/users/6046-medium_jpg?1405438909",
     "investmentsCount": "0.0",
     "id": "investor-1192",
     "sources": [
@@ -28377,7 +28429,7 @@ var investorCatalog = [
     "details": "I was an early employee at WAIS, cofounded @brightmail, @campsix and @fandor, and have been on the boards of City Car Share and @slim-devices",
     "url": "https://angel.co/danaronson",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/danaronson",
+    "image": "https://photos.wellfound.com/users/1720-medium_jpg?1472578208",
     "investmentsCount": "5.0",
     "id": "investor-1193",
     "sources": [
@@ -28398,7 +28450,7 @@ var investorCatalog = [
     "details": "Customer Development & Secret History, Teaching at @stanford-university, @university-of-california-berkeley and Columbia",
     "url": "https://angel.co/sgblank",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sgblank",
+    "image": "https://photos.wellfound.com/users/5196-medium_jpg?1405437771",
     "investmentsCount": "23.0",
     "id": "investor-1194",
     "sources": [
@@ -28421,7 +28473,7 @@ var investorCatalog = [
     "details": "Managing Partner, Theorem Ventures Managing Partner, Theorem Communications Group Co-founder, Atomic, ComContext Analytics, H3O (each acquired) Advisor",
     "url": "https://angel.co/andy-getsey",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/andy-getsey",
+    "image": "https://photos.wellfound.com/users/70512-medium_jpg?1479185648",
     "investmentsCount": "21.0",
     "id": "investor-1195",
     "sources": [
@@ -28467,7 +28519,7 @@ var investorCatalog = [
     "details": "Investor in about 70 tech startups in silicon valley - consumer internet, internet architecture, networking, education, the maker movement",
     "url": "https://angel.co/asha-jadeja-motwani",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/asha-jadeja-motwani",
+    "image": "https://photos.wellfound.com/users/53268-medium_jpg?1423984760",
     "investmentsCount": "35.0",
     "id": "investor-1197",
     "sources": [
@@ -28511,7 +28563,7 @@ var investorCatalog = [
     "details": "@level-hot-pantry, @neuron-vc , @clover (@sutter-hill-ventures, @andreessen-horowitz) @bix (sold @yahoo) @ebay, @intuit, @massachusetts-institute-of-technology",
     "url": "https://angel.co/leonardspeiser",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/leonardspeiser",
+    "image": "https://photos.wellfound.com/users/36002-medium_jpg?1459379407",
     "investmentsCount": "11.0",
     "id": "investor-1199",
     "sources": [
@@ -28555,7 +28607,7 @@ var investorCatalog = [
     "details": "Founder and CEO @ System Capital",
     "url": "https://angel.co/dag-ainsoo",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/dag-ainsoo",
+    "image": "https://photos.wellfound.com/users/56345-medium_jpg?1518812439",
     "investmentsCount": "34.0",
     "id": "investor-1201",
     "sources": [
@@ -28576,7 +28628,7 @@ var investorCatalog = [
     "details": "Co-founder/CEO at Dropout Labs https://dropoutlabs.com. Formerly co-founder GoInstant (acquired by Salesforce)",
     "url": "https://angel.co/gavinuhma",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/gavinuhma",
+    "image": "https://photos.wellfound.com/users/56964-medium_jpg?1540259704",
     "investmentsCount": "7.0",
     "id": "investor-1202",
     "sources": [
@@ -28599,7 +28651,7 @@ var investorCatalog = [
     "details": "Entrepreneur by design and Investor at heart, focused on the utilization of technology to disrupt consumer financial services. Founder of @ribbit-capital",
     "url": "https://angel.co/mmalka",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/mmalka",
+    "image": "https://photos.wellfound.com/users/53147-medium_jpg?1405471493",
     "investmentsCount": "22.0",
     "id": "investor-1203",
     "sources": [
@@ -28614,13 +28666,15 @@ var investorCatalog = [
     "locations": [
       "Oakland"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "Visualization",
     "role": "Angel investor",
     "details": "Angel: CEO Dandesign West Ventures LLC, IBM Marketing Executive, CEO Roche Bobois San Francisco, US Army Officer. Father, Citizen, Soldier, Mentor, Patriot",
     "url": "https://angel.co/lloyd-lawrence",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/lloyd-lawrence",
+    "image": "https://photos.wellfound.com/users/51887-medium_jpg?1405471134",
     "investmentsCount": "14.0",
     "id": "investor-1204",
     "sources": [
@@ -28664,7 +28718,7 @@ var investorCatalog = [
     "details": "Co-Founder at Egomotion, Corp.",
     "url": "https://angel.co/srini-panguluri",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/srini-panguluri",
+    "image": "https://photos.wellfound.com/users/53773-medium_jpg?1405472640",
     "investmentsCount": "16.0",
     "id": "investor-1206",
     "sources": [
@@ -28710,7 +28764,7 @@ var investorCatalog = [
     "details": "Worked at @ibm, @ebay, @salesforce , @medidata-solutions-1 \u2022 Investor @sense, @arcus",
     "url": "https://angel.co/john-akerley",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/john-akerley",
+    "image": "https://photos.wellfound.com/users/75070-medium_jpg?1462942967",
     "investmentsCount": "3.0",
     "id": "investor-1208",
     "sources": [
@@ -28733,7 +28787,7 @@ var investorCatalog = [
     "details": "Entrepreneur (6 startups/exits) & angel investor (60 co's). Previously led @paypal Boston & @gradifi. Was EiR @harvard-business-school-1 & Director Babson SVP.",
     "url": "https://angel.co/changds",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/changds",
+    "image": "https://photos.wellfound.com/users/46707-medium_jpg?1582689651",
     "investmentsCount": "37.0",
     "id": "investor-1209",
     "sources": [
@@ -28800,7 +28854,7 @@ var investorCatalog = [
     "details": "CTO Livefyre (Adobe), Founder iCurrent (Washington Post), Founder Inxight (SAP) . Xerox PARC. BS/MS from MIT.",
     "url": "https://angel.co/ramana-rao",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ramana-rao",
+    "image": "https://photos.wellfound.com/users/9033-medium_jpg?1405441701",
     "investmentsCount": "6.0",
     "id": "investor-1212",
     "sources": [
@@ -28821,7 +28875,7 @@ var investorCatalog = [
     "details": "Founder @zipdragon-ventures Senior Advisor @engie-1 Venture Partner @rembrandt-venture-partners CEO @getactive President @convio. CEO @cleantech-group. McKinsey",
     "url": "https://angel.co/sheeraz-haji",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/sheeraz-haji",
+    "image": "https://photos.wellfound.com/users/11758-medium_jpg?1477340394",
     "investmentsCount": "8.0",
     "id": "investor-1213",
     "sources": [
@@ -28844,7 +28898,7 @@ var investorCatalog = [
     "details": "Tech Investor Now: Partner @incobuild Past: Consulting Professor @stanford-university @marvell-semiconductor",
     "url": "https://angel.co/eddylee",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/eddylee",
+    "image": "https://photos.wellfound.com/users/67024-medium_jpg?1526271760",
     "investmentsCount": "28.0",
     "id": "investor-1214",
     "sources": [
@@ -28865,7 +28919,7 @@ var investorCatalog = [
     "details": "Founding Partner at @gecad-ventures with over 20 years of experience in founding and developing companies (Software, Internet, eCommerce). Successful exits.",
     "url": "https://angel.co/radu-georgescu",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/radu-georgescu",
+    "image": "https://photos.wellfound.com/users/45342-medium_jpg?1426518399",
     "investmentsCount": "6.0",
     "id": "investor-1215",
     "sources": [
@@ -28888,7 +28942,7 @@ var investorCatalog = [
     "details": "Anthem Venture Partners",
     "url": "https://angel.co/samit-varma",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/samit-varma",
+    "image": "https://photos.wellfound.com/users/60105-medium_jpg?1462881186",
     "investmentsCount": "8.0",
     "id": "investor-1216",
     "sources": [
@@ -28909,7 +28963,7 @@ var investorCatalog = [
     "details": "Founder @intridea , @socialspring, @scalr, @unlikely-ventures \u2022 Worked at @aol, @mckinsey-company, @fiveacross \u2022 Studied at @university-of-virginia, @loyola",
     "url": "https://angel.co/naffis",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/naffis",
+    "image": "https://photos.wellfound.com/users/58165-medium_jpg?1405474694",
     "investmentsCount": "4.0",
     "id": "investor-1217",
     "sources": [
@@ -28932,7 +28986,7 @@ var investorCatalog = [
     "details": "Founder of the UX Agency @digital-telepathy and the web apps @hello-bar, @slidedeck and @filamentapp.",
     "url": "https://angel.co/chuck-dtelepathy-com",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/chuck-dtelepathy-com",
+    "image": "https://photos.wellfound.com/users/39554-medium_jpg?1405467577",
     "investmentsCount": "5.0",
     "id": "investor-1218",
     "sources": [
@@ -28955,7 +29009,7 @@ var investorCatalog = [
     "details": "Founder of @facebook.",
     "url": "https://angel.co/zuck",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/zuck",
+    "image": "https://photos.wellfound.com/users/9826-medium_jpg?1405442363",
     "investmentsCount": "0.0",
     "id": "investor-1219",
     "sources": [
@@ -28976,7 +29030,7 @@ var investorCatalog = [
     "details": "x-Dir. Engineering at Shopify x-President at @boltmade (acquired Shopify) x-PostRank (acquired Google) Elora Brewing Company",
     "url": "https://angel.co/jim-murphy",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/jim-murphy",
+    "image": "https://photos.wellfound.com/users/10869-medium_jpg?1602697563",
     "investmentsCount": "6.0",
     "id": "investor-1220",
     "sources": [
@@ -28997,7 +29051,7 @@ var investorCatalog = [
     "details": "Having successfully launched companies to working in private and public equity, I offer organizations corporate and business development expertise.",
     "url": "https://angel.co/ari-rashti",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/ari-rashti",
+    "image": "https://photos.wellfound.com/users/54567-medium_jpg?1405471983",
     "investmentsCount": "1.0",
     "id": "investor-1221",
     "sources": [
@@ -29020,7 +29074,7 @@ var investorCatalog = [
     "details": "Engineer + MBA, 15+ years exp. in tech/software Co-founded 2 startups (1 exit, 1 failure) Mentor at Founder Institute Early stage investor",
     "url": "https://angel.co/guillaume-balas",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/guillaume-balas",
+    "image": "https://photos.wellfound.com/users/34998-medium_jpg?1543421961",
     "investmentsCount": "3.0",
     "id": "investor-1222",
     "sources": [
@@ -29043,7 +29097,7 @@ var investorCatalog = [
     "details": "Founder of Empros Capital; Prior: Founder of @disruptive-technology-advisers , @delectable, early exec at @palantir-technologies , @apple , Bloomberg. CMU CS.",
     "url": "https://angel.co/alex-fishman",
     "source": "SaaS Angel Investors",
-    "image": "https://unavatar.io/angel.co/alex-fishman",
+    "image": "https://photos.wellfound.com/users/46584-medium_jpg?1415545282",
     "investmentsCount": "6.0",
     "id": "investor-1223",
     "sources": [
@@ -29070,7 +29124,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/jeff-clavier",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcUFIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ed8515887458e3baa34d861d389dc7190b5c78a6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Canada, Investors in SF Bay Area (CA), Investors in New York (NY), Investors in Boston / New England\n+1",
     "id": "investor-1224",
@@ -29094,7 +29148,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/dave-samuel",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVJkQkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f2a0bc38d8ae6e2127ea0192b1548635ca2f8280/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in San Francisco (CA)",
     "id": "investor-1225",
@@ -29123,7 +29177,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/aileen-lee",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbHdCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cd55d45e5586a473e462c50faf7c5bd6eaed671e/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Denver (CO), Investors in San Diego (CA), Investors in Seattle (WA), Investors in New York (NY), Investors in San Francisco (CA), Investors in Palo Alto (CA)\n+3",
     "id": "investor-1226",
@@ -29149,7 +29203,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/gigi-levy-weiss",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNk5OQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7c7deee4ce0e3ad86258f91bd141b9f0102b7f52/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Tel Aviv (Israel), Investors in Palo Alto (CA)",
     "id": "investor-1227",
@@ -29178,7 +29232,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/pete-flint",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNTVOQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a9d2f57173c71e8a480c8c14ee5bb92eca781d41/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Chicago (IL), Investors in SF Bay Area (CA), Investors in New York (NY), Investors in London, Investors in Boston (MA)\n+2",
     "id": "investor-1228",
@@ -29202,7 +29256,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/mike-maples",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBalFKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0bd5611e7df4d1f30152fee5418c929c4c633890/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Palo Alto (CA)",
     "id": "investor-1229",
@@ -29226,7 +29280,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/hunter-walk",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM1huQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0121db1d592b1e5e0471f2caf37602413851c53c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in San Francisco (CA)",
     "id": "investor-1230",
@@ -29242,13 +29296,15 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$250K",
     "role": "General Partner",
     "details": "",
     "url": "https://signal.nfx.com/investors/cyan-banister",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamtGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a7d95185e81a2d6baeccc0892ae039a72db7851b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in SF Bay Area (CA)",
     "id": "investor-1231",
@@ -29280,7 +29336,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/wayne-hu",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkR1QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--3e814fb9fc860908fe2683c594ef8617925c89d7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Consumer health & fitness, Investors in E-commerce, Investors in Education, Investors in Fintech, Investors in Health & hospital services, Investors in Marketplaces, Investors in Media/content, Investors in SaaS, Investors in San Francisco Bay Area (Other Lists)\n+6",
     "id": "investor-1232",
@@ -29304,7 +29360,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/vishal-vasishth",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZGs9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8aa243d130c9bd8eaca8a8454cf91a881604a137/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in San Francisco (CA)",
     "id": "investor-1233",
@@ -29328,7 +29384,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/chris-farmer",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaVFLIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b277cd0cf408ddf7126a1544f04632f5b22e50b0/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in San Francisco (CA)",
     "id": "investor-1234",
@@ -29360,7 +29416,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/andy-mcloughlin",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb1FFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cafb9a571f4dc41ea0560c45dd43f37351d20157/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Austin (TX), Investors in San Francisco (CA), Investors in New York (NY), Investors in Boston (MA), Investors in Los Angeles (CA), Investors in Toronto (Ontario), Investors in Seattle (WA), Investors in Utah\n+5",
     "id": "investor-1235",
@@ -29384,7 +29440,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/aaron-batalion",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaU1JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--65e7e0dd1062b246d2fcbe92940d5e38e309a11b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in San Francisco (CA)",
     "id": "investor-1236",
@@ -29441,7 +29497,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/paige-craig",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUorQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a224ce2487417ce036d5bd5d72e5524b85d95448/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Lexington-Fayette (KY), Investors in Arkansas, Investors in Mississippi, Investors in Florida, Investors in South Carolina, Investors in North Carolina, Investors in District of Columbia, Investors in Virginia, Investors in West Virginia, Investors in Kentucky, Investors in Tennessee, Investors in Alabama, Investors in Louisiana, Investors in Texas, Investors in Dallas (TX), Investors in Austin (TX), Investors in Montgomery (AL), Investors in Birmingham (AL), Investors in Jacksonville (FL), Investors in Miami (FL), Investors in Tampa (FL), Investors in Louisville/Jefferson County (KY), Investors in Indianapolis (IN), Investors in St. Louis (MO), Investors in Memphis (TN), Investors in Charlotte (NC), Investors in Raleigh-Durham / Southeast US, Investors in Washington (DC), Investors in New Orleans (LA), Investors in Nashville (TN), Investors in Atlanta (GA), Investors in Georgia, Investors in United States\n+30",
     "id": "investor-1237",
@@ -29473,7 +29529,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/ann-miura-ko",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdW9FIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0ab46b80def5c2d5c97eb3238b5408d8e9e26e21/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in San Francisco (CA), Investors in San Jose (CA), Investors in New York (NY), Investors in Boston / New England, Investors in Seattle (WA), Investors in Provo (UT), Investors in Salt Lake City (UT), Investors in Austin (TX), Investors in Palo Alto (CA)\n+6",
     "id": "investor-1238",
@@ -29495,7 +29551,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/kevin-colleran",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUhTQmc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--29e718b5911a63308b11b72a2213b96807c50884/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in B2B",
     "id": "investor-1239",
@@ -29522,7 +29578,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/jenny-lefcourt",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBam9LIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1f7dc44a2634b563eff3e10f9913e5f7efb93062/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in New York (NY), Investors in San Diego (CA), Investors in Los Angeles (CA), Investors in San Francisco (CA)\n+1",
     "id": "investor-1240",
@@ -29538,13 +29594,15 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1.5M",
     "role": "Managing Partner",
     "details": "",
     "url": "https://signal.nfx.com/investors/aydin-senkut",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOEdYQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--00a05446620fd604abc266e16e33590da8ad95db/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in SF Bay Area (CA)",
     "id": "investor-1241",
@@ -29575,7 +29633,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/xuezhao-lan",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHpaQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7649142f67332ec04929eec198eb3229e3a60f72/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Midwest, Investors in Seattle (WA), Investors in Denver (CO), Investors in Chicago (IL), Investors in Utah, Investors in Los Angeles (CA), Investors in New York (NY), Investors in SF Bay Area (CA)\n+4",
     "id": "investor-1242",
@@ -29602,7 +29660,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/ron-conway",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWJOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bed77d4a4735587f879bbeb5f1c088390a69a32a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in E-commerce, Investors in Enterprise, Investors in Games, Investors in Marketplaces, Investors in Retail, Investors in SaaS\n+2",
     "id": "investor-1243",
@@ -29626,7 +29684,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/mike-brown-jr",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdkhXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d2fa0222d75fc27e22a19b2c43714397caed19e4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in New York (NY)",
     "id": "investor-1244",
@@ -29650,7 +29708,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/beth-turner",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc2p1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--244ed5e21527beb25a5852e02e3ea82148162353/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in San Francisco (CA)",
     "id": "investor-1245",
@@ -29674,7 +29732,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/yodfat-harel-buchris",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBMdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81f7446330c1bdea375684fed31ec4582365d76b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Tel Aviv (Israel)",
     "id": "investor-1246",
@@ -29696,7 +29754,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/mark-suster",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN2MvQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--adef94d3858bbe729a34f60103fae9d929196378/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Santa Monica (CA)",
     "id": "investor-1247",
@@ -29724,7 +29782,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/david-mort",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdmtEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7f241ef668350b84d90b7fc3a1dd5e9affe1904e/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Mexico, Investors in Brazil, Investors in United States",
     "id": "investor-1248",
@@ -29754,7 +29812,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/evan-tana",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcEVCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--24184bd834994c82bd6beb40535e58e90de09bf2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in SF Bay Area (CA), Investors in Denver (CO), Investors in Los Angeles (CA), Investors in Seattle (WA), Investors in Boston (MA), Investors in New York (NY), Investors in California\n+4",
     "id": "investor-1249",
@@ -29778,7 +29836,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/henri-deshays",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaE1LIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--05e55cd08d3db0fa789b07dc2c67a9b6624781bb/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in Palo Alto (CA)",
     "id": "investor-1250",
@@ -29804,7 +29862,7 @@ var investorCatalog = [
     "details": "",
     "url": "https://signal.nfx.com/investors/leo-polovets",
     "source": "900+ SaaS Seed Investors",
-    "image": "",
+    "image": "https://signal-api.nfx.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbmtHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--77edb6aec96498a0a3d800ed3c61c7f5da5372a2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3dkcEFsZ0NhUUpZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--f8e22238db523e6e5e5a8ae643921849c4b207bd/0",
     "investmentsCount": "",
     "investorLocations": "Investors in San Francisco (CA), Investors in Los Angeles (CA), Investors in New York (NY)",
     "id": "investor-1251",
@@ -29916,7 +29974,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$500K",
     "role": "Managing Partner",
     "details": "",
@@ -30144,6 +30204,7 @@ var investorCatalog = [
       "France",
       "Germany",
       "India",
+      "Indonesia",
       "Israel",
       "Singapore",
       "United Kingdom",
@@ -30176,7 +30237,8 @@ var investorCatalog = [
     "countries": [
       "Hong Kong",
       "India",
-      "Japan"
+      "Japan",
+      "United States"
     ],
     "focus": "$100K",
     "role": "Managing Partner",
@@ -30480,7 +30542,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$250K",
     "role": "Managing Director",
     "details": "",
@@ -30652,7 +30716,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$625K",
     "role": "General Partner",
     "details": "",
@@ -31208,7 +31274,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$50K",
     "role": "Venture Partner",
     "details": "",
@@ -31230,7 +31298,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$750K",
     "role": "General Partner",
     "details": "",
@@ -31252,7 +31322,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1M",
     "role": "General Partner",
     "details": "",
@@ -31456,7 +31528,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$50K",
     "role": "Investor",
     "details": "",
@@ -31866,7 +31940,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Angel",
     "details": "",
@@ -32335,7 +32411,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$150K",
     "role": "Advisor",
     "details": "",
@@ -32618,7 +32696,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$175K",
     "role": "Angel",
     "details": "",
@@ -32747,7 +32827,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$4.0M",
     "role": "Principal",
     "details": "",
@@ -32769,7 +32851,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1.5M",
     "role": "Partner",
     "details": "",
@@ -33966,8 +34050,11 @@ var investorCatalog = [
       "SF Bay Area"
     ],
     "countries": [
+      "Argentina",
       "Brazil",
-      "Mexico"
+      "Colombia",
+      "Mexico",
+      "United States"
     ],
     "focus": "$1M",
     "role": "Managing Partner",
@@ -34860,7 +34947,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$10K",
     "role": "Scout",
     "details": "",
@@ -34943,7 +35032,9 @@ var investorCatalog = [
       "Santiago"
     ],
     "countries": [
+      "Argentina",
       "Chile",
+      "Colombia",
       "Mexico"
     ],
     "focus": "$600K",
@@ -34971,6 +35062,7 @@ var investorCatalog = [
     ],
     "countries": [
       "Brazil",
+      "Colombia",
       "Mexico"
     ],
     "focus": "$100K",
@@ -35435,6 +35527,7 @@ var investorCatalog = [
     "countries": [
       "Argentina",
       "Chile",
+      "Colombia",
       "Mexico",
       "United States"
     ],
@@ -35611,7 +35704,9 @@ var investorCatalog = [
       "Global",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$150K",
     "role": "Managing Partner",
     "details": "",
@@ -36078,7 +36173,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$2.5M",
     "role": "Investor",
     "details": "",
@@ -36100,7 +36197,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$2.5M",
     "role": "Investor",
     "details": "",
@@ -36350,7 +36449,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$100K",
     "role": "General Partner",
     "details": "",
@@ -36552,7 +36653,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1M",
     "role": "Managing Partner",
     "details": "",
@@ -36746,7 +36849,9 @@ var investorCatalog = [
     "locations": [
       "Munich"
     ],
-    "countries": [],
+    "countries": [
+      "Germany"
+    ],
     "focus": "$200K",
     "role": "Managing Partner",
     "details": "",
@@ -37559,6 +37664,7 @@ var investorCatalog = [
     ],
     "countries": [
       "Brazil",
+      "Colombia",
       "Mexico",
       "United States"
     ],
@@ -37962,7 +38068,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$100K",
     "role": "Managing Partner",
     "details": "",
@@ -38475,7 +38583,9 @@ var investorCatalog = [
       "Reno",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$875K",
     "role": "Managing Partner",
     "details": "",
@@ -38971,7 +39081,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$500K",
     "role": "Partner",
     "details": "",
@@ -38993,7 +39105,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$4.0M",
     "role": "Partner",
     "details": "",
@@ -39015,7 +39129,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1M",
     "role": "Senior Associate",
     "details": "",
@@ -39037,7 +39153,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$2.0M",
     "role": "Senior Associate",
     "details": "",
@@ -39059,7 +39177,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$100K",
     "role": "Investor",
     "details": "",
@@ -39402,7 +39522,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Seed investor",
     "details": "",
@@ -40074,6 +40196,7 @@ var investorCatalog = [
     "countries": [
       "Argentina",
       "Brazil",
+      "Colombia",
       "Israel",
       "Mexico"
     ],
@@ -40190,7 +40313,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$100K",
     "role": "Managing Partner",
     "details": "",
@@ -40619,7 +40744,9 @@ var investorCatalog = [
       "New Orleans",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Angel",
     "details": "",
@@ -40667,7 +40794,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$250K",
     "role": "Investor",
     "details": "",
@@ -40727,7 +40856,9 @@ var investorCatalog = [
       "SMB software",
       "SaaS"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$20K",
     "role": "Venture Partner",
     "details": "",
@@ -40798,7 +40929,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Seed investor",
     "details": "",
@@ -41297,6 +41430,7 @@ var investorCatalog = [
       "Singapore"
     ],
     "countries": [
+      "Indonesia",
       "Singapore"
     ],
     "focus": "$1M",
@@ -41374,7 +41508,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$50K",
     "role": "Investor",
     "details": "",
@@ -41623,7 +41759,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$750K",
     "role": "Principal",
     "details": "",
@@ -41645,7 +41783,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$375K",
     "role": "Partner",
     "details": "",
@@ -41811,7 +41951,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$500K",
     "role": "Principal",
     "details": "",
@@ -41931,7 +42073,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$50K",
     "role": "Seed investor",
     "details": "",
@@ -41997,6 +42141,7 @@ var investorCatalog = [
       "Greece",
       "Israel",
       "Netherlands",
+      "Spain",
       "Switzerland",
       "United Kingdom"
     ],
@@ -42189,7 +42334,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Angel",
     "details": "",
@@ -42354,7 +42501,9 @@ var investorCatalog = [
       "Raleigh-Durham / Southeast US",
       "SaaS"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$3.0M",
     "role": "Senior Associate",
     "details": "",
@@ -42377,7 +42526,9 @@ var investorCatalog = [
       "Midwest",
       "Raleigh-Durham / Southeast US"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$3.5M",
     "role": "Senior Associate",
     "details": "",
@@ -43250,7 +43401,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$200K",
     "role": "General Partner",
     "details": "",
@@ -43272,7 +43425,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$2.0M",
     "role": "General Partner",
     "details": "",
@@ -43348,7 +43503,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$2.0M",
     "role": "General Partner",
     "details": "",
@@ -43515,7 +43672,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$200K",
     "role": "General Partner",
     "details": "",
@@ -43537,7 +43696,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$200K",
     "role": "General Partner",
     "details": "",
@@ -43631,7 +43792,9 @@ var investorCatalog = [
     "locations": [
       "Munich"
     ],
-    "countries": [],
+    "countries": [
+      "Germany"
+    ],
     "focus": "$200K",
     "role": "General Partner",
     "details": "",
@@ -43653,7 +43816,9 @@ var investorCatalog = [
     "locations": [
       "Munich"
     ],
-    "countries": [],
+    "countries": [
+      "Germany"
+    ],
     "focus": "$200K",
     "role": "General Partner",
     "details": "",
@@ -44090,7 +44255,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1M",
     "role": "General Partner",
     "details": "",
@@ -44410,7 +44577,9 @@ var investorCatalog = [
       "Kansas City",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$525K",
     "role": "General Partner",
     "details": "",
@@ -44482,7 +44651,9 @@ var investorCatalog = [
       "Philadelphia",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Managing Director",
     "details": "",
@@ -44509,7 +44680,8 @@ var investorCatalog = [
       "SF Bay Area"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "focus": "$2.5M",
     "role": "Managing Partner",
@@ -44657,7 +44829,9 @@ var investorCatalog = [
       "Honolulu",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$63K",
     "role": "Managing Partner",
     "details": "",
@@ -44683,7 +44857,8 @@ var investorCatalog = [
     ],
     "countries": [
       "India",
-      "United Arab Emirates"
+      "United Arab Emirates",
+      "United States"
     ],
     "focus": "$100K",
     "role": "Managing Partner",
@@ -44915,7 +45090,9 @@ var investorCatalog = [
       "Nashville",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$350K",
     "role": "Managing Partner",
     "details": "",
@@ -45042,7 +45219,9 @@ var investorCatalog = [
       "Europe",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$50K",
     "role": "General Partner",
     "details": "",
@@ -45064,7 +45243,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1M",
     "role": "General Partner",
     "details": "",
@@ -45262,7 +45443,9 @@ var investorCatalog = [
       "Honolulu",
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$625K",
     "role": "Managing Partner",
     "details": "",
@@ -45358,7 +45541,9 @@ var investorCatalog = [
       "Turkey"
     ],
     "countries": [
-      "T\xFCrkiye"
+      "Turkey",
+      "T\xFCrkiye",
+      "United States"
     ],
     "focus": "$90K",
     "role": "Managing Director",
@@ -45486,7 +45671,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$375K",
     "role": "Managing Partner",
     "details": "",
@@ -45508,7 +45695,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$875K",
     "role": "General Partner",
     "details": "",
@@ -45861,7 +46050,8 @@ var investorCatalog = [
       "SF Bay Area"
     ],
     "countries": [
-      "India"
+      "India",
+      "United States"
     ],
     "focus": "$100K",
     "role": "Senior Associate",
@@ -46077,7 +46267,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$10K",
     "role": "Seed investor",
     "details": "",
@@ -46178,7 +46370,9 @@ var investorCatalog = [
       "Atlanta",
       "Raleigh-Durham / Southeast US"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$500K",
     "role": "Partner",
     "details": "",
@@ -46231,7 +46425,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$125K",
     "role": "Partner",
     "details": "",
@@ -46301,7 +46497,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$125K",
     "role": "Partner",
     "details": "",
@@ -46376,7 +46574,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$125K",
     "role": "Partner",
     "details": "",
@@ -46450,7 +46650,8 @@ var investorCatalog = [
       "SF Bay Area"
     ],
     "countries": [
-      "China"
+      "China",
+      "United States"
     ],
     "focus": "$1.5M",
     "role": "Partner",
@@ -46546,7 +46747,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$75K",
     "role": "Partner",
     "details": "",
@@ -46629,6 +46832,7 @@ var investorCatalog = [
     ],
     "countries": [
       "Brazil",
+      "Colombia",
       "Mexico"
     ],
     "focus": "$1M",
@@ -46652,7 +46856,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1M",
     "role": "Partner",
     "details": "",
@@ -46706,6 +46912,7 @@ var investorCatalog = [
       "Singapore"
     ],
     "countries": [
+      "Indonesia",
       "Singapore"
     ],
     "focus": "$1M",
@@ -46933,7 +47140,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Seed investor",
     "details": "",
@@ -46955,7 +47164,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Seed investor",
     "details": "",
@@ -47027,7 +47238,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$300K",
     "role": "Partner",
     "details": "",
@@ -47049,7 +47262,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Seed investor",
     "details": "",
@@ -47287,7 +47502,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$125K",
     "role": "Partner",
     "details": "",
@@ -47309,7 +47526,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Partner",
     "details": "",
@@ -47355,7 +47574,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$125K",
     "role": "Partner",
     "details": "",
@@ -47927,7 +48148,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$300K",
     "role": "Investor",
     "details": "",
@@ -48045,7 +48268,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$500K",
     "role": "Investor",
     "details": "",
@@ -48317,7 +48542,9 @@ var investorCatalog = [
       "Raleigh",
       "Raleigh-Durham / Southeast US"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$1M",
     "role": "Investor",
     "details": "",
@@ -48403,7 +48630,8 @@ var investorCatalog = [
       "SF Bay Area"
     ],
     "countries": [
-      "India"
+      "India",
+      "United States"
     ],
     "focus": "$250K",
     "role": "Seed investor",
@@ -49080,7 +49308,8 @@ var investorCatalog = [
       "SF Bay Area"
     ],
     "countries": [
-      "India"
+      "India",
+      "United States"
     ],
     "focus": "$38K",
     "role": "Seed investor",
@@ -49240,7 +49469,9 @@ var investorCatalog = [
       "SMB software",
       "SaaS"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$10K",
     "role": "Seed investor",
     "details": "",
@@ -49262,7 +49493,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$150K",
     "role": "Seed investor",
     "details": "",
@@ -49284,7 +49517,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$25K",
     "role": "Seed investor",
     "details": "",
@@ -49379,7 +49614,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$2.0M",
     "role": "Analyst",
     "details": "",
@@ -49401,7 +49638,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$2.0M",
     "role": "Associate",
     "details": "",
@@ -49423,7 +49662,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$50K",
     "role": "Seed investor",
     "details": "",
@@ -49494,7 +49735,9 @@ var investorCatalog = [
     "locations": [
       "SF Bay Area"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$30K",
     "role": "Seed investor",
     "details": "",
@@ -49732,7 +49975,9 @@ var investorCatalog = [
       "Social mobile",
       "and Solo-Capitalists"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "$200K",
     "role": "Seed investor",
     "details": "",
@@ -52043,7 +52288,7 @@ var investorCatalog = [
     "details": "Lightspeed Venture Partners is a venture capital firm that is engaged in the consumer, enterprise, technology, and cleantech markets.",
     "url": "https://lsvp.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://lsvp.com/wp-content/uploads/2023/06/Lightspeed_Video_2-scaled.jpg?1791429094",
     "investmentsCount": "",
     "id": "investor-2070",
     "sources": [
@@ -52079,13 +52324,15 @@ var investorCatalog = [
     "locations": [
       "North America"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "New York City-based early stage venture capital firm focused on investing in post product-market fit software-enabled businesses.",
     "url": "http://runwayvp.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "http://runwayvp.com/wp-content/uploads/2017/02/main-bg-300x220.jpg",
     "investmentsCount": "",
     "id": "investor-2072",
     "sources": [
@@ -52127,7 +52374,7 @@ var investorCatalog = [
     "details": "Redpoint Ventures partners with visionary founders to create new markets or redefine existing ones at the seed, early and growth stages.",
     "url": "https://www.redpoint.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.sanity.io/images/22xmfoma/production/bf09f8bad6083dcbe5277df33b36ec3a23d994c6-2400x1254.png",
     "investmentsCount": "",
     "id": "investor-2074",
     "sources": [
@@ -52184,7 +52431,9 @@ var investorCatalog = [
     "locations": [
       "North America"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "SV Angel is a San Francisco-based angel firm that helps startups with business development, financing, M&A, and other strategic advice.",
@@ -52211,7 +52460,7 @@ var investorCatalog = [
     "details": "Matrix Partners is a venture capital firm focused on seed- and early-stage investments.",
     "url": "https://gumroad.com/l/VCinvestors",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://public-files.gumroad.com/moxiqyrkyvkst1887zcja9v9dx8u",
     "investmentsCount": "",
     "id": "investor-2078",
     "sources": [
@@ -52253,7 +52502,7 @@ var investorCatalog = [
     "details": "Harlem Capital is an early-stage venture firm that invests in post-revenue tech-enabled startups, focused on minority and women founders.",
     "url": "https://harlem.capital/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://harlem.capital/wp-content/uploads/2026/06/DSC04706.arw_.jpg",
     "investmentsCount": "",
     "id": "investor-2080",
     "sources": [
@@ -52274,7 +52523,7 @@ var investorCatalog = [
     "details": "We build ecosystems by finding, funding, and accelerating technology ventures in collaboration with entrepreneurs and enterprises.",
     "url": "https://technexus.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://www.technexus.com/images/og/home-og.png",
     "investmentsCount": "",
     "id": "investor-2081",
     "sources": [
@@ -52295,7 +52544,7 @@ var investorCatalog = [
     "details": "Seed Capital for Impassioned Entrepreneurs.",
     "url": "https://www.moai.vc/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://image.jimcdn.com/app/cms/image/transf/none/path/s16e9472597c68bce/backgroundarea/i23b2d56310730b59/version/1559236902/image.jpg",
     "investmentsCount": "",
     "id": "investor-2082",
     "sources": [
@@ -52316,7 +52565,7 @@ var investorCatalog = [
     "details": "Investing in big ideas, killer startups and extraordinary people.",
     "url": "https://www.quakecapital.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://quakecapital.com/wp-content/uploads/2023/08/HP-Portfolio-Zoom-scaled.jpg",
     "investmentsCount": "",
     "id": "investor-2083",
     "sources": [
@@ -52358,7 +52607,7 @@ var investorCatalog = [
     "details": "Fuel Capital is a California-based early-stage venture fund focused on consumer, SaaS, and cloud infrastructure companies.",
     "url": "https://www.fuelcapital.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "http://static1.squarespace.com/static/5af0dfba5b409b4ca8deb9bc/t/5b04dcf370a6adb9250ac79f/1590621578094/fuel-capital-logo.png?format=1500w",
     "investmentsCount": "",
     "id": "investor-2085",
     "sources": [
@@ -52379,7 +52628,7 @@ var investorCatalog = [
     "details": "Illuminate Ventures invests in early-stage high-tech companies delivering enterprise cloud and mobile solutions.",
     "url": "http://www.illuminate.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://illuminate.com/wp-content/uploads/2020/10/Logo-Illuminate-Ventures-Full-Color.svg",
     "investmentsCount": "",
     "id": "investor-2086",
     "sources": [
@@ -52442,7 +52691,7 @@ var investorCatalog = [
     "details": "NextWorld Capital focuses on the enterprise technology sectors that are transforming existing markets and defining new ones.",
     "url": "https://www.nextworldcap.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://www.nextworld.com/img/global/share/capital.jpg",
     "investmentsCount": "",
     "id": "investor-2089",
     "sources": [
@@ -52463,7 +52712,7 @@ var investorCatalog = [
     "details": "Primary Venture Partners (previously High Peaks) is a seed stage VC firm based in NY, focused on ecommerce and enterprise SaaS.",
     "url": "https://www.primary.vc/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/6977781bbe36a48562c93d44/698a71c5104a77df831ff3ee_Primary2026.png",
     "investmentsCount": "",
     "id": "investor-2090",
     "sources": [
@@ -52484,7 +52733,7 @@ var investorCatalog = [
     "details": "Blumberg Capital is an early-stage venture capital firm that invests in a range of technology companies.",
     "url": "https://www.blumbergcapital.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://blumbergcapital.com/wp-content/uploads/2021/12/blumberg_capital_og.png",
     "investmentsCount": "",
     "id": "investor-2091",
     "sources": [
@@ -52505,7 +52754,7 @@ var investorCatalog = [
     "details": "Boldstart Ventures is a first check investor for technical enterprise founders.",
     "url": "https://www.boldstart.vc/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://boldstart.vc/boldstart-social-preview.png?v=1",
     "investmentsCount": "",
     "id": "investor-2092",
     "sources": [
@@ -52541,7 +52790,9 @@ var investorCatalog = [
     "locations": [
       "North America"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "122WEST is a venture capital firm focused on early-stage internet and software investments in the San Francisco Bay Area.",
@@ -52568,7 +52819,7 @@ var investorCatalog = [
     "details": "Costanoa Ventures backs tenacious and thoughtful founders who change how business gets done.",
     "url": "https://www.costanoavc.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://images.prismic.io/costanoa/aId5XlGsbswqTV6a_teamheader.jpg?auto=format,compress&rect=0,27,1728,903&w=1200&h=627",
     "investmentsCount": "",
     "id": "investor-2095",
     "sources": [
@@ -52589,7 +52840,7 @@ var investorCatalog = [
     "details": "Engage Ventures is venture fund and platform established by 11 of the most influential corporations in the world.",
     "url": "https://engage.vc/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://engage.vc/wp-content/uploads/2020/12/Cover-Home-Page.jpg",
     "investmentsCount": "",
     "id": "investor-2096",
     "sources": [
@@ -52631,7 +52882,7 @@ var investorCatalog = [
     "details": "Uncork Capital is a seed-stage venture firm that commits early, helps with the hard stuff, and sticks around.",
     "url": "https://uncorkcapital.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://framerusercontent.com/images/BSG99k37QwFEimbe7FUhWH6XuNw.png",
     "investmentsCount": "",
     "id": "investor-2098",
     "sources": [
@@ -52646,7 +52897,9 @@ var investorCatalog = [
     "locations": [
       "North America"
     ],
-    "countries": [],
+    "countries": [
+      "United States"
+    ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "Founders Fund is a San Francisco based venture capital firm investing in companies building revolutionary technologies.",
@@ -52673,7 +52926,7 @@ var investorCatalog = [
     "details": "Freestyle Capital is a seed stage investor and mentor for Internet software startups. We\u2019re the ones you come to when you want more than just a check.",
     "url": "https://freestyle.vc/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663540149062/gETGAeXxErydnA5S2a37QN/og-image-freestyle-MSXTxCnFLHZ5KUkhRCgKJq.png",
     "investmentsCount": "",
     "id": "investor-2100",
     "sources": [
@@ -52694,7 +52947,7 @@ var investorCatalog = [
     "details": "Chloe Capital is a seed stage VC firm investing in women-led innovation companies across North America.",
     "url": "https://chloecapital.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://chloecapital.com/wp-content/uploads/2019/10/watch-chloe-capital-in-action.png",
     "investmentsCount": "",
     "id": "investor-2101",
     "sources": [
@@ -52715,7 +52968,7 @@ var investorCatalog = [
     "details": "Seed stage venture capital firm that invests in extraordinary leadership.",
     "url": "https://www.moonshotscapital.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://moonshotscapital.com/wp-content/uploads/moonshots_placeholder_horizontal_1x.webp",
     "investmentsCount": "",
     "id": "investor-2102",
     "sources": [
@@ -52751,13 +53004,17 @@ var investorCatalog = [
     "locations": [
       "North America"
     ],
-    "countries": [],
+    "countries": [
+      "France",
+      "United Kingdom",
+      "United States"
+    ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "We invest primary in the US but have a 20-year history of funding companies in Europe. Our managing partners (Yves Sisteron & Mark Suster) are both dual citizens of France & UK respectively.",
     "url": "https://upfront.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "/assets/images/share.jpg",
     "investmentsCount": "",
     "id": "investor-2104",
     "sources": [
@@ -52778,7 +53035,7 @@ var investorCatalog = [
     "details": "We use humans and technology for the hardest parts of building a company at every stage \u2014 recruiting, expert advice, and a corporate network.",
     "url": "https://www.signalfire.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/692a00e3e1b6608ba1688607/6a60e95dde1dd12d1c51f51c_signalfire-og-image.png",
     "investmentsCount": "",
     "id": "investor-2105",
     "sources": [
@@ -52799,7 +53056,7 @@ var investorCatalog = [
     "details": "CRV has been a leading investor in early-stage technology companies for almost half a century, backing nearly 400 startups in its history.",
     "url": "https://www.crv.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://www.crv.com/_next/static/immutable/media/og-image.2toiehhr6g9gb.jpg",
     "investmentsCount": "",
     "id": "investor-2106",
     "sources": [
@@ -52841,7 +53098,7 @@ var investorCatalog = [
     "details": "Floodgate backs the top .1% Founders before the rest of the world believes in their movements.",
     "url": "https://floodgate.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/5fdf46ca7a44603e763a4c35/602dedcf7befb69725689e96_Floodgate-Open-Graph-3.png",
     "investmentsCount": "",
     "id": "investor-2108",
     "sources": [
@@ -52862,7 +53119,7 @@ var investorCatalog = [
     "details": "Obvious Ventures brings experience, capital, and focus to startups combining profit and purpose for a better world.",
     "url": "https://obvious.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://obvious.com/wp-content/uploads/2025/10/Obvious-OpenGraph.jpg",
     "investmentsCount": "",
     "id": "investor-2109",
     "sources": [
@@ -52883,7 +53140,7 @@ var investorCatalog = [
     "details": "A community of talented founders who switched from the common path.",
     "url": "http://www.switch.vc/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://framerusercontent.com/assets/1bw8pcWDYHu7tq2ANThjVnzWQQ.png",
     "investmentsCount": "",
     "id": "investor-2110",
     "sources": [
@@ -52904,7 +53161,7 @@ var investorCatalog = [
     "details": "Wing is a purpose-built venture capital firm founded by two industry veterans with a different perspective on what it takes to create enduring companies.",
     "url": "https://wing.vc/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/6a4c09ea3147a22a1c1a4bfd/6a57e518b51a647a44d46a39_opengraph.jpg",
     "investmentsCount": "",
     "id": "investor-2111",
     "sources": [
@@ -52946,7 +53203,7 @@ var investorCatalog = [
     "details": "Homebrew provides seed-stage fund and operational expertise for entrepreneurs building the bottom up economy.",
     "url": "https://homebrew.co/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/6a218c1c56df648e267068a8/6a4e837302b76d43d885c5d4_homebrew-ogimage-home.jpg",
     "investmentsCount": "",
     "id": "investor-2113",
     "sources": [
@@ -52988,7 +53245,7 @@ var investorCatalog = [
     "details": "High Alpha creates and funds companies through a new model for entrepreneurship that unites company building and venture capital.",
     "url": "https://highalpha.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/6549708e39df0d503dfabcb6/65550610f20c9ee74197eb43_ha-opengraph.webp",
     "investmentsCount": "",
     "id": "investor-2115",
     "sources": [
@@ -53009,7 +53266,7 @@ var investorCatalog = [
     "details": "Early-stage VC investing in startups headquartered in the Midwest across a wide variety of industries.",
     "url": "http://m25vc.com",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/663bb122eb8006ce97df2641/682e04dfdc555ddecd44d37e_M25%20logo%20Motto-website.png",
     "investmentsCount": "",
     "id": "investor-2116",
     "sources": [
@@ -53030,7 +53287,7 @@ var investorCatalog = [
     "details": "Startup Wise Guys is the leading B2B startup accelerator in Europe.",
     "url": "https://startupwiseguys.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://startupwiseguys.com/wp-content/uploads/2024/04/FC_1200.jpg",
     "investmentsCount": "",
     "id": "investor-2117",
     "sources": [
@@ -53051,7 +53308,7 @@ var investorCatalog = [
     "details": "NDRC is a business that transforms entrepreneurial teams and ideas into startups with early investment and research help.",
     "url": "https://www.ndrc.ie/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "http://static1.squarespace.com/static/5fbcf221e2b22e5512eec0ed/t/65c647ce45660d2da95ff67e/1707493326415/Screenshot+2024-02-09+at+15.41.48.png?format=1500w",
     "investmentsCount": "",
     "id": "investor-2118",
     "sources": [
@@ -53066,7 +53323,10 @@ var investorCatalog = [
     "locations": [
       "Europe"
     ],
-    "countries": [],
+    "countries": [
+      "France",
+      "United States"
+    ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "Newfund is an entrepreneurial VC firm focused on early-stage investments in France and the United States.",
@@ -53093,7 +53353,7 @@ var investorCatalog = [
     "details": "Peak Capital is an Amsterdam-based venture capital firm.",
     "url": "https://peak.capital/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://peak.capital/wp-content/uploads/2026/10/Logo-Mono.png",
     "investmentsCount": "",
     "id": "investor-2120",
     "sources": [
@@ -53108,13 +53368,15 @@ var investorCatalog = [
     "locations": [
       "Europe"
     ],
-    "countries": [],
+    "countries": [
+      "United Kingdom"
+    ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "Notion is a London-based venture fund focused on the SaaS-based and cloud computing markets.",
     "url": "https://notion.vc/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/613b85712c9672174ab125bd/61ee957ac2047cfdd769c750_Notion-Open-graph-image.jpg",
     "investmentsCount": "",
     "id": "investor-2121",
     "sources": [
@@ -53135,7 +53397,7 @@ var investorCatalog = [
     "details": "Act is a VC firm focused on the most promising technology companies.",
     "url": "https://www.actventure.capital/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/680df82985784d1e7bac7c4d/68a58c722bbfcb895f991a9a_og.jpg",
     "investmentsCount": "",
     "id": "investor-2122",
     "sources": [
@@ -53150,7 +53412,9 @@ var investorCatalog = [
     "locations": [
       "Europe"
     ],
-    "countries": [],
+    "countries": [
+      "Portugal"
+    ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "Portugal Ventures is a venture capital firm that invests in seed rounds of Portuguese startups in tech, life sciences, and tourism.",
@@ -53198,7 +53462,7 @@ var investorCatalog = [
     "details": "Frontline Seed is a fund for early-stage businesses with global ambitions.",
     "url": "https://www.frontline.vc/frontline-seed/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://ml0nn8itdvhy.i.optimole.com/w:auto/h:auto/q:mauto/g:sm/f:best/https://frontline.vc/wp-content/uploads/2026/09/Linkedin-Graphics-18.png",
     "investmentsCount": "",
     "id": "investor-2125",
     "sources": [
@@ -53214,14 +53478,15 @@ var investorCatalog = [
       "Asia & Australia"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "Singapore"
     ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "Jungle Ventures is a Singapore based Venture Capital Firm that invests in and helps build tech category leaders from Asia.",
     "url": "https://www.jungle-ventures.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/63897cf9251e56c944475089/63bf8e99ecb9a17658a8597b_OpenGraph.png",
     "investmentsCount": "",
     "id": "investor-2126",
     "sources": [
@@ -53237,7 +53502,8 @@ var investorCatalog = [
       "Asia & Australia"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "New Zealand"
     ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
@@ -53260,14 +53526,15 @@ var investorCatalog = [
       "Asia & Australia"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "New Zealand"
     ],
     "focus": "SaaS / Seed stage",
     "role": "Active seed fund",
     "details": "Qualgro Venture Capital invests in B2B technology startups in Southeast Asia, Australia and New Zealand, at Series A and Series B.",
     "url": "https://www.qualgro.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://qualgro.com/wp-content/uploads/2022/03/DSC09075-1-scaled.jpg",
     "investmentsCount": "",
     "id": "investor-2128",
     "sources": [
@@ -53290,7 +53557,7 @@ var investorCatalog = [
     "details": "Speciale Invest is an early stage investor focusing on Tech-driven/Deep-tech ventures.",
     "url": "https://www.specialeinvest.com/",
     "source": "Active Seed Stage SaaS Investors",
-    "image": "",
+    "image": "https://static.wixstatic.com/media/6cfbae_62bf3ef9ef744215b6e3f2acf38b4e98%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/6cfbae_62bf3ef9ef744215b6e3f2acf38b4e98%7Emv2.jpg",
     "investmentsCount": "",
     "id": "investor-2129",
     "sources": [
