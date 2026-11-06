@@ -266,25 +266,31 @@ async function upsertUser(user) {
   });
 }
 async function createRegistration(input) {
-  const response = await supabaseRequest("registrations?select=id", {
+  if (!ENV.supabaseAdminSecret) throw new Error("Supabase service key is not configured");
+  const response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/registrations?select=id`, {
     method: "POST",
-    headers: { Prefer: "return=representation" },
+    headers: {
+      apikey: ENV.supabaseAdminSecret,
+      Authorization: `Bearer ${ENV.supabaseAdminSecret}`,
+      "Content-Type": "application/json",
+      Prefer: "return=representation"
+    },
     body: JSON.stringify({
-      name: input.name,
+      full_name: input.name,
       email: input.email,
-      phone: input.phone,
       country: input.country,
-      dialCode: input.dialCode,
-      stage: input.stage,
-      goal: input.goal,
       language: input.language ?? "ar",
-      status: input.status ?? "new",
-      notes: input.notes ?? null
+      startup_stage: input.stage,
+      goal: `${input.goal}
+
+Phone: ${input.phone}
+Dial code: ${input.dialCode}`
     })
   });
+  if (!response.ok) throw new Error(`Supabase request failed (${response.status})`);
   const rows = await response.json();
   if (!rows[0]?.id) throw new Error("Registration was not created");
-  return Number(rows[0].id);
+  return String(rows[0].id);
 }
 async function bulkCreateRegistrations(input) {
   if (!input.length) return { inserted: 0 };
@@ -331,50 +337,38 @@ async function updateRegistrationStatus(id, status, notes) {
 }
 
 // server/access.ts
-import { createHash, randomBytes } from "node:crypto";
+import { createHmac, timingSafeEqual } from "node:crypto";
 import { parse } from "cookie";
 var REGISTRATION_ACCESS_COOKIE = "startup_academy_access";
 var ACCESS_TTL_MS = 180 * 24 * 60 * 60 * 1e3;
-function hashToken(token) {
-  return createHash("sha256").update(token).digest("hex");
+function signingSecret() {
+  return ENV.adminSessionSecret || ENV.supabaseAdminSecret || ENV.supabaseAnonKey;
+}
+function sign(value) {
+  return createHmac("sha256", signingSecret()).update(value).digest("base64url");
 }
 function serializeAccessCookie(token, maxAge) {
   const sameSite = ENV.isProduction ? "None; Secure" : "Lax";
   return `${REGISTRATION_ACCESS_COOKIE}=${encodeURIComponent(token)}; Max-Age=${maxAge}; Path=/; HttpOnly; SameSite=${sameSite}`;
 }
-async function accessRequest(path, init = {}) {
-  if (!ENV.supabaseUrl || !ENV.supabaseAnonKey) throw new Error("Database is not configured");
-  const response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/${path}`, {
-    ...init,
-    headers: {
-      apikey: ENV.supabaseAnonKey,
-      Authorization: `Bearer ${ENV.supabaseAnonKey}`,
-      "Content-Type": "application/json",
-      ...init.headers ?? {}
-    }
-  });
-  if (!response.ok) throw new Error(`Supabase access request failed (${response.status})`);
-  return response;
-}
 async function issueRegistrationAccess(registrationId, res) {
-  const token = randomBytes(32).toString("base64url");
-  const expiresAt = new Date(Date.now() + ACCESS_TTL_MS).toISOString();
-  await accessRequest("registration_access_tokens", {
-    method: "POST",
-    headers: { Prefer: "return=minimal" },
-    body: JSON.stringify({ registrationId, tokenHash: hashToken(token), expiresAt })
-  });
+  if (!signingSecret()) throw new Error("Access signing secret is not configured");
+  const expiresAt = Date.now() + ACCESS_TTL_MS;
+  const payload = `${registrationId}.${expiresAt}`;
+  const token = `${payload}.${sign(payload)}`;
   res.setHeader("Set-Cookie", serializeAccessCookie(token, Math.floor(ACCESS_TTL_MS / 1e3)));
 }
 async function getRegistrationAccessId(req) {
   const token = parse(req.headers.cookie || "")[REGISTRATION_ACCESS_COOKIE];
   if (!token) return null;
-  const response = await accessRequest(`rpc/registration_access_id`, {
-    method: "POST",
-    body: JSON.stringify({ p_token_hash: hashToken(token) })
-  });
-  const value = await response.json();
-  return value == null ? null : Number(value);
+  const parts = token.split(".");
+  if (parts.length !== 3) return null;
+  const [registrationId, expiresAtText, signature] = parts;
+  const payload = `${registrationId}.${expiresAtText}`;
+  if (!signingSecret() || Number(expiresAtText) < Date.now()) return null;
+  const expected = sign(payload);
+  if (signature.length !== expected.length || !timingSafeEqual(Buffer.from(signature), Buffer.from(expected))) return null;
+  return registrationId;
 }
 
 // server/programCatalog.ts
@@ -53760,14 +53754,14 @@ import { parse as parseCookieHeader } from "cookie";
 import { SignJWT, jwtVerify } from "jose";
 
 // server/_core/adminPassword.ts
-import { createHmac, randomBytes as randomBytes2, scryptSync, timingSafeEqual } from "node:crypto";
+import { createHmac as createHmac2, randomBytes, scryptSync, timingSafeEqual as timingSafeEqual2 } from "node:crypto";
 var ADMIN_SESSION_COOKIE = "admin_session";
 var SESSION_TTL_SECONDS = 60 * 60 * 8;
 function secret() {
   return ENV.adminSessionSecret || ENV.cookieSecret;
 }
-function sign(value) {
-  return createHmac("sha256", secret()).update(value).digest("base64url");
+function sign2(value) {
+  return createHmac2("sha256", secret()).update(value).digest("base64url");
 }
 function verifyAdminSession(token) {
   if (!token || !secret()) return null;
@@ -53778,8 +53772,8 @@ function verifyAdminSession(token) {
   if (expirySeparator <= 0 || !signature) return null;
   const email = payload.slice(0, expirySeparator);
   const expiresValue = payload.slice(expirySeparator + 1);
-  const expected = sign(payload);
-  if (signature.length !== expected.length || !timingSafeEqual(Buffer.from(signature), Buffer.from(expected))) return null;
+  const expected = sign2(payload);
+  if (signature.length !== expected.length || !timingSafeEqual2(Buffer.from(signature), Buffer.from(expected))) return null;
   const expiresAt = Number(expiresValue);
   if (!email || !Number.isFinite(expiresAt) || expiresAt <= Date.now()) return null;
   if (ENV.adminEmail && email !== ENV.adminEmail.trim().toLowerCase()) return null;

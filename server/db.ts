@@ -52,18 +52,28 @@ export async function upsertUser(user: { openId: string; name?: string | null; e
 }
 
 export async function createRegistration(input: InsertRegistration) {
-  const response = await supabaseRequest("registrations?select=id", {
+  if (!ENV.supabaseAdminSecret) throw new Error("Supabase service key is not configured");
+  const response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/registrations?select=id`, {
     method: "POST",
-    headers: { Prefer: "return=representation" },
+    headers: {
+      apikey: ENV.supabaseAdminSecret,
+      Authorization: `Bearer ${ENV.supabaseAdminSecret}`,
+      "Content-Type": "application/json",
+      Prefer: "return=representation",
+    },
     body: JSON.stringify({
-      name: input.name, email: input.email, phone: input.phone, country: input.country,
-      dialCode: input.dialCode, stage: input.stage, goal: input.goal,
-      language: input.language ?? "ar", status: input.status ?? "new", notes: input.notes ?? null,
+      full_name: input.name,
+      email: input.email,
+      country: input.country,
+      language: input.language ?? "ar",
+      startup_stage: input.stage,
+      goal: `${input.goal}\n\nPhone: ${input.phone}\nDial code: ${input.dialCode}`,
     }),
   });
+  if (!response.ok) throw new Error(`Supabase request failed (${response.status})`);
   const rows = await response.json() as Array<{ id: number }>;
   if (!rows[0]?.id) throw new Error("Registration was not created");
-  return Number(rows[0].id);
+  return String(rows[0].id);
 }
 
 export async function bulkCreateRegistrations(input: InsertRegistration[]) {
