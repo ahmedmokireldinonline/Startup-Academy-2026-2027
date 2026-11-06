@@ -268,9 +268,9 @@ async function upsertUser(user) {
   });
 }
 async function createRegistration(input) {
-  const response = await supabaseRequest("registrations?select=id", {
+  const response = await supabaseRequest("registrations", {
     method: "POST",
-    headers: { Prefer: "return=representation" },
+    headers: { Prefer: "return=minimal" },
     body: JSON.stringify({
       name: input.name,
       email: input.email,
@@ -285,9 +285,7 @@ async function createRegistration(input) {
     })
   });
   if (!response.ok) throw new Error(`Supabase registration request failed (HTTP ${response.status})`);
-  const rows = await response.json();
-  if (!rows[0]?.id) throw new Error("Registration was not created");
-  return String(rows[0].id);
+  return `registration-${Date.now()}`;
 }
 async function bulkCreateRegistrations(input) {
   if (!input.length) return { inserted: 0 };

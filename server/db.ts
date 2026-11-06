@@ -55,9 +55,9 @@ export async function upsertUser(user: { openId: string; name?: string | null; e
 }
 
 export async function createRegistration(input: InsertRegistration) {
-  const response = await supabaseRequest("registrations?select=id", {
+  const response = await supabaseRequest("registrations", {
     method: "POST",
-    headers: { Prefer: "return=representation" },
+    headers: { Prefer: "return=minimal" },
     body: JSON.stringify({
       name: input.name,
       email: input.email,
@@ -72,9 +72,7 @@ export async function createRegistration(input: InsertRegistration) {
     }),
   });
   if (!response.ok) throw new Error(`Supabase registration request failed (HTTP ${response.status})`);
-  const rows = await response.json() as Array<{ id: number }>;
-  if (!rows[0]?.id) throw new Error("Registration was not created");
-  return String(rows[0].id);
+  return `registration-${Date.now()}`;
 }
 
 export async function bulkCreateRegistrations(input: InsertRegistration[]) {
