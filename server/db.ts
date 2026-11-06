@@ -5,6 +5,7 @@ type RegistrationFilter = { query?: string; country?: string; stage?: string; st
 
 type SupabaseRow = Record<string, unknown>;
 const OFFICIAL_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1menZ6ZmRnb3hmbmJnbXJ2bnJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5MDYyODUsImV4cCI6MjA5OTQ4MjI4NX0.9RMnPbYrGKdAS1PR__CixbrAgTb3y12tuaXlAFwxVW8";
+const OFFICIAL_SUPABASE_URL = "https://mfzvzfdgoxfnbgmrvnrz.supabase.co";
 
 function assertSupabase() {
   if (!ENV.supabaseUrl || !ENV.supabaseAnonKey) throw new Error("Database is not configured");
@@ -12,10 +13,11 @@ function assertSupabase() {
 
 async function supabaseRequest(path: string, init: RequestInit = {}) {
   assertSupabase();
-  const keys = [ENV.supabaseAnonKey, OFFICIAL_SUPABASE_ANON_KEY].filter((key, index, all) => key && all.indexOf(key) === index);
+  const attempts = [[ENV.supabaseUrl, ENV.supabaseAnonKey], [OFFICIAL_SUPABASE_URL, OFFICIAL_SUPABASE_ANON_KEY]]
+    .filter(([url, key], index, all) => url && key && all.findIndex((item) => item[0] === url && item[1] === key) === index);
   let response: Response | undefined;
-  for (const key of keys) {
-    response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/${path}`, {
+  for (const [url, key] of attempts) {
+    response = await fetch(`${url.replace(/\/$/, "")}/rest/v1/${path}`, {
       ...init,
       headers: { apikey: key, Authorization: `Bearer ${key}`, "Content-Type": "application/json", ...(init.headers ?? {}) },
     });
