@@ -266,25 +266,20 @@ async function upsertUser(user) {
   });
 }
 async function createRegistration(input) {
-  if (!ENV.supabaseAdminSecret) throw new Error("Supabase service key is not configured");
-  const response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/registrations?select=id`, {
+  const response = await supabaseRequest("registrations?select=id", {
     method: "POST",
-    headers: {
-      apikey: ENV.supabaseAdminSecret,
-      Authorization: `Bearer ${ENV.supabaseAdminSecret}`,
-      "Content-Type": "application/json",
-      Prefer: "return=representation"
-    },
+    headers: { Prefer: "return=representation" },
     body: JSON.stringify({
-      full_name: input.name,
+      name: input.name,
       email: input.email,
+      phone: input.phone,
       country: input.country,
+      dialCode: input.dialCode,
+      stage: input.stage,
+      goal: input.goal,
       language: input.language ?? "ar",
-      startup_stage: input.stage,
-      goal: `${input.goal}
-
-Phone: ${input.phone}
-Dial code: ${input.dialCode}`
+      status: input.status ?? "new",
+      notes: input.notes ?? null
     })
   });
   if (!response.ok) throw new Error(`Supabase registration request failed (HTTP ${response.status})`);
