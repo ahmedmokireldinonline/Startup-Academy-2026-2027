@@ -952,3 +952,81 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .testimonial-card { min-height: 0; padding: 17px 15px 15px; }
 }
 @media (prefers-reduced-motion: reduce) { .testimonial-card { animation: none; } }
+
+/* Credibility logo strip below the hero */
+.credibility-logos {
+  overflow: hidden;
+  border-top: 1px solid #e3ebe6;
+  border-bottom: 1px solid #e3ebe6;
+  background: #fbfdfb;
+}
+.credibility-logos-inner {
+  width: min(100% - 32px, 1400px);
+  margin: 0 auto;
+  padding: 17px 0 16px;
+}
+.credibility-logos-heading {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.credibility-logos-heading .eyebrow { white-space: nowrap; }
+.credibility-logos-heading strong { color: #365744; font-size: 12px; white-space: nowrap; }
+.credibility-logos-heading small { color: #91a097; font-size: 9px; line-height: 1.5; }
+.credibility-logos-window {
+  overflow: hidden;
+  direction: ltr;
+  mask-image: linear-gradient(90deg, transparent 0, #000 3%, #000 97%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 3%, #000 97%, transparent 100%);
+}
+.credibility-logos-track {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: max-content;
+  direction: ltr;
+  animation: credibility-logo-scroll 62s linear infinite;
+  will-change: transform;
+}
+.credibility-logos-window:hover .credibility-logos-track,
+.credibility-logos-window:focus-within .credibility-logos-track { animation-play-state: paused; }
+.credibility-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 136px;
+  padding: 8px 11px;
+  border: 1px solid #e0e9e3;
+  border-radius: 9px;
+  color: #5d7466;
+  background: #fff;
+  font: 700 10px "Space Grotesk", "Noto Kufi Arabic", sans-serif;
+  white-space: nowrap;
+  box-shadow: 0 4px 13px rgba(31,66,46,.035);
+}
+.credibility-logo-mark {
+  display: grid;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  flex: 0 0 27px;
+  overflow: hidden;
+  border-radius: 7px;
+  background: #f1f7f3;
+}
+.credibility-logo-mark img { width: 19px; height: 19px; object-fit: contain; }
+@keyframes credibility-logo-scroll { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(-50%, 0, 0); } }
+@media (max-width: 760px) {
+  .credibility-logos-inner { width: min(100% - 24px, 1400px); padding: 14px 0; }
+  .credibility-logos-heading { grid-template-columns: 1fr; gap: 4px; margin-bottom: 11px; }
+  .credibility-logos-heading strong { font-size: 11px; }
+  .credibility-logos-heading small { font-size: 9px; }
+  .credibility-logo { min-width: 126px; padding: 7px 9px; }
+  .credibility-logos-track { gap: 8px; animation-duration: 52s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .credibility-logos-window { overflow-x: auto; mask-image: none; -webkit-mask-image: none; scrollbar-width: thin; }
+  .credibility-logos-track { animation: none; }
+}
