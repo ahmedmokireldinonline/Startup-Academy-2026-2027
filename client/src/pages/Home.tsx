@@ -58,6 +58,21 @@ const providerIconPaths: Record<string, string> = {
   "Amazon Web Services": "/provider-logos/amazonwebservices.svg", "Alibaba Cloud": "/provider-logos/alibabacloud.svg", "Ukrainian Startup Fund": "/provider-logos/usf.svg", "Bpifrance": "/provider-logos/bpifrance.ico", "ClickUp": "/provider-logos/clickup.svg", "Anthropic": "/provider-logos/anthropic.svg", "SendPulse": "/provider-logos/sendpulse.ico", "Microsoft": "/provider-logos/microsoft.svg", "Google Cloud": "/provider-logos/googlecloud.svg", "GitHub": "/provider-logos/github.svg", "NVIDIA": "/provider-logos/nvidia.svg", "Tencent Cloud": "/provider-logos/tencentcloud.ico", "Huawei Cloud": "/provider-logos/huaweicloud.ico", "DigitalOcean": "/provider-logos/digitalocean.svg", "Cloudflare": "/provider-logos/cloudflare.svg", "MongoDB": "/provider-logos/mongodb.svg", "HubSpot": "/provider-logos/hubspot.svg", "Enterprise Singapore": "/provider-logos/enterprisesg.ico", "CORFO / Start-Up Chile": "/provider-logos/corfo.png", "OVHcloud": "/provider-logos/ovh.svg", "Akamai": "/provider-logos/akamai.svg", "DPIIT / Startup India": "/provider-logos/dpiit.png", "Government of India / DPIIT / NCGTC": "/provider-logos/dpiit.png", "Government of Ontario / MaRS": "/provider-logos/ontario.svg", "Trade Commissioner Service, Government of Canada": "/provider-logos/canada.ico", "Australian Government / DISR / ATO": "/provider-logos/australia.ico", "BIC Innovation / UK Government business finance directory": "/provider-logos/govuk.ico", "NEDO": "/provider-logos/nedo.svg", "Vercel": "/provider-logos/vercel.svg", "Miro": "/provider-logos/miro.svg", "ElevenLabs": "/provider-logos/elevenlabs.svg", "Airtable": "/provider-logos/airtable.svg", "Deepgram": "/provider-logos/deepgram.svg", "Vultr": "/provider-logos/vultr.svg", "Perplexity": "/provider-logos/perplexity.svg"
 };
 
+const credibilityLogos = [
+  { name: "Amazon Web Services", short: "AWS" },
+  { name: "Microsoft", short: "Microsoft" },
+  { name: "Google Cloud", short: "Google Cloud" },
+  { name: "GitHub", short: "GitHub" },
+  { name: "NVIDIA", short: "NVIDIA" },
+  { name: "Cloudflare", short: "Cloudflare" },
+  { name: "MongoDB", short: "MongoDB" },
+  { name: "HubSpot", short: "HubSpot" },
+  { name: "Vercel", short: "Vercel" },
+  { name: "Perplexity", short: "Perplexity" },
+  { name: "ClickUp", short: "ClickUp" },
+  { name: "Miro", short: "Miro" },
+];
+
 function providerIconUrl(provider: string) {
   try {
     if (providerIconPaths[provider]) return providerIconPaths[provider];
@@ -224,6 +239,13 @@ export default function Home() {
             <div className="compact-proof"><span><strong>{programs.length}</strong> {isArabic ? "برنامج" : "programs"}</span><span><strong>{learningPhases.length}</strong> {isArabic ? "مراحل" : "stages"}</span><span><strong>132+</strong> {isArabic ? "مورد" : "resources"}</span></div>
           </div>
           <div className="compact-hero-visual"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="hero-visual-core"><GraduationCap size={32} /><strong>{progress}%</strong><span>{isArabic ? "جاهزية المسار" : "path readiness"}</span></div><div className="hero-visual-badge badge-top"><CheckCircle2 size={15} /> {isArabic ? "مصدر رسمي" : "Official source"}</div><div className="hero-visual-badge badge-bottom"><Trophy size={15} /> {isArabic ? "فرصة مناسبة" : "Fit opportunity"}</div></div>
+        </section>
+
+        <section className="credibility-logos" aria-label={isArabic ? "مصادر وبرامج موثوقة" : "Trusted program sources"}>
+          <div className="credibility-logos-inner">
+            <div className="credibility-logos-heading"><span className="eyebrow">{isArabic ? "منظومة الوصول" : "Access ecosystem"}</span><strong>{isArabic ? "مصادر وبرامج موثوقة في الدليل" : "Trusted sources in our directory"}</strong><small>{isArabic ? "شعارات الجهات الظاهرة تمثل مصادر البرامج والخدمات التي نساعدك على الوصول إليها." : "Shown logos represent program and service sources we help founders access."}</small></div>
+            <div className="credibility-logos-window"><div className="credibility-logos-track">{[...credibilityLogos, ...credibilityLogos].map((logo, index) => <span className="credibility-logo" key={`${logo.name}-${index}`}><span className="credibility-logo-mark"><img src={providerIconPaths[logo.name]} alt="" loading="lazy" decoding="async" /></span><span>{logo.short}</span></span>)}</div></div>
+          </div>
         </section>
 
         <section className="program-marquee" aria-label={copy.partners}>
