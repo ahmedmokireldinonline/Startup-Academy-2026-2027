@@ -227,12 +227,16 @@ function getSessionCookieOptions(_req) {
 // server/db.ts
 var OFFICIAL_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1menZ6ZmRnb3hmbmJnbXJ2bnJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5MDYyODUsImV4cCI6MjA5OTQ4MjI4NX0.9RMnPbYrGKdAS1PR__CixbrAgTb3y12tuaXlAFwxVW8";
 var OFFICIAL_SUPABASE_URL = "https://mfzvzfdgoxfnbgmrvnrz.supabase.co";
-function assertSupabase() {
-  if (!ENV.supabaseUrl || !ENV.supabaseAnonKey) throw new Error("Database is not configured");
+function assertSupabase(write = false) {
+  if (!ENV.supabaseUrl || !ENV.supabaseAnonKey) throw new Error("Supabase public configuration is missing");
+  if (write && !ENV.supabaseAdminSecret) throw new Error("SUPABASE_ADMIN_SECRET is required for server-side writes");
 }
 async function supabaseRequest(path, init = {}) {
-  assertSupabase();
-  const attempts = [[ENV.supabaseUrl, ENV.supabaseAnonKey], [OFFICIAL_SUPABASE_URL, OFFICIAL_SUPABASE_ANON_KEY]].filter(([url, key], index, all) => url && key && all.findIndex((item) => item[0] === url && item[1] === key) === index);
+  const method = (init.method ?? "GET").toUpperCase();
+  const write = method !== "GET" && method !== "HEAD";
+  assertSupabase(write);
+  const requestKey = write ? ENV.supabaseAdminSecret : ENV.supabaseAnonKey;
+  const attempts = write ? [[ENV.supabaseUrl, requestKey]] : [[ENV.supabaseUrl, ENV.supabaseAnonKey], [OFFICIAL_SUPABASE_URL, OFFICIAL_SUPABASE_ANON_KEY]].filter(([url, key], index, all) => url && key && all.findIndex((item) => item[0] === url && item[1] === key) === index);
   let response;
   for (const [url, key] of attempts) {
     response = await fetch(`${url.replace(/\/$/, "")}/rest/v1/${path}`, {
