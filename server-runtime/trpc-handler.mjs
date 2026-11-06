@@ -287,7 +287,7 @@ Phone: ${input.phone}
 Dial code: ${input.dialCode}`
     })
   });
-  if (!response.ok) throw new Error(`Supabase request failed (${response.status})`);
+  if (!response.ok) throw new Error(`Supabase registration request failed (HTTP ${response.status})`);
   const rows = await response.json();
   if (!rows[0]?.id) throw new Error("Registration was not created");
   return String(rows[0].id);
@@ -53660,7 +53660,8 @@ var importedRegistration = registrationInput.extend({
 }).transform((item) => ({ ...item, status: item.status ?? "new" }));
 function databaseError(error) {
   console.error("[API] Database operation failed", error);
-  throw new TRPCError3({ code: "INTERNAL_SERVER_ERROR", message: "Database is not configured or unavailable" });
+  const detail = error instanceof Error ? error.message : "Unknown database error";
+  throw new TRPCError3({ code: "INTERNAL_SERVER_ERROR", message: detail });
 }
 var appRouter = router({
   system: systemRouter,

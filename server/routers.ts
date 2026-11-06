@@ -29,7 +29,8 @@ const importedRegistration = registrationInput.extend({
 
 function databaseError(error: unknown): never {
   console.error("[API] Database operation failed", error);
-  throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "Database is not configured or unavailable" });
+  const detail = error instanceof Error ? error.message : "Unknown database error";
+  throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: detail });
 }
 
 export const appRouter = router({

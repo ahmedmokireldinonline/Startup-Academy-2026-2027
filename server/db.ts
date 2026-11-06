@@ -70,7 +70,7 @@ export async function createRegistration(input: InsertRegistration) {
       goal: `${input.goal}\n\nPhone: ${input.phone}\nDial code: ${input.dialCode}`,
     }),
   });
-  if (!response.ok) throw new Error(`Supabase request failed (${response.status})`);
+  if (!response.ok) throw new Error(`Supabase registration request failed (HTTP ${response.status})`);
   const rows = await response.json() as Array<{ id: number }>;
   if (!rows[0]?.id) throw new Error("Registration was not created");
   return String(rows[0].id);
