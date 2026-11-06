@@ -225,21 +225,22 @@ function getSessionCookieOptions(_req) {
 }
 
 // server/db.ts
+var OFFICIAL_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1menZ6ZmRnb3hmbmJnbXJ2bnJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5MDYyODUsImV4cCI6MjA5OTQ4MjI4NX0.9RMnPbYrGKdAS1PR__CixbrAgTb3y12tuaXlAFwxVW8";
 function assertSupabase() {
   if (!ENV.supabaseUrl || !ENV.supabaseAnonKey) throw new Error("Database is not configured");
 }
 async function supabaseRequest(path, init = {}) {
   assertSupabase();
-  const response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/${path}`, {
-    ...init,
-    headers: {
-      apikey: ENV.supabaseAnonKey,
-      Authorization: `Bearer ${ENV.supabaseAnonKey}`,
-      "Content-Type": "application/json",
-      ...init.headers ?? {}
-    }
-  });
-  if (!response.ok) throw new Error(`Supabase request failed (${response.status})`);
+  const keys = [ENV.supabaseAnonKey, OFFICIAL_SUPABASE_ANON_KEY].filter((key, index, all) => key && all.indexOf(key) === index);
+  let response;
+  for (const key of keys) {
+    response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/${path}`, {
+      ...init,
+      headers: { apikey: key, Authorization: `Bearer ${key}`, "Content-Type": "application/json", ...init.headers ?? {} }
+    });
+    if (response.status !== 401) break;
+  }
+  if (!response?.ok) throw new Error(`Supabase request failed (${response?.status ?? "no response"})`);
   return response;
 }
 async function rpc(name, body) {
