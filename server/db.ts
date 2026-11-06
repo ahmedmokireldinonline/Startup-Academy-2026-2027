@@ -1,84 +1,103 @@
-import { and, count, desc, eq, sql } from "drizzle-orm";
-import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, registrations, Registration, InsertRegistration, users } from "../drizzle/schema";
-import { ENV } from './_core/env';
+import type { InsertRegistration, Registration, User } from "../drizzle/schema";
+import { ENV } from "./_core/env";
 
-let _db: ReturnType<typeof drizzle> | null = null;
+type RegistrationFilter = { query?: string; country?: string; stage?: string; status?: Registration["status"] | "All" };
 
-export async function getDb() {
-  if (!_db && process.env.DATABASE_URL) {
-    try { _db = drizzle(process.env.DATABASE_URL); }
-    catch (error) { console.warn("[Database] Failed to connect:", error); _db = null; }
-  }
-  return _db;
+type SupabaseRow = Record<string, unknown>;
+
+function assertSupabase() {
+  if (!ENV.supabaseUrl || !ENV.supabaseAnonKey) throw new Error("Database is not configured");
 }
 
-export async function upsertUser(user: InsertUser): Promise<void> {
-  if (!user.openId) throw new Error("User openId is required for upsert");
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  const values: InsertUser = { openId: user.openId };
-  const updateSet: Record<string, unknown> = {};
-  const textFields = ["name", "email", "loginMethod"] as const;
-  for (const field of textFields) {
-    if (user[field] !== undefined) { values[field] = user[field] ?? null; updateSet[field] = user[field] ?? null; }
-  }
-  if (user.lastSignedIn !== undefined) { values.lastSignedIn = user.lastSignedIn; updateSet.lastSignedIn = user.lastSignedIn; }
-  if (user.role !== undefined) { values.role = user.role; updateSet.role = user.role; }
-  else if (user.openId === ENV.ownerOpenId || user.email?.toLowerCase() === 'admin@startupacademy.com') { values.role = 'super_admin'; updateSet.role = 'super_admin'; }
-  values.lastSignedIn ??= new Date();
-  if (Object.keys(updateSet).length === 0) updateSet.lastSignedIn = new Date();
-  await db.insert(users).values(values).onDuplicateKeyUpdate({ set: updateSet });
+async function supabaseRequest(path: string, init: RequestInit = {}) {
+  assertSupabase();
+  const response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/${path}`, {
+    ...init,
+    headers: {
+      apikey: ENV.supabaseAnonKey,
+      Authorization: `Bearer ${ENV.supabaseAnonKey}`,
+      "Content-Type": "application/json",
+      ...(init.headers ?? {}),
+    },
+  });
+  if (!response.ok) throw new Error(`Supabase request failed (${response.status})`);
+  return response;
+}
+
+async function rpc<T>(name: string, body: Record<string, unknown>): Promise<T> {
+  const response = await supabaseRequest(`rpc/${name}`, { method: "POST", body: JSON.stringify(body) });
+  return response.json() as Promise<T>;
+}
+
+export async function getDb() {
+  return Boolean(ENV.supabaseUrl && ENV.supabaseAnonKey);
 }
 
 export async function getUserByOpenId(openId: string) {
-  const db = await getDb();
-  if (!db) return undefined;
-  const result = await db.select().from(users).where(eq(users.openId, openId)).limit(1);
-  return result[0];
+  const response = await supabaseRequest(`users?select=*&openId=eq.${encodeURIComponent(openId)}&limit=1`);
+  const rows = await response.json() as SupabaseRow[];
+  return rows[0] as User | undefined;
+}
+
+export async function upsertUser(user: { openId: string; name?: string | null; email?: string | null; loginMethod?: string | null; role?: "user" | "admin" | "super_admin"; lastSignedIn?: Date }) {
+  await supabaseRequest("users", {
+    method: "POST",
+    headers: { Prefer: "resolution=merge-duplicates,return=minimal" },
+    body: JSON.stringify({
+      openId: user.openId, name: user.name ?? null, email: user.email ?? null,
+      loginMethod: user.loginMethod ?? null, role: user.role ?? "user",
+      lastSignedIn: (user.lastSignedIn ?? new Date()).toISOString(),
+    }),
+  });
 }
 
 export async function createRegistration(input: InsertRegistration) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  const result = await db.insert(registrations).values(input);
-  return Number(result[0].insertId);
+  const response = await supabaseRequest("registrations?select=id", {
+    method: "POST",
+    headers: { Prefer: "return=representation" },
+    body: JSON.stringify({
+      name: input.name, email: input.email, phone: input.phone, country: input.country,
+      dialCode: input.dialCode, stage: input.stage, goal: input.goal,
+      language: input.language ?? "ar", status: input.status ?? "new", notes: input.notes ?? null,
+    }),
+  });
+  const rows = await response.json() as Array<{ id: number }>;
+  if (!rows[0]?.id) throw new Error("Registration was not created");
+  return Number(rows[0].id);
 }
 
 export async function bulkCreateRegistrations(input: InsertRegistration[]) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  if (input.length === 0) return { inserted: 0 } as const;
-  await db.insert(registrations).values(input);
+  if (!input.length) return { inserted: 0 } as const;
+  await supabaseRequest("registrations", {
+    method: "POST",
+    headers: { Prefer: "return=minimal" },
+    body: JSON.stringify(input.map((item) => ({ ...item, language: item.language ?? "ar", status: item.status ?? "new" }))),
+  });
   return { inserted: input.length } as const;
 }
 
-export async function listRegistrations(filters?: { query?: string; country?: string; stage?: string; status?: Registration["status"] | "All" }) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  const conditions = [];
-  if (filters?.country && filters.country !== "All") conditions.push(eq(registrations.country, filters.country));
-  if (filters?.stage && filters.stage !== "All") conditions.push(eq(registrations.stage, filters.stage));
-  if (filters?.status && filters.status !== "All") conditions.push(eq(registrations.status, filters.status));
-  if (filters?.query) {
-    const q = `%${filters.query}%`;
-    conditions.push(sql`(${registrations.name} like ${q} or ${registrations.email} like ${q} or ${registrations.phone} like ${q})`);
-  }
-  return db.select().from(registrations).where(conditions.length ? and(...conditions) : undefined).orderBy(desc(registrations.createdAt));
+function mapRegistration(row: SupabaseRow): Registration {
+  return {
+    id: Number(row.id), name: String(row.name ?? ""), email: String(row.email ?? ""), phone: String(row.phone ?? ""),
+    country: String(row.country ?? ""), dialCode: String(row.dialCode ?? ""), stage: String(row.stage ?? ""),
+    goal: String(row.goal ?? ""), language: String(row.language ?? "ar"), status: row.status as Registration["status"],
+    notes: row.notes == null ? null : String(row.notes), createdAt: new Date(String(row.createdAt ?? "")),
+    updatedAt: new Date(String(row.updatedAt ?? "")), lastContactedAt: row.lastContactedAt == null ? null : new Date(String(row.lastContactedAt)),
+  };
+}
+
+export async function listRegistrations(filters?: RegistrationFilter) {
+  const rows = await rpc<SupabaseRow[]>("admin_registrations", {
+    p_secret: ENV.supabaseAdminSecret, p_query: filters?.query || null, p_country: filters?.country || null,
+    p_stage: filters?.stage || null, p_status: filters?.status || null,
+  });
+  return rows.map(mapRegistration);
 }
 
 export async function getRegistrationStats() {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  const rows = await db.select({ status: registrations.status, total: count() }).from(registrations).groupBy(registrations.status);
-  const totals = { all: 0, new: 0, contacted: 0, qualified: 0, archived: 0 };
-  for (const row of rows) { totals[row.status] = Number(row.total); totals.all += Number(row.total); }
-  return totals;
+  return rpc<{ all: number; new: number; contacted: number; qualified: number; archived: number }>("admin_stats", { p_secret: ENV.supabaseAdminSecret });
 }
 
 export async function updateRegistrationStatus(id: number, status: Registration["status"], notes?: string) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  await db.update(registrations).set({ status, notes, lastContactedAt: status === "contacted" ? new Date() : undefined }).where(eq(registrations.id, id));
-  return { success: true } as const;
+  return rpc<{ success: boolean }>("admin_update_registration", { p_secret: ENV.supabaseAdminSecret, p_id: id, p_status: status, p_notes: notes ?? null });
 }

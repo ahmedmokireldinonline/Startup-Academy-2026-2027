@@ -96,6 +96,15 @@ var ENV = {
   get adminSessionSecret() {
     return process.env.ADMIN_SESSION_SECRET ?? "";
   },
+  get supabaseUrl() {
+    return process.env.SUPABASE_URL ?? "";
+  },
+  get supabaseAnonKey() {
+    return process.env.SUPABASE_ANON_KEY ?? "";
+  },
+  get supabaseAdminSecret() {
+    return process.env.SUPABASE_ADMIN_SECRET ?? "";
+  },
   get isProduction() {
     return process.env.NODE_ENV === "production";
   },
@@ -216,146 +225,114 @@ function getSessionCookieOptions(_req) {
 }
 
 // server/db.ts
-import { and, count, desc, eq, sql } from "drizzle-orm";
-import { drizzle } from "drizzle-orm/mysql2";
-
-// drizzle/schema.ts
-import { int, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
-var users = mysqlTable("users", {
-  /**
-   * Surrogate primary key. Auto-incremented numeric value managed by the database.
-   * Use this for relations between tables.
-   */
-  id: int("id").autoincrement().primaryKey(),
-  /** Manus OAuth identifier (openId) returned from the OAuth callback. Unique per user. */
-  openId: varchar("openId", { length: 64 }).notNull().unique(),
-  name: text("name"),
-  email: varchar("email", { length: 320 }),
-  loginMethod: varchar("loginMethod", { length: 64 }),
-  role: mysqlEnum("role", ["user", "admin", "super_admin"]).default("user").notNull(),
-  createdAt: timestamp("createdAt").defaultNow().notNull(),
-  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
-  lastSignedIn: timestamp("lastSignedIn").defaultNow().notNull()
-});
-var registrations = mysqlTable("registrations", {
-  id: int("id").autoincrement().primaryKey(),
-  name: varchar("name", { length: 160 }).notNull(),
-  email: varchar("email", { length: 320 }).notNull(),
-  phone: varchar("phone", { length: 40 }).notNull(),
-  country: varchar("country", { length: 8 }).notNull(),
-  dialCode: varchar("dialCode", { length: 12 }).notNull(),
-  stage: varchar("stage", { length: 100 }).notNull(),
-  goal: text("goal").notNull(),
-  language: varchar("language", { length: 8 }).default("ar").notNull(),
-  status: mysqlEnum("status", ["new", "contacted", "qualified", "archived"]).default("new").notNull(),
-  notes: text("notes"),
-  createdAt: timestamp("createdAt").defaultNow().notNull(),
-  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
-  lastContactedAt: timestamp("lastContactedAt")
-});
-var registrationAccessTokens = mysqlTable("registration_access_tokens", {
-  id: int("id").autoincrement().primaryKey(),
-  registrationId: int("registrationId").notNull().references(() => registrations.id, { onDelete: "cascade" }),
-  tokenHash: varchar("tokenHash", { length: 128 }).notNull().unique(),
-  createdAt: timestamp("createdAt").defaultNow().notNull(),
-  expiresAt: timestamp("expiresAt").notNull()
-});
-
-// server/db.ts
-var _db = null;
-async function getDb() {
-  if (!_db && process.env.DATABASE_URL) {
-    try {
-      _db = drizzle(process.env.DATABASE_URL);
-    } catch (error) {
-      console.warn("[Database] Failed to connect:", error);
-      _db = null;
-    }
-  }
-  return _db;
+function assertSupabase() {
+  if (!ENV.supabaseUrl || !ENV.supabaseAnonKey) throw new Error("Database is not configured");
 }
-async function upsertUser(user) {
-  if (!user.openId) throw new Error("User openId is required for upsert");
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  const values = { openId: user.openId };
-  const updateSet = {};
-  const textFields = ["name", "email", "loginMethod"];
-  for (const field of textFields) {
-    if (user[field] !== void 0) {
-      values[field] = user[field] ?? null;
-      updateSet[field] = user[field] ?? null;
+async function supabaseRequest(path, init = {}) {
+  assertSupabase();
+  const response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/${path}`, {
+    ...init,
+    headers: {
+      apikey: ENV.supabaseAnonKey,
+      Authorization: `Bearer ${ENV.supabaseAnonKey}`,
+      "Content-Type": "application/json",
+      ...init.headers ?? {}
     }
-  }
-  if (user.lastSignedIn !== void 0) {
-    values.lastSignedIn = user.lastSignedIn;
-    updateSet.lastSignedIn = user.lastSignedIn;
-  }
-  if (user.role !== void 0) {
-    values.role = user.role;
-    updateSet.role = user.role;
-  } else if (user.openId === ENV.ownerOpenId || user.email?.toLowerCase() === "admin@startupacademy.com") {
-    values.role = "super_admin";
-    updateSet.role = "super_admin";
-  }
-  values.lastSignedIn ??= /* @__PURE__ */ new Date();
-  if (Object.keys(updateSet).length === 0) updateSet.lastSignedIn = /* @__PURE__ */ new Date();
-  await db.insert(users).values(values).onDuplicateKeyUpdate({ set: updateSet });
+  });
+  if (!response.ok) throw new Error(`Supabase request failed (${response.status})`);
+  return response;
+}
+async function rpc(name, body) {
+  const response = await supabaseRequest(`rpc/${name}`, { method: "POST", body: JSON.stringify(body) });
+  return response.json();
 }
 async function getUserByOpenId(openId) {
-  const db = await getDb();
-  if (!db) return void 0;
-  const result = await db.select().from(users).where(eq(users.openId, openId)).limit(1);
-  return result[0];
+  const response = await supabaseRequest(`users?select=*&openId=eq.${encodeURIComponent(openId)}&limit=1`);
+  const rows = await response.json();
+  return rows[0];
+}
+async function upsertUser(user) {
+  await supabaseRequest("users", {
+    method: "POST",
+    headers: { Prefer: "resolution=merge-duplicates,return=minimal" },
+    body: JSON.stringify({
+      openId: user.openId,
+      name: user.name ?? null,
+      email: user.email ?? null,
+      loginMethod: user.loginMethod ?? null,
+      role: user.role ?? "user",
+      lastSignedIn: (user.lastSignedIn ?? /* @__PURE__ */ new Date()).toISOString()
+    })
+  });
 }
 async function createRegistration(input) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  const result = await db.insert(registrations).values(input);
-  return Number(result[0].insertId);
+  const response = await supabaseRequest("registrations?select=id", {
+    method: "POST",
+    headers: { Prefer: "return=representation" },
+    body: JSON.stringify({
+      name: input.name,
+      email: input.email,
+      phone: input.phone,
+      country: input.country,
+      dialCode: input.dialCode,
+      stage: input.stage,
+      goal: input.goal,
+      language: input.language ?? "ar",
+      status: input.status ?? "new",
+      notes: input.notes ?? null
+    })
+  });
+  const rows = await response.json();
+  if (!rows[0]?.id) throw new Error("Registration was not created");
+  return Number(rows[0].id);
 }
 async function bulkCreateRegistrations(input) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  if (input.length === 0) return { inserted: 0 };
-  await db.insert(registrations).values(input);
+  if (!input.length) return { inserted: 0 };
+  await supabaseRequest("registrations", {
+    method: "POST",
+    headers: { Prefer: "return=minimal" },
+    body: JSON.stringify(input.map((item) => ({ ...item, language: item.language ?? "ar", status: item.status ?? "new" })))
+  });
   return { inserted: input.length };
 }
+function mapRegistration(row) {
+  return {
+    id: Number(row.id),
+    name: String(row.name ?? ""),
+    email: String(row.email ?? ""),
+    phone: String(row.phone ?? ""),
+    country: String(row.country ?? ""),
+    dialCode: String(row.dialCode ?? ""),
+    stage: String(row.stage ?? ""),
+    goal: String(row.goal ?? ""),
+    language: String(row.language ?? "ar"),
+    status: row.status,
+    notes: row.notes == null ? null : String(row.notes),
+    createdAt: new Date(String(row.createdAt ?? "")),
+    updatedAt: new Date(String(row.updatedAt ?? "")),
+    lastContactedAt: row.lastContactedAt == null ? null : new Date(String(row.lastContactedAt))
+  };
+}
 async function listRegistrations(filters) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  const conditions = [];
-  if (filters?.country && filters.country !== "All") conditions.push(eq(registrations.country, filters.country));
-  if (filters?.stage && filters.stage !== "All") conditions.push(eq(registrations.stage, filters.stage));
-  if (filters?.status && filters.status !== "All") conditions.push(eq(registrations.status, filters.status));
-  if (filters?.query) {
-    const q = `%${filters.query}%`;
-    conditions.push(sql`(${registrations.name} like ${q} or ${registrations.email} like ${q} or ${registrations.phone} like ${q})`);
-  }
-  return db.select().from(registrations).where(conditions.length ? and(...conditions) : void 0).orderBy(desc(registrations.createdAt));
+  const rows = await rpc("admin_registrations", {
+    p_secret: ENV.supabaseAdminSecret,
+    p_query: filters?.query || null,
+    p_country: filters?.country || null,
+    p_stage: filters?.stage || null,
+    p_status: filters?.status || null
+  });
+  return rows.map(mapRegistration);
 }
 async function getRegistrationStats() {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  const rows = await db.select({ status: registrations.status, total: count() }).from(registrations).groupBy(registrations.status);
-  const totals = { all: 0, new: 0, contacted: 0, qualified: 0, archived: 0 };
-  for (const row of rows) {
-    totals[row.status] = Number(row.total);
-    totals.all += Number(row.total);
-  }
-  return totals;
+  return rpc("admin_stats", { p_secret: ENV.supabaseAdminSecret });
 }
 async function updateRegistrationStatus(id, status, notes) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
-  await db.update(registrations).set({ status, notes, lastContactedAt: status === "contacted" ? /* @__PURE__ */ new Date() : void 0 }).where(eq(registrations.id, id));
-  return { success: true };
+  return rpc("admin_update_registration", { p_secret: ENV.supabaseAdminSecret, p_id: id, p_status: status, p_notes: notes ?? null });
 }
 
 // server/access.ts
 import { createHash, randomBytes } from "node:crypto";
 import { parse } from "cookie";
-import { and as and2, eq as eq2, gt } from "drizzle-orm";
 var REGISTRATION_ACCESS_COOKIE = "startup_academy_access";
 var ACCESS_TTL_MS = 180 * 24 * 60 * 60 * 1e3;
 function hashToken(token) {
@@ -365,21 +342,39 @@ function serializeAccessCookie(token, maxAge) {
   const sameSite = ENV.isProduction ? "None; Secure" : "Lax";
   return `${REGISTRATION_ACCESS_COOKIE}=${encodeURIComponent(token)}; Max-Age=${maxAge}; Path=/; HttpOnly; SameSite=${sameSite}`;
 }
+async function accessRequest(path, init = {}) {
+  if (!ENV.supabaseUrl || !ENV.supabaseAnonKey) throw new Error("Database is not configured");
+  const response = await fetch(`${ENV.supabaseUrl.replace(/\/$/, "")}/rest/v1/${path}`, {
+    ...init,
+    headers: {
+      apikey: ENV.supabaseAnonKey,
+      Authorization: `Bearer ${ENV.supabaseAnonKey}`,
+      "Content-Type": "application/json",
+      ...init.headers ?? {}
+    }
+  });
+  if (!response.ok) throw new Error(`Supabase access request failed (${response.status})`);
+  return response;
+}
 async function issueRegistrationAccess(registrationId, res) {
-  const db = await getDb();
-  if (!db) throw new Error("Database is not available");
   const token = randomBytes(32).toString("base64url");
-  const expiresAt = new Date(Date.now() + ACCESS_TTL_MS);
-  await db.insert(registrationAccessTokens).values({ registrationId, tokenHash: hashToken(token), expiresAt });
+  const expiresAt = new Date(Date.now() + ACCESS_TTL_MS).toISOString();
+  await accessRequest("registration_access_tokens", {
+    method: "POST",
+    headers: { Prefer: "return=minimal" },
+    body: JSON.stringify({ registrationId, tokenHash: hashToken(token), expiresAt })
+  });
   res.setHeader("Set-Cookie", serializeAccessCookie(token, Math.floor(ACCESS_TTL_MS / 1e3)));
 }
 async function getRegistrationAccessId(req) {
   const token = parse(req.headers.cookie || "")[REGISTRATION_ACCESS_COOKIE];
   if (!token) return null;
-  const db = await getDb();
-  if (!db) return null;
-  const result = await db.select({ registrationId: registrationAccessTokens.registrationId }).from(registrationAccessTokens).where(and2(eq2(registrationAccessTokens.tokenHash, hashToken(token)), gt(registrationAccessTokens.expiresAt, /* @__PURE__ */ new Date()))).limit(1);
-  return result[0]?.registrationId ?? null;
+  const response = await accessRequest(`rpc/registration_access_id`, {
+    method: "POST",
+    body: JSON.stringify({ p_token_hash: hashToken(token) })
+  });
+  const value = await response.json();
+  return value == null ? null : Number(value);
 }
 
 // server/programCatalog.ts
