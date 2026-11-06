@@ -53776,10 +53776,13 @@ function sign(value) {
 }
 function verifyAdminSession(token) {
   if (!token || !secret()) return null;
-  const parts = token.split(".");
-  if (parts.length !== 3) return null;
-  const [email, expiresValue, signature] = parts;
-  const payload = `${email}.${expiresValue}`;
+  const signatureSeparator = token.lastIndexOf(".");
+  const payload = signatureSeparator > 0 ? token.slice(0, signatureSeparator) : "";
+  const signature = signatureSeparator > 0 ? token.slice(signatureSeparator + 1) : "";
+  const expirySeparator = payload.lastIndexOf(".");
+  if (expirySeparator <= 0 || !signature) return null;
+  const email = payload.slice(0, expirySeparator);
+  const expiresValue = payload.slice(expirySeparator + 1);
   const expected = sign(payload);
   if (signature.length !== expected.length || !timingSafeEqual(Buffer.from(signature), Buffer.from(expected))) return null;
   const expiresAt = Number(expiresValue);
