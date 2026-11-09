@@ -3,6 +3,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
+import GlobalChrome from "./components/GlobalChrome";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
@@ -15,6 +16,7 @@ const About = lazy(() => import("./pages/About"));
 const AdminLogin = lazy(() => import("./pages/AdminLogin"));
 const Books = lazy(() => import("./pages/Books"));
 const Databases = lazy(() => import("./pages/Databases"));
+const FinancialModel = lazy(() => import("./pages/FinancialModel"));
 const NotFound = lazy(() => import("@/pages/NotFound"));
 
 function RouteFallback() {
@@ -30,6 +32,7 @@ function Router() {
       <Route path={"/investors"} component={Investors} />
       <Route path={"/books"} component={Books} />
       <Route path={"/databases"} component={Databases} />
+      <Route path={"/financial-model"} component={FinancialModel} />
       <Route path={"/about"} component={About} />
       <Route path={"/dashboard"} component={UserDashboard} />
       <Route path={"/admin/login"} component={AdminLogin} />
@@ -50,6 +53,7 @@ function App() {
           <Suspense fallback={<RouteFallback />}>
             <Router />
           </Suspense>
+          <GlobalChrome />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

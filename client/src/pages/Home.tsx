@@ -220,6 +220,7 @@ export default function Home() {
             <a className="main-nav-link" href="/programs">{isArabic ? "كل البرامج" : "All programs"}</a>
             <a className="main-nav-link" href="/investors">{isArabic ? "المستثمرون" : "Investors"}</a>
             <a className="main-nav-link" href="/books">{isArabic ? "مكتبة الكتب" : "Book library"}</a>
+            <a className="main-nav-link product-nav-link" href="/financial-model">{isArabic ? "النموذج المالي" : "Financial model"}</a>
             <a className="main-nav-link" href="/databases">{isArabic ? "قواعد البيانات" : "Data catalog"}</a>
             <a className="main-nav-link" href="/dashboard">{isArabic ? "لوحة الحساب" : "Dashboard"}</a>
             <a className="main-nav-link" href="/register">{isArabic ? "التسجيل" : "Register"}</a>

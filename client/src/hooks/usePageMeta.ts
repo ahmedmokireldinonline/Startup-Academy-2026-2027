@@ -15,7 +15,8 @@ export function usePageMeta({ language, titleAr, titleEn, descriptionAr, descrip
     const isArabic = language === "ar";
     const title = isArabic ? titleAr : titleEn;
     const description = isArabic ? descriptionAr : descriptionEn;
-    const canonical = `${window.location.origin}${path}`;
+    const siteOrigin = "https://startup-academy-2026-2027.vercel.app";
+    const canonical = `${siteOrigin}${path}`;
     document.title = title;
     document.documentElement.lang = language;
     document.documentElement.dir = isArabic ? "rtl" : "ltr";
@@ -35,7 +36,12 @@ export function usePageMeta({ language, titleAr, titleEn, descriptionAr, descrip
     setProperty("og:description", description);
     setProperty("og:type", "website");
     setProperty("og:url", canonical);
+    setProperty("og:site_name", "Startup Academy 2026–2027");
+    setProperty("og:image", `${siteOrigin}/og-image.svg`);
     setMeta("twitter:card", "summary");
+    setMeta("twitter:title", title);
+    setMeta("twitter:description", description);
+    setMeta("twitter:image", `${siteOrigin}/og-image.svg`);
     let link = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!link) { link = document.createElement("link"); link.rel = "canonical"; document.head.appendChild(link); }
     link.href = canonical;
