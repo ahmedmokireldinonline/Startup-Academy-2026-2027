@@ -1,4 +1,4 @@
-import { BookOpen, Facebook, FileSpreadsheet, Github, Globe2, Home, Languages, MessageCircle, Share2, Users, Database, UserPlus } from "lucide-react";
+import { BookOpen, Database, Facebook, FileSpreadsheet, Github, Globe2, Gauge, Home, Languages, MessageCircle, Share2, UserPlus, Users } from "lucide-react";
 import { useState } from "react";
 
 const SITE_URL = "https://startup-academy-2026-2027.vercel.app";
@@ -17,6 +17,7 @@ export default function GlobalChrome() {
     { href: "/investors", icon: Users, ar: "المستثمرون", en: "Investors" },
     { href: "/books", icon: BookOpen, ar: "المكتبة", en: "Library" },
     { href: "/financial-model", icon: FileSpreadsheet, ar: "النموذج المالي", en: "Financial model" },
+    { href: "/financial-analysis", icon: Gauge, ar: "التحليل المالي", en: "Analysis" },
     { href: "/databases", icon: Database, ar: "البيانات", en: "Data" },
     { href: "/dashboard", icon: Users, ar: "الحساب", en: "Dashboard" },
     { href: "/register", icon: UserPlus, ar: "التسجيل", en: "Register" },

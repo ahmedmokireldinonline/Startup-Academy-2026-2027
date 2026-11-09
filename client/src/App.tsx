@@ -17,6 +17,7 @@ const AdminLogin = lazy(() => import("./pages/AdminLogin"));
 const Books = lazy(() => import("./pages/Books"));
 const Databases = lazy(() => import("./pages/Databases"));
 const FinancialModel = lazy(() => import("./pages/FinancialModel"));
+const FinancialAnalysis = lazy(() => import("./pages/FinancialAnalysis"));
 const NotFound = lazy(() => import("@/pages/NotFound"));
 
 function RouteFallback() {
@@ -33,6 +34,7 @@ function Router() {
       <Route path={"/books"} component={Books} />
       <Route path={"/databases"} component={Databases} />
       <Route path={"/financial-model"} component={FinancialModel} />
+      <Route path={"/financial-analysis"} component={FinancialAnalysis} />
       <Route path={"/about"} component={About} />
       <Route path={"/dashboard"} component={UserDashboard} />
       <Route path={"/admin/login"} component={AdminLogin} />
