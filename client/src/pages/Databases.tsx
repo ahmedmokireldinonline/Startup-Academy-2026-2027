@@ -3,7 +3,6 @@ import {
   ArrowUpRight,
   BarChart3,
   Check,
-  ChevronDown,
   Database,
   Filter,
   Globe2,
@@ -12,8 +11,11 @@ import {
   MessageCircle,
   Search,
   ShieldCheck,
+  ShoppingBag,
   Sparkles,
+  Store,
   Table2,
+  Truck,
   Users,
 } from "lucide-react";
 import { usePageMeta } from "@/hooks/usePageMeta";
@@ -40,6 +42,13 @@ const bundleData = [
   { id: "mobility", icon: Users, tone: "orange", nameAr: "النقل الذكي واللوجستيات", nameEn: "Smart Mobility & Logistics", descriptionAr: "خريطة شركات النقل والتوصيل والشحن والتخزين في الخليج مع نطاق التغطية ونموذج العمل.", descriptionEn: "A Gulf map of mobility, delivery, shipping, and warehousing companies with coverage and business model.", includesAr: ["المدن والدول المشمولة", "نوع العملاء ونموذج الإيرادات", "مؤشرات الطلب والنمو"], includesEn: ["Cities and countries covered", "Customer type and revenue model", "Demand and growth signals"], bestAr: "للشراكات والاستثمار ودراسة المنافسة", bestEn: "For partnerships, investment, and competitive research" },
   { id: "real-estate", icon: Database, tone: "green", nameAr: "العقارات والفرص العقارية", nameEn: "Real Estate Intelligence", descriptionAr: "بيانات المطورين والمنصات والوسطاء وإدارة الممتلكات والطلب حسب المدينة ونوع العقار.", descriptionEn: "Developers, platforms, brokers, property managers, and demand signals by city and property type.", includesAr: ["سكني وتجاري وإيجار", "المناطق والمدن المستهدفة", "تحليل الجمهور واتجاهات الطلب"], includesEn: ["Residential, commercial, and rental", "Target cities and areas", "Audience and demand trends"], bestAr: "للتسويق العقاري والاستثمار", bestEn: "For real-estate marketing and investment" },
   { id: "retention", icon: ShieldCheck, tone: "navy", nameAr: "العملاء وسلوك الشراء", nameEn: "Customer & Purchase Intelligence", descriptionAr: "تحليل مجمع ومجهّل للعملاء والاحتفاظ وتكرار الشراء وقيمة العميل دون عرض أي بيانات شخصية.", descriptionEn: "Aggregated and anonymized customer, retention, repeat-purchase, and LTV analysis with no personal records.", includesAr: ["العملاء النشطون والاحتفاظ", "التوزيع الجغرافي والشرائح", "اتجاه زمني لآخر ثلاث سنوات"], includesEn: ["Active customers and retention", "Geography and segments", "Three-year trend"], bestAr: "لفرق التسويق وCRM والتحليلات", bestEn: "For marketing, CRM, and analytics teams" },
+];
+
+const companyCatalogs = [
+  { id: "gulf-mobility", icon: Truck, tone: "orange", labelAr: "شركات النقل الذكي في الخليج", labelEn: "Gulf Smart Mobility Companies", descriptionAr: "كتالوج شركات النقل التشاركي والتوصيل وإدارة الأساطيل والشحن الذكي في السعودية والإمارات والكويت وقطر والبحرين وعُمان.", descriptionEn: "A catalog of ride-hailing, delivery, fleet, and smart-shipping companies across Saudi Arabia, the UAE, Kuwait, Qatar, Bahrain, and Oman.", marketsAr: ["السعودية", "الإمارات", "الكويت", "قطر", "البحرين", "عُمان"], marketsEn: ["Saudi Arabia", "UAE", "Kuwait", "Qatar", "Bahrain", "Oman"], fieldsAr: ["التغطية الجغرافية", "نوع الخدمة", "نموذج العمل", "نوع العميل"], fieldsEn: ["Geographic coverage", "Service type", "Business model", "Customer type"] },
+  { id: "hair-commerce", icon: ShoppingBag, tone: "pink", labelAr: "متاجر أدوات تصفيف الشعر أونلاين", labelEn: "Online Hair Styling Stores", descriptionAr: "دليل متاجر ومنصات بيع أدوات تصفيف الشعر والعناية به، مع تصنيف المنتجات والأسواق والقنوات الرقمية.", descriptionEn: "An online directory of hair-styling and hair-care stores, with product, market, and digital-channel classification.", marketsAr: ["الخليج", "الشرق الأوسط", "متاجر إقليمية", "متاجر متخصصة"], marketsEn: ["Gulf", "Middle East", "Regional stores", "Specialist stores"], fieldsAr: ["فئة المنتج", "الدولة", "نطاق الأسعار", "قناة البيع"], fieldsEn: ["Product category", "Country", "Price range", "Sales channel"] },
+  { id: "maroof-insights", icon: Store, tone: "blue", labelAr: "كتالوج متاجر معروف", labelEn: "Maroof Store Intelligence", descriptionAr: "تحليل مجمع للمتاجر المسجلة أو الظاهرة في مصادر معروف، مع ربطه بمؤشرات التجارة الإلكترونية والعملاء عند توفرها بإذن.", descriptionEn: "Aggregated intelligence on stores listed in public Maroof sources, connected to e-commerce and customer signals only when permission is available.", marketsAr: ["السعودية", "متاجر إلكترونية", "منشآت موثقة"], marketsEn: ["Saudi Arabia", "Online stores", "Verified businesses"], fieldsAr: ["نشاط المتجر", "المدينة", "رابط المتجر", "حالة التحقق"], fieldsEn: ["Store activity", "City", "Store URL", "Verification status"] },
+  { id: "three-year-customers", icon: BarChart3, tone: "navy", labelAr: "تحليل العملاء والاشتراكات — 3 سنوات", labelEn: "Three-Year Customer & Subscription Analysis", descriptionAr: "كتالوج تحليلي للعملاء الذين اشتروا أو اشتركوا خلال آخر ثلاث سنوات، مع اتجاهات الاحتفاظ والتكرار والقيمة بصورة مجمعة ومجهّلة.", descriptionEn: "A three-year analytical catalog for customers who purchased or subscribed, with aggregated retention, repeat, and value trends.", marketsAr: ["2024", "2025", "2026", "حسب الدولة والفئة"], marketsEn: ["2024", "2025", "2026", "By market and segment"], fieldsAr: ["العملاء النشطون", "الشراء المتكرر", "الاحتفاظ", "متوسط قيمة الطلب", "LTV"], fieldsEn: ["Active customers", "Repeat purchase", "Retention", "Average order value", "LTV"] },
 ];
 
 function inquiryUrl(label: string, isArabic: boolean) {
@@ -73,6 +82,23 @@ function SourceCard({ source, isArabic }: { source: DatabaseSource; isArabic: bo
   );
 }
 
+function CompanyCatalogCard({ catalog, isArabic }: { catalog: (typeof companyCatalogs)[number]; isArabic: boolean }) {
+  const Icon = catalog.icon;
+  const label = isArabic ? catalog.labelAr : catalog.labelEn;
+  const markets = isArabic ? catalog.marketsAr : catalog.marketsEn;
+  const fields = isArabic ? catalog.fieldsAr : catalog.fieldsEn;
+  return <article className={`company-catalog-card company-catalog-${catalog.tone}`}>
+    <div className="company-catalog-icon"><Icon size={22} /></div>
+    <div className="company-catalog-heading"><span>{isArabic ? "كتالوج شركات وأسواق" : "Company & market catalog"}</span><ShieldCheck size={15} /></div>
+    <h3>{label}</h3>
+    <p>{isArabic ? catalog.descriptionAr : catalog.descriptionEn}</p>
+    <div className="company-catalog-row"><strong>{isArabic ? "الأسواق" : "Markets"}</strong><div>{markets.map((market) => <span key={market}>{market}</span>)}</div></div>
+    <div className="company-catalog-row"><strong>{isArabic ? "الحقول" : "Fields"}</strong><div>{fields.map((field) => <span key={field}>{field}</span>)}</div></div>
+    {catalog.id === "three-year-customers" && <div className="company-catalog-timeline"><span>2024</span><i /><span>2025</span><i /><span>2026</span><b>{isArabic ? "شراء واشتراك مجمع" : "Aggregated purchase & subscription"}</b></div>}
+    <a className="database-card-cta" href={inquiryUrl(label, isArabic)} target="_blank" rel="noreferrer"><MessageCircle size={14} />{isArabic ? "اطلب الكتالوج" : "Request catalog"}<ArrowUpRight size={14} /></a>
+  </article>;
+}
+
 export default function Databases() {
   const [language, setLanguage] = useState<Language>(() => { try { return localStorage.getItem("startup-academy-language") === "en" ? "en" : "ar"; } catch { return "ar"; } });
   const [query, setQuery] = useState("");
@@ -97,6 +123,7 @@ export default function Databases() {
       <section className="databases-hero"><div><span className="eyebrow"><Database size={14} />{isArabic ? "كتالوج بيانات الشرق الأوسط" : "Middle East data catalog"}</span><h1>{isArabic ? <>بيانات منظمة.<br /><em>قرارات أقوى.</em></> : <>Structured data.<br /><em>Stronger decisions.</em></>}</h1><p>{isArabic ? "كتالوج عملي للشركات والأسواق وتحليلات الجمهور في الخليج والشرق الأوسط. اكتشف البيانات، قارن الخيارات، واطلب البندل المناسب لنمو عملك." : "A practical catalog of companies, markets, and audience intelligence across the Gulf and Middle East. Discover, compare, and request the right bundle."}</p><div className="databases-hero-actions"><a className="button button-primary" href={allUrl} target="_blank" rel="noreferrer"><MessageCircle size={16} />{isArabic ? "اطلب حزمة مخصصة" : "Request a custom pack"}</a><a className="button button-secondary" href="#catalog">{isArabic ? "استكشف الكتالوج" : "Explore catalog"}<ArrowUpRight size={15} /></a></div></div><div className="database-hero-card"><div className="database-hero-orbit"><BarChart3 size={30} /></div><span><Users size={14} />{isArabic ? "ذكاء سوقي قابل للتنفيذ" : "Actionable market intelligence"}</span><strong>{isArabic ? "اكتشف ← قارن ← نمُ" : "Discover → Compare → Grow"}</strong><small>{isArabic ? "بيانات مجمعة ومجهّلة، مصممة للاستخدام التجاري المسؤول." : "Aggregated, anonymized data designed for responsible commercial use."}</small></div></section>
       <section className="database-stat-strip"><div><strong>9+</strong><span>{isArabic ? "منتجات بيانات" : "data products"}</span></div><div><strong>6</strong><span>{isArabic ? "بندلات جاهزة" : "ready bundles"}</span></div><div><strong>3</strong><span>{isArabic ? "سنوات تحليل" : "years of analysis"}</span></div><div><strong>100%</strong><span>{isArabic ? "بيانات مجمعة" : "aggregated data"}</span></div></section>
       <section className="database-trust"><div><ShieldCheck size={19} /><strong>{isArabic ? "مصادر عامة أو مرخّصة" : "Public or licensed sources"}</strong><span>{isArabic ? "نحدد المصدر ونطاق الاستخدام قبل التسليم." : "Source and permitted use are defined before delivery."}</span></div><div><Globe2 size={19} /><strong>{isArabic ? "مقسمة حسب السوق" : "Segmented by market"}</strong><span>{isArabic ? "الدولة والقطاع والجمهور في طبقات واضحة." : "Country, sector, and audience in clear layers."}</span></div><div><Database size={19} /><strong>{isArabic ? "جاهزة للـ CRM" : "CRM-ready"}</strong><span>{isArabic ? "تنظيف وتوحيد وربط مع سير العمل." : "Cleaned, normalized, and mapped to workflows."}</span></div></section>
+      <section className="company-catalog-section"><div className="database-heading-row"><div><span className="eyebrow"><Globe2 size={14} />{isArabic ? "كتالوجات الشركات المتاحة" : "Available company catalogs"}</span><h2>{isArabic ? "شركات وأسواق قابلة للتحليل" : "Companies and markets ready to analyze"}</h2><p>{isArabic ? "اختر مجالاً محدداً، ثم اطلب نطاق البيانات والحقول المتاحة قبل التسليم. الأيقونات تعريفية للقطاع وليست ادعاءً بملكية الشعارات." : "Choose a focused market, then request the available scope and fields before delivery. Icons identify the sector and do not imply logo ownership."}</p></div><div className="database-count"><strong>{companyCatalogs.length}</strong><span>{isArabic ? "كتالوجات إضافية" : "additional catalogs"}</span></div></div><div className="company-catalog-grid">{companyCatalogs.map((catalog) => <CompanyCatalogCard key={catalog.id} catalog={catalog} isArabic={isArabic} />)}</div></section>
       <section className="database-catalog" id="catalog"><div className="database-heading-row"><div><span className="eyebrow"><Search size={14} />{isArabic ? "ابحث واختر نقطة البداية" : "Search and choose a starting point"}</span><h2>{isArabic ? "كتالوج البيانات" : "Data catalog"}</h2><p>{isArabic ? "استكشف خدمات البحث والتحقق والربط، ثم انتقل إلى البندلات المصممة لهدفك التجاري." : "Explore research, verification, and workflow services, then move to bundles built for your commercial goal."}</p></div><div className="database-count"><strong>{filtered.length}</strong><span>{isArabic ? "منتجات ظاهرة" : "visible offers"}</span></div></div>
         <div className="database-toolbar"><label className="database-search"><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={isArabic ? "ابحث عن LinkedIn أو CRM أو قطاع..." : "Search LinkedIn, CRM, or a sector..."} /></label><div className="database-filters"><Filter size={15} /><button className={filter === "all" ? "is-active" : ""} onClick={() => setFilter("all")}>{isArabic ? "الكل" : "All"}</button><button className={filter === "research" ? "is-active" : ""} onClick={() => setFilter("research")}>{isArabic ? "بحث ومصادر" : "Research"}</button><button className={filter === "workflow" ? "is-active" : ""} onClick={() => setFilter("workflow")}>{isArabic ? "تنفيذ وربط" : "Workflows"}</button></div><div className="database-view-switcher"><button className={view === "cards" ? "is-active" : ""} onClick={() => setView("cards")} title={isArabic ? "بطاقات" : "Cards"}><LayoutGrid size={16} /><span>{isArabic ? "بطاقات" : "Cards"}</span></button><button className={view === "table" ? "is-active" : ""} onClick={() => setView("table")} title={isArabic ? "جدول" : "Table"}><Table2 size={16} /><span>{isArabic ? "جدول" : "Table"}</span></button><button className={view === "bundles" ? "is-active" : ""} onClick={() => setView("bundles")} title={isArabic ? "بندلات" : "Bundles"}><List size={16} /><span>{isArabic ? "بندلات" : "Bundles"}</span></button></div></div>
         {view === "cards" && <div className="database-grid">{filtered.map((source) => <SourceCard key={source.id} source={source} isArabic={isArabic} />)}</div>}
