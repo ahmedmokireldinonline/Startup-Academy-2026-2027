@@ -67,7 +67,8 @@ export const appRouter = router({
 
   investors: router({
     public: publicProcedure.query(() => ({
-      investors: investorCatalog.map(({ id, name, type, location, locations, countries, focus, role, image, investmentsCount }) => ({ id, name, type, location, locations, countries, focus, role, image, investmentsCount })),
+      // Keep all non-secret source fields available for the public directory's detail view.
+      investors: investorCatalog.map(({ id, name, type, location, locations, countries, focus, role, details, investmentsCount, image, url, source, sources, profileUrls }) => ({ id, name, type, location, locations, countries, focus, role, details, investmentsCount, image, url, source, sources, profileUrls })),
       total: investorCatalog.length,
       countries: Array.from(new Set(investorCatalog.flatMap((item) => item.countries))).sort(),
     })),
