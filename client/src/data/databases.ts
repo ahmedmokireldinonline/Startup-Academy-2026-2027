@@ -21,21 +21,25 @@ export type DatabaseSource = {
   customerPlayEn: string;
   iconPath: string;
   officialUrl: string;
+  coverageAr?: string;
+  coverageEn?: string;
+  formatVariantsAr?: string[];
+  formatVariantsEn?: string[];
 };
 
 export const databaseSources: DatabaseSource[] = [
   {
     id: "linkedin-b2b",
     name: "LinkedIn B2B Intelligence",
-    labelAr: "بيانات LinkedIn للشركات B2B",
-    labelEn: "LinkedIn B2B intelligence",
-    descriptionAr: "حزم بحث وتحديد للشركات وصنّاع القرار، مبنية على معلومات مهنية عامة أو مصادر مرخّصة، مع تقسيم حسب القطاع والدور وحجم الشركة.",
-    descriptionEn: "Company and decision-maker research packs built from public professional signals or licensed sources, segmented by sector, role, and company size.",
+    labelAr: "بيانات LinkedIn للأفراد والشركات",
+    labelEn: "LinkedIn people & company intelligence",
+    descriptionAr: "بيانات مهنية للأفراد والشركات مع تقسيم حسب الدولة والقطاع والدور وحجم الشركة، ولا تُسلّم إلا ضمن مصدر مرخّص أو أساس قانوني صالح.",
+    descriptionEn: "Professional data for people and companies segmented by country, sector, role, and company size, delivered only with a licensed source or lawful basis.",
     useCasesAr: ["تحديد الحسابات المستهدفة", "بناء قوائم ABM", "تخصيص رسائل التواصل"],
     useCasesEn: ["Target-account research", "ABM list building", "Personalized outreach"],
     fieldsAr: ["القطاع", "المسمى الوظيفي", "حجم الشركة", "الدولة", "رابط المصدر"],
     fieldsEn: ["Industry", "Job title", "Company size", "Country", "Source URL"],
-    tone: "blue", icon: "linkedin", statusAr: "حسب الطلب", statusEn: "Built to brief", priceAr: "يبدأ من 600$", priceEn: "From $600", deliveryAr: "3–5 أيام عمل", deliveryEn: "3–5 business days", customerPlayAr: "استخدمها لبناء قائمة حسابات مستهدفة، تحديد أدوار الشراء، ثم كتابة رسائل مخصصة للحصول على اجتماعات وتجارب مجانية وعملاء أوائل.", customerPlayEn: "Use it to build target-account lists, map buying roles, and write personalized outreach for meetings, trials, and early customers.", iconPath: "/platform-logos/linkedin.svg", officialUrl: "https://www.linkedin.com/",
+    tone: "blue", icon: "linkedin", statusAr: "أفراد وشركات · حسب الطلب", statusEn: "People & companies · built to brief", priceAr: "يبدأ من 600$", priceEn: "From $600", deliveryAr: "3–5 أيام عمل", deliveryEn: "3–5 business days", customerPlayAr: "استخدمها لبناء قائمة حسابات وأدوار شراء، مع الالتزام بالإشعار والخصوصية وشروط المصدر قبل أي تواصل.", customerPlayEn: "Use it to map accounts and buying roles while respecting notice, privacy, and source terms before outreach.", iconPath: "/platform-logos/linkedin.svg", officialUrl: "https://www.linkedin.com/", coverageAr: "أفراد وشركات · حسب الدولة والقطاع", coverageEn: "People and companies · by country and sector", formatVariantsAr: ["CSV", "JSON"], formatVariantsEn: ["CSV", "JSON"],
   },
   {
     id: "facebook-business",
@@ -48,7 +52,7 @@ export const databaseSources: DatabaseSource[] = [
     useCasesEn: ["Competitor research", "Community mapping", "Distribution discovery"],
     fieldsAr: ["اسم الصفحة", "الرابط العام", "المجال", "الدولة", "ملاحظات الجمهور"],
     fieldsEn: ["Page name", "Public URL", "Category", "Country", "Audience notes"],
-    tone: "violet", icon: "facebook", statusAr: "بحث عام", statusEn: "Public research", priceAr: "يبدأ من 150$", priceEn: "From $150", deliveryAr: "3–5 أيام عمل", deliveryEn: "3–5 business days", customerPlayAr: "اكتشف الصفحات والمجتمعات التي يوجد فيها عملاؤك، ثم صمّم محتوى وشراكات وتوزيعًا بدل إرسال رسائل عشوائية للأعضاء.", customerPlayEn: "Find the pages and communities where customers already gather, then design content, partnerships, and distribution instead of random member outreach.", iconPath: "/platform-logos/facebook.svg", officialUrl: "https://www.facebook.com/",
+    tone: "violet", icon: "facebook", statusAr: "بيانات أفراد · تحتاج ترخيصاً", statusEn: "People data · licensing required", priceAr: "Text يبدأ من 150$", priceEn: "Text from $150", deliveryAr: "3–5 أيام عمل", deliveryEn: "3–5 business days", customerPlayAr: "تغطية معلنة تبلغ 553 مليون سجل من 106 دول بصيغة Text، مع استخدام قانوني ومصدر مرخّص فقط. لا نعرض سجلات أفراد أو نبيعها دون أساس قانوني.", customerPlayEn: "Advertised coverage is 553M records across 106 countries in Text format, subject to lawful use and licensed sourcing. No individual records are displayed or sold without a legal basis.", iconPath: "/platform-logos/facebook.svg", officialUrl: "https://www.facebook.com/", coverageAr: "553 مليون سجل · 106 دول · النسخة Text", coverageEn: "553M records · 106 countries · Text edition", formatVariantsAr: ["Text: يبدأ من 150$", "SQLite: 150$–600$ حسب عدد الدول", "106 دول: 600$"], formatVariantsEn: ["Text: from $150", "SQLite: $150–$600 by country count", "106 countries: $600"],
   },
   {
     id: "reddit-communities",
@@ -100,7 +104,7 @@ export const databaseSources: DatabaseSource[] = [
     useCasesEn: ["B2B sales lists", "Lead segmentation", "Follow-up automation"],
     fieldsAr: ["الشريحة", "الدور", "المنطقة", "مرحلة الحساب", "حالة التواصل"],
     fieldsEn: ["Segment", "Role", "Region", "Account stage", "Outreach status"],
-    tone: "teal", icon: "apollo", statusAr: "تنفيذ داخل حسابك", statusEn: "Built in your account", priceAr: "يبدأ من 150$", priceEn: "From $150", deliveryAr: "3–7 أيام عمل", deliveryEn: "3–7 business days", customerPlayAr: "أنشئ قوائم مبيعات مقسمة حسب الدور والمنطقة، ثم اربطها برسائل متابعة وتسلسل مبيعات للحصول على عملاء B2B وشركاء توزيع.", customerPlayEn: "Build sales lists by role and region, then connect them to follow-up sequences for B2B customers and distribution partners.", iconPath: "/platform-logos/apollo.ico", officialUrl: "https://www.apollo.io/",
+    tone: "teal", icon: "apollo", statusAr: "أفراد وشركات · CSV/JSON", statusEn: "People & companies · CSV/JSON", priceAr: "يبدأ من 150$", priceEn: "From $150", deliveryAr: "3–7 أيام عمل", deliveryEn: "3–7 business days", customerPlayAr: "بيانات أفراد وشركات بحجم ملف معلن يقارب 60GB بصيغ CSV وJSON، وتُسلّم فقط عند ثبوت الترخيص ونطاق الاستخدام المسموح.", customerPlayEn: "People and company data with an advertised file size of about 60GB in CSV and JSON, delivered only after license and permitted-use checks.", iconPath: "/platform-logos/apollo.ico", officialUrl: "https://www.apollo.io/", coverageAr: "أفراد وشركات · ملف يقارب 60GB", coverageEn: "People and companies · about 60GB", formatVariantsAr: ["CSV", "JSON", "يتطلب فحص الترخيص"], formatVariantsEn: ["CSV", "JSON", "License review required"],
   },
   {
     id: "hubspot-enrichment", name: "HubSpot CRM Enrichment", labelAr: "إثراء بيانات HubSpot CRM", labelEn: "HubSpot CRM enrichment",
