@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Route, Switch } from "wouter";
@@ -47,6 +47,9 @@ function Router() {
 }
 
 function App() {
+  useEffect(() => {
+    document.getElementById("seo-content")?.remove();
+  }, []);
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">

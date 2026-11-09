@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://startup-academy-2026-2027.vercel.app/</loc></url><url><loc>https://startup-academy-2026-2027.vercel.app/programs</loc></url><url><loc>https://startup-academy-2026-2027.vercel.app/investors</loc></url><url><loc>https://startup-academy-2026-2027.vercel.app/books</loc></url><url><loc>https://startup-academy-2026-2027.vercel.app/databases</loc></url><url><loc>https://startup-academy-2026-2027.vercel.app/financial-model</loc></url><url><loc>https://startup-academy-2026-2027.vercel.app/financial-analysis</loc></url><url><loc>https://startup-academy-2026-2027.vercel.app/register</loc></url><url><loc>https://startup-academy-2026-2027.vercel.app/about</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://startup-academy-2026-2027.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/programs</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/investors</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/books</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/databases</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/financial-model</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/financial-analysis</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/register</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>
