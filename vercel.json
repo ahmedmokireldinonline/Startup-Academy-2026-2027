@@ -4,6 +4,9 @@
   "buildCommand": "pnpm build:static",
   "outputDirectory": "dist/public",
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/dashboard", "destination": "/dashboard/", "permanent": false }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
