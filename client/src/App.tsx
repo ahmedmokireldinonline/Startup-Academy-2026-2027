@@ -18,6 +18,7 @@ const Books = lazy(() => import("./pages/Books"));
 const Databases = lazy(() => import("./pages/Databases"));
 const FinancialModel = lazy(() => import("./pages/FinancialModel"));
 const FinancialAnalysis = lazy(() => import("./pages/FinancialAnalysis"));
+const LegalPage = lazy(() => import("./pages/LegalPage"));
 const NotFound = lazy(() => import("@/pages/NotFound"));
 
 function RouteFallback() {
@@ -35,6 +36,9 @@ function Router() {
       <Route path={"/databases"} component={Databases} />
       <Route path={"/financial-model"} component={FinancialModel} />
       <Route path={"/financial-analysis"} component={FinancialAnalysis} />
+      <Route path={"/privacy"} component={() => <LegalPage kind="privacy" />} />
+      <Route path={"/terms"} component={() => <LegalPage kind="terms" />} />
+      <Route path={"/data-policy"} component={() => <LegalPage kind="data" />} />
       <Route path={"/about"} component={About} />
       <Route path={"/dashboard"} component={UserDashboard} />
       <Route path={"/admin/login"} component={AdminLogin} />

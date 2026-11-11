@@ -16,7 +16,7 @@ export type MarketingCollection = {
 export const marketingCollections: MarketingCollection[] = [
   {
     id: "business-models",
-    image: "/marketing/business-models-collection.jpg",
+    image: "/marketing/business-models-collection.svg",
     eyebrowAr: "للمؤسسين وبناة المنتجات",
     eyebrowEn: "For founders and product builders",
     titleAr: "حوّل فكرة مشروعك إلى نموذج قابل للاختبار",
@@ -30,7 +30,7 @@ export const marketingCollections: MarketingCollection[] = [
   },
   {
     id: "management-ai",
-    image: "/marketing/management-ai-collection.jpg",
+    image: "/marketing/management-ai-collection.svg",
     eyebrowAr: "للفرق التي تريد تنفيذًا أفضل",
     eyebrowEn: "For teams that want better execution",
     titleAr: "ابنِ نظام تشغيل أقوى لفريقك وشركتك",
@@ -44,7 +44,7 @@ export const marketingCollections: MarketingCollection[] = [
   },
   {
     id: "saas-investor-toolkit",
-    image: "/marketing/saas-investor-toolkit.jpg",
+    image: "/marketing/saas-investor-toolkit.svg",
     eyebrowAr: "لشركات SaaS الباحثة عن النمو والتمويل",
     eyebrowEn: "For SaaS teams seeking growth and capital",
     titleAr: "من بناء SaaS إلى الوصول للمستثمر المناسب",

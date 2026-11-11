@@ -9,4 +9,7 @@
   <url><loc>https://startup-academy-2026-2027.vercel.app/financial-analysis</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://startup-academy-2026-2027.vercel.app/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://startup-academy-2026-2027.vercel.app/register</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/privacy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/terms</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://startup-academy-2026-2027.vercel.app/data-policy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
 </urlset>
