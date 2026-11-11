@@ -3,9 +3,11 @@ import {
   ArrowUpRight,
   BarChart3,
   Check,
+  Calculator,
   Database,
   Filter,
   Globe2,
+  HardDrive,
   LayoutGrid,
   List,
   MessageCircle,
@@ -60,6 +62,15 @@ const bundlePricing = [
   { id: "retention", tone: "navy", nameAr: "العملاء وسلوك الشراء", nameEn: "Customer & Purchase Intelligence", basisAr: "الفترة والشرائح ومؤشرات LTV", basisEn: "Period, segments, and LTV signals", starter: "$350", growth: "$850", customAr: "حسب البيانات", customEn: "Data scoped" },
 ];
 
+const calculatorOptions = {
+  sizes: { small: 1, medium: 1.45, large: 2.15, enterprise: 3.4 },
+  formats: { text: 1, csv: 1.12, json: 1.18, sqlite: 1.3 },
+  analysis: { basic: 1, segmented: 1.3, advanced: 1.7 },
+  delivery: { standard: 1, priority: 1.22 },
+} as const;
+
+const calculatorBasePrices: Record<string, number> = { market: 150, commerce: 250, beauty: 200, mobility: 250, "real-estate": 250, retention: 350 };
+
 function inquiryUrl(label: string, isArabic: boolean) {
   const message = isArabic ? `مرحبًا، أريد طلب تفاصيل «${label}». أرجو توضيح الحقول، المصدر، النطاق، السعر، ومدة التسليم.` : `Hello, I would like details for “${label}”. Please share the fields, source, scope, pricing, and delivery time.`;
   return `https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
@@ -109,6 +120,35 @@ function CompanyCatalogCard({ catalog, isArabic }: { catalog: (typeof companyCat
   </article>;
 }
 
+type CalculatorSize = keyof typeof calculatorOptions.sizes;
+type CalculatorFormat = keyof typeof calculatorOptions.formats;
+type CalculatorAnalysis = keyof typeof calculatorOptions.analysis;
+type CalculatorDelivery = keyof typeof calculatorOptions.delivery;
+
+function DynamicPriceCalculator({ isArabic }: { isArabic: boolean }) {
+  const [bundleId, setBundleId] = useState("market");
+  const [countries, setCountries] = useState(3);
+  const [size, setSize] = useState<CalculatorSize>("medium");
+  const [format, setFormat] = useState<CalculatorFormat>("csv");
+  const [analysis, setAnalysis] = useState<CalculatorAnalysis>("segmented");
+  const [delivery, setDelivery] = useState<CalculatorDelivery>("standard");
+  const selectedBundle = bundlePricing.find((bundle) => bundle.id === bundleId) || bundlePricing[0];
+  const estimatedPrice = useMemo(() => {
+    const countryFactor = 1 + Math.max(0, countries - 1) * 0.16;
+    const raw = calculatorBasePrices[bundleId] * countryFactor * calculatorOptions.sizes[size] * calculatorOptions.formats[format] * calculatorOptions.analysis[analysis] * calculatorOptions.delivery[delivery];
+    return Math.max(100, Math.round(raw / 10) * 10);
+  }, [analysis, bundleId, countries, delivery, format, size]);
+  const calculatorLabel = isArabic ? selectedBundle.nameAr : selectedBundle.nameEn;
+  const quoteUrl = inquiryUrl(`${calculatorLabel} — ${estimatedPrice} USD`, isArabic);
+  const labels = {
+    size: isArabic ? { small: "صغير", medium: "متوسط", large: "كبير", enterprise: "مؤسسي" } : { small: "Small", medium: "Medium", large: "Large", enterprise: "Enterprise" },
+    format: isArabic ? { text: "Text", csv: "CSV", json: "JSON", sqlite: "SQLite" } : { text: "Text", csv: "CSV", json: "JSON", sqlite: "SQLite" },
+    analysis: isArabic ? { basic: "أساسي", segmented: "مقسّم", advanced: "متقدم" } : { basic: "Basic", segmented: "Segmented", advanced: "Advanced" },
+    delivery: isArabic ? { standard: "عادي", priority: "أولوية" } : { standard: "Standard", priority: "Priority" },
+  };
+  return <section className="dynamic-calculator" id="price-calculator"><div className="dynamic-calculator-heading"><div><span className="eyebrow"><Calculator size={14} />{isArabic ? "احسب السعر الإرشادي" : "Calculate an indicative price"}</span><h3>{isArabic ? "خصص البندل حسب احتياجك" : "Customize the bundle to your scope"}</h3><p>{isArabic ? "حرّك الخيارات لترى تقديراً فورياً. السعر النهائي يعتمد على الترخيص ونطاق البيانات والتجهيز الفعلي." : "Adjust the options for an instant estimate. The final quote depends on licensing, data scope, and actual preparation."}</p></div><div className="calculator-result"><small>{isArabic ? "التقدير المبدئي" : "Indicative estimate"}</small><strong>${estimatedPrice.toLocaleString()}</strong><span>USD</span></div></div><div className="calculator-layout"><div className="calculator-controls"><label>{isArabic ? "نوع البندل" : "Bundle type"}<select value={bundleId} onChange={(event) => setBundleId(event.target.value)}>{bundlePricing.map((bundle) => <option value={bundle.id} key={bundle.id}>{isArabic ? bundle.nameAr : bundle.nameEn}</option>)}</select></label><label>{isArabic ? "عدد الدول" : "Countries"}<div className="calculator-range-row"><input type="range" min="1" max="15" value={countries} onChange={(event) => setCountries(Number(event.target.value))} /><output>{countries}</output></div></label><label>{isArabic ? "حجم البيانات" : "Data volume"}<select value={size} onChange={(event) => setSize(event.target.value as CalculatorSize)}>{Object.entries(labels.size).map(([value, text]) => <option value={value} key={value}>{text}</option>)}</select></label><label>{isArabic ? "الصيغة المطلوبة" : "Required format"}<select value={format} onChange={(event) => setFormat(event.target.value as CalculatorFormat)}>{Object.entries(labels.format).map(([value, text]) => <option value={value} key={value}>{text}</option>)}</select></label><label>{isArabic ? "عمق التحليل" : "Analysis depth"}<select value={analysis} onChange={(event) => setAnalysis(event.target.value as CalculatorAnalysis)}>{Object.entries(labels.analysis).map(([value, text]) => <option value={value} key={value}>{text}</option>)}</select></label><label>{isArabic ? "سرعة التسليم" : "Delivery speed"}<select value={delivery} onChange={(event) => setDelivery(event.target.value as CalculatorDelivery)}>{Object.entries(labels.delivery).map(([value, text]) => <option value={value} key={value}>{text}</option>)}</select></label></div><div className="calculator-summary"><div className="calculator-summary-icon"><HardDrive size={23} /></div><strong>{calculatorLabel}</strong><ul><li>{countries} {isArabic ? "دول" : "countries"}</li><li>{labels.size[size]} · {labels.format[format]}</li><li>{labels.analysis[analysis]} · {labels.delivery[delivery]}</li></ul><a className="database-card-cta" href={quoteUrl} target="_blank" rel="noreferrer"><MessageCircle size={14} />{isArabic ? "اطلب عرضاً بهذا النطاق" : "Request this scoped quote"}<ArrowUpRight size={14} /></a><small className="calculator-disclaimer"><ShieldCheck size={13} />{isArabic ? "تقدير غير ملزم، ويخضع لمراجعة المصدر والترخيص والخصوصية." : "Non-binding estimate subject to source, licensing, and privacy review."}</small></div></div></section>;
+}
+
 export default function Databases() {
   const [language, setLanguage] = useState<Language>(() => { try { return localStorage.getItem("startup-academy-language") === "en" ? "en" : "ar"; } catch { return "ar"; } });
   const [query, setQuery] = useState("");
@@ -135,6 +175,7 @@ export default function Databases() {
       <section className="database-trust"><div><ShieldCheck size={19} /><strong>{isArabic ? "مصادر عامة أو مرخّصة" : "Public or licensed sources"}</strong><span>{isArabic ? "نحدد المصدر ونطاق الاستخدام قبل التسليم." : "Source and permitted use are defined before delivery."}</span></div><div><Globe2 size={19} /><strong>{isArabic ? "مقسمة حسب السوق" : "Segmented by market"}</strong><span>{isArabic ? "الدولة والقطاع والجمهور في طبقات واضحة." : "Country, sector, and audience in clear layers."}</span></div><div><Database size={19} /><strong>{isArabic ? "جاهزة للـ CRM" : "CRM-ready"}</strong><span>{isArabic ? "تنظيف وتوحيد وربط مع سير العمل." : "Cleaned, normalized, and mapped to workflows."}</span></div></section>
       <section className="company-catalog-section"><div className="database-heading-row"><div><span className="eyebrow"><Globe2 size={14} />{isArabic ? "كتالوجات الشركات المتاحة" : "Available company catalogs"}</span><h2>{isArabic ? "شركات وأسواق قابلة للتحليل" : "Companies and markets ready to analyze"}</h2><p>{isArabic ? "اختر مجالاً محدداً، ثم اطلب نطاق البيانات والحقول المتاحة قبل التسليم. الأيقونات تعريفية للقطاع وليست ادعاءً بملكية الشعارات." : "Choose a focused market, then request the available scope and fields before delivery. Icons identify the sector and do not imply logo ownership."}</p></div><div className="database-count"><strong>{companyCatalogs.length}</strong><span>{isArabic ? "كتالوجات إضافية" : "additional catalogs"}</span></div></div><div className="company-catalog-grid">{companyCatalogs.map((catalog) => <CompanyCatalogCard key={catalog.id} catalog={catalog} isArabic={isArabic} />)}</div></section>
       <section className="bundle-pricing-section"><div className="database-heading-row"><div><span className="eyebrow"><Sparkles size={14} />{isArabic ? "بندلات مميزة للشركات" : "Featured company bundles"}</span><h2>{isArabic ? "سعّر نطاقك، لا تدفع مقابل الزائد" : "Price the scope, not the excess"}</h2><p>{isArabic ? "اختر مستوى البداية أو النمو، ثم نضبط العرض النهائي حسب عدد الدول والسجلات والصيغة وعمق التحليل ومدة التسليم." : "Choose a starter or growth level, then we fine-tune the final quote by country count, records, format, analysis depth, and delivery time."}</p></div><div className="smart-pricing-note"><BarChart3 size={16} /><span>{isArabic ? "تسعير إرشادي قابل للتخصيص" : "Indicative, configurable pricing"}</span></div></div><div className="bundle-pricing-grid">{bundlePricing.map((bundle) => { const label = isArabic ? bundle.nameAr : bundle.nameEn; return <article className={`bundle-pricing-card bundle-${bundle.tone}`} key={bundle.id}><div className="bundle-pricing-top"><span>{label}</span><ShieldCheck size={14} /></div><p>{isArabic ? "يتغير السعر حسب" : "Price adapts to"}: {isArabic ? bundle.basisAr : bundle.basisEn}</p><div className="bundle-price-options"><div><small>{isArabic ? "بداية" : "Starter"}</small><strong>{bundle.starter}</strong></div><div className="bundle-price-featured"><small>{isArabic ? "نمو" : "Growth"}</small><strong>{bundle.growth}</strong></div><div><small>{isArabic ? "مخصص" : "Custom"}</small><strong>{isArabic ? bundle.customAr : bundle.customEn}</strong></div></div><a className="database-card-cta" href={inquiryUrl(label, isArabic)} target="_blank" rel="noreferrer"><MessageCircle size={14} />{isArabic ? "اطلب عرضاً ذكياً" : "Request smart quote"}<ArrowUpRight size={14} /></a></article>; })}</div><div className="smart-pricing-factors"><strong>{isArabic ? "عوامل التسعير" : "Pricing factors"}</strong><span>{isArabic ? "عدد الدول" : "Countries"}</span><span>{isArabic ? "حجم السجلات" : "Record volume"}</span><span>{isArabic ? "Text / SQLite / CSV / JSON" : "Text / SQLite / CSV / JSON"}</span><span>{isArabic ? "التحليل والتقسيم" : "Analysis and segmentation"}</span><span>{isArabic ? "النقل والتخزين" : "Transfer and storage"}</span></div></section>
+      <DynamicPriceCalculator isArabic={isArabic} />
       <section className="database-catalog" id="catalog"><div className="database-heading-row"><div><span className="eyebrow"><Search size={14} />{isArabic ? "ابحث واختر نقطة البداية" : "Search and choose a starting point"}</span><h2>{isArabic ? "كتالوج البيانات" : "Data catalog"}</h2><p>{isArabic ? "استكشف خدمات البحث والتحقق والربط، ثم انتقل إلى البندلات المصممة لهدفك التجاري." : "Explore research, verification, and workflow services, then move to bundles built for your commercial goal."}</p></div><div className="database-count"><strong>{filtered.length}</strong><span>{isArabic ? "منتجات ظاهرة" : "visible offers"}</span></div></div>
         <div className="database-toolbar"><label className="database-search"><Search size={17} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={isArabic ? "ابحث عن LinkedIn أو CRM أو قطاع..." : "Search LinkedIn, CRM, or a sector..."} /></label><div className="database-filters"><Filter size={15} /><button className={filter === "all" ? "is-active" : ""} onClick={() => setFilter("all")}>{isArabic ? "الكل" : "All"}</button><button className={filter === "research" ? "is-active" : ""} onClick={() => setFilter("research")}>{isArabic ? "بحث ومصادر" : "Research"}</button><button className={filter === "workflow" ? "is-active" : ""} onClick={() => setFilter("workflow")}>{isArabic ? "تنفيذ وربط" : "Workflows"}</button></div><div className="database-view-switcher"><button className={view === "cards" ? "is-active" : ""} onClick={() => setView("cards")} title={isArabic ? "بطاقات" : "Cards"}><LayoutGrid size={16} /><span>{isArabic ? "بطاقات" : "Cards"}</span></button><button className={view === "table" ? "is-active" : ""} onClick={() => setView("table")} title={isArabic ? "جدول" : "Table"}><Table2 size={16} /><span>{isArabic ? "جدول" : "Table"}</span></button><button className={view === "bundles" ? "is-active" : ""} onClick={() => setView("bundles")} title={isArabic ? "بندلات" : "Bundles"}><List size={16} /><span>{isArabic ? "بندلات" : "Bundles"}</span></button></div></div>
         {view === "cards" && <div className="database-grid">{filtered.map((source) => <SourceCard key={source.id} source={source} isArabic={isArabic} />)}</div>}
