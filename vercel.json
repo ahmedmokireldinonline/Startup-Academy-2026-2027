@@ -16,7 +16,10 @@
     { "source": "/databases", "destination": "/index.html" },
     { "source": "/financial-model", "destination": "/index.html" },
     { "source": "/financial-analysis", "destination": "/index.html" },
-    { "source": "/about", "destination": "/index.html" }
+    { "source": "/about", "destination": "/index.html" },
+    { "source": "/privacy", "destination": "/index.html" },
+    { "source": "/terms", "destination": "/index.html" },
+    { "source": "/data-policy", "destination": "/index.html" }
   ],
   "redirects": [
     { "source": "/dashboard", "destination": "/dashboard/", "permanent": false }
@@ -44,6 +47,10 @@
     },
     {
       "source": "/financial-model/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/marketing/(.*)",
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
     }
   ]
