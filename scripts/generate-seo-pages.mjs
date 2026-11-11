@@ -110,4 +110,12 @@ for (const [route, page] of Object.entries(pages)) {
   fs.writeFileSync(path.join(outputDir, "index.html"), html);
 }
 
-console.log(`Generated SEO-ready HTML for ${Object.keys(pages).length} public routes.`);
+// Keep private SPA routes addressable even when the hosting project does not
+// apply its rewrite rules. React still owns the final screen after boot.
+for (const route of ["/admin/login", "/admin", "/admin/control"]) {
+  const outputDir = path.join(root, route.slice(1));
+  fs.mkdirSync(outputDir, { recursive: true });
+  fs.writeFileSync(path.join(outputDir, "index.html"), source);
+}
+
+console.log(`Generated SEO-ready HTML for ${Object.keys(pages).length} public routes and ${3} private SPA routes.`);
