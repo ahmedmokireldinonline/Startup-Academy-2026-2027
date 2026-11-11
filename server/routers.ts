@@ -8,6 +8,7 @@ import { bulkCreateRegistrations, createRegistration, getRegistrationStats, list
 import { getRegistrationAccessId, issueRegistrationAccess } from "./access";
 import { programs } from "./programCatalog";
 import { investorCatalog } from "./investorCatalog";
+import { sendBundleConfirmationEmail } from "./email";
 
 const registrationInput = z.object({
   name: z.string().trim().min(2).max(160),
@@ -21,6 +22,10 @@ const registrationInput = z.object({
 });
 
 const statusSchema = z.enum(["new", "contacted", "qualified", "archived"]);
+
+const bundleConfirmationInput = z.object({
+  registrationId: z.string().min(1).max(120), name: z.string().trim().min(2).max(160), email: z.string().trim().email().max(320), company: z.string().trim().min(2).max(160), language: z.enum(["ar", "en"]), bundle: z.string().max(180), estimate: z.string().max(80), countries: z.string().max(80), size: z.string().max(80), format: z.string().max(80), analysis: z.string().max(80), delivery: z.string().max(80), pdfBase64: z.string().min(100).max(12_000_000), pdfFileName: z.string().regex(/^[a-zA-Z0-9._-]+\.pdf$/).max(160),
+});
 
 const importedRegistration = registrationInput.extend({
   status: statusSchema.optional(),
@@ -53,6 +58,9 @@ export const appRouter = router({
       } catch (error) {
         return databaseError(error);
       }
+    }),
+    sendConfirmation: publicProcedure.input(bundleConfirmationInput).mutation(async ({ input }) => {
+      try { return await sendBundleConfirmationEmail(input); } catch (error) { console.error("[API] Confirmation email failed", error); return { sent: false as const, reason: "provider_error" as const }; }
     }),
     accessStatus: publicProcedure.query(async ({ ctx }) => ({ registered: Boolean(await getRegistrationAccessId(ctx.req)) })),
   }),
