@@ -19,6 +19,8 @@
     "db:migrate": "drizzle-kit migrate",
     "dev:static": "vite --host 0.0.0.0 --port ${PORT:-3000} --strictPort",
     "build:static": "vite build && node scripts/generate-seo-pages.mjs",
+    "routes:check": "node scripts/check-routes.mjs",
+    "routes:check:build": "node scripts/check-routes.mjs --build",
     "prebuild:static": "mkdir -p server-runtime && esbuild server-runtime/trpc-entry.ts --bundle --platform=node --packages=external --format=esm --outfile=server-runtime/trpc-handler.mjs",
     "investors:enrich": "node scripts/enrich-investors.mjs"
   },
