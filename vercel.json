@@ -5,7 +5,18 @@
   "outputDirectory": "dist/public",
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/((?!api/|assets/|data/|book-covers/|provider-logos/|platform-logos/|financial-model/|favicon.ico|robots.txt|sitemap.xml).*)", "destination": "/index.html" }
+    { "source": "/admin/login", "destination": "/index.html" },
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/admin/control", "destination": "/index.html" },
+    { "source": "/dashboard", "destination": "/index.html" },
+    { "source": "/register", "destination": "/index.html" },
+    { "source": "/programs", "destination": "/index.html" },
+    { "source": "/investors", "destination": "/index.html" },
+    { "source": "/books", "destination": "/index.html" },
+    { "source": "/databases", "destination": "/index.html" },
+    { "source": "/financial-model", "destination": "/index.html" },
+    { "source": "/financial-analysis", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" }
   ],
   "redirects": [
     { "source": "/dashboard", "destination": "/dashboard/", "permanent": false }
