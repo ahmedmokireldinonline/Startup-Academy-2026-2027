@@ -4,6 +4,9 @@
   "buildCommand": "pnpm build:static",
   "outputDirectory": "dist/public",
   "cleanUrls": true,
+  "rewrites": [
+    { "source": "/((?!api/|assets/|data/|book-covers/|provider-logos/|platform-logos/|financial-model/|favicon.ico|robots.txt|sitemap.xml).*)", "destination": "/index.html" }
+  ],
   "redirects": [
     { "source": "/dashboard", "destination": "/dashboard/", "permanent": false }
   ],
